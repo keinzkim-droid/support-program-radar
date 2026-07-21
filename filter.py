@@ -61,7 +61,7 @@ def load_decisions() -> dict[str, str]:
     내용을 끼워 넣게 만들 방법이 없다. 새 파일 생성은 내용을 미리 채워줄 수
     있어서 클릭 두 번으로 끝난다.
     """
-    out: dict[str, str] = {}
+    out: dict[str, tuple[str, str | None]] = {}
     if not DECISIONS.exists():
         return out
     for f in sorted(DECISIONS.glob("*.yml")):          # 파일명 = 시간순
@@ -70,7 +70,8 @@ def load_decisions() -> dict[str, str]:
         except yaml.YAMLError:
             continue
         if d.get("key") and d.get("decision") in ("approved", "rejected", "pending"):
-            out[d["key"]] = d["decision"]
+            # 결정 날짜는 '제외' 목록을 언제 정리할지 판단하는 데 쓴다.
+            out[d["key"]] = (d["decision"], str(d.get("decided_at") or ""))
     return out
 
 
@@ -159,13 +160,15 @@ def main() -> int:
     rejected = set(curated.get("rejected") or [])
 
     # 웹페이지에서 누른 결정이 curated.yaml보다 우선한다(최신 의사이므로).
-    for key, decision in load_decisions().items():
+    rejected_at: dict[str, str] = {}
+    for key, (decision, when) in load_decisions().items():
         approved.discard(key)
         rejected.discard(key)
         if decision == "approved":
             approved.add(key)
         elif decision == "rejected":
             rejected.add(key)
+            rejected_at[key] = when
         # pending이면 양쪽 어디에도 넣지 않아 '새로 찾은 공고'로 돌아간다
 
     raw = json.loads(IN.read_text(encoding="utf-8"))
@@ -173,12 +176,24 @@ def main() -> int:
     soon = profile["scoring"]["deadline_soon_days"]
 
     archive_days = profile["scoring"].get("archive_after_days", 30)
-    cards, expired, candidates, dropped = [], [], [], 0
+    cards, expired, candidates, excluded, dropped = [], [], [], [], 0
 
     for item in raw["items"]:
         key = f"{item['source']}:{item['source_id']}"
+
+        # 제외한 공고도 일정 기간은 보여준다. 실수로 눌렀을 때 되돌릴 방법이
+        # 없으면 안 되기 때문이다. 기간이 지나면 화면에서 내린다.
         if key in rejected:
-            dropped += 1
+            when = rejected_at.get(key)
+            if when and when >= (today - timedelta(days=archive_days)).isoformat():
+                rec = dict(item)
+                rec.update(key=key, track="-", score=0, region=None,
+                           conditional=None, reasons=["사람이 제외함"],
+                           status=status_of(item, today, soon),
+                           rejected_at=when)
+                excluded.append(rec)
+            else:
+                dropped += 1
             continue
 
         v = judge(item, profile)
@@ -241,6 +256,7 @@ def main() -> int:
         "cards": cards,
         "expired": expired,
         "candidates": candidates,
+        "excluded": excluded,
         "archive_after_days": archive_days,
         # 화면 문구를 실제 수집 소스에서 만들기 위해 넘긴다.
         # 하드코딩해두면 소스를 추가할 때마다 문구가 낡는다.
@@ -250,12 +266,14 @@ def main() -> int:
             "cards": len(cards),
             "expired": len(expired),
             "candidates": len(candidates),
+            "excluded": len(excluded),
             "dropped": dropped,
         },
     }, ensure_ascii=False, indent=2), encoding="utf-8")
 
     print(f"수집 {raw['count']}건 → 카드 {len(cards)} / 마감 {len(expired)}"
-          f" / 신규후보 {len(candidates)} / 제외 {dropped}")
+          f" / 신규후보 {len(candidates)} / 제외목록 {len(excluded)}"
+          f" / 미표시 {dropped}")
     for r in candidates:
         flag = " [조건부]" if r["conditional"] else ""
         print(f"  [{r['track']}] {r['score']:2}점 {r['status']:5}{flag} {r['title'][:50]}")

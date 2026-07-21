@@ -286,7 +286,9 @@ def card_html(rec: dict, idx: int, today: date,
                 f'되돌리기</button></div>')
     else:
         pick = ""
-    chips = [f'<span class="chip track">{esc(kicker)}</span>']
+    # 제외된 공고는 트랙이 없다(track='-'). 빈 칩 대신 상태를 보여준다.
+    chips = ([f'<span class="chip track">{esc(kicker)}</span>'] if kicker
+             else ['<span class="chip">제외됨</span>'])
     if rec.get("region"):
         chips.append(f'<span class="chip">{esc(rec["region"])}</span>')
     if rec.get("category"):
@@ -371,6 +373,7 @@ def build(data: dict) -> str:
     cards = data["cards"]
     cands = data["candidates"]
     expired = data.get("expired", [])
+    excluded = data.get("excluded", [])
     archive_days = data.get("archive_after_days", 30)
     st = data["stats"]
     # 모르는 소스가 생겨도 코드명이라도 나오게 한다(빈칸보다 낫다).
@@ -426,6 +429,8 @@ def build(data: dict) -> str:
     <span class="live-dot"></span>새로 찾은 공고 <span class="count">{len(cands)}</span></button>
   <button class="tab-btn" onclick="switchTab('expired', this)">
     마감 <span class="count">{len(expired)}</span></button>
+  <button class="tab-btn" onclick="switchTab('excluded', this)">
+    제외 <span class="count">{len(excluded)}</span></button>
 </div>
 
 <div class="tab-panel" id="tab-cards">
@@ -465,7 +470,18 @@ def build(data: dict) -> str:
     마감일로부터 <b>{archive_days}일</b>이 지나면 이 목록에서 자동으로 사라집니다.
     (승인 기록 자체는 <code>config/curated.yaml</code>에 남아 있어 이력은 보존됩니다.)
   </div></div>
-  {grid(expired, today, "마감된 공고가 없습니다.")}
+  {grid(expired, today, "마감된 공고가 없습니다.", selectable=True)}
+</div>
+
+<div class="tab-panel" id="tab-excluded">
+  <div class="section-head"><h2>제외</h2>
+    <div class="section-sub">관련 없다고 판단해 목록에서 뺀 공고</div></div>
+  <div class="wrap"><div class="notice">
+    <b>제외 처리한 공고입니다.</b> 잘못 눌렀다면 <b>되돌리기</b>로 되살릴 수 있습니다.<br>
+    제외한 날로부터 <b>{archive_days}일</b>이 지나면 이 목록에서도 사라집니다.
+    (그 뒤에도 조건에 맞으면 '새로 찾은 공고'로 다시 올라올 수 있습니다.)
+  </div></div>
+  {grid(excluded, today, "제외한 공고가 없습니다.", selectable=True)}
 </div>
 
 <footer>

@@ -72,6 +72,29 @@
       ]
     },
     {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000124527",
+      "title": "2026년 인간-AI 협업형 LAM 개발ㆍ글로벌 실증 사업 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124527",
+      "apply_raw": "2026-06-26 ~ 2026-07-28",
+      "apply_start": "2026-06-26",
+      "apply_end": "2026-07-28",
+      "agency": "과학기술정보통신부",
+      "exec_agency": "정보통신산업진흥원",
+      "category": "기술",
+      "posted_at": "2026-07-21",
+      "status": "마감임박",
+      "collected_at": "2026-07-21",
+      "key": "bizinfo:PBLN_000000000124527",
+      "track": "A",
+      "score": 6,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: 실증, AI"
+      ]
+    },
+    {
       "source": "kiria",
       "source_id": "IBUS_000000000001259",
       "title": "2026년 「규제혁신 로봇 실증사업」지원과제 2차 모집 공고",
@@ -561,6 +584,7 @@
       ]
     }
   ],
+  "excluded": [],
   "archive_after_days": 30,
   "sources": [
     "bizinfo",
@@ -569,9 +593,10 @@
   ],
   "stats": {
     "collected": 79,
-    "cards": 21,
+    "cards": 22,
     "expired": 0,
     "candidates": 3,
-    "dropped": 55
+    "excluded": 0,
+    "dropped": 54
   }
 }
