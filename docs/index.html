@@ -152,17 +152,17 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
 
 <header class="hero">
   <div class="eyebrow">● 자동 수집 · 기업마당 + 한국로봇산업진흥원</div>
-  <h1>지금 접수 중인 사업<br><span class="hl">16건</span>을 찾았어요</h1>
+  <h1>지금 접수 중인 사업<br><span class="hl">19건</span>을 찾았어요</h1>
   <p>매일 자동으로 공고를 수집해 회사 조건에 맞는 것만 골라냅니다.
      직접 신청하는 사업과 고객사에 제안할 사업을 나눠서 보여줍니다.</p>
   <div class="stat-row">
-    <div class="stat"><div class="stat-num">78</div>
+    <div class="stat"><div class="stat-num">79</div>
       <div class="stat-label">오늘 수집한 공고</div></div>
-    <div class="stat"><div class="stat-num">12</div>
+    <div class="stat"><div class="stat-num">15</div>
       <div class="stat-label">직접 신청 대상</div></div>
     <div class="stat"><div class="stat-num">10</div>
       <div class="stat-label">고객사 제안용</div></div>
-    <div class="stat"><div class="stat-num">1</div>
+    <div class="stat"><div class="stat-num">4</div>
       <div class="stat-label">새로 찾은 공고</div></div>
   </div>
 </header>
@@ -171,14 +171,16 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
   <button class="tab-btn active" onclick="switchTab('cards', this)">
     관련 사업 <span class="count">21</span></button>
   <button class="tab-btn" onclick="switchTab('open', this)">
-    접수 중 <span class="count">16</span></button>
+    접수 중 <span class="count">19</span></button>
   <button class="tab-btn" onclick="switchTab('new', this)">
-    <span class="live-dot"></span>새로 찾은 공고 <span class="count">1</span></button>
+    <span class="live-dot"></span>새로 찾은 공고 <span class="count">4</span></button>
+  <button class="tab-btn" onclick="switchTab('expired', this)">
+    마감 <span class="count">0</span></button>
 </div>
 
 <div class="tab-panel active" id="tab-cards">
   <div class="section-head"><h2>관련 사업</h2>
-    <div class="section-sub">검토를 마치고 목록에 올린 공고</div></div>
+    <div class="section-sub">검토를 마친 공고 · 마감된 것은 '마감' 탭으로 이동합니다</div></div>
   <div class="grid">
   <div class="card">
     <div class="card-head">
@@ -937,7 +939,51 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge b">05</div>
+      <div class="badge ">05</div>
+      <div class="card-head-text">
+        <div class="card-kicker">과학기술정보통신부</div>
+        <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124527" target="_blank"
+          rel="noopener">2026년 인간-AI 협업형 LAM 개발ㆍ글로벌 실증 사업 공고</a></div>
+      </div>
+      <span class="pill soon">마감임박</span>
+    </div>
+    <div class="chip-row"><span class="chip track">직접 신청</span><span class="chip">기술</span></div>
+    <div class="cond-table">
+      <div class="cond-row"><span class="cond-k">접수기간</span>
+        <span class="cond-v">2026-07-28 (D-7)</span></div>
+      <div class="cond-row"><span class="cond-k">수행기관</span>
+        <span class="cond-v">정보통신산업진흥원</span></div>
+      <div class="cond-row"><span class="cond-k">출처</span>
+        <span class="cond-v">bizinfo</span></div>
+    </div>
+    <div class="why">판정 근거 · 핵심 키워드: 실증, AI</div>
+    
+  </div>
+  <div class="card">
+    <div class="card-head">
+      <div class="badge ">06</div>
+      <div class="card-head-text">
+        <div class="card-kicker">과학기술정보통신부</div>
+        <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124553" target="_blank"
+          rel="noopener">2026년 협업지능 피지컬AI 기반 SW플랫폼 연구개발 생태계 조성 사업 공고</a></div>
+      </div>
+      <span class="pill soon">마감임박</span>
+    </div>
+    <div class="chip-row"><span class="chip track">직접 신청</span><span class="chip">기술</span></div>
+    <div class="cond-table">
+      <div class="cond-row"><span class="cond-k">접수기간</span>
+        <span class="cond-v">2026-07-28 (D-7)</span></div>
+      <div class="cond-row"><span class="cond-k">수행기관</span>
+        <span class="cond-v">정보통신산업진흥원</span></div>
+      <div class="cond-row"><span class="cond-k">출처</span>
+        <span class="cond-v">bizinfo</span></div>
+    </div>
+    <div class="why">판정 근거 · 핵심 키워드: AI</div>
+    
+  </div>
+  <div class="card">
+    <div class="card-head">
+      <div class="badge b">07</div>
       <div class="card-head-text">
         <div class="card-kicker">충청북도</div>
         <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124138" target="_blank"
@@ -959,7 +1005,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">06</div>
+      <div class="badge ">08</div>
       <div class="card-head-text">
         <div class="card-kicker">산업통상부</div>
         <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123881" target="_blank"
@@ -981,7 +1027,29 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">07</div>
+      <div class="badge ">09</div>
+      <div class="card-head-text">
+        <div class="card-kicker">인천광역시</div>
+        <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124530" target="_blank"
+          rel="noopener">[인천] 2026년 로봇기업 마케팅(로보월드 참가) 지원 참여기업 모집 공고(로봇산업 혁신성장 지원사업)</a></div>
+      </div>
+      <span class="pill soon">마감임박</span>
+    </div>
+    <div class="chip-row"><span class="chip track">직접 신청</span><span class="chip">인천</span><span class="chip">내수</span><span class="chip cond">조건부 · 조건부 지역</span></div>
+    <div class="cond-table">
+      <div class="cond-row"><span class="cond-k">접수기간</span>
+        <span class="cond-v">2026-07-31 (D-10)</span></div>
+      <div class="cond-row"><span class="cond-k">수행기관</span>
+        <span class="cond-v">인천테크노파크</span></div>
+      <div class="cond-row"><span class="cond-k">출처</span>
+        <span class="cond-v">bizinfo</span></div>
+    </div>
+    <div class="why">판정 근거 · 핵심 키워드: 로봇 · 조건부: 조건부 지역</div>
+    
+  </div>
+  <div class="card">
+    <div class="card-head">
+      <div class="badge ">10</div>
       <div class="card-head-text">
         <div class="card-kicker">한국로봇산업진흥원</div>
         <div class="card-title"><a href="https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&amp;ibusCode=IBUS_000000000001260" target="_blank"
@@ -1003,7 +1071,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">08</div>
+      <div class="badge ">11</div>
       <div class="card-head-text">
         <div class="card-kicker">한국로봇산업진흥원</div>
         <div class="card-title"><a href="https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&amp;ibusCode=IBUS_000000000001258" target="_blank"
@@ -1025,7 +1093,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">09</div>
+      <div class="badge ">12</div>
       <div class="card-head-text">
         <div class="card-kicker">한국로봇산업진흥원</div>
         <div class="card-title"><a href="https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&amp;ibusCode=IBUS_000000000001259" target="_blank"
@@ -1047,7 +1115,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">10</div>
+      <div class="badge ">13</div>
       <div class="card-head-text">
         <div class="card-kicker">인천광역시</div>
         <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124444" target="_blank"
@@ -1069,7 +1137,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">11</div>
+      <div class="badge ">14</div>
       <div class="card-head-text">
         <div class="card-kicker">정보통신산업진흥원</div>
         <div class="card-title"><a href="https://www.nipa.kr/home/2-2/16852" target="_blank"
@@ -1091,7 +1159,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">12</div>
+      <div class="badge ">15</div>
       <div class="card-head-text">
         <div class="card-kicker">한국로봇산업진흥원</div>
         <div class="card-title"><a href="https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&amp;ibusCode=IBUS_000000000001261" target="_blank"
@@ -1113,7 +1181,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge b">13</div>
+      <div class="badge b">16</div>
       <div class="card-head-text">
         <div class="card-kicker">충청북도</div>
         <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123766" target="_blank"
@@ -1135,7 +1203,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">14</div>
+      <div class="badge ">17</div>
       <div class="card-head-text">
         <div class="card-kicker">한국로봇산업진흥원</div>
         <div class="card-title"><a href="https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&amp;ibusCode=IBUS_000000000001251" target="_blank"
@@ -1157,7 +1225,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">15</div>
+      <div class="badge ">18</div>
       <div class="card-head-text">
         <div class="card-kicker">한국로봇산업진흥원</div>
         <div class="card-title"><a href="https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&amp;ibusCode=IBUS_000000000001252" target="_blank"
@@ -1179,7 +1247,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">16</div>
+      <div class="badge ">19</div>
       <div class="card-head-text">
         <div class="card-kicker">산업통상부</div>
         <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000122589" target="_blank"
@@ -1217,6 +1285,72 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
     <div class="card-head">
       <div class="badge ">01</div>
       <div class="card-head-text">
+        <div class="card-kicker">과학기술정보통신부</div>
+        <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124527" target="_blank"
+          rel="noopener">2026년 인간-AI 협업형 LAM 개발ㆍ글로벌 실증 사업 공고</a></div>
+      </div>
+      <span class="pill soon">마감임박</span>
+    </div>
+    <div class="chip-row"><span class="chip track">직접 신청</span><span class="chip">기술</span></div>
+    <div class="cond-table">
+      <div class="cond-row"><span class="cond-k">접수기간</span>
+        <span class="cond-v">2026-07-28 (D-7)</span></div>
+      <div class="cond-row"><span class="cond-k">수행기관</span>
+        <span class="cond-v">정보통신산업진흥원</span></div>
+      <div class="cond-row"><span class="cond-k">출처</span>
+        <span class="cond-v">bizinfo</span></div>
+    </div>
+    <div class="why">판정 근거 · 핵심 키워드: 실증, AI</div>
+    <label class="pick"><input type="checkbox" class="pick-box" value="bizinfo:PBLN_000000000124527" data-title="2026년 인간-AI 협업형 LAM 개발ㆍ글로벌 실증 사업 공고" onchange="updatePicks()"> 선택</label>
+  </div>
+  <div class="card">
+    <div class="card-head">
+      <div class="badge ">02</div>
+      <div class="card-head-text">
+        <div class="card-kicker">과학기술정보통신부</div>
+        <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124553" target="_blank"
+          rel="noopener">2026년 협업지능 피지컬AI 기반 SW플랫폼 연구개발 생태계 조성 사업 공고</a></div>
+      </div>
+      <span class="pill soon">마감임박</span>
+    </div>
+    <div class="chip-row"><span class="chip track">직접 신청</span><span class="chip">기술</span></div>
+    <div class="cond-table">
+      <div class="cond-row"><span class="cond-k">접수기간</span>
+        <span class="cond-v">2026-07-28 (D-7)</span></div>
+      <div class="cond-row"><span class="cond-k">수행기관</span>
+        <span class="cond-v">정보통신산업진흥원</span></div>
+      <div class="cond-row"><span class="cond-k">출처</span>
+        <span class="cond-v">bizinfo</span></div>
+    </div>
+    <div class="why">판정 근거 · 핵심 키워드: AI</div>
+    <label class="pick"><input type="checkbox" class="pick-box" value="bizinfo:PBLN_000000000124553" data-title="2026년 협업지능 피지컬AI 기반 SW플랫폼 연구개발 생태계 조성 사업 공고" onchange="updatePicks()"> 선택</label>
+  </div>
+  <div class="card">
+    <div class="card-head">
+      <div class="badge ">03</div>
+      <div class="card-head-text">
+        <div class="card-kicker">인천광역시</div>
+        <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124530" target="_blank"
+          rel="noopener">[인천] 2026년 로봇기업 마케팅(로보월드 참가) 지원 참여기업 모집 공고(로봇산업 혁신성장 지원사업)</a></div>
+      </div>
+      <span class="pill soon">마감임박</span>
+    </div>
+    <div class="chip-row"><span class="chip track">직접 신청</span><span class="chip">인천</span><span class="chip">내수</span><span class="chip cond">조건부 · 조건부 지역</span></div>
+    <div class="cond-table">
+      <div class="cond-row"><span class="cond-k">접수기간</span>
+        <span class="cond-v">2026-07-31 (D-10)</span></div>
+      <div class="cond-row"><span class="cond-k">수행기관</span>
+        <span class="cond-v">인천테크노파크</span></div>
+      <div class="cond-row"><span class="cond-k">출처</span>
+        <span class="cond-v">bizinfo</span></div>
+    </div>
+    <div class="why">판정 근거 · 핵심 키워드: 로봇 · 조건부: 조건부 지역</div>
+    <label class="pick"><input type="checkbox" class="pick-box" value="bizinfo:PBLN_000000000124530" data-title="[인천] 2026년 로봇기업 마케팅(로보월드 참가) 지원 참여기업 모집 공고(로봇산업 혁신성장 지원사업)" onchange="updatePicks()"> 선택</label>
+  </div>
+  <div class="card">
+    <div class="card-head">
+      <div class="badge ">04</div>
+      <div class="card-head-text">
         <div class="card-kicker">정보통신산업진흥원</div>
         <div class="card-title"><a href="https://www.nipa.kr/home/2-2/16852" target="_blank"
           rel="noopener">전 국민 AI 서비스 보편적 활용 지원(모두의 AI) 사업 공고</a></div>
@@ -1244,9 +1378,20 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
   </div>
 </div>
 
+<div class="tab-panel" id="tab-expired">
+  <div class="section-head"><h2>마감</h2>
+    <div class="section-sub">최근 마감된 순서</div></div>
+  <div class="wrap"><div class="notice">
+    <b>접수가 끝난 공고입니다.</b> 놓친 공고를 확인하거나 다음 회차를 준비할 때 참고하세요.<br>
+    마감일로부터 <b>30일</b>이 지나면 이 목록에서 자동으로 사라집니다.
+    (승인 기록 자체는 <code>config/curated.yaml</code>에 남아 있어 이력은 보존됩니다.)
+  </div></div>
+  <div class="wrap"><div class="empty">마감된 공고가 없습니다.</div></div>
+</div>
+
 <footer>
   <span>자동 수집 · 기업마당 · 한국로봇산업진흥원</span>
-  <span>마지막 갱신 2026-07-21 15:46</span>
+  <span>마지막 갱신 2026-07-21 15:55</span>
 </footer>
 
 <script>

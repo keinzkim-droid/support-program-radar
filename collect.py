@@ -33,6 +33,7 @@ PROFILE = ROOT / "config" / "profile.yaml"
 
 _profile = yaml.safe_load(PROFILE.read_text(encoding="utf-8"))
 SEARCH_KEYWORDS: list[str] = (_profile.get("collect") or {}).get("search_keywords", [])
+ARCHIVE_DAYS: int = (_profile.get("scoring") or {}).get("archive_after_days", 30)
 
 # HTTP 헤더는 latin-1만 허용하므로 ASCII로만 쓴다.
 UA = ("support-program-radar/0.1 (internal announcement monitor; "
@@ -356,10 +357,13 @@ def main() -> int:
         have = {f"{i['source']}:{i['source_id']}" for i in items}
         seen_before = {f"{i['source']}:{i['source_id']}": i
                        for group in previous.values() for i in group}
+        # 오래 전에 마감된 것까지 되살리면 데이터가 무한정 커진다.
+        # 화면에서 내리는 기준(archive_after_days)과 같은 선을 쓴다.
+        cutoff = (date.today() - timedelta(days=ARCHIVE_DAYS)).isoformat()
         restored = 0
         for key in approved - have:
             old = seen_before.get(key)
-            if old:
+            if old and (old.get("apply_end") or "9999") >= cutoff:
                 items.append(old)
                 restored += 1
         if restored:

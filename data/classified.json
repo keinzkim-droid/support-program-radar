@@ -488,7 +488,78 @@
       ]
     }
   ],
+  "expired": [],
   "candidates": [
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000124527",
+      "title": "2026년 인간-AI 협업형 LAM 개발ㆍ글로벌 실증 사업 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124527",
+      "apply_raw": "2026-06-26 ~ 2026-07-28",
+      "apply_start": "2026-06-26",
+      "apply_end": "2026-07-28",
+      "agency": "과학기술정보통신부",
+      "exec_agency": "정보통신산업진흥원",
+      "category": "기술",
+      "posted_at": "2026-07-21",
+      "status": "마감임박",
+      "collected_at": "2026-07-21",
+      "key": "bizinfo:PBLN_000000000124527",
+      "track": "A",
+      "score": 6,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: 실증, AI"
+      ]
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000124553",
+      "title": "2026년 협업지능 피지컬AI 기반 SW플랫폼 연구개발 생태계 조성 사업 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124553",
+      "apply_raw": "2026-06-26 ~ 2026-07-28",
+      "apply_start": "2026-06-26",
+      "apply_end": "2026-07-28",
+      "agency": "과학기술정보통신부",
+      "exec_agency": "정보통신산업진흥원",
+      "category": "기술",
+      "posted_at": "2026-07-21",
+      "status": "마감임박",
+      "collected_at": "2026-07-21",
+      "key": "bizinfo:PBLN_000000000124553",
+      "track": "A",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: AI"
+      ]
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000124530",
+      "title": "[인천] 2026년 로봇기업 마케팅(로보월드 참가) 지원 참여기업 모집 공고(로봇산업 혁신성장 지원사업)",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124530",
+      "apply_raw": "2026-07-20 ~ 2026-07-31",
+      "apply_start": "2026-07-20",
+      "apply_end": "2026-07-31",
+      "agency": "인천광역시",
+      "exec_agency": "인천테크노파크",
+      "category": "내수",
+      "posted_at": "2026-07-21",
+      "status": "마감임박",
+      "collected_at": "2026-07-21",
+      "key": "bizinfo:PBLN_000000000124530",
+      "track": "A",
+      "score": 3,
+      "region": "인천",
+      "conditional": "조건부 지역",
+      "reasons": [
+        "핵심 키워드: 로봇",
+        "조건부: 조건부 지역"
+      ]
+    },
     {
       "source": "nipa",
       "source_id": "16852",
@@ -513,10 +584,12 @@
       ]
     }
   ],
+  "archive_after_days": 30,
   "stats": {
-    "collected": 78,
+    "collected": 79,
     "cards": 21,
-    "candidates": 1,
-    "dropped": 56
+    "expired": 0,
+    "candidates": 4,
+    "dropped": 54
   }
 }

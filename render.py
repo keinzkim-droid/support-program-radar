@@ -322,6 +322,8 @@ def build(data: dict) -> str:
     today = date.fromisoformat(data["generated_at"])
     cards = data["cards"]
     cands = data["candidates"]
+    expired = data.get("expired", [])
+    archive_days = data.get("archive_after_days", 30)
     st = data["stats"]
 
     open_now = [r for r in cards + cands if r["status"] in ("접수중", "마감임박")]
@@ -371,11 +373,13 @@ def build(data: dict) -> str:
     접수 중 <span class="count">{len(open_now)}</span></button>
   <button class="tab-btn" onclick="switchTab('new', this)">
     <span class="live-dot"></span>새로 찾은 공고 <span class="count">{len(cands)}</span></button>
+  <button class="tab-btn" onclick="switchTab('expired', this)">
+    마감 <span class="count">{len(expired)}</span></button>
 </div>
 
 <div class="tab-panel active" id="tab-cards">
   <div class="section-head"><h2>관련 사업</h2>
-    <div class="section-sub">검토를 마치고 목록에 올린 공고</div></div>
+    <div class="section-sub">검토를 마친 공고 · 마감된 것은 '마감' 탭으로 이동합니다</div></div>
   {grid(cards, today, "아직 목록에 올린 공고가 없습니다. '새로 찾은 공고' 탭을 확인해주세요.")}
   {compare_table(cards, today)}
 </div>
@@ -405,6 +409,17 @@ def build(data: dict) -> str:
       curated.yaml 편집하기</a>
     <span class="pickmsg" id="pickmsg"></span>
   </div>
+</div>
+
+<div class="tab-panel" id="tab-expired">
+  <div class="section-head"><h2>마감</h2>
+    <div class="section-sub">최근 마감된 순서</div></div>
+  <div class="wrap"><div class="notice">
+    <b>접수가 끝난 공고입니다.</b> 놓친 공고를 확인하거나 다음 회차를 준비할 때 참고하세요.<br>
+    마감일로부터 <b>{archive_days}일</b>이 지나면 이 목록에서 자동으로 사라집니다.
+    (승인 기록 자체는 <code>config/curated.yaml</code>에 남아 있어 이력은 보존됩니다.)
+  </div></div>
+  {grid(expired, today, "마감된 공고가 없습니다.")}
 </div>
 
 <footer>

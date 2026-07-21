@@ -14,7 +14,7 @@ import json
 import re
 import sys
 from dataclasses import dataclass
-from datetime import date
+from datetime import date, timedelta
 from pathlib import Path
 
 import yaml
@@ -138,7 +138,8 @@ def main() -> int:
     today = date.today()
     soon = profile["scoring"]["deadline_soon_days"]
 
-    cards, candidates, dropped = [], [], 0
+    archive_days = profile["scoring"].get("archive_after_days", 30)
+    cards, expired, candidates, dropped = [], [], [], 0
 
     for item in raw["items"]:
         key = f"{item['source']}:{item['source_id']}"
@@ -164,11 +165,21 @@ def main() -> int:
         status = status_of(item, today, soon)
 
         # 이미 마감된 건 신규 후보로 올리지 않는다. 승인할 이유가 없다.
-        # 반대로 승인된 정식 카드는 마감이어도 남긴다 — 매년 반복되는 사업이라
-        # 연간 일정을 보려면 지난 회차 정보가 있어야 한다.
         if status == "마감" and key not in approved:
             dropped += 1
             continue
+
+        # 승인된 공고가 마감되면 '마감' 탭으로 옮긴다. 바로 지우지 않는 이유는
+        # 방금 놓친 공고를 확인하거나 내년 회차를 준비할 때 참고하기 때문이다.
+        # 다만 무한정 쌓이면 목록이 지저분해지므로 일정 기간 뒤 화면에서 내린다.
+        # (curated.yaml의 승인 기록 자체는 남아 이력을 잃지 않는다)
+        archived = False
+        if status == "마감":
+            end = item.get("apply_end")
+            if end and date.fromisoformat(end) < today - timedelta(days=archive_days):
+                dropped += 1
+                continue
+            archived = True
 
         rec = dict(item)
         rec.update(
@@ -180,24 +191,34 @@ def main() -> int:
             reasons=v.reasons,
             status=status,
         )
-        (cards if key in approved else candidates).append(rec)
+        if archived:
+            expired.append(rec)
+        elif key in approved:
+            cards.append(rec)
+        else:
+            candidates.append(rec)
 
     for bucket in (cards, candidates):
         bucket.sort(key=lambda r: (-r["score"], r["apply_end"] or "9999"))
+    expired.sort(key=lambda r: r["apply_end"] or "", reverse=True)  # 최근 마감순
 
     OUT.write_text(json.dumps({
         "generated_at": today.isoformat(),
         "cards": cards,
+        "expired": expired,
         "candidates": candidates,
+        "archive_after_days": archive_days,
         "stats": {
             "collected": raw["count"],
             "cards": len(cards),
+            "expired": len(expired),
             "candidates": len(candidates),
             "dropped": dropped,
         },
     }, ensure_ascii=False, indent=2), encoding="utf-8")
 
-    print(f"수집 {raw['count']}건 → 카드 {len(cards)} / 신규후보 {len(candidates)} / 제외 {dropped}")
+    print(f"수집 {raw['count']}건 → 카드 {len(cards)} / 마감 {len(expired)}"
+          f" / 신규후보 {len(candidates)} / 제외 {dropped}")
     for r in candidates:
         flag = " [조건부]" if r["conditional"] else ""
         print(f"  [{r['track']}] {r['score']:2}점 {r['status']:5}{flag} {r['title'][:50]}")
