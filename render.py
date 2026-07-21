@@ -18,6 +18,10 @@ ROOT = Path(__file__).parent
 IN = ROOT / "data" / "classified.json"
 OUT = ROOT / "docs" / "index.html"
 
+# 승인 목록을 GitHub 웹 편집기로 바로 여는 링크.
+EDIT_URL = ("https://github.com/keinzkim-droid/support-program-radar"
+            "/edit/main/config/curated.yaml")
+
 TRACK_LABEL = {
     "A": ("직접 신청", "우리가 신청자"),
     "B": ("고객사 제안", "고객사가 신청자 · 우리는 공급기업"),
@@ -109,6 +113,37 @@ h1 .hl{color:var(--accent)}
 .cond-k{color:var(--text2);flex:none;width:72px}
 .cond-v{color:var(--text);font-weight:600;text-align:right}
 .why{font-size:11.5px;color:var(--text2);margin-top:10px;line-height:1.6}
+.pick{display:inline-flex;align-items:center;gap:6px;margin-top:12px;
+  font-size:12.5px;font-weight:600;color:var(--accent-strong);cursor:pointer;
+  background:var(--soft);padding:6px 12px;border-radius:8px}
+.pick input{cursor:pointer;width:15px;height:15px;accent-color:var(--accent)}
+.pickbar{position:sticky;bottom:0;z-index:15;margin-top:20px;
+  background:var(--surface);border-top:1px solid var(--blue-300);
+  box-shadow:0 -6px 20px rgba(51,150,255,.14);
+  padding:14px 28px;display:none;align-items:center;gap:14px;flex-wrap:wrap}
+.pickbar.on{display:flex}
+.pickbar b{color:var(--accent-strong)}
+.btn{font-family:inherit;font-size:13px;font-weight:700;padding:9px 16px;
+  border-radius:9px;border:1px solid var(--blue-300);cursor:pointer;
+  background:var(--accent);color:#fff}
+.btn.ghost{background:var(--surface);color:var(--accent-strong)}
+.btn:hover{filter:brightness(1.05)}
+.pickmsg{font-size:12.5px;color:#067a5c;font-weight:600}
+/* 한눈에 비교 */
+.table-wrap{max-width:1160px;margin:0 auto 32px;padding:0 28px;overflow-x:auto}
+.table-wrap table{width:100%;min-width:900px;border-collapse:separate;
+  border-spacing:0;background:var(--surface);border:1px solid var(--border);
+  border-radius:14px;overflow:hidden;font-size:13px}
+.table-wrap thead th{text-align:left;font-weight:700;font-size:12.5px;
+  color:var(--text2);background:var(--n50);padding:13px 15px;
+  border-bottom:1px solid var(--border);white-space:nowrap}
+.table-wrap tbody td{padding:13px 15px;border-bottom:1px solid var(--border);
+  color:var(--text2);vertical-align:top;line-height:1.55}
+.table-wrap tbody tr:last-child td{border-bottom:none}
+.table-wrap tbody tr:hover td{background:var(--soft)}
+.table-wrap td.name{color:var(--text);font-weight:700}
+.table-wrap td.name a{color:inherit;text-decoration:none}
+.table-wrap td.name a:hover{text-decoration:underline}
 .empty{max-width:1160px;margin:0 auto;padding:40px 28px;color:var(--text2);
   font-size:14px;text-align:center;background:var(--surface);border:1px dashed var(--border);
   border-radius:16px}
@@ -136,6 +171,47 @@ function switchTab(name, el){
   document.getElementById('tab-'+name).classList.add('active');
   el.classList.add('active');
 }
+
+function picked(){
+  return [...document.querySelectorAll('.pick-box:checked')];
+}
+
+function updatePicks(){
+  var n = picked().length;
+  var bar = document.getElementById('pickbar');
+  if(!bar) return;
+  bar.classList.toggle('on', n > 0);
+  document.getElementById('pickcount').textContent = n;
+}
+
+// 정적 페이지라 승인 상태를 서버에 저장할 수 없다.
+// 대신 curated.yaml에 그대로 붙여넣을 수 있는 형태로 만들어 클립보드에 넣는다.
+function copyPicks(){
+  var lines = picked().map(function(b){
+    return '  - ' + b.value + '    # ' + b.dataset.title;
+  });
+  if(!lines.length) return;
+  var text = lines.join('\\n');
+  var done = function(){
+    var el = document.getElementById('pickmsg');
+    el.textContent = lines.length + '건 복사됨 — curated.yaml에 붙여넣으세요';
+    setTimeout(function(){ el.textContent = ''; }, 4000);
+  };
+  if(navigator.clipboard){
+    navigator.clipboard.writeText(text).then(done, function(){ fallback(text, done); });
+  } else {
+    fallback(text, done);
+  }
+}
+
+function fallback(text, done){
+  var ta = document.createElement('textarea');
+  ta.value = text;
+  document.body.appendChild(ta);
+  ta.select();
+  try { document.execCommand('copy'); done(); } catch(e){ prompt('복사하세요:', text); }
+  document.body.removeChild(ta);
+}
 """
 
 
@@ -161,9 +237,14 @@ def deadline_note(rec: dict, today: date) -> str:
     return f"{end} (D-{left})"
 
 
-def card_html(rec: dict, idx: int, today: date) -> str:
+def card_html(rec: dict, idx: int, today: date,
+              selectable: bool = False) -> str:
     track = rec["track"]
     kicker, _ = TRACK_LABEL.get(track, ("", ""))
+    # 검토 전 공고에는 선택용 체크박스를 붙인다.
+    pick = (f'<label class="pick"><input type="checkbox" class="pick-box" '
+            f'value="{esc(rec["key"])}" data-title="{esc(rec["title"])}"'
+            f' onchange="updatePicks()"> 선택</label>') if selectable else ""
     chips = [f'<span class="chip track">{esc(kicker)}</span>']
     if rec.get("region"):
         chips.append(f'<span class="chip">{esc(rec["region"])}</span>')
@@ -194,14 +275,47 @@ def card_html(rec: dict, idx: int, today: date) -> str:
         <span class="cond-v">{esc(rec.get('source'))}</span></div>
     </div>
     <div class="why">판정 근거 · {esc(reasons)}</div>
+    {pick}
   </div>"""
 
 
-def grid(recs: list[dict], today: date, empty_msg: str) -> str:
+def grid(recs: list[dict], today: date, empty_msg: str,
+         selectable: bool = False) -> str:
     if not recs:
         return f'<div class="wrap"><div class="empty">{esc(empty_msg)}</div></div>'
-    cards = "".join(card_html(r, i + 1, today) for i, r in enumerate(recs))
+    cards = "".join(card_html(r, i + 1, today, selectable)
+                    for i, r in enumerate(recs))
     return f'<div class="grid">{cards}</div>'
+
+
+def compare_table(recs: list[dict], today: date) -> str:
+    """한눈에 비교. 카드를 하나씩 읽지 않고 전체를 훑을 때 쓴다."""
+    if not recs:
+        return ""
+    rows = []
+    for r in recs:
+        track = "직접 신청" if r["track"] == "A" else "고객사 제안"
+        cond = ' <span class="chip cond">조건부</span>' if r.get("conditional") else ""
+        rows.append(f"""
+      <tr>
+        <td>{esc(track)}</td>
+        <td class="name"><a href="{esc(r['url'])}" target="_blank"
+            rel="noopener">{esc(r['title'])}</a>{cond}</td>
+        <td>{esc(r.get('agency') or '-')}</td>
+        <td>{esc(r.get('region') or '전국')}</td>
+        <td>{esc(deadline_note(r, today))}</td>
+        <td>{status_pill(r['status'])}</td>
+      </tr>""")
+    return f"""
+<div class="section-head"><h2>한눈에 비교</h2>
+  <div class="section-sub">가로로 스크롤해서 전체 확인</div></div>
+<div class="table-wrap"><table>
+  <thead><tr>
+    <th>구분</th><th>사업명</th><th>소관기관</th>
+    <th>지역</th><th>접수기간</th><th>상태</th>
+  </tr></thead>
+  <tbody>{''.join(rows)}</tbody>
+</table></div>"""
 
 
 def build(data: dict) -> str:
@@ -263,6 +377,7 @@ def build(data: dict) -> str:
   <div class="section-head"><h2>관련 사업</h2>
     <div class="section-sub">검토를 마치고 목록에 올린 공고</div></div>
   {grid(cards, today, "아직 목록에 올린 공고가 없습니다. '새로 찾은 공고' 탭을 확인해주세요.")}
+  {compare_table(cards, today)}
 </div>
 
 <div class="tab-panel" id="tab-open">
@@ -279,9 +394,17 @@ def build(data: dict) -> str:
     사람이 확인하기 전까지는 '관련 사업'에 올리지 않습니다.<br>
     목록에 추가하려면 저장소의 <code>config/curated.yaml</code>에서
     <code>approved:</code> 아래에 카드 키를 넣고, 제외하려면
-    <code>rejected:</code> 아래에 넣으세요.
+    <code>rejected:</code> 아래에 넣으세요.<br>
+    아래 카드에서 <b>선택</b>을 체크하면 붙여넣을 내용을 자동으로 만들어 드립니다.
   </div></div>
-  {grid(cands, today, "새로 발견된 공고가 없습니다.")}
+  {grid(cands, today, "새로 발견된 공고가 없습니다.", selectable=True)}
+  <div class="pickbar" id="pickbar">
+    <span><b id="pickcount">0</b>건 선택됨</span>
+    <button class="btn" onclick="copyPicks()">YAML로 복사</button>
+    <a class="btn ghost" href="{EDIT_URL}" target="_blank" rel="noopener">
+      curated.yaml 편집하기</a>
+    <span class="pickmsg" id="pickmsg"></span>
+  </div>
 </div>
 
 <footer>

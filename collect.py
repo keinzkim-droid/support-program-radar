@@ -346,6 +346,25 @@ def main() -> int:
                 log.warning("%-8s 지난 수집분 %d건 유지", name, len(stale))
                 items.extend(stale)
 
+    # 승인된 공고는 소스 목록에서 밀려나도 유지한다.
+    # 기업마당 검색 결과는 매일 바뀌는데, 사람이 확정한 목록이 거기 휘둘리면
+    # 어제 21건이 오늘 18건이 되어 목록으로서 신뢰를 잃는다.
+    curated = ROOT / "config" / "curated.yaml"
+    if curated.exists():
+        approved = set((yaml.safe_load(curated.read_text(encoding="utf-8"))
+                        or {}).get("approved") or [])
+        have = {f"{i['source']}:{i['source_id']}" for i in items}
+        seen_before = {f"{i['source']}:{i['source_id']}": i
+                       for group in previous.values() for i in group}
+        restored = 0
+        for key in approved - have:
+            old = seen_before.get(key)
+            if old:
+                items.append(old)
+                restored += 1
+        if restored:
+            log.info("승인 공고 %d건을 이전 수집분에서 복원", restored)
+
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(
         json.dumps(

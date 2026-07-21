@@ -93,6 +93,37 @@ h1 .hl{color:var(--accent)}
 .cond-k{color:var(--text2);flex:none;width:72px}
 .cond-v{color:var(--text);font-weight:600;text-align:right}
 .why{font-size:11.5px;color:var(--text2);margin-top:10px;line-height:1.6}
+.pick{display:inline-flex;align-items:center;gap:6px;margin-top:12px;
+  font-size:12.5px;font-weight:600;color:var(--accent-strong);cursor:pointer;
+  background:var(--soft);padding:6px 12px;border-radius:8px}
+.pick input{cursor:pointer;width:15px;height:15px;accent-color:var(--accent)}
+.pickbar{position:sticky;bottom:0;z-index:15;margin-top:20px;
+  background:var(--surface);border-top:1px solid var(--blue-300);
+  box-shadow:0 -6px 20px rgba(51,150,255,.14);
+  padding:14px 28px;display:none;align-items:center;gap:14px;flex-wrap:wrap}
+.pickbar.on{display:flex}
+.pickbar b{color:var(--accent-strong)}
+.btn{font-family:inherit;font-size:13px;font-weight:700;padding:9px 16px;
+  border-radius:9px;border:1px solid var(--blue-300);cursor:pointer;
+  background:var(--accent);color:#fff}
+.btn.ghost{background:var(--surface);color:var(--accent-strong)}
+.btn:hover{filter:brightness(1.05)}
+.pickmsg{font-size:12.5px;color:#067a5c;font-weight:600}
+/* 한눈에 비교 */
+.table-wrap{max-width:1160px;margin:0 auto 32px;padding:0 28px;overflow-x:auto}
+.table-wrap table{width:100%;min-width:900px;border-collapse:separate;
+  border-spacing:0;background:var(--surface);border:1px solid var(--border);
+  border-radius:14px;overflow:hidden;font-size:13px}
+.table-wrap thead th{text-align:left;font-weight:700;font-size:12.5px;
+  color:var(--text2);background:var(--n50);padding:13px 15px;
+  border-bottom:1px solid var(--border);white-space:nowrap}
+.table-wrap tbody td{padding:13px 15px;border-bottom:1px solid var(--border);
+  color:var(--text2);vertical-align:top;line-height:1.55}
+.table-wrap tbody tr:last-child td{border-bottom:none}
+.table-wrap tbody tr:hover td{background:var(--soft)}
+.table-wrap td.name{color:var(--text);font-weight:700}
+.table-wrap td.name a{color:inherit;text-decoration:none}
+.table-wrap td.name a:hover{text-decoration:underline}
 .empty{max-width:1160px;margin:0 auto;padding:40px 28px;color:var(--text2);
   font-size:14px;text-align:center;background:var(--surface);border:1px dashed var(--border);
   border-radius:16px}
@@ -121,17 +152,17 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
 
 <header class="hero">
   <div class="eyebrow">● 자동 수집 · 기업마당 + 한국로봇산업진흥원</div>
-  <h1>지금 접수 중인 사업<br><span class="hl">15건</span>을 찾았어요</h1>
+  <h1>지금 접수 중인 사업<br><span class="hl">16건</span>을 찾았어요</h1>
   <p>매일 자동으로 공고를 수집해 회사 조건에 맞는 것만 골라냅니다.
      직접 신청하는 사업과 고객사에 제안할 사업을 나눠서 보여줍니다.</p>
   <div class="stat-row">
-    <div class="stat"><div class="stat-num">71</div>
+    <div class="stat"><div class="stat-num">78</div>
       <div class="stat-label">오늘 수집한 공고</div></div>
-    <div class="stat"><div class="stat-num">11</div>
+    <div class="stat"><div class="stat-num">12</div>
       <div class="stat-label">직접 신청 대상</div></div>
     <div class="stat"><div class="stat-num">10</div>
       <div class="stat-label">고객사 제안용</div></div>
-    <div class="stat"><div class="stat-num">0</div>
+    <div class="stat"><div class="stat-num">1</div>
       <div class="stat-label">새로 찾은 공고</div></div>
   </div>
 </header>
@@ -140,9 +171,9 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
   <button class="tab-btn active" onclick="switchTab('cards', this)">
     관련 사업 <span class="count">21</span></button>
   <button class="tab-btn" onclick="switchTab('open', this)">
-    접수 중 <span class="count">15</span></button>
+    접수 중 <span class="count">16</span></button>
   <button class="tab-btn" onclick="switchTab('new', this)">
-    <span class="live-dot"></span>새로 찾은 공고 <span class="count">0</span></button>
+    <span class="live-dot"></span>새로 찾은 공고 <span class="count">1</span></button>
 </div>
 
 <div class="tab-panel active" id="tab-cards">
@@ -169,6 +200,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">kiria</span></div>
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 로봇, 제조로봇, 실증 · 관련 키워드: 인증</div>
+    
   </div>
   <div class="card">
     <div class="card-head">
@@ -190,6 +222,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">bizinfo</span></div>
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 로봇, 제조로봇, 실증</div>
+    
   </div>
   <div class="card">
     <div class="card-head">
@@ -211,6 +244,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">kiria</span></div>
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 로봇, 서비스로봇, 실증</div>
+    
   </div>
   <div class="card">
     <div class="card-head">
@@ -232,6 +266,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">kiria</span></div>
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 로봇, 실증</div>
+    
   </div>
   <div class="card">
     <div class="card-head">
@@ -253,6 +288,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">kiria</span></div>
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 로봇, 실외이동로봇</div>
+    
   </div>
   <div class="card">
     <div class="card-head">
@@ -274,6 +310,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">bizinfo</span></div>
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 로봇, 실증</div>
+    
   </div>
   <div class="card">
     <div class="card-head">
@@ -295,6 +332,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">kiria</span></div>
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 로봇 · 관련 키워드: 모빌리티, 시험평가</div>
+    
   </div>
   <div class="card">
     <div class="card-head">
@@ -316,6 +354,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">bizinfo</span></div>
     </div>
     <div class="why">판정 근거 · 고객사향 키워드: 제조혁신</div>
+    
   </div>
   <div class="card">
     <div class="card-head">
@@ -337,6 +376,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">bizinfo</span></div>
     </div>
     <div class="why">판정 근거 · 고객사향 키워드: 스마트공장</div>
+    
   </div>
   <div class="card">
     <div class="card-head">
@@ -358,6 +398,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">bizinfo</span></div>
     </div>
     <div class="why">판정 근거 · 고객사향 키워드: 제조혁신</div>
+    
   </div>
   <div class="card">
     <div class="card-head">
@@ -379,6 +420,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">bizinfo</span></div>
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 로봇</div>
+    
   </div>
   <div class="card">
     <div class="card-head">
@@ -400,6 +442,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">kiria</span></div>
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 로봇</div>
+    
   </div>
   <div class="card">
     <div class="card-head">
@@ -421,6 +464,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">bizinfo</span></div>
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 로봇 · 조건부: 조건부 지역</div>
+    
   </div>
   <div class="card">
     <div class="card-head">
@@ -442,6 +486,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">kiria</span></div>
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 로봇</div>
+    
   </div>
   <div class="card">
     <div class="card-head">
@@ -463,6 +508,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">bizinfo</span></div>
     </div>
     <div class="why">판정 근거 · 고객사향 키워드: 스마트공장</div>
+    
   </div>
   <div class="card">
     <div class="card-head">
@@ -484,6 +530,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">bizinfo</span></div>
     </div>
     <div class="why">판정 근거 · 고객사향 키워드: 스마트공장</div>
+    
   </div>
   <div class="card">
     <div class="card-head">
@@ -505,6 +552,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">bizinfo</span></div>
     </div>
     <div class="why">판정 근거 · 고객사향 키워드: 스마트공장</div>
+    
   </div>
   <div class="card">
     <div class="card-head">
@@ -526,6 +574,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">bizinfo</span></div>
     </div>
     <div class="why">판정 근거 · 고객사향 키워드: 스마트공장</div>
+    
   </div>
   <div class="card">
     <div class="card-head">
@@ -547,6 +596,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">bizinfo</span></div>
     </div>
     <div class="why">판정 근거 · 고객사향 키워드: 제조혁신</div>
+    
   </div>
   <div class="card">
     <div class="card-head">
@@ -568,6 +618,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">bizinfo</span></div>
     </div>
     <div class="why">판정 근거 · 고객사향 키워드: 제조혁신</div>
+    
   </div>
   <div class="card">
     <div class="card-head">
@@ -589,7 +640,207 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">bizinfo</span></div>
     </div>
     <div class="why">판정 근거 · 고객사향 키워드: 제조혁신</div>
+    
   </div></div>
+  
+<div class="section-head"><h2>한눈에 비교</h2>
+  <div class="section-sub">가로로 스크롤해서 전체 확인</div></div>
+<div class="table-wrap"><table>
+  <thead><tr>
+    <th>구분</th><th>사업명</th><th>소관기관</th>
+    <th>지역</th><th>접수기간</th><th>상태</th>
+  </tr></thead>
+  <tbody>
+      <tr>
+        <td>직접 신청</td>
+        <td class="name"><a href="https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&amp;ibusCode=IBUS_000000000001256" target="_blank"
+            rel="noopener">2026년 제조로봇 실증사업 작업장 안전인증 및 안전컨설팅 지원사업(2차) 모집 공고</a></td>
+        <td>한국로봇산업진흥원</td>
+        <td>전국</td>
+        <td>2026-07-27 (D-6)</td>
+        <td><span class="pill soon">마감임박</span></td>
+      </tr>
+      <tr>
+        <td>직접 신청</td>
+        <td class="name"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123179" target="_blank"
+            rel="noopener">[경기] 2026년 2차 제조로봇 도입ㆍ실증 및 고도화지원 사업 공고(제조로봇 도입지원)</a></td>
+        <td>경기도</td>
+        <td>경기</td>
+        <td>2026-07-22 (D-1)</td>
+        <td><span class="pill soon">마감임박</span></td>
+      </tr>
+      <tr>
+        <td>직접 신청</td>
+        <td class="name"><a href="https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&amp;ibusCode=IBUS_000000000001258" target="_blank"
+            rel="noopener">2026년 「서비스로봇 실증사업」 지원과제 2차 모집 공고</a></td>
+        <td>한국로봇산업진흥원</td>
+        <td>전국</td>
+        <td>2026-08-04 (D-14)</td>
+        <td><span class="pill soon">마감임박</span></td>
+      </tr>
+      <tr>
+        <td>직접 신청</td>
+        <td class="name"><a href="https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&amp;ibusCode=IBUS_000000000001259" target="_blank"
+            rel="noopener">2026년 「규제혁신 로봇 실증사업」지원과제 2차 모집 공고</a></td>
+        <td>한국로봇산업진흥원</td>
+        <td>전국</td>
+        <td>2026-08-04 (D-14)</td>
+        <td><span class="pill soon">마감임박</span></td>
+      </tr>
+      <tr>
+        <td>직접 신청</td>
+        <td class="name"><a href="https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&amp;ibusCode=IBUS_000000000001252" target="_blank"
+            rel="noopener">2026년 실외이동로봇 기술지원사업 참여기업 모집 공고</a></td>
+        <td>한국로봇산업진흥원</td>
+        <td>전국</td>
+        <td>2026-11-30 (D-132)</td>
+        <td><span class="pill open">접수중</span></td>
+      </tr>
+      <tr>
+        <td>직접 신청</td>
+        <td class="name"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000122589" target="_blank"
+            rel="noopener">2026년 제조산업 공정작업용 로봇 엔드이펙터 실증 기반 구축 사업 지원 기업 모집 공고</a></td>
+        <td>산업통상부</td>
+        <td>전국</td>
+        <td>2026-12-18 (D-150)</td>
+        <td><span class="pill open">접수중</span></td>
+      </tr>
+      <tr>
+        <td>직접 신청</td>
+        <td class="name"><a href="https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&amp;ibusCode=IBUS_000000000001251" target="_blank"
+            rel="noopener">「2026년 모빌리티 혁신제품 시험평가 지원」지원 대상 기업 상시모집 공고</a></td>
+        <td>한국로봇산업진흥원</td>
+        <td>전국</td>
+        <td>2026-11-15 (D-117)</td>
+        <td><span class="pill open">접수중</span></td>
+      </tr>
+      <tr>
+        <td>고객사 제안</td>
+        <td class="name"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124187" target="_blank"
+            rel="noopener">[전남광주] 2026년 탄소중립 제조혁신 고도화 2단계 사업 참여기업 추가모집 공고</a></td>
+        <td>전남광주통합특별시</td>
+        <td>전남광주</td>
+        <td>2026-07-23 (D-2)</td>
+        <td><span class="pill soon">마감임박</span></td>
+      </tr>
+      <tr>
+        <td>고객사 제안</td>
+        <td class="name"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123543" target="_blank"
+            rel="noopener">[경북] 포항시 2026년 경북형(포항) 스마트공장(기초단계) 구축지원사업 추가모집 공고</a></td>
+        <td>경상북도</td>
+        <td>경북</td>
+        <td>2026-07-24 (D-3)</td>
+        <td><span class="pill soon">마감임박</span></td>
+      </tr>
+      <tr>
+        <td>고객사 제안</td>
+        <td class="name"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124138" target="_blank"
+            rel="noopener">2026년 충북청주 강소특구 X 심텍 AI 제조혁신 오픈이노베이션 지원사업 모집 공고</a></td>
+        <td>충청북도</td>
+        <td>충청북도</td>
+        <td>2026-07-30 (D-9)</td>
+        <td><span class="pill soon">마감임박</span></td>
+      </tr>
+      <tr>
+        <td>직접 신청</td>
+        <td class="name"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123881" target="_blank"
+            rel="noopener">2026년 4차 제조공정 로봇도입 엔지니어링 컨설팅 모집 공고</a></td>
+        <td>산업통상부</td>
+        <td>전국</td>
+        <td>2026-07-31 (D-10)</td>
+        <td><span class="pill soon">마감임박</span></td>
+      </tr>
+      <tr>
+        <td>직접 신청</td>
+        <td class="name"><a href="https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&amp;ibusCode=IBUS_000000000001260" target="_blank"
+            rel="noopener">2026년도「신뢰성기반활용지원사업」 수시형 2차 참여기업 모집</a></td>
+        <td>한국로봇산업진흥원</td>
+        <td>전국</td>
+        <td>2026-08-03 (D-13)</td>
+        <td><span class="pill soon">마감임박</span></td>
+      </tr>
+      <tr>
+        <td>직접 신청</td>
+        <td class="name"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124444" target="_blank"
+            rel="noopener">[인천] 2026년 로봇 액셀러레이팅 프로그램 참여기업 모집 공고(로봇산업 혁신성장 지원사업)</a> <span class="chip cond">조건부</span></td>
+        <td>인천광역시</td>
+        <td>인천</td>
+        <td>2026-08-04 (D-14)</td>
+        <td><span class="pill soon">마감임박</span></td>
+      </tr>
+      <tr>
+        <td>직접 신청</td>
+        <td class="name"><a href="https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&amp;ibusCode=IBUS_000000000001261" target="_blank"
+            rel="noopener">2026년도 「한-체코 첨단로봇산업 협력센터 구축사업」 지원과제 모집 공고</a></td>
+        <td>한국로봇산업진흥원</td>
+        <td>전국</td>
+        <td>2026-08-19 (D-29)</td>
+        <td><span class="pill open">접수중</span></td>
+      </tr>
+      <tr>
+        <td>고객사 제안</td>
+        <td class="name"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123766" target="_blank"
+            rel="noopener">[충북] 2026년 스마트공장 구축 자부담금 지원사업 수혜기업 모집 공고</a></td>
+        <td>충청북도</td>
+        <td>충북</td>
+        <td>2026-08-31 (D-41)</td>
+        <td><span class="pill open">접수중</span></td>
+      </tr>
+      <tr>
+        <td>고객사 제안</td>
+        <td class="name"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124248" target="_blank"
+            rel="noopener">[전북] 무주군 2026년 3차 지역특화형(농식품기업) 스마트공장 구축지원사업 수시모집 공고</a></td>
+        <td>중소벤처기업부</td>
+        <td>전북</td>
+        <td>모집 완료시</td>
+        <td><span class="pill always">상시</span></td>
+      </tr>
+      <tr>
+        <td>고객사 제안</td>
+        <td class="name"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000121614" target="_blank"
+            rel="noopener">[광주] 2026년 스마트공장 지원계획 공고</a></td>
+        <td>중소벤처기업부</td>
+        <td>광주</td>
+        <td>예산 소진시까지</td>
+        <td><span class="pill always">상시</span></td>
+      </tr>
+      <tr>
+        <td>고객사 제안</td>
+        <td class="name"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000118006" target="_blank"
+            rel="noopener">2026년 스마트공장 수준확인 사업 공고</a></td>
+        <td>중소벤처기업부</td>
+        <td>전국</td>
+        <td>예산 소진시까지</td>
+        <td><span class="pill always">상시</span></td>
+      </tr>
+      <tr>
+        <td>고객사 제안</td>
+        <td class="name"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000116004" target="_blank"
+            rel="noopener">스마트 공장 수준 확인(2026년 스마트 제조혁신 지원사업 통합 공고)</a></td>
+        <td>중소벤처기업부</td>
+        <td>전국</td>
+        <td>상시 접수</td>
+        <td><span class="pill always">상시</span></td>
+      </tr>
+      <tr>
+        <td>고객사 제안</td>
+        <td class="name"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000116008" target="_blank"
+            rel="noopener">제조 DX멘토단 활용지원(2026년 스마트 제조혁신 지원사업 통합 공고)</a></td>
+        <td>중소벤처기업부</td>
+        <td>전국</td>
+        <td>세부사업별 상이</td>
+        <td><span class="pill always">상시</span></td>
+      </tr>
+      <tr>
+        <td>고객사 제안</td>
+        <td class="name"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000115994" target="_blank"
+            rel="noopener">2026년 스마트 제조혁신 지원사업 통합 공고</a></td>
+        <td>중소벤처기업부</td>
+        <td>전국</td>
+        <td>세부사업별 상이</td>
+        <td><span class="pill always">상시</span></td>
+      </tr></tbody>
+</table></div>
 </div>
 
 <div class="tab-panel" id="tab-open">
@@ -616,6 +867,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">bizinfo</span></div>
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 로봇, 제조로봇, 실증</div>
+    
   </div>
   <div class="card">
     <div class="card-head">
@@ -637,6 +889,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">bizinfo</span></div>
     </div>
     <div class="why">판정 근거 · 고객사향 키워드: 제조혁신</div>
+    
   </div>
   <div class="card">
     <div class="card-head">
@@ -658,6 +911,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">bizinfo</span></div>
     </div>
     <div class="why">판정 근거 · 고객사향 키워드: 스마트공장</div>
+    
   </div>
   <div class="card">
     <div class="card-head">
@@ -679,6 +933,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">kiria</span></div>
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 로봇, 제조로봇, 실증 · 관련 키워드: 인증</div>
+    
   </div>
   <div class="card">
     <div class="card-head">
@@ -700,6 +955,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">bizinfo</span></div>
     </div>
     <div class="why">판정 근거 · 고객사향 키워드: 제조혁신</div>
+    
   </div>
   <div class="card">
     <div class="card-head">
@@ -721,6 +977,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">bizinfo</span></div>
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 로봇</div>
+    
   </div>
   <div class="card">
     <div class="card-head">
@@ -742,6 +999,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">kiria</span></div>
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 로봇</div>
+    
   </div>
   <div class="card">
     <div class="card-head">
@@ -763,6 +1021,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">kiria</span></div>
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 로봇, 서비스로봇, 실증</div>
+    
   </div>
   <div class="card">
     <div class="card-head">
@@ -784,6 +1043,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">kiria</span></div>
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 로봇, 실증</div>
+    
   </div>
   <div class="card">
     <div class="card-head">
@@ -805,10 +1065,33 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">bizinfo</span></div>
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 로봇 · 조건부: 조건부 지역</div>
+    
   </div>
   <div class="card">
     <div class="card-head">
       <div class="badge ">11</div>
+      <div class="card-head-text">
+        <div class="card-kicker">정보통신산업진흥원</div>
+        <div class="card-title"><a href="https://www.nipa.kr/home/2-2/16852" target="_blank"
+          rel="noopener">전 국민 AI 서비스 보편적 활용 지원(모두의 AI) 사업 공고</a></div>
+      </div>
+      <span class="pill open">접수중</span>
+    </div>
+    <div class="chip-row"><span class="chip track">직접 신청</span><span class="chip">ICT</span></div>
+    <div class="cond-table">
+      <div class="cond-row"><span class="cond-k">접수기간</span>
+        <span class="cond-v">2026-08-11 (D-21)</span></div>
+      <div class="cond-row"><span class="cond-k">수행기관</span>
+        <span class="cond-v">정보통신산업진흥원</span></div>
+      <div class="cond-row"><span class="cond-k">출처</span>
+        <span class="cond-v">nipa</span></div>
+    </div>
+    <div class="why">판정 근거 · 핵심 키워드: AI</div>
+    
+  </div>
+  <div class="card">
+    <div class="card-head">
+      <div class="badge ">12</div>
       <div class="card-head-text">
         <div class="card-kicker">한국로봇산업진흥원</div>
         <div class="card-title"><a href="https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&amp;ibusCode=IBUS_000000000001261" target="_blank"
@@ -826,10 +1109,11 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">kiria</span></div>
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 로봇</div>
+    
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge b">12</div>
+      <div class="badge b">13</div>
       <div class="card-head-text">
         <div class="card-kicker">충청북도</div>
         <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123766" target="_blank"
@@ -847,10 +1131,11 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">bizinfo</span></div>
     </div>
     <div class="why">판정 근거 · 고객사향 키워드: 스마트공장</div>
+    
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">13</div>
+      <div class="badge ">14</div>
       <div class="card-head-text">
         <div class="card-kicker">한국로봇산업진흥원</div>
         <div class="card-title"><a href="https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&amp;ibusCode=IBUS_000000000001251" target="_blank"
@@ -868,10 +1153,11 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">kiria</span></div>
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 로봇 · 관련 키워드: 모빌리티, 시험평가</div>
+    
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">14</div>
+      <div class="badge ">15</div>
       <div class="card-head-text">
         <div class="card-kicker">한국로봇산업진흥원</div>
         <div class="card-title"><a href="https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&amp;ibusCode=IBUS_000000000001252" target="_blank"
@@ -889,10 +1175,11 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">kiria</span></div>
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 로봇, 실외이동로봇</div>
+    
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">15</div>
+      <div class="badge ">16</div>
       <div class="card-head-text">
         <div class="card-kicker">산업통상부</div>
         <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000122589" target="_blank"
@@ -910,6 +1197,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">bizinfo</span></div>
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 로봇, 실증</div>
+    
   </div></div>
 </div>
 
@@ -921,14 +1209,44 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
     사람이 확인하기 전까지는 '관련 사업'에 올리지 않습니다.<br>
     목록에 추가하려면 저장소의 <code>config/curated.yaml</code>에서
     <code>approved:</code> 아래에 카드 키를 넣고, 제외하려면
-    <code>rejected:</code> 아래에 넣으세요.
+    <code>rejected:</code> 아래에 넣으세요.<br>
+    아래 카드에서 <b>선택</b>을 체크하면 붙여넣을 내용을 자동으로 만들어 드립니다.
   </div></div>
-  <div class="wrap"><div class="empty">새로 발견된 공고가 없습니다.</div></div>
+  <div class="grid">
+  <div class="card">
+    <div class="card-head">
+      <div class="badge ">01</div>
+      <div class="card-head-text">
+        <div class="card-kicker">정보통신산업진흥원</div>
+        <div class="card-title"><a href="https://www.nipa.kr/home/2-2/16852" target="_blank"
+          rel="noopener">전 국민 AI 서비스 보편적 활용 지원(모두의 AI) 사업 공고</a></div>
+      </div>
+      <span class="pill open">접수중</span>
+    </div>
+    <div class="chip-row"><span class="chip track">직접 신청</span><span class="chip">ICT</span></div>
+    <div class="cond-table">
+      <div class="cond-row"><span class="cond-k">접수기간</span>
+        <span class="cond-v">2026-08-11 (D-21)</span></div>
+      <div class="cond-row"><span class="cond-k">수행기관</span>
+        <span class="cond-v">정보통신산업진흥원</span></div>
+      <div class="cond-row"><span class="cond-k">출처</span>
+        <span class="cond-v">nipa</span></div>
+    </div>
+    <div class="why">판정 근거 · 핵심 키워드: AI</div>
+    <label class="pick"><input type="checkbox" class="pick-box" value="nipa:16852" data-title="전 국민 AI 서비스 보편적 활용 지원(모두의 AI) 사업 공고" onchange="updatePicks()"> 선택</label>
+  </div></div>
+  <div class="pickbar" id="pickbar">
+    <span><b id="pickcount">0</b>건 선택됨</span>
+    <button class="btn" onclick="copyPicks()">YAML로 복사</button>
+    <a class="btn ghost" href="https://github.com/keinzkim-droid/support-program-radar/edit/main/config/curated.yaml" target="_blank" rel="noopener">
+      curated.yaml 편집하기</a>
+    <span class="pickmsg" id="pickmsg"></span>
+  </div>
 </div>
 
 <footer>
   <span>자동 수집 · 기업마당 · 한국로봇산업진흥원</span>
-  <span>마지막 갱신 2026-07-21 15:37</span>
+  <span>마지막 갱신 2026-07-21 15:46</span>
 </footer>
 
 <script>
@@ -937,6 +1255,47 @@ function switchTab(name, el){
   document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
   document.getElementById('tab-'+name).classList.add('active');
   el.classList.add('active');
+}
+
+function picked(){
+  return [...document.querySelectorAll('.pick-box:checked')];
+}
+
+function updatePicks(){
+  var n = picked().length;
+  var bar = document.getElementById('pickbar');
+  if(!bar) return;
+  bar.classList.toggle('on', n > 0);
+  document.getElementById('pickcount').textContent = n;
+}
+
+// 정적 페이지라 승인 상태를 서버에 저장할 수 없다.
+// 대신 curated.yaml에 그대로 붙여넣을 수 있는 형태로 만들어 클립보드에 넣는다.
+function copyPicks(){
+  var lines = picked().map(function(b){
+    return '  - ' + b.value + '    # ' + b.dataset.title;
+  });
+  if(!lines.length) return;
+  var text = lines.join('\n');
+  var done = function(){
+    var el = document.getElementById('pickmsg');
+    el.textContent = lines.length + '건 복사됨 — curated.yaml에 붙여넣으세요';
+    setTimeout(function(){ el.textContent = ''; }, 4000);
+  };
+  if(navigator.clipboard){
+    navigator.clipboard.writeText(text).then(done, function(){ fallback(text, done); });
+  } else {
+    fallback(text, done);
+  }
+}
+
+function fallback(text, done){
+  var ta = document.createElement('textarea');
+  ta.value = text;
+  document.body.appendChild(ta);
+  ta.select();
+  try { document.execCommand('copy'); done(); } catch(e){ prompt('복사하세요:', text); }
+  document.body.removeChild(ta);
 }
 </script>
 </body></html>

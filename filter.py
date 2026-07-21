@@ -85,8 +85,10 @@ def judge(item: dict, profile: dict) -> Verdict:
     b_hit = hits(text, kw["track_b_strong"])
     a_strong = hits(text, kw["track_a_strong"])
     a_medium = hits(text, kw["track_a_medium"])
+    # 트랙 판정에는 로봇 계열만 쓴다. AI는 양쪽에 다 붙어서 기준이 못 된다.
+    a_decisive = hits(text, kw.get("track_a_decisive") or kw["track_a_strong"])
 
-    if b_hit and not a_strong:
+    if b_hit and not a_decisive:
         score = len(b_hit) * sc["strong"]
         reasons.append(f"고객사향 키워드: {', '.join(b_hit)}")
         return Verdict("B", score, detect_region(item), None, reasons)
@@ -139,13 +141,23 @@ def main() -> int:
     cards, candidates, dropped = [], [], 0
 
     for item in raw["items"]:
-        v = judge(item, profile)
-        if v.track is None:
+        key = f"{item['source']}:{item['source_id']}"
+        if key in rejected:
             dropped += 1
             continue
 
-        key = f"{item['source']}:{item['source_id']}"
-        if key in rejected:
+        v = judge(item, profile)
+
+        # 사람이 승인한 항목은 자동 판정보다 우선한다.
+        # 기계가 탈락시켰더라도(지역 불일치·점수 미달 등) 목록에서 빼지 않는다.
+        # 그러지 않으면 키워드를 손볼 때마다 확정한 목록이 흔들린다.
+        if key in approved and v.track is None:
+            text = f"{item['title']} {item.get('category','')}"
+            is_b = bool(hits(text, profile["keywords"]["track_b_strong"]))
+            v = Verdict("B" if is_b else "A", v.score, v.region, v.conditional,
+                        (v.reasons or []) + ["사람이 확정"])
+
+        if v.track is None:
             dropped += 1
             continue
 

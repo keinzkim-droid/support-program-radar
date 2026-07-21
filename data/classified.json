@@ -488,11 +488,35 @@
       ]
     }
   ],
-  "candidates": [],
+  "candidates": [
+    {
+      "source": "nipa",
+      "source_id": "16852",
+      "title": "전 국민 AI 서비스 보편적 활용 지원(모두의 AI) 사업 공고",
+      "url": "https://www.nipa.kr/home/2-2/16852",
+      "apply_raw": "D-21",
+      "apply_start": null,
+      "apply_end": "2026-08-11",
+      "agency": "정보통신산업진흥원",
+      "exec_agency": "정보통신산업진흥원",
+      "category": "ICT",
+      "posted_at": "2026-07-13",
+      "status": "접수중",
+      "collected_at": "2026-07-21",
+      "key": "nipa:16852",
+      "track": "A",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: AI"
+      ]
+    }
+  ],
   "stats": {
-    "collected": 71,
+    "collected": 78,
     "cards": 21,
-    "candidates": 0,
-    "dropped": 50
+    "candidates": 1,
+    "dropped": 56
   }
 }
