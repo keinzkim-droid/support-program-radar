@@ -18,7 +18,7 @@ import re
 import sys
 import time
 from dataclasses import dataclass, asdict, field
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 import requests
@@ -250,7 +250,64 @@ def collect_kiria() -> list[Announcement]:
     return out
 
 
-SOURCES = {"bizinfo": collect_bizinfo, "kiria": collect_kiria}
+NIPA_URL = "https://www.nipa.kr/home/2-2"
+NIPA_DDAY = re.compile(r"D-(\d+)")
+
+
+def collect_nipa() -> list[Announcement]:
+    """정보통신산업진흥원(NIPA) 사업공고.
+
+    목록에 접수기간이 없고 'D-31' / '종료' 형태의 잔여일만 있다.
+    상세 페이지까지 들어가면 요청이 10배로 늘어나므로,
+    잔여일에서 마감일을 역산하고 원문은 apply_raw에 남긴다.
+    """
+    soup = BeautifulSoup(fetch(NIPA_URL), PARSER)
+    table = soup.find("table")
+    if table is None:
+        raise CollectError("NIPA: 공고 테이블을 찾지 못했다. 사이트 개편 가능성.")
+
+    today = date.today()
+    out: list[Announcement] = []
+    for tr in (table.find("tbody") or table).find_all("tr"):
+        tds = [td.get_text(" ", strip=True) for td in tr.find_all("td")]
+        a = tr.find("a", href=True)
+        if not a or len(tds) < 5:
+            continue
+        sid = a["href"].rstrip("/").split("/")[-1]
+        if not sid.isdigit():
+            continue
+
+        dday = tds[1]
+        end = None
+        m = NIPA_DDAY.search(dday)
+        if m:
+            end = (today + timedelta(days=int(m.group(1)))).isoformat()
+        elif "종료" in dday:
+            end = (today - timedelta(days=1)).isoformat()   # 이미 마감
+
+        out.append(Announcement(
+            source="nipa",
+            source_id=sid,
+            title=a.get_text(" ", strip=True) or tds[2],
+            url=f"https://www.nipa.kr/home/2-2/{sid}",
+            apply_raw=dday,
+            apply_end=end,
+            agency="정보통신산업진흥원",
+            exec_agency="정보통신산업진흥원",
+            category="ICT",
+            posted_at=tds[4],
+        ))
+
+    if not out:
+        raise CollectError("NIPA: 0건 수집. 파서 점검 필요.")
+    return out
+
+
+SOURCES = {
+    "bizinfo": collect_bizinfo,
+    "kiria": collect_kiria,
+    "nipa": collect_nipa,
+}
 
 
 def main() -> int:
