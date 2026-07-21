@@ -21,6 +21,9 @@ OUT = ROOT / "docs" / "index.html"
 # 승인 목록을 GitHub 웹 편집기로 바로 여는 링크.
 REPO_NEW = "https://github.com/keinzkim-droid/support-program-radar/new/main"
 
+# 자동 실행 시각 안내. .github/workflows/daily.yml의 cron과 함께 고칠 것.
+SCHEDULE_TEXT = "매일 오전 10시·오후 1시"
+
 # 소스 코드명 → 화면에 쓸 기관명.
 # 새 소스를 collect.py에 추가하면 여기에도 한 줄 넣으면 된다.
 SOURCE_LABEL = {
@@ -209,8 +212,8 @@ function toast(title, decision){
   var el = document.getElementById('toast');
   el.innerHTML = '<b>' + LABEL[decision] + '</b>(으)로 이동 요청했습니다.<br>'
     + '새로 열린 GitHub 화면에서 초록색 <b>Commit changes</b> 버튼을 누르면 접수됩니다.<br>'
-    + '<span class="t-note">화면에는 <b>다음 자동 실행(매일 아침 8시)</b> 때 반영됩니다. '
-    + '지금 바로 보려면 Actions에서 수동 실행하세요.</span>';
+    + '<span class="t-note">화면에는 <b>다음 자동 실행(' + SCHEDULE_TXT + ')</b> 때 '
+    + '반영됩니다. 지금 바로 보려면 Actions에서 수동 실행하세요.</span>';
   el.classList.add('on');
   clearTimeout(window._tt);
   window._tt = setTimeout(function(){ el.classList.remove('on'); }, 12000);
@@ -457,7 +460,7 @@ def build(data: dict) -> str:
     <code>approved:</code> 아래에 카드 키를 넣고, 제외하려면
     카드의 <b>관련 사업으로</b> 또는 <b>제외</b> 버튼을 누르면 GitHub 화면이 열립니다.
     거기서 초록색 <b>Commit changes</b> 버튼만 누르면 접수됩니다.<br>
-    반영은 <b>다음 자동 실행(매일 아침 8시)</b> 때 이루어집니다.
+    반영은 <b>다음 자동 실행({SCHEDULE_TEXT})</b> 때 이루어집니다.
   </div></div>
   {grid(cands, today, "새로 발견된 공고가 없습니다.", selectable="new")}
 </div>
@@ -491,7 +494,10 @@ def build(data: dict) -> str:
 
 <div class="toast" id="toast" onclick="hideToast()"></div>
 
-<script>var REPO_NEW = {json.dumps(REPO_NEW)};</script>
+<script>
+var REPO_NEW = {json.dumps(REPO_NEW)};
+var SCHEDULE_TXT = {json.dumps(SCHEDULE_TEXT)};
+</script>
 <script>{JS}</script>
 </body></html>
 """
