@@ -118,7 +118,12 @@ h1 .hl{color:var(--accent)}
   border-radius:14px;overflow:hidden;font-size:13px}
 .table-wrap thead th{text-align:left;font-weight:700;font-size:12.5px;
   color:var(--text2);background:var(--n50);padding:13px 15px;
-  border-bottom:1px solid var(--border);white-space:nowrap}
+  border-bottom:1px solid var(--border);white-space:nowrap;
+  cursor:pointer;user-select:none}
+.table-wrap thead th:hover{background:var(--soft);color:var(--accent-strong)}
+.table-wrap thead th[data-dir]{color:var(--accent-strong)}
+.arw{margin-left:6px;font-size:10px;opacity:.55}
+.table-wrap thead th[data-dir] .arw{opacity:1}
 .table-wrap tbody td{padding:13px 15px;border-bottom:1px solid var(--border);
   color:var(--text2);vertical-align:top;line-height:1.55}
 .table-wrap tbody tr:last-child td{border-bottom:none}
@@ -170,17 +175,17 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
 </header>
 
 <div class="tabs">
-  <button class="tab-btn active" onclick="switchTab('cards', this)">
-    관련 사업 <span class="count">21</span></button>
-  <button class="tab-btn" onclick="switchTab('open', this)">
+  <button class="tab-btn active" onclick="switchTab('open', this)">
     접수 중 <span class="count">19</span></button>
+  <button class="tab-btn" onclick="switchTab('cards', this)">
+    관련 사업 <span class="count">21</span></button>
   <button class="tab-btn" onclick="switchTab('new', this)">
     <span class="live-dot"></span>새로 찾은 공고 <span class="count">4</span></button>
   <button class="tab-btn" onclick="switchTab('expired', this)">
     마감 <span class="count">0</span></button>
 </div>
 
-<div class="tab-panel active" id="tab-cards">
+<div class="tab-panel" id="tab-cards">
   <div class="section-head"><h2>관련 사업</h2>
     <div class="section-sub">검토를 마친 공고 · 마감된 것은 '마감' 탭으로 이동합니다</div></div>
   <div class="grid">
@@ -648,12 +653,9 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
   </div></div>
   
 <div class="section-head"><h2>한눈에 비교</h2>
-  <div class="section-sub">21건 전체</div></div>
-<div class="table-wrap"><table>
-  <thead><tr>
-    <th>구분</th><th>사업명</th><th>소관기관</th>
-    <th>지역</th><th>접수기간</th><th>상태</th>
-  </tr></thead>
+  <div class="section-sub">21건 전체 · 제목을 누르면 정렬됩니다</div></div>
+<div class="table-wrap"><table id="cmp">
+  <thead><tr><th onclick="sortTable(this,0)">구분<span class="arw">↕</span></th><th onclick="sortTable(this,1)">사업명<span class="arw">↕</span></th><th onclick="sortTable(this,2)">소관기관<span class="arw">↕</span></th><th onclick="sortTable(this,3)">지역<span class="arw">↕</span></th><th onclick="sortTable(this,4)">접수기간<span class="arw">↕</span></th><th onclick="sortTable(this,5)">상태<span class="arw">↕</span></th></tr></thead>
   <tbody>
       <tr>
         <td>직접 신청</td>
@@ -661,8 +663,8 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
             rel="noopener">2026년 제조로봇 실증사업 작업장 안전인증 및 안전컨설팅 지원사업(2차) 모집 공고</a></td>
         <td>한국로봇산업진흥원</td>
         <td>전국</td>
-        <td>2026-07-27 (D-6)</td>
-        <td><span class="pill soon">마감임박</span></td>
+        <td data-v="2026-07-27">2026-07-27 (D-6)</td>
+        <td data-v="1"><span class="pill soon">마감임박</span></td>
       </tr>
       <tr>
         <td>직접 신청</td>
@@ -670,8 +672,8 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
             rel="noopener">[경기] 2026년 2차 제조로봇 도입ㆍ실증 및 고도화지원 사업 공고(제조로봇 도입지원)</a></td>
         <td>경기도</td>
         <td>경기</td>
-        <td>2026-07-22 (D-1)</td>
-        <td><span class="pill soon">마감임박</span></td>
+        <td data-v="2026-07-22">2026-07-22 (D-1)</td>
+        <td data-v="1"><span class="pill soon">마감임박</span></td>
       </tr>
       <tr>
         <td>직접 신청</td>
@@ -679,8 +681,8 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
             rel="noopener">2026년 「서비스로봇 실증사업」 지원과제 2차 모집 공고</a></td>
         <td>한국로봇산업진흥원</td>
         <td>전국</td>
-        <td>2026-08-04 (D-14)</td>
-        <td><span class="pill soon">마감임박</span></td>
+        <td data-v="2026-08-04">2026-08-04 (D-14)</td>
+        <td data-v="1"><span class="pill soon">마감임박</span></td>
       </tr>
       <tr>
         <td>직접 신청</td>
@@ -688,8 +690,8 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
             rel="noopener">2026년 「규제혁신 로봇 실증사업」지원과제 2차 모집 공고</a></td>
         <td>한국로봇산업진흥원</td>
         <td>전국</td>
-        <td>2026-08-04 (D-14)</td>
-        <td><span class="pill soon">마감임박</span></td>
+        <td data-v="2026-08-04">2026-08-04 (D-14)</td>
+        <td data-v="1"><span class="pill soon">마감임박</span></td>
       </tr>
       <tr>
         <td>직접 신청</td>
@@ -697,8 +699,8 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
             rel="noopener">2026년 실외이동로봇 기술지원사업 참여기업 모집 공고</a></td>
         <td>한국로봇산업진흥원</td>
         <td>전국</td>
-        <td>2026-11-30 (D-132)</td>
-        <td><span class="pill open">접수중</span></td>
+        <td data-v="2026-11-30">2026-11-30 (D-132)</td>
+        <td data-v="2"><span class="pill open">접수중</span></td>
       </tr>
       <tr>
         <td>직접 신청</td>
@@ -706,8 +708,8 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
             rel="noopener">2026년 제조산업 공정작업용 로봇 엔드이펙터 실증 기반 구축 사업 지원 기업 모집 공고</a></td>
         <td>산업통상부</td>
         <td>전국</td>
-        <td>2026-12-18 (D-150)</td>
-        <td><span class="pill open">접수중</span></td>
+        <td data-v="2026-12-18">2026-12-18 (D-150)</td>
+        <td data-v="2"><span class="pill open">접수중</span></td>
       </tr>
       <tr>
         <td>직접 신청</td>
@@ -715,8 +717,8 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
             rel="noopener">「2026년 모빌리티 혁신제품 시험평가 지원」지원 대상 기업 상시모집 공고</a></td>
         <td>한국로봇산업진흥원</td>
         <td>전국</td>
-        <td>2026-11-15 (D-117)</td>
-        <td><span class="pill open">접수중</span></td>
+        <td data-v="2026-11-15">2026-11-15 (D-117)</td>
+        <td data-v="2"><span class="pill open">접수중</span></td>
       </tr>
       <tr>
         <td>고객사 제안</td>
@@ -724,8 +726,8 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
             rel="noopener">[전남광주] 2026년 탄소중립 제조혁신 고도화 2단계 사업 참여기업 추가모집 공고</a></td>
         <td>전남광주통합특별시</td>
         <td>전남광주</td>
-        <td>2026-07-23 (D-2)</td>
-        <td><span class="pill soon">마감임박</span></td>
+        <td data-v="2026-07-23">2026-07-23 (D-2)</td>
+        <td data-v="1"><span class="pill soon">마감임박</span></td>
       </tr>
       <tr>
         <td>고객사 제안</td>
@@ -733,8 +735,8 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
             rel="noopener">[경북] 포항시 2026년 경북형(포항) 스마트공장(기초단계) 구축지원사업 추가모집 공고</a></td>
         <td>경상북도</td>
         <td>경북</td>
-        <td>2026-07-24 (D-3)</td>
-        <td><span class="pill soon">마감임박</span></td>
+        <td data-v="2026-07-24">2026-07-24 (D-3)</td>
+        <td data-v="1"><span class="pill soon">마감임박</span></td>
       </tr>
       <tr>
         <td>고객사 제안</td>
@@ -742,8 +744,8 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
             rel="noopener">2026년 충북청주 강소특구 X 심텍 AI 제조혁신 오픈이노베이션 지원사업 모집 공고</a></td>
         <td>충청북도</td>
         <td>충청북도</td>
-        <td>2026-07-30 (D-9)</td>
-        <td><span class="pill soon">마감임박</span></td>
+        <td data-v="2026-07-30">2026-07-30 (D-9)</td>
+        <td data-v="1"><span class="pill soon">마감임박</span></td>
       </tr>
       <tr>
         <td>직접 신청</td>
@@ -751,8 +753,8 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
             rel="noopener">2026년 4차 제조공정 로봇도입 엔지니어링 컨설팅 모집 공고</a></td>
         <td>산업통상부</td>
         <td>전국</td>
-        <td>2026-07-31 (D-10)</td>
-        <td><span class="pill soon">마감임박</span></td>
+        <td data-v="2026-07-31">2026-07-31 (D-10)</td>
+        <td data-v="1"><span class="pill soon">마감임박</span></td>
       </tr>
       <tr>
         <td>직접 신청</td>
@@ -760,8 +762,8 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
             rel="noopener">2026년도「신뢰성기반활용지원사업」 수시형 2차 참여기업 모집</a></td>
         <td>한국로봇산업진흥원</td>
         <td>전국</td>
-        <td>2026-08-03 (D-13)</td>
-        <td><span class="pill soon">마감임박</span></td>
+        <td data-v="2026-08-03">2026-08-03 (D-13)</td>
+        <td data-v="1"><span class="pill soon">마감임박</span></td>
       </tr>
       <tr>
         <td>직접 신청</td>
@@ -769,8 +771,8 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
             rel="noopener">[인천] 2026년 로봇 액셀러레이팅 프로그램 참여기업 모집 공고(로봇산업 혁신성장 지원사업)</a> <span class="chip cond">조건부</span></td>
         <td>인천광역시</td>
         <td>인천</td>
-        <td>2026-08-04 (D-14)</td>
-        <td><span class="pill soon">마감임박</span></td>
+        <td data-v="2026-08-04">2026-08-04 (D-14)</td>
+        <td data-v="1"><span class="pill soon">마감임박</span></td>
       </tr>
       <tr>
         <td>직접 신청</td>
@@ -778,8 +780,8 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
             rel="noopener">2026년도 「한-체코 첨단로봇산업 협력센터 구축사업」 지원과제 모집 공고</a></td>
         <td>한국로봇산업진흥원</td>
         <td>전국</td>
-        <td>2026-08-19 (D-29)</td>
-        <td><span class="pill open">접수중</span></td>
+        <td data-v="2026-08-19">2026-08-19 (D-29)</td>
+        <td data-v="2"><span class="pill open">접수중</span></td>
       </tr>
       <tr>
         <td>고객사 제안</td>
@@ -787,8 +789,8 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
             rel="noopener">[충북] 2026년 스마트공장 구축 자부담금 지원사업 수혜기업 모집 공고</a></td>
         <td>충청북도</td>
         <td>충북</td>
-        <td>2026-08-31 (D-41)</td>
-        <td><span class="pill open">접수중</span></td>
+        <td data-v="2026-08-31">2026-08-31 (D-41)</td>
+        <td data-v="2"><span class="pill open">접수중</span></td>
       </tr>
       <tr>
         <td>고객사 제안</td>
@@ -796,8 +798,8 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
             rel="noopener">[전북] 무주군 2026년 3차 지역특화형(농식품기업) 스마트공장 구축지원사업 수시모집 공고</a></td>
         <td>중소벤처기업부</td>
         <td>전북</td>
-        <td>모집 완료시</td>
-        <td><span class="pill always">상시</span></td>
+        <td data-v="9999-12-31">모집 완료시</td>
+        <td data-v="3"><span class="pill always">상시</span></td>
       </tr>
       <tr>
         <td>고객사 제안</td>
@@ -805,8 +807,8 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
             rel="noopener">[광주] 2026년 스마트공장 지원계획 공고</a></td>
         <td>중소벤처기업부</td>
         <td>광주</td>
-        <td>예산 소진시까지</td>
-        <td><span class="pill always">상시</span></td>
+        <td data-v="9999-12-31">예산 소진시까지</td>
+        <td data-v="3"><span class="pill always">상시</span></td>
       </tr>
       <tr>
         <td>고객사 제안</td>
@@ -814,8 +816,8 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
             rel="noopener">2026년 스마트공장 수준확인 사업 공고</a></td>
         <td>중소벤처기업부</td>
         <td>전국</td>
-        <td>예산 소진시까지</td>
-        <td><span class="pill always">상시</span></td>
+        <td data-v="9999-12-31">예산 소진시까지</td>
+        <td data-v="3"><span class="pill always">상시</span></td>
       </tr>
       <tr>
         <td>고객사 제안</td>
@@ -823,8 +825,8 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
             rel="noopener">스마트 공장 수준 확인(2026년 스마트 제조혁신 지원사업 통합 공고)</a></td>
         <td>중소벤처기업부</td>
         <td>전국</td>
-        <td>상시 접수</td>
-        <td><span class="pill always">상시</span></td>
+        <td data-v="9999-12-31">상시 접수</td>
+        <td data-v="3"><span class="pill always">상시</span></td>
       </tr>
       <tr>
         <td>고객사 제안</td>
@@ -832,8 +834,8 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
             rel="noopener">제조 DX멘토단 활용지원(2026년 스마트 제조혁신 지원사업 통합 공고)</a></td>
         <td>중소벤처기업부</td>
         <td>전국</td>
-        <td>세부사업별 상이</td>
-        <td><span class="pill always">상시</span></td>
+        <td data-v="9999-12-31">세부사업별 상이</td>
+        <td data-v="3"><span class="pill always">상시</span></td>
       </tr>
       <tr>
         <td>고객사 제안</td>
@@ -841,13 +843,13 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
             rel="noopener">2026년 스마트 제조혁신 지원사업 통합 공고</a></td>
         <td>중소벤처기업부</td>
         <td>전국</td>
-        <td>세부사업별 상이</td>
-        <td><span class="pill always">상시</span></td>
+        <td data-v="9999-12-31">세부사업별 상이</td>
+        <td data-v="3"><span class="pill always">상시</span></td>
       </tr></tbody>
 </table></div>
 </div>
 
-<div class="tab-panel" id="tab-open">
+<div class="tab-panel active" id="tab-open">
   <div class="section-head"><h2>접수 중</h2>
     <div class="section-sub">마감이 가까운 순서</div></div>
   <div class="grid">
@@ -1387,7 +1389,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
 
 <footer>
   <span>자동 수집 · 기업마당 · 한국로봇산업진흥원 · 정보통신산업진흥원</span>
-  <span>마지막 갱신 2026-07-21 16:11</span>
+  <span>마지막 갱신 2026-07-21 16:19</span>
 </footer>
 
 <div class="toast" id="toast" onclick="hideToast()"></div>
@@ -1432,5 +1434,30 @@ function toast(title, decision){
 }
 
 function hideToast(){ document.getElementById('toast').classList.remove('on'); }
+
+// 비교표 정렬. 같은 칸을 다시 누르면 방향이 뒤집힌다.
+function sortTable(th, col){
+  var table = th.closest('table');
+  var body = table.tBodies[0];
+  var asc = th.dataset.dir !== 'asc';
+
+  [...table.querySelectorAll('th')].forEach(function(h){
+    if(h !== th){ delete h.dataset.dir; h.querySelector('.arw').textContent = '↕'; }
+  });
+  th.dataset.dir = asc ? 'asc' : 'desc';
+  th.querySelector('.arw').textContent = asc ? '▲' : '▼';
+
+  var val = function(tr){
+    var td = tr.cells[col];
+    // 표시값과 정렬값이 다른 칸은 data-v를 쓴다
+    return (td.dataset.v !== undefined ? td.dataset.v : td.innerText).trim();
+  };
+  [...body.rows]
+    .sort(function(a, b){
+      var x = val(a), y = val(b);
+      return asc ? x.localeCompare(y, 'ko') : y.localeCompare(x, 'ko');
+    })
+    .forEach(function(tr){ body.appendChild(tr); });
+}
 </script>
 </body></html>

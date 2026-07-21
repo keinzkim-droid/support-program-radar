@@ -145,7 +145,12 @@ h1 .hl{color:var(--accent)}
   border-radius:14px;overflow:hidden;font-size:13px}
 .table-wrap thead th{text-align:left;font-weight:700;font-size:12.5px;
   color:var(--text2);background:var(--n50);padding:13px 15px;
-  border-bottom:1px solid var(--border);white-space:nowrap}
+  border-bottom:1px solid var(--border);white-space:nowrap;
+  cursor:pointer;user-select:none}
+.table-wrap thead th:hover{background:var(--soft);color:var(--accent-strong)}
+.table-wrap thead th[data-dir]{color:var(--accent-strong)}
+.arw{margin-left:6px;font-size:10px;opacity:.55}
+.table-wrap thead th[data-dir] .arw{opacity:1}
 .table-wrap tbody td{padding:13px 15px;border-bottom:1px solid var(--border);
   color:var(--text2);vertical-align:top;line-height:1.55}
 .table-wrap tbody tr:last-child td{border-bottom:none}
@@ -212,6 +217,31 @@ function toast(title, decision){
 }
 
 function hideToast(){ document.getElementById('toast').classList.remove('on'); }
+
+// 비교표 정렬. 같은 칸을 다시 누르면 방향이 뒤집힌다.
+function sortTable(th, col){
+  var table = th.closest('table');
+  var body = table.tBodies[0];
+  var asc = th.dataset.dir !== 'asc';
+
+  [...table.querySelectorAll('th')].forEach(function(h){
+    if(h !== th){ delete h.dataset.dir; h.querySelector('.arw').textContent = '↕'; }
+  });
+  th.dataset.dir = asc ? 'asc' : 'desc';
+  th.querySelector('.arw').textContent = asc ? '▲' : '▼';
+
+  var val = function(tr){
+    var td = tr.cells[col];
+    // 표시값과 정렬값이 다른 칸은 data-v를 쓴다
+    return (td.dataset.v !== undefined ? td.dataset.v : td.innerText).trim();
+  };
+  [...body.rows]
+    .sort(function(a, b){
+      var x = val(a), y = val(b);
+      return asc ? x.localeCompare(y, 'ko') : y.localeCompare(x, 'ko');
+    })
+    .forEach(function(tr){ body.appendChild(tr); });
+}
 """
 
 
@@ -303,10 +333,15 @@ def compare_table(recs: list[dict], today: date) -> str:
     """한눈에 비교. 카드를 하나씩 읽지 않고 전체를 훑을 때 쓴다."""
     if not recs:
         return ""
+    # 정렬용 값. 화면에 보이는 문자열과 정렬 기준이 다른 칸이 있다.
+    # 접수기간은 'D-12' 같은 표시라 그대로 정렬하면 엉키므로 날짜를 따로 넘긴다.
+    status_order = {"마감임박": "1", "접수중": "2", "상시": "3", "마감": "4"}
     rows = []
     for r in recs:
         track = "직접 신청" if r["track"] == "A" else "고객사 제안"
         cond = ' <span class="chip cond">조건부</span>' if r.get("conditional") else ""
+        # 마감일이 없는 '상시'는 맨 뒤로 보낸다
+        end_key = r.get("apply_end") or "9999-12-31"
         rows.append(f"""
       <tr>
         <td>{esc(track)}</td>
@@ -314,17 +349,19 @@ def compare_table(recs: list[dict], today: date) -> str:
             rel="noopener">{esc(r['title'])}</a>{cond}</td>
         <td>{esc(r.get('agency') or '-')}</td>
         <td>{esc(r.get('region') or '전국')}</td>
-        <td>{esc(deadline_note(r, today))}</td>
-        <td>{status_pill(r['status'])}</td>
+        <td data-v="{esc(end_key)}">{esc(deadline_note(r, today))}</td>
+        <td data-v="{status_order.get(r['status'], '9')}">{status_pill(r['status'])}</td>
       </tr>""")
+
+    heads = ["구분", "사업명", "소관기관", "지역", "접수기간", "상태"]
+    th = "".join(
+        f'<th onclick="sortTable(this,{i})">{h}<span class="arw">↕</span></th>'
+        for i, h in enumerate(heads))
     return f"""
 <div class="section-head"><h2>한눈에 비교</h2>
-  <div class="section-sub">{len(recs)}건 전체</div></div>
-<div class="table-wrap"><table>
-  <thead><tr>
-    <th>구분</th><th>사업명</th><th>소관기관</th>
-    <th>지역</th><th>접수기간</th><th>상태</th>
-  </tr></thead>
+  <div class="section-sub">{len(recs)}건 전체 · 제목을 누르면 정렬됩니다</div></div>
+<div class="table-wrap"><table id="cmp">
+  <thead><tr>{th}</tr></thead>
   <tbody>{''.join(rows)}</tbody>
 </table></div>"""
 
@@ -381,17 +418,17 @@ def build(data: dict) -> str:
 </header>
 
 <div class="tabs">
-  <button class="tab-btn active" onclick="switchTab('cards', this)">
-    관련 사업 <span class="count">{len(cards)}</span></button>
-  <button class="tab-btn" onclick="switchTab('open', this)">
+  <button class="tab-btn active" onclick="switchTab('open', this)">
     접수 중 <span class="count">{len(open_now)}</span></button>
+  <button class="tab-btn" onclick="switchTab('cards', this)">
+    관련 사업 <span class="count">{len(cards)}</span></button>
   <button class="tab-btn" onclick="switchTab('new', this)">
     <span class="live-dot"></span>새로 찾은 공고 <span class="count">{len(cands)}</span></button>
   <button class="tab-btn" onclick="switchTab('expired', this)">
     마감 <span class="count">{len(expired)}</span></button>
 </div>
 
-<div class="tab-panel active" id="tab-cards">
+<div class="tab-panel" id="tab-cards">
   <div class="section-head"><h2>관련 사업</h2>
     <div class="section-sub">검토를 마친 공고 · 마감된 것은 '마감' 탭으로 이동합니다</div></div>
   {grid(cards, today, "아직 목록에 올린 공고가 없습니다. '새로 찾은 공고' 탭을 확인해주세요.",
@@ -399,7 +436,7 @@ def build(data: dict) -> str:
   {compare_table(cards, today)}
 </div>
 
-<div class="tab-panel" id="tab-open">
+<div class="tab-panel active" id="tab-open">
   <div class="section-head"><h2>접수 중</h2>
     <div class="section-sub">마감이 가까운 순서</div></div>
   {grid(open_now, today, "현재 접수 중인 공고가 없습니다.")}
