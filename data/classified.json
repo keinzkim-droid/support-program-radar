@@ -585,6 +585,11 @@
     }
   ],
   "archive_after_days": 30,
+  "sources": [
+    "bizinfo",
+    "kiria",
+    "nipa"
+  ],
   "stats": {
     "collected": 79,
     "cards": 21,

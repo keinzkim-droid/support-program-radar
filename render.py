@@ -19,8 +19,15 @@ IN = ROOT / "data" / "classified.json"
 OUT = ROOT / "docs" / "index.html"
 
 # 승인 목록을 GitHub 웹 편집기로 바로 여는 링크.
-EDIT_URL = ("https://github.com/keinzkim-droid/support-program-radar"
-            "/edit/main/config/curated.yaml")
+REPO_NEW = "https://github.com/keinzkim-droid/support-program-radar/new/main"
+
+# 소스 코드명 → 화면에 쓸 기관명.
+# 새 소스를 collect.py에 추가하면 여기에도 한 줄 넣으면 된다.
+SOURCE_LABEL = {
+    "bizinfo": "기업마당",
+    "kiria": "한국로봇산업진흥원",
+    "nipa": "정보통신산업진흥원",
+}
 
 TRACK_LABEL = {
     "A": ("직접 신청", "우리가 신청자"),
@@ -113,22 +120,24 @@ h1 .hl{color:var(--accent)}
 .cond-k{color:var(--text2);flex:none;width:72px}
 .cond-v{color:var(--text);font-weight:600;text-align:right}
 .why{font-size:11.5px;color:var(--text2);margin-top:10px;line-height:1.6}
-.pick{display:inline-flex;align-items:center;gap:6px;margin-top:12px;
-  font-size:12.5px;font-weight:600;color:var(--accent-strong);cursor:pointer;
-  background:var(--soft);padding:6px 12px;border-radius:8px}
-.pick input{cursor:pointer;width:15px;height:15px;accent-color:var(--accent)}
-.pickbar{position:sticky;bottom:0;z-index:15;margin-top:20px;
-  background:var(--surface);border-top:1px solid var(--blue-300);
-  box-shadow:0 -6px 20px rgba(51,150,255,.14);
-  padding:14px 28px;display:none;align-items:center;gap:14px;flex-wrap:wrap}
-.pickbar.on{display:flex}
-.pickbar b{color:var(--accent-strong)}
+.acts{display:flex;gap:8px;margin-top:14px;padding-top:12px;
+  border-top:1px dashed var(--border)}
 .btn{font-family:inherit;font-size:13px;font-weight:700;padding:9px 16px;
   border-radius:9px;border:1px solid var(--blue-300);cursor:pointer;
   background:var(--accent);color:#fff}
+.btn.sm{font-size:12.5px;padding:7px 13px}
 .btn.ghost{background:var(--surface);color:var(--accent-strong)}
 .btn:hover{filter:brightness(1.05)}
-.pickmsg{font-size:12.5px;color:#067a5c;font-weight:600}
+/* 클릭 후 무슨 일이 일어났는지 알려주는 알림 */
+.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%) translateY(140%);
+  max-width:min(560px,92vw);z-index:60;background:var(--n900);color:#fff;
+  padding:16px 20px;border-radius:14px;font-size:13.5px;line-height:1.65;
+  box-shadow:0 12px 34px rgba(0,0,0,.28);cursor:pointer;
+  transition:transform .28s ease,opacity .28s ease;opacity:0}
+.toast.on{transform:translateX(-50%) translateY(0);opacity:1}
+.toast b{color:var(--blue-300)}
+.toast .t-note{display:block;margin-top:8px;padding-top:8px;
+  border-top:1px solid rgba(255,255,255,.18);color:var(--n400);font-size:12.5px}
 /* 한눈에 비교 */
 .table-wrap{max-width:1160px;margin:0 auto 32px;padding:0 28px;overflow-x:auto}
 .table-wrap table{width:100%;min-width:900px;border-collapse:separate;
@@ -172,46 +181,37 @@ function switchTab(name, el){
   el.classList.add('active');
 }
 
-function picked(){
-  return [...document.querySelectorAll('.pick-box:checked')];
+var LABEL = { approved: '관련 사업', rejected: '제외 목록', pending: '새로 찾은 공고' };
+
+// 정적 페이지라 서버에 저장할 수 없다. 대신 결정 하나를 작은 파일 하나로 만들어
+// GitHub 새 파일 화면을 '내용까지 채운 채로' 연다. 사용자는 커밋만 누르면 된다.
+function decide(key, title, decision){
+  var now = new Date();
+  var ts = now.toISOString().replace(/[-:T]/g,'').slice(0,14);   // yyyymmddhhmmss
+  var safe = key.replace(/[^A-Za-z0-9]/g,'-');
+  var name = 'config/decisions/' + ts + '-' + safe + '.yml';
+  var body = 'key: ' + key + '\\n'
+           + 'decision: ' + decision + '\\n'
+           + 'title: "' + title.replace(/"/g,"'") + '"\\n'
+           + 'decided_at: ' + now.toISOString().slice(0,10) + '\\n';
+  var url = REPO_NEW + '?filename=' + encodeURIComponent(name)
+          + '&value=' + encodeURIComponent(body);
+  window.open(url, '_blank', 'noopener');
+  toast(title, decision);
 }
 
-function updatePicks(){
-  var n = picked().length;
-  var bar = document.getElementById('pickbar');
-  if(!bar) return;
-  bar.classList.toggle('on', n > 0);
-  document.getElementById('pickcount').textContent = n;
+function toast(title, decision){
+  var el = document.getElementById('toast');
+  el.innerHTML = '<b>' + LABEL[decision] + '</b>(으)로 이동 요청했습니다.<br>'
+    + '새로 열린 GitHub 화면에서 초록색 <b>Commit changes</b> 버튼을 누르면 접수됩니다.<br>'
+    + '<span class="t-note">화면에는 <b>다음 자동 실행(매일 아침 8시)</b> 때 반영됩니다. '
+    + '지금 바로 보려면 Actions에서 수동 실행하세요.</span>';
+  el.classList.add('on');
+  clearTimeout(window._tt);
+  window._tt = setTimeout(function(){ el.classList.remove('on'); }, 12000);
 }
 
-// 정적 페이지라 승인 상태를 서버에 저장할 수 없다.
-// 대신 curated.yaml에 그대로 붙여넣을 수 있는 형태로 만들어 클립보드에 넣는다.
-function copyPicks(){
-  var lines = picked().map(function(b){
-    return '  - ' + b.value + '    # ' + b.dataset.title;
-  });
-  if(!lines.length) return;
-  var text = lines.join('\\n');
-  var done = function(){
-    var el = document.getElementById('pickmsg');
-    el.textContent = lines.length + '건 복사됨 — curated.yaml에 붙여넣으세요';
-    setTimeout(function(){ el.textContent = ''; }, 4000);
-  };
-  if(navigator.clipboard){
-    navigator.clipboard.writeText(text).then(done, function(){ fallback(text, done); });
-  } else {
-    fallback(text, done);
-  }
-}
-
-function fallback(text, done){
-  var ta = document.createElement('textarea');
-  ta.value = text;
-  document.body.appendChild(ta);
-  ta.select();
-  try { document.execCommand('copy'); done(); } catch(e){ prompt('복사하세요:', text); }
-  document.body.removeChild(ta);
-}
+function hideToast(){ document.getElementById('toast').classList.remove('on'); }
 """
 
 
@@ -238,13 +238,24 @@ def deadline_note(rec: dict, today: date) -> str:
 
 
 def card_html(rec: dict, idx: int, today: date,
-              selectable: bool = False) -> str:
+              selectable: str | bool = False) -> str:
     track = rec["track"]
     kicker, _ = TRACK_LABEL.get(track, ("", ""))
-    # 검토 전 공고에는 선택용 체크박스를 붙인다.
-    pick = (f'<label class="pick"><input type="checkbox" class="pick-box" '
-            f'value="{esc(rec["key"])}" data-title="{esc(rec["title"])}"'
-            f' onchange="updatePicks()"> 선택</label>') if selectable else ""
+    # 카드 상태에 따라 이동 버튼을 붙인다. 클릭하면 GitHub에 결정 파일을
+    # 내용까지 채운 채로 열어주고, 사용자는 커밋 버튼만 누르면 된다.
+    key, title = esc(rec["key"]), esc(rec["title"])
+    if selectable == "new":          # 새로 찾은 공고
+        pick = (f'<div class="acts">'
+                f'<button class="btn sm" onclick="decide(\'{key}\',\'{title}\',\'approved\')">'
+                f'관련 사업으로</button>'
+                f'<button class="btn sm ghost" onclick="decide(\'{key}\',\'{title}\',\'rejected\')">'
+                f'제외</button></div>')
+    elif selectable:                 # 이미 분류된 공고 → 되돌리기
+        pick = (f'<div class="acts">'
+                f'<button class="btn sm ghost" onclick="decide(\'{key}\',\'{title}\',\'pending\')">'
+                f'되돌리기</button></div>')
+    else:
+        pick = ""
     chips = [f'<span class="chip track">{esc(kicker)}</span>']
     if rec.get("region"):
         chips.append(f'<span class="chip">{esc(rec["region"])}</span>')
@@ -280,7 +291,7 @@ def card_html(rec: dict, idx: int, today: date,
 
 
 def grid(recs: list[dict], today: date, empty_msg: str,
-         selectable: bool = False) -> str:
+         selectable: str | bool = False) -> str:
     if not recs:
         return f'<div class="wrap"><div class="empty">{esc(empty_msg)}</div></div>'
     cards = "".join(card_html(r, i + 1, today, selectable)
@@ -308,7 +319,7 @@ def compare_table(recs: list[dict], today: date) -> str:
       </tr>""")
     return f"""
 <div class="section-head"><h2>한눈에 비교</h2>
-  <div class="section-sub">가로로 스크롤해서 전체 확인</div></div>
+  <div class="section-sub">{len(recs)}건 전체</div></div>
 <div class="table-wrap"><table>
   <thead><tr>
     <th>구분</th><th>사업명</th><th>소관기관</th>
@@ -325,6 +336,9 @@ def build(data: dict) -> str:
     expired = data.get("expired", [])
     archive_days = data.get("archive_after_days", 30)
     st = data["stats"]
+    # 모르는 소스가 생겨도 코드명이라도 나오게 한다(빈칸보다 낫다).
+    src_names = [SOURCE_LABEL.get(s, s) for s in data.get("sources", [])]
+    src_line = " + ".join(src_names) if src_names else "자동 수집"
 
     open_now = [r for r in cards + cands if r["status"] in ("접수중", "마감임박")]
     open_now.sort(key=lambda r: r.get("apply_end") or "9999")
@@ -350,7 +364,7 @@ def build(data: dict) -> str:
 </div></nav>
 
 <header class="hero">
-  <div class="eyebrow">● 자동 수집 · 기업마당 + 한국로봇산업진흥원</div>
+  <div class="eyebrow">● 자동 수집 · {esc(src_line)}</div>
   <h1>지금 접수 중인 사업<br><span class="hl">{len(open_now)}건</span>을 찾았어요</h1>
   <p>매일 자동으로 공고를 수집해 회사 조건에 맞는 것만 골라냅니다.
      직접 신청하는 사업과 고객사에 제안할 사업을 나눠서 보여줍니다.</p>
@@ -380,7 +394,8 @@ def build(data: dict) -> str:
 <div class="tab-panel active" id="tab-cards">
   <div class="section-head"><h2>관련 사업</h2>
     <div class="section-sub">검토를 마친 공고 · 마감된 것은 '마감' 탭으로 이동합니다</div></div>
-  {grid(cards, today, "아직 목록에 올린 공고가 없습니다. '새로 찾은 공고' 탭을 확인해주세요.")}
+  {grid(cards, today, "아직 목록에 올린 공고가 없습니다. '새로 찾은 공고' 탭을 확인해주세요.",
+        selectable=True)}
   {compare_table(cards, today)}
 </div>
 
@@ -398,17 +413,11 @@ def build(data: dict) -> str:
     사람이 확인하기 전까지는 '관련 사업'에 올리지 않습니다.<br>
     목록에 추가하려면 저장소의 <code>config/curated.yaml</code>에서
     <code>approved:</code> 아래에 카드 키를 넣고, 제외하려면
-    <code>rejected:</code> 아래에 넣으세요.<br>
-    아래 카드에서 <b>선택</b>을 체크하면 붙여넣을 내용을 자동으로 만들어 드립니다.
+    카드의 <b>관련 사업으로</b> 또는 <b>제외</b> 버튼을 누르면 GitHub 화면이 열립니다.
+    거기서 초록색 <b>Commit changes</b> 버튼만 누르면 접수됩니다.<br>
+    반영은 <b>다음 자동 실행(매일 아침 8시)</b> 때 이루어집니다.
   </div></div>
-  {grid(cands, today, "새로 발견된 공고가 없습니다.", selectable=True)}
-  <div class="pickbar" id="pickbar">
-    <span><b id="pickcount">0</b>건 선택됨</span>
-    <button class="btn" onclick="copyPicks()">YAML로 복사</button>
-    <a class="btn ghost" href="{EDIT_URL}" target="_blank" rel="noopener">
-      curated.yaml 편집하기</a>
-    <span class="pickmsg" id="pickmsg"></span>
-  </div>
+  {grid(cands, today, "새로 발견된 공고가 없습니다.", selectable="new")}
 </div>
 
 <div class="tab-panel" id="tab-expired">
@@ -423,10 +432,13 @@ def build(data: dict) -> str:
 </div>
 
 <footer>
-  <span>자동 수집 · 기업마당 · 한국로봇산업진흥원</span>
+  <span>자동 수집 · {esc(' · '.join(src_names))}</span>
   <span>마지막 갱신 {esc(datetime.now().strftime('%Y-%m-%d %H:%M'))}</span>
 </footer>
 
+<div class="toast" id="toast" onclick="hideToast()"></div>
+
+<script>var REPO_NEW = {json.dumps(REPO_NEW)};</script>
 <script>{JS}</script>
 </body></html>
 """

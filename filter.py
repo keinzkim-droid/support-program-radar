@@ -22,6 +22,7 @@ import yaml
 ROOT = Path(__file__).parent
 PROFILE = ROOT / "config" / "profile.yaml"
 CURATED = ROOT / "config" / "curated.yaml"
+DECISIONS = ROOT / "config" / "decisions"
 IN = ROOT / "data" / "announcements.json"
 OUT = ROOT / "data" / "classified.json"
 
@@ -48,6 +49,29 @@ def load_yaml(path: Path, default=None):
     if not path.exists():
         return default if default is not None else {}
     return yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+
+
+def load_decisions() -> dict[str, str]:
+    """웹페이지 버튼으로 만들어진 결정 파일을 읽는다.
+
+    결정 하나당 파일 하나이고 파일명이 타임스탬프로 시작한다.
+    같은 공고에 결정이 여러 개면 나중 것이 이긴다 — 되돌리기를 위해서다.
+
+    curated.yaml을 직접 고치지 않는 이유: 웹에서 기존 파일의 특정 위치에
+    내용을 끼워 넣게 만들 방법이 없다. 새 파일 생성은 내용을 미리 채워줄 수
+    있어서 클릭 두 번으로 끝난다.
+    """
+    out: dict[str, str] = {}
+    if not DECISIONS.exists():
+        return out
+    for f in sorted(DECISIONS.glob("*.yml")):          # 파일명 = 시간순
+        try:
+            d = yaml.safe_load(f.read_text(encoding="utf-8")) or {}
+        except yaml.YAMLError:
+            continue
+        if d.get("key") and d.get("decision") in ("approved", "rejected", "pending"):
+            out[d["key"]] = d["decision"]
+    return out
 
 
 def detect_region(item: dict) -> str | None:
@@ -134,6 +158,16 @@ def main() -> int:
     approved = set(curated.get("approved") or [])
     rejected = set(curated.get("rejected") or [])
 
+    # 웹페이지에서 누른 결정이 curated.yaml보다 우선한다(최신 의사이므로).
+    for key, decision in load_decisions().items():
+        approved.discard(key)
+        rejected.discard(key)
+        if decision == "approved":
+            approved.add(key)
+        elif decision == "rejected":
+            rejected.add(key)
+        # pending이면 양쪽 어디에도 넣지 않아 '새로 찾은 공고'로 돌아간다
+
     raw = json.loads(IN.read_text(encoding="utf-8"))
     today = date.today()
     soon = profile["scoring"]["deadline_soon_days"]
@@ -208,6 +242,9 @@ def main() -> int:
         "expired": expired,
         "candidates": candidates,
         "archive_after_days": archive_days,
+        # 화면 문구를 실제 수집 소스에서 만들기 위해 넘긴다.
+        # 하드코딩해두면 소스를 추가할 때마다 문구가 낡는다.
+        "sources": sorted({i["source"] for i in raw["items"]}),
         "stats": {
             "collected": raw["count"],
             "cards": len(cards),
