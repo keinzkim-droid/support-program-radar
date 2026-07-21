@@ -1,0 +1,4 @@
+# 사내용 페이지. 검색엔진 수집을 전면 차단한다.
+# HTML의 noindex 메타 태그와 이중으로 건다.
+User-agent: *
+Disallow: /

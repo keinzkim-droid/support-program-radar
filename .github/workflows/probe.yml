@@ -1,0 +1,19 @@
+name: 접근성 진단
+
+# 실행 환경(GitHub 미국 러너)에서 어떤 공고 소스에 접근 가능한지 확인한다.
+# 필요할 때만 수동으로 돌린다.
+on:
+  workflow_dispatch:
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - env:
+          PYTHONUTF8: "1"
+        run: python probe.py

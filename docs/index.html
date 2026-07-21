@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="ko"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- 사내용 페이지. 검색엔진 색인에서 제외한다.
+     구글·네이버 모두 이 지시를 따른다. 다만 링크를 아는 사람은 볼 수 있으므로
+     비공개가 아니라 '검색에 안 잡히는 공개'임에 유의. -->
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>지원사업 레이더 · 자동 수집</title>
+<style>
+:root{
+  --blue-50:#eef5ff;--blue-100:#d6e9ff;--blue-300:#7ab4ff;--blue-500:#3396ff;
+  --blue-600:#1c7ef2;--blue-700:#1259bd;--green-500:#00c9a7;--amber-500:#ffb020;
+  --n0:#fff;--n25:#fbfbfc;--n50:#f5f6f8;--n100:#eceef1;--n200:#dfe1e6;
+  --n400:#a8adb8;--n600:#6e7280;--n800:#33353d;--n900:#171719;
+  --bg:var(--n25);--surface:var(--n0);--text:var(--n900);--text2:var(--n600);
+  --border:var(--n100);--accent:var(--blue-500);--accent-strong:var(--blue-700);
+  --soft:var(--blue-50);
+}
+*{box-sizing:border-box}html,body{margin:0;padding:0}
+body{background:var(--bg);color:var(--text);
+  font-family:'Pretendard Variable',-apple-system,'Malgun Gothic','Noto Sans KR',sans-serif;
+  -webkit-font-smoothing:antialiased}
+.nav{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.92);
+  backdrop-filter:blur(10px);border-bottom:1px solid var(--border)}
+.nav-inner{max-width:1160px;margin:0 auto;padding:16px 28px;display:flex;
+  align-items:center;justify-content:space-between}
+.brand{display:flex;align-items:center;gap:9px;font-weight:800;font-size:17px;
+  letter-spacing:-.01em}
+.brand .dot{width:9px;height:9px;border-radius:2px;background:var(--accent);
+  transform:rotate(45deg)}
+.nav-tag{font-size:12.5px;color:var(--text2);background:var(--n50);padding:6px 12px;
+  border-radius:100px;border:1px solid var(--border)}
+.hero{max-width:1160px;margin:0 auto;padding:56px 28px 32px}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:600;
+  color:var(--accent-strong);background:var(--soft);padding:7px 13px;border-radius:100px;
+  margin-bottom:20px}
+h1{font-weight:800;font-size:clamp(28px,4.4vw,42px);line-height:1.28;
+  letter-spacing:-.02em;margin:0 0 16px}
+h1 .hl{color:var(--accent)}
+.hero p{font-size:15.5px;line-height:1.7;color:var(--text2);max-width:640px;margin:0 0 30px}
+.stat-row{display:flex;border-top:1px solid var(--border);padding-top:22px}
+.stat{flex:1;padding-right:22px}
+.stat+.stat{border-left:1px solid var(--border);padding-left:22px}
+.stat-num{font-weight:800;font-size:26px;color:var(--accent-strong)}
+.stat-label{font-size:12.5px;color:var(--text2);margin-top:4px}
+.tabs{max-width:1160px;margin:0 auto;padding:0 28px;display:flex;gap:4px;
+  border-bottom:1px solid var(--border)}
+.tab-btn{display:flex;align-items:center;gap:8px;padding:14px 18px;font-weight:700;
+  font-size:15px;color:var(--text2);background:none;border:none;
+  border-bottom:2px solid transparent;cursor:pointer;font-family:inherit}
+.tab-btn.active{color:var(--accent-strong);border-bottom-color:var(--accent)}
+.tab-btn .count{font-size:11px;font-weight:700;background:var(--n100);color:var(--text2);
+  padding:2px 7px;border-radius:100px}
+.tab-btn.active .count{background:var(--soft);color:var(--accent-strong)}
+.live-dot{width:6px;height:6px;border-radius:50%;background:#ff4d4f;
+  box-shadow:0 0 0 3px rgba(255,77,79,.15)}
+.tab-panel{display:none}.tab-panel.active{display:block}
+.section-head{max-width:1160px;margin:40px auto 18px;padding:0 28px;display:flex;
+  align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px}
+.section-head h2{font-size:20px;font-weight:800;margin:0}
+.section-sub{font-size:13px;color:var(--text2)}
+.grid{max-width:1160px;margin:0 auto;padding:0 28px 8px;display:grid;
+  grid-template-columns:repeat(2,1fr);gap:16px}
+@media(max-width:840px){.grid{grid-template-columns:1fr}}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:16px;
+  padding:20px;transition:box-shadow .18s,border-color .18s,transform .18s}
+.card:hover{border-color:var(--blue-300);box-shadow:0 8px 24px rgba(51,150,255,.12);
+  transform:translateY(-2px)}
+.card-head{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px}
+.badge{flex:none;width:42px;height:42px;border-radius:12px;display:flex;
+  align-items:center;justify-content:center;font-weight:800;font-size:14px;
+  background:var(--soft);color:var(--accent-strong)}
+.badge.b{background:#fff4e0;color:#a5670a}
+.card-head-text{flex:1;min-width:0}
+.card-kicker{font-size:11.5px;font-weight:700;color:var(--text2);margin-bottom:3px}
+.card-title{font-size:15.5px;font-weight:700;line-height:1.4}
+.card-title a{color:inherit;text-decoration:none}
+.card-title a:hover{color:var(--accent-strong);text-decoration:underline}
+.pill{flex:none;font-size:11px;font-weight:700;padding:5px 10px;border-radius:100px;
+  white-space:nowrap}
+.pill.open{color:#067a5c;background:#e3f9f2}
+.pill.soon{color:#a5670a;background:#fff4e0}
+.pill.always{color:#1259bd;background:#eef5ff}
+.pill.closed{color:#6e7280;background:#f5f6f8}
+.chip-row{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.chip{font-size:11.5px;font-weight:600;padding:5px 9px;border-radius:8px;
+  background:var(--n50);color:var(--n800);border:1px solid var(--border)}
+.chip.track{background:var(--soft);color:var(--accent-strong);border-color:transparent}
+.chip.cond{background:#fff4e0;color:#a5670a;border-color:#f3d9a8}
+.cond-table{border-top:1px solid var(--border);padding-top:12px}
+.cond-row{display:flex;justify-content:space-between;gap:12px;font-size:12.5px;padding:4px 0}
+.cond-k{color:var(--text2);flex:none;width:72px}
+.cond-v{color:var(--text);font-weight:600;text-align:right}
+.why{font-size:11.5px;color:var(--text2);margin-top:10px;line-height:1.6}
+.empty{max-width:1160px;margin:0 auto;padding:40px 28px;color:var(--text2);
+  font-size:14px;text-align:center;background:var(--surface);border:1px dashed var(--border);
+  border-radius:16px}
+.notice{max-width:1160px;margin:0 auto 20px;padding:16px 20px;background:var(--soft);
+  border:1px solid var(--blue-300);border-radius:12px;font-size:13px;line-height:1.7;
+  color:var(--n800)}
+.notice code{background:rgba(255,255,255,.7);padding:2px 6px;border-radius:4px;
+  font-size:12px}
+.wrap{max-width:1160px;margin:0 auto;padding:0 28px}
+footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
+  border-top:1px solid var(--border);display:flex;justify-content:space-between;
+  flex-wrap:wrap;gap:10px;font-size:12px;color:var(--n400);margin-top:40px}
+@media(max-width:600px){
+  .hero,.section-head,.grid,.wrap,footer,.tabs{padding-left:18px;padding-right:18px}
+  .stat-row{flex-wrap:wrap;gap:14px}
+  .stat{flex:1 1 40%;padding-right:0}
+  .stat+.stat{border-left:none;padding-left:0}
+}
+</style>
+</head><body>
+
+<nav class="nav"><div class="nav-inner">
+  <div class="brand"><span class="dot"></span>지원사업 레이더</div>
+  <div class="nav-tag">2026-07-21 자동 갱신</div>
+</div></nav>
+
+<header class="hero">
+  <div class="eyebrow">● 자동 수집 · 기업마당 + 한국로봇산업진흥원</div>
+  <h1>지금 지원 가능한 사업<br><span class="hl">15건</span>을 찾았어요</h1>
+  <p>매일 자동으로 공고를 수집해 회사 조건에 맞는 것만 골라냅니다.
+     직접 신청하는 사업과 고객사에 제안할 사업을 나눠서 보여줍니다.</p>
+  <div class="stat-row">
+    <div class="stat"><div class="stat-num">61</div>
+      <div class="stat-label">오늘 수집한 공고</div></div>
+    <div class="stat"><div class="stat-num">11</div>
+      <div class="stat-label">직접 신청 대상</div></div>
+    <div class="stat"><div class="stat-num">10</div>
+      <div class="stat-label">고객사 제안용</div></div>
+    <div class="stat"><div class="stat-num">0</div>
+      <div class="stat-label">미승인 신규 후보</div></div>
+  </div>
+</header>
+
+<div class="tabs">
+  <button class="tab-btn active" onclick="switchTab('cards', this)">
+    승인된 사업 <span class="count">21</span></button>
+  <button class="tab-btn" onclick="switchTab('open', this)">
+    지금 지원 가능 <span class="count">15</span></button>
+  <button class="tab-btn" onclick="switchTab('new', this)">
+    <span class="live-dot"></span>신규 후보 <span class="count">0</span></button>
+</div>
+
+<div class="tab-panel active" id="tab-cards">
+  <div class="section-head"><h2>승인된 사업</h2>
+    <div class="section-sub">검토를 거쳐 정식 등록된 공고</div></div>
+  <div class="grid">
+  <div class="card">
+    <div class="card-head">
+      <div class="badge ">01</div>
+      <div class="card-head-text">
+        <div class="card-kicker">한국로봇산업진흥원</div>
+        <div class="card-title"><a href="https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&amp;ibusCode=IBUS_000000000001256" target="_blank"
+          rel="noopener">2026년 제조로봇 실증사업 작업장 안전인증 및 안전컨설팅 지원사업(2차) 모집 공고</a></div>
+      </div>
+      <span class="pill soon">마감임박</span>
+    </div>
+    <div class="chip-row"><span class="chip track">직접 신청</span><span class="chip">로봇</span></div>
+    <div class="cond-table">
+      <div class="cond-row"><span class="cond-k">접수기간</span>
+        <span class="cond-v">2026-07-27 (D-6)</span></div>
+      <div class="cond-row"><span class="cond-k">수행기관</span>
+        <span class="cond-v">한국로봇산업진흥원</span></div>
+      <div class="cond-row"><span class="cond-k">출처</span>
+        <span class="cond-v">kiria</span></div>
+    </div>
+    <div class="why">판정 근거 · 핵심 키워드: 로봇, 제조로봇, 실증 · 관련 키워드: 인증</div>
+  </div>
+  <div class="card">
+    <div class="card-head">
+      <div class="badge ">02</div>
+      <div class="card-head-text">
+        <div class="card-kicker">경기도</div>
+        <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123179" target="_blank"
+          rel="noopener">[경기] 2026년 2차 제조로봇 도입ㆍ실증 및 고도화지원 사업 공고(제조로봇 도입지원)</a></div>
+      </div>
+      <span class="pill soon">마감임박</span>
+    </div>
+    <div class="chip-row"><span class="chip track">직접 신청</span><span class="chip">경기</span><span class="chip">기술</span></div>
+    <div class="cond-table">
+      <div class="cond-row"><span class="cond-k">접수기간</span>
+        <span class="cond-v">2026-07-22 (D-1)</span></div>
+      <div class="cond-row"><span class="cond-k">수행기관</span>
+        <span class="cond-v">경기테크노파크</span></div>
+      <div class="cond-row"><span class="cond-k">출처</span>
+        <span class="cond-v">bizinfo</span></div>
+    </div>
+    <div class="why">판정 근거 · 핵심 키워드: 로봇, 제조로봇, 실증</div>
+  </div>
+  <div class="card">
+    <div class="card-head">
+      <div class="badge ">03</div>
+      <div class="card-head-text">
+        <div class="card-kicker">한국로봇산업진흥원</div>
+        <div class="card-title"><a href="https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&amp;ibusCode=IBUS_000000000001258" target="_blank"
+          rel="noopener">2026년 「서비스로봇 실증사업」 지원과제 2차 모집 공고</a></div>
+      </div>
+      <span class="pill soon">마감임박</span>
+    </div>
+    <div class="chip-row"><span class="chip track">직접 신청</span><span class="chip">로봇</span></div>
+    <div class="cond-table">
+      <div class="cond-row"><span class="cond-k">접수기간</span>
+        <span class="cond-v">2026-08-04 (D-14)</span></div>
+      <div class="cond-row"><span class="cond-k">수행기관</span>
+        <span class="cond-v">한국로봇산업진흥원</span></div>
+      <div class="cond-row"><span class="cond-k">출처</span>
+        <span class="cond-v">kiria</span></div>
+    </div>
+    <div class="why">판정 근거 · 핵심 키워드: 로봇, 서비스로봇, 실증</div>
+  </div>
+  <div class="card">
+    <div class="card-head">
+      <div class="badge ">04</div>
+      <div class="card-head-text">
+        <div class="card-kicker">한국로봇산업진흥원</div>
+        <div class="card-title"><a href="https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&amp;ibusCode=IBUS_000000000001259" target="_blank"
+          rel="noopener">2026년 「규제혁신 로봇 실증사업」지원과제 2차 모집 공고</a></div>
+      </div>
+      <span class="pill soon">마감임박</span>
+    </div>
+    <div class="chip-row"><span class="chip track">직접 신청</span><span class="chip">로봇</span></div>
+    <div class="cond-table">
+      <div class="cond-row"><span class="cond-k">접수기간</span>
+        <span class="cond-v">2026-08-04 (D-14)</span></div>
+      <div class="cond-row"><span class="cond-k">수행기관</span>
+        <span class="cond-v">한국로봇산업진흥원</span></div>
+      <div class="cond-row"><span class="cond-k">출처</span>
+        <span class="cond-v">kiria</span></div>
+    </div>
+    <div class="why">판정 근거 · 핵심 키워드: 로봇, 실증</div>
+  </div>
+  <div class="card">
+    <div class="card-head">
+      <div class="badge ">05</div>
+      <div class="card-head-text">
+        <div class="card-kicker">한국로봇산업진흥원</div>
+        <div class="card-title"><a href="https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&amp;ibusCode=IBUS_000000000001252" target="_blank"
+          rel="noopener">2026년 실외이동로봇 기술지원사업 참여기업 모집 공고</a></div>
+      </div>
+      <span class="pill open">접수중</span>
+    </div>
+    <div class="chip-row"><span class="chip track">직접 신청</span><span class="chip">로봇</span></div>
+    <div class="cond-table">
+      <div class="cond-row"><span class="cond-k">접수기간</span>
+        <span class="cond-v">2026-11-30 (D-132)</span></div>
+      <div class="cond-row"><span class="cond-k">수행기관</span>
+        <span class="cond-v">한국로봇산업진흥원</span></div>
+      <div class="cond-row"><span class="cond-k">출처</span>
+        <span class="cond-v">kiria</span></div>
+    </div>
+    <div class="why">판정 근거 · 핵심 키워드: 로봇, 실외이동로봇</div>
+  </div>
+  <div class="card">
+    <div class="card-head">
+      <div class="badge ">06</div>
+      <div class="card-head-text">
+        <div class="card-kicker">산업통상부</div>
+        <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000122589" target="_blank"
+          rel="noopener">2026년 제조산업 공정작업용 로봇 엔드이펙터 실증 기반 구축 사업 지원 기업 모집 공고</a></div>
+      </div>
+      <span class="pill open">접수중</span>
+    </div>
+    <div class="chip-row"><span class="chip track">직접 신청</span><span class="chip">기술</span></div>
+    <div class="cond-table">
+      <div class="cond-row"><span class="cond-k">접수기간</span>
+        <span class="cond-v">2026-12-18 (D-150)</span></div>
+      <div class="cond-row"><span class="cond-k">수행기관</span>
+        <span class="cond-v">한국산업기술시험원</span></div>
+      <div class="cond-row"><span class="cond-k">출처</span>
+        <span class="cond-v">bizinfo</span></div>
+    </div>
+    <div class="why">판정 근거 · 핵심 키워드: 로봇, 실증</div>
+  </div>
+  <div class="card">
+    <div class="card-head">
+      <div class="badge ">07</div>
+      <div class="card-head-text">
+        <div class="card-kicker">한국로봇산업진흥원</div>
+        <div class="card-title"><a href="https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&amp;ibusCode=IBUS_000000000001251" target="_blank"
+          rel="noopener">「2026년 모빌리티 혁신제품 시험평가 지원」지원 대상 기업 상시모집 공고</a></div>
+      </div>
+      <span class="pill open">접수중</span>
+    </div>
+    <div class="chip-row"><span class="chip track">직접 신청</span><span class="chip">로봇</span></div>
+    <div class="cond-table">
+      <div class="cond-row"><span class="cond-k">접수기간</span>
+        <span class="cond-v">2026-11-15 (D-117)</span></div>
+      <div class="cond-row"><span class="cond-k">수행기관</span>
+        <span class="cond-v">한국로봇산업진흥원</span></div>
+      <div class="cond-row"><span class="cond-k">출처</span>
+        <span class="cond-v">kiria</span></div>
+    </div>
+    <div class="why">판정 근거 · 핵심 키워드: 로봇 · 관련 키워드: 모빌리티, 시험평가</div>
+  </div>
+  <div class="card">
+    <div class="card-head">
+      <div class="badge b">08</div>
+      <div class="card-head-text">
+        <div class="card-kicker">전남광주통합특별시</div>
+        <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124187" target="_blank"
+          rel="noopener">[전남광주] 2026년 탄소중립 제조혁신 고도화 2단계 사업 참여기업 추가모집 공고</a></div>
+      </div>
+      <span class="pill soon">마감임박</span>
+    </div>
+    <div class="chip-row"><span class="chip track">고객사 제안</span><span class="chip">전남광주</span><span class="chip">경영</span></div>
+    <div class="cond-table">
+      <div class="cond-row"><span class="cond-k">접수기간</span>
+        <span class="cond-v">2026-07-23 (D-2)</span></div>
+      <div class="cond-row"><span class="cond-k">수행기관</span>
+        <span class="cond-v">전남테크노파크</span></div>
+      <div class="cond-row"><span class="cond-k">출처</span>
+        <span class="cond-v">bizinfo</span></div>
+    </div>
+    <div class="why">판정 근거 · 고객사향 키워드: 제조혁신</div>
+  </div>
+  <div class="card">
+    <div class="card-head">
+      <div class="badge b">09</div>
+      <div class="card-head-text">
+        <div class="card-kicker">경상북도</div>
+        <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123543" target="_blank"
+          rel="noopener">[경북] 포항시 2026년 경북형(포항) 스마트공장(기초단계) 구축지원사업 추가모집 공고</a></div>
+      </div>
+      <span class="pill soon">마감임박</span>
+    </div>
+    <div class="chip-row"><span class="chip track">고객사 제안</span><span class="chip">경북</span><span class="chip">경영</span></div>
+    <div class="cond-table">
+      <div class="cond-row"><span class="cond-k">접수기간</span>
+        <span class="cond-v">2026-07-24 (D-3)</span></div>
+      <div class="cond-row"><span class="cond-k">수행기관</span>
+        <span class="cond-v">포항테크노파크</span></div>
+      <div class="cond-row"><span class="cond-k">출처</span>
+        <span class="cond-v">bizinfo</span></div>
+    </div>
+    <div class="why">판정 근거 · 고객사향 키워드: 스마트공장</div>
+  </div>
+  <div class="card">
+    <div class="card-head">
+      <div class="badge b">10</div>
+      <div class="card-head-text">
+        <div class="card-kicker">충청북도</div>
+        <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124138" target="_blank"
+          rel="noopener">2026년 충북청주 강소특구 X 심텍 AI 제조혁신 오픈이노베이션 지원사업 모집 공고</a></div>
+      </div>
+      <span class="pill soon">마감임박</span>
+    </div>
+    <div class="chip-row"><span class="chip track">고객사 제안</span><span class="chip">충청북도</span><span class="chip">기술</span></div>
+    <div class="cond-table">
+      <div class="cond-row"><span class="cond-k">접수기간</span>
+        <span class="cond-v">2026-07-30 (D-9)</span></div>
+      <div class="cond-row"><span class="cond-k">수행기관</span>
+        <span class="cond-v">충북대학교 산학협력단</span></div>
+      <div class="cond-row"><span class="cond-k">출처</span>
+        <span class="cond-v">bizinfo</span></div>
+    </div>
+    <div class="why">판정 근거 · 고객사향 키워드: 제조혁신</div>
+  </div>
+  <div class="card">
+    <div class="card-head">
+      <div class="badge ">11</div>
+      <div class="card-head-text">
+        <div class="card-kicker">산업통상부</div>
+        <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123881" target="_blank"
+          rel="noopener">2026년 4차 제조공정 로봇도입 엔지니어링 컨설팅 모집 공고</a></div>
+      </div>
+      <span class="pill soon">마감임박</span>
+    </div>
+    <div class="chip-row"><span class="chip track">직접 신청</span><span class="chip">기술</span></div>
+    <div class="cond-table">
+      <div class="cond-row"><span class="cond-k">접수기간</span>
+        <span class="cond-v">2026-07-31 (D-10)</span></div>
+      <div class="cond-row"><span class="cond-k">수행기관</span>
+        <span class="cond-v">한국생산기술연구원</span></div>
+      <div class="cond-row"><span class="cond-k">출처</span>
+        <span class="cond-v">bizinfo</span></div>
+    </div>
+    <div class="why">판정 근거 · 핵심 키워드: 로봇</div>
+  </div>
+  <div class="card">
+    <div class="card-head">
+      <div class="badge ">12</div>
+      <div class="card-head-text">
+        <div class="card-kicker">한국로봇산업진흥원</div>
+        <div class="card-title"><a href="https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&amp;ibusCode=IBUS_000000000001260" target="_blank"
+          rel="noopener">2026년도「신뢰성기반활용지원사업」 수시형 2차 참여기업 모집</a></div>
+      </div>
+      <span class="pill soon">마감임박</span>
+    </div>
+    <div class="chip-row"><span class="chip track">직접 신청</span><span class="chip">로봇</span></div>
+    <div class="cond-table">
+      <div class="cond-row"><span class="cond-k">접수기간</span>
+        <span class="cond-v">2026-08-03 (D-13)</span></div>
+      <div class="cond-row"><span class="cond-k">수행기관</span>
+        <span class="cond-v">한국로봇산업진흥원</span></div>
+      <div class="cond-row"><span class="cond-k">출처</span>
+        <span class="cond-v">kiria</span></div>
+    </div>
+    <div class="why">판정 근거 · 핵심 키워드: 로봇</div>
+  </div>
+  <div class="card">
+    <div class="card-head">
+      <div class="badge ">13</div>
+      <div class="card-head-text">
+        <div class="card-kicker">인천광역시</div>
+        <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124444" target="_blank"
+          rel="noopener">[인천] 2026년 로봇 액셀러레이팅 프로그램 참여기업 모집 공고(로봇산업 혁신성장 지원사업)</a></div>
+      </div>
+      <span class="pill soon">마감임박</span>
+    </div>
+    <div class="chip-row"><span class="chip track">직접 신청</span><span class="chip">인천</span><span class="chip">기술</span><span class="chip cond">조건부 · 조건부 지역</span></div>
+    <div class="cond-table">
+      <div class="cond-row"><span class="cond-k">접수기간</span>
+        <span class="cond-v">2026-08-04 (D-14)</span></div>
+      <div class="cond-row"><span class="cond-k">수행기관</span>
+        <span class="cond-v">인천테크노파크</span></div>
+      <div class="cond-row"><span class="cond-k">출처</span>
+        <span class="cond-v">bizinfo</span></div>
+    </div>
+    <div class="why">판정 근거 · 핵심 키워드: 로봇 · 조건부: 조건부 지역</div>
+  </div>
+  <div class="card">
+    <div class="card-head">
+      <div class="badge ">14</div>
+      <div class="card-head-text">
+        <div class="card-kicker">한국로봇산업진흥원</div>
+        <div class="card-title"><a href="https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&amp;ibusCode=IBUS_000000000001261" target="_blank"
+          rel="noopener">2026년도 「한-체코 첨단로봇산업 협력센터 구축사업」 지원과제 모집 공고</a></div>
+      </div>
+      <span class="pill open">접수중</span>
+    </div>
+    <div class="chip-row"><span class="chip track">직접 신청</span><span class="chip">로봇</span></div>
+    <div class="cond-table">
+      <div class="cond-row"><span class="cond-k">접수기간</span>
+        <span class="cond-v">2026-08-19 (D-29)</span></div>
+      <div class="cond-row"><span class="cond-k">수행기관</span>
+        <span class="cond-v">한국로봇산업진흥원</span></div>
+      <div class="cond-row"><span class="cond-k">출처</span>
+        <span class="cond-v">kiria</span></div>
+    </div>
+    <div class="why">판정 근거 · 핵심 키워드: 로봇</div>
+  </div>
+  <div class="card">
+    <div class="card-head">
+      <div class="badge b">15</div>
+      <div class="card-head-text">
+        <div class="card-kicker">충청북도</div>
+        <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123766" target="_blank"
+          rel="noopener">[충북] 2026년 스마트공장 구축 자부담금 지원사업 수혜기업 모집 공고</a></div>
+      </div>
+      <span class="pill open">접수중</span>
+    </div>
+    <div class="chip-row"><span class="chip track">고객사 제안</span><span class="chip">충북</span><span class="chip">경영</span></div>
+    <div class="cond-table">
+      <div class="cond-row"><span class="cond-k">접수기간</span>
+        <span class="cond-v">2026-08-31 (D-41)</span></div>
+      <div class="cond-row"><span class="cond-k">수행기관</span>
+        <span class="cond-v">충북테크노파크</span></div>
+      <div class="cond-row"><span class="cond-k">출처</span>
+        <span class="cond-v">bizinfo</span></div>
+    </div>
+    <div class="why">판정 근거 · 고객사향 키워드: 스마트공장</div>
+  </div>
+  <div class="card">
+    <div class="card-head">
+      <div class="badge b">16</div>
+      <div class="card-head-text">
+        <div class="card-kicker">중소벤처기업부</div>
+        <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124248" target="_blank"
+          rel="noopener">[전북] 무주군 2026년 3차 지역특화형(농식품기업) 스마트공장 구축지원사업 수시모집 공고</a></div>
+      </div>
+      <span class="pill always">상시</span>
+    </div>
+    <div class="chip-row"><span class="chip track">고객사 제안</span><span class="chip">전북</span><span class="chip">경영</span></div>
+    <div class="cond-table">
+      <div class="cond-row"><span class="cond-k">접수기간</span>
+        <span class="cond-v">모집 완료시</span></div>
+      <div class="cond-row"><span class="cond-k">수행기관</span>
+        <span class="cond-v">전북테크노파크</span></div>
+      <div class="cond-row"><span class="cond-k">출처</span>
+        <span class="cond-v">bizinfo</span></div>
+    </div>
+    <div class="why">판정 근거 · 고객사향 키워드: 스마트공장</div>
+  </div>
+  <div class="card">
+    <div class="card-head">
+      <div class="badge b">17</div>
+      <div class="card-head-text">
+        <div class="card-kicker">중소벤처기업부</div>
+        <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000121614" target="_blank"
+          rel="noopener">[광주] 2026년 스마트공장 지원계획 공고</a></div>
+      </div>
+      <span class="pill always">상시</span>
+    </div>
+    <div class="chip-row"><span class="chip track">고객사 제안</span><span class="chip">광주</span><span class="chip">기술</span></div>
+    <div class="cond-table">
+      <div class="cond-row"><span class="cond-k">접수기간</span>
+        <span class="cond-v">예산 소진시까지</span></div>
+      <div class="cond-row"><span class="cond-k">수행기관</span>
+        <span class="cond-v">광주테크노파크</span></div>
+      <div class="cond-row"><span class="cond-k">출처</span>
+        <span class="cond-v">bizinfo</span></div>
+    </div>
+    <div class="why">판정 근거 · 고객사향 키워드: 스마트공장</div>
+  </div>
+  <div class="card">
+    <div class="card-head">
+      <div class="badge b">18</div>
+      <div class="card-head-text">
+        <div class="card-kicker">중소벤처기업부</div>
+        <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000118006" target="_blank"
+          rel="noopener">2026년 스마트공장 수준확인 사업 공고</a></div>
+      </div>
+      <span class="pill always">상시</span>
+    </div>
+    <div class="chip-row"><span class="chip track">고객사 제안</span><span class="chip">경영</span></div>
+    <div class="cond-table">
+      <div class="cond-row"><span class="cond-k">접수기간</span>
+        <span class="cond-v">예산 소진시까지</span></div>
+      <div class="cond-row"><span class="cond-k">수행기관</span>
+        <span class="cond-v">중소기업기술정보진흥원</span></div>
+      <div class="cond-row"><span class="cond-k">출처</span>
+        <span class="cond-v">bizinfo</span></div>
+    </div>
+    <div class="why">판정 근거 · 고객사향 키워드: 스마트공장</div>
+  </div>
+  <div class="card">
+    <div class="card-head">
+      <div class="badge b">19</div>
+      <div class="card-head-text">
+        <div class="card-kicker">중소벤처기업부</div>
+        <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000116004" target="_blank"
+          rel="noopener">스마트 공장 수준 확인(2026년 스마트 제조혁신 지원사업 통합 공고)</a></div>
+      </div>
+      <span class="pill always">상시</span>
+    </div>
+    <div class="chip-row"><span class="chip track">고객사 제안</span><span class="chip">기술</span></div>
+    <div class="cond-table">
+      <div class="cond-row"><span class="cond-k">접수기간</span>
+        <span class="cond-v">상시 접수</span></div>
+      <div class="cond-row"><span class="cond-k">수행기관</span>
+        <span class="cond-v">스마트제조혁신추진단</span></div>
+      <div class="cond-row"><span class="cond-k">출처</span>
+        <span class="cond-v">bizinfo</span></div>
+    </div>
+    <div class="why">판정 근거 · 고객사향 키워드: 제조혁신</div>
+  </div>
+  <div class="card">
+    <div class="card-head">
+      <div class="badge b">20</div>
+      <div class="card-head-text">
+        <div class="card-kicker">중소벤처기업부</div>
+        <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000116008" target="_blank"
+          rel="noopener">제조 DX멘토단 활용지원(2026년 스마트 제조혁신 지원사업 통합 공고)</a></div>
+      </div>
+      <span class="pill always">상시</span>
+    </div>
+    <div class="chip-row"><span class="chip track">고객사 제안</span><span class="chip">기술</span></div>
+    <div class="cond-table">
+      <div class="cond-row"><span class="cond-k">접수기간</span>
+        <span class="cond-v">세부사업별 상이</span></div>
+      <div class="cond-row"><span class="cond-k">수행기관</span>
+        <span class="cond-v">스마트제조혁신추진단</span></div>
+      <div class="cond-row"><span class="cond-k">출처</span>
+        <span class="cond-v">bizinfo</span></div>
+    </div>
+    <div class="why">판정 근거 · 고객사향 키워드: 제조혁신</div>
+  </div>
+  <div class="card">
+    <div class="card-head">
+      <div class="badge b">21</div>
+      <div class="card-head-text">
+        <div class="card-kicker">중소벤처기업부</div>
+        <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000115994" target="_blank"
+          rel="noopener">2026년 스마트 제조혁신 지원사업 통합 공고</a></div>
+      </div>
+      <span class="pill always">상시</span>
+    </div>
+    <div class="chip-row"><span class="chip track">고객사 제안</span><span class="chip">기술</span></div>
+    <div class="cond-table">
+      <div class="cond-row"><span class="cond-k">접수기간</span>
+        <span class="cond-v">세부사업별 상이</span></div>
+      <div class="cond-row"><span class="cond-k">수행기관</span>
+        <span class="cond-v">중소기업기술정보진흥원</span></div>
+      <div class="cond-row"><span class="cond-k">출처</span>
+        <span class="cond-v">bizinfo</span></div>
+    </div>
+    <div class="why">판정 근거 · 고객사향 키워드: 제조혁신</div>
+  </div></div>
+</div>
+
+<div class="tab-panel" id="tab-open">
+  <div class="section-head"><h2>지금 지원 가능</h2>
+    <div class="section-sub">마감이 가까운 순서</div></div>
+  <div class="grid">
+  <div class="card">
+    <div class="card-head">
+      <div class="badge ">01</div>
+      <div class="card-head-text">
+        <div class="card-kicker">경기도</div>
+        <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123179" target="_blank"
+          rel="noopener">[경기] 2026년 2차 제조로봇 도입ㆍ실증 및 고도화지원 사업 공고(제조로봇 도입지원)</a></div>
+      </div>
+      <span class="pill soon">마감임박</span>
+    </div>
+    <div class="chip-row"><span class="chip track">직접 신청</span><span class="chip">경기</span><span class="chip">기술</span></div>
+    <div class="cond-table">
+      <div class="cond-row"><span class="cond-k">접수기간</span>
+        <span class="cond-v">2026-07-22 (D-1)</span></div>
+      <div class="cond-row"><span class="cond-k">수행기관</span>
+        <span class="cond-v">경기테크노파크</span></div>
+      <div class="cond-row"><span class="cond-k">출처</span>
+        <span class="cond-v">bizinfo</span></div>
+    </div>
+    <div class="why">판정 근거 · 핵심 키워드: 로봇, 제조로봇, 실증</div>
+  </div>
+  <div class="card">
+    <div class="card-head">
+      <div class="badge b">02</div>
+      <div class="card-head-text">
+        <div class="card-kicker">전남광주통합특별시</div>
+        <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124187" target="_blank"
+          rel="noopener">[전남광주] 2026년 탄소중립 제조혁신 고도화 2단계 사업 참여기업 추가모집 공고</a></div>
+      </div>
+      <span class="pill soon">마감임박</span>
+    </div>
+    <div class="chip-row"><span class="chip track">고객사 제안</span><span class="chip">전남광주</span><span class="chip">경영</span></div>
+    <div class="cond-table">
+      <div class="cond-row"><span class="cond-k">접수기간</span>
+        <span class="cond-v">2026-07-23 (D-2)</span></div>
+      <div class="cond-row"><span class="cond-k">수행기관</span>
+        <span class="cond-v">전남테크노파크</span></div>
+      <div class="cond-row"><span class="cond-k">출처</span>
+        <span class="cond-v">bizinfo</span></div>
+    </div>
+    <div class="why">판정 근거 · 고객사향 키워드: 제조혁신</div>
+  </div>
+  <div class="card">
+    <div class="card-head">
+      <div class="badge b">03</div>
+      <div class="card-head-text">
+        <div class="card-kicker">경상북도</div>
+        <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123543" target="_blank"
+          rel="noopener">[경북] 포항시 2026년 경북형(포항) 스마트공장(기초단계) 구축지원사업 추가모집 공고</a></div>
+      </div>
+      <span class="pill soon">마감임박</span>
+    </div>
+    <div class="chip-row"><span class="chip track">고객사 제안</span><span class="chip">경북</span><span class="chip">경영</span></div>
+    <div class="cond-table">
+      <div class="cond-row"><span class="cond-k">접수기간</span>
+        <span class="cond-v">2026-07-24 (D-3)</span></div>
+      <div class="cond-row"><span class="cond-k">수행기관</span>
+        <span class="cond-v">포항테크노파크</span></div>
+      <div class="cond-row"><span class="cond-k">출처</span>
+        <span class="cond-v">bizinfo</span></div>
+    </div>
+    <div class="why">판정 근거 · 고객사향 키워드: 스마트공장</div>
+  </div>
+  <div class="card">
+    <div class="card-head">
+      <div class="badge ">04</div>
+      <div class="card-head-text">
+        <div class="card-kicker">한국로봇산업진흥원</div>
+        <div class="card-title"><a href="https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&amp;ibusCode=IBUS_000000000001256" target="_blank"
+          rel="noopener">2026년 제조로봇 실증사업 작업장 안전인증 및 안전컨설팅 지원사업(2차) 모집 공고</a></div>
+      </div>
+      <span class="pill soon">마감임박</span>
+    </div>
+    <div class="chip-row"><span class="chip track">직접 신청</span><span class="chip">로봇</span></div>
+    <div class="cond-table">
+      <div class="cond-row"><span class="cond-k">접수기간</span>
+        <span class="cond-v">2026-07-27 (D-6)</span></div>
+      <div class="cond-row"><span class="cond-k">수행기관</span>
+        <span class="cond-v">한국로봇산업진흥원</span></div>
+      <div class="cond-row"><span class="cond-k">출처</span>
+        <span class="cond-v">kiria</span></div>
+    </div>
+    <div class="why">판정 근거 · 핵심 키워드: 로봇, 제조로봇, 실증 · 관련 키워드: 인증</div>
+  </div>
+  <div class="card">
+    <div class="card-head">
+      <div class="badge b">05</div>
+      <div class="card-head-text">
+        <div class="card-kicker">충청북도</div>
+        <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124138" target="_blank"
+          rel="noopener">2026년 충북청주 강소특구 X 심텍 AI 제조혁신 오픈이노베이션 지원사업 모집 공고</a></div>
+      </div>
+      <span class="pill soon">마감임박</span>
+    </div>
+    <div class="chip-row"><span class="chip track">고객사 제안</span><span class="chip">충청북도</span><span class="chip">기술</span></div>
+    <div class="cond-table">
+      <div class="cond-row"><span class="cond-k">접수기간</span>
+        <span class="cond-v">2026-07-30 (D-9)</span></div>
+      <div class="cond-row"><span class="cond-k">수행기관</span>
+        <span class="cond-v">충북대학교 산학협력단</span></div>
+      <div class="cond-row"><span class="cond-k">출처</span>
+        <span class="cond-v">bizinfo</span></div>
+    </div>
+    <div class="why">판정 근거 · 고객사향 키워드: 제조혁신</div>
+  </div>
+  <div class="card">
+    <div class="card-head">
+      <div class="badge ">06</div>
+      <div class="card-head-text">
+        <div class="card-kicker">산업통상부</div>
+        <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123881" target="_blank"
+          rel="noopener">2026년 4차 제조공정 로봇도입 엔지니어링 컨설팅 모집 공고</a></div>
+      </div>
+      <span class="pill soon">마감임박</span>
+    </div>
+    <div class="chip-row"><span class="chip track">직접 신청</span><span class="chip">기술</span></div>
+    <div class="cond-table">
+      <div class="cond-row"><span class="cond-k">접수기간</span>
+        <span class="cond-v">2026-07-31 (D-10)</span></div>
+      <div class="cond-row"><span class="cond-k">수행기관</span>
+        <span class="cond-v">한국생산기술연구원</span></div>
+      <div class="cond-row"><span class="cond-k">출처</span>
+        <span class="cond-v">bizinfo</span></div>
+    </div>
+    <div class="why">판정 근거 · 핵심 키워드: 로봇</div>
+  </div>
+  <div class="card">
+    <div class="card-head">
+      <div class="badge ">07</div>
+      <div class="card-head-text">
+        <div class="card-kicker">한국로봇산업진흥원</div>
+        <div class="card-title"><a href="https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&amp;ibusCode=IBUS_000000000001260" target="_blank"
+          rel="noopener">2026년도「신뢰성기반활용지원사업」 수시형 2차 참여기업 모집</a></div>
+      </div>
+      <span class="pill soon">마감임박</span>
+    </div>
+    <div class="chip-row"><span class="chip track">직접 신청</span><span class="chip">로봇</span></div>
+    <div class="cond-table">
+      <div class="cond-row"><span class="cond-k">접수기간</span>
+        <span class="cond-v">2026-08-03 (D-13)</span></div>
+      <div class="cond-row"><span class="cond-k">수행기관</span>
+        <span class="cond-v">한국로봇산업진흥원</span></div>
+      <div class="cond-row"><span class="cond-k">출처</span>
+        <span class="cond-v">kiria</span></div>
+    </div>
+    <div class="why">판정 근거 · 핵심 키워드: 로봇</div>
+  </div>
+  <div class="card">
+    <div class="card-head">
+      <div class="badge ">08</div>
+      <div class="card-head-text">
+        <div class="card-kicker">한국로봇산업진흥원</div>
+        <div class="card-title"><a href="https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&amp;ibusCode=IBUS_000000000001258" target="_blank"
+          rel="noopener">2026년 「서비스로봇 실증사업」 지원과제 2차 모집 공고</a></div>
+      </div>
+      <span class="pill soon">마감임박</span>
+    </div>
+    <div class="chip-row"><span class="chip track">직접 신청</span><span class="chip">로봇</span></div>
+    <div class="cond-table">
+      <div class="cond-row"><span class="cond-k">접수기간</span>
+        <span class="cond-v">2026-08-04 (D-14)</span></div>
+      <div class="cond-row"><span class="cond-k">수행기관</span>
+        <span class="cond-v">한국로봇산업진흥원</span></div>
+      <div class="cond-row"><span class="cond-k">출처</span>
+        <span class="cond-v">kiria</span></div>
+    </div>
+    <div class="why">판정 근거 · 핵심 키워드: 로봇, 서비스로봇, 실증</div>
+  </div>
+  <div class="card">
+    <div class="card-head">
+      <div class="badge ">09</div>
+      <div class="card-head-text">
+        <div class="card-kicker">한국로봇산업진흥원</div>
+        <div class="card-title"><a href="https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&amp;ibusCode=IBUS_000000000001259" target="_blank"
+          rel="noopener">2026년 「규제혁신 로봇 실증사업」지원과제 2차 모집 공고</a></div>
+      </div>
+      <span class="pill soon">마감임박</span>
+    </div>
+    <div class="chip-row"><span class="chip track">직접 신청</span><span class="chip">로봇</span></div>
+    <div class="cond-table">
+      <div class="cond-row"><span class="cond-k">접수기간</span>
+        <span class="cond-v">2026-08-04 (D-14)</span></div>
+      <div class="cond-row"><span class="cond-k">수행기관</span>
+        <span class="cond-v">한국로봇산업진흥원</span></div>
+      <div class="cond-row"><span class="cond-k">출처</span>
+        <span class="cond-v">kiria</span></div>
+    </div>
+    <div class="why">판정 근거 · 핵심 키워드: 로봇, 실증</div>
+  </div>
+  <div class="card">
+    <div class="card-head">
+      <div class="badge ">10</div>
+      <div class="card-head-text">
+        <div class="card-kicker">인천광역시</div>
+        <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124444" target="_blank"
+          rel="noopener">[인천] 2026년 로봇 액셀러레이팅 프로그램 참여기업 모집 공고(로봇산업 혁신성장 지원사업)</a></div>
+      </div>
+      <span class="pill soon">마감임박</span>
+    </div>
+    <div class="chip-row"><span class="chip track">직접 신청</span><span class="chip">인천</span><span class="chip">기술</span><span class="chip cond">조건부 · 조건부 지역</span></div>
+    <div class="cond-table">
+      <div class="cond-row"><span class="cond-k">접수기간</span>
+        <span class="cond-v">2026-08-04 (D-14)</span></div>
+      <div class="cond-row"><span class="cond-k">수행기관</span>
+        <span class="cond-v">인천테크노파크</span></div>
+      <div class="cond-row"><span class="cond-k">출처</span>
+        <span class="cond-v">bizinfo</span></div>
+    </div>
+    <div class="why">판정 근거 · 핵심 키워드: 로봇 · 조건부: 조건부 지역</div>
+  </div>
+  <div class="card">
+    <div class="card-head">
+      <div class="badge ">11</div>
+      <div class="card-head-text">
+        <div class="card-kicker">한국로봇산업진흥원</div>
+        <div class="card-title"><a href="https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&amp;ibusCode=IBUS_000000000001261" target="_blank"
+          rel="noopener">2026년도 「한-체코 첨단로봇산업 협력센터 구축사업」 지원과제 모집 공고</a></div>
+      </div>
+      <span class="pill open">접수중</span>
+    </div>
+    <div class="chip-row"><span class="chip track">직접 신청</span><span class="chip">로봇</span></div>
+    <div class="cond-table">
+      <div class="cond-row"><span class="cond-k">접수기간</span>
+        <span class="cond-v">2026-08-19 (D-29)</span></div>
+      <div class="cond-row"><span class="cond-k">수행기관</span>
+        <span class="cond-v">한국로봇산업진흥원</span></div>
+      <div class="cond-row"><span class="cond-k">출처</span>
+        <span class="cond-v">kiria</span></div>
+    </div>
+    <div class="why">판정 근거 · 핵심 키워드: 로봇</div>
+  </div>
+  <div class="card">
+    <div class="card-head">
+      <div class="badge b">12</div>
+      <div class="card-head-text">
+        <div class="card-kicker">충청북도</div>
+        <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123766" target="_blank"
+          rel="noopener">[충북] 2026년 스마트공장 구축 자부담금 지원사업 수혜기업 모집 공고</a></div>
+      </div>
+      <span class="pill open">접수중</span>
+    </div>
+    <div class="chip-row"><span class="chip track">고객사 제안</span><span class="chip">충북</span><span class="chip">경영</span></div>
+    <div class="cond-table">
+      <div class="cond-row"><span class="cond-k">접수기간</span>
+        <span class="cond-v">2026-08-31 (D-41)</span></div>
+      <div class="cond-row"><span class="cond-k">수행기관</span>
+        <span class="cond-v">충북테크노파크</span></div>
+      <div class="cond-row"><span class="cond-k">출처</span>
+        <span class="cond-v">bizinfo</span></div>
+    </div>
+    <div class="why">판정 근거 · 고객사향 키워드: 스마트공장</div>
+  </div>
+  <div class="card">
+    <div class="card-head">
+      <div class="badge ">13</div>
+      <div class="card-head-text">
+        <div class="card-kicker">한국로봇산업진흥원</div>
+        <div class="card-title"><a href="https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&amp;ibusCode=IBUS_000000000001251" target="_blank"
+          rel="noopener">「2026년 모빌리티 혁신제품 시험평가 지원」지원 대상 기업 상시모집 공고</a></div>
+      </div>
+      <span class="pill open">접수중</span>
+    </div>
+    <div class="chip-row"><span class="chip track">직접 신청</span><span class="chip">로봇</span></div>
+    <div class="cond-table">
+      <div class="cond-row"><span class="cond-k">접수기간</span>
+        <span class="cond-v">2026-11-15 (D-117)</span></div>
+      <div class="cond-row"><span class="cond-k">수행기관</span>
+        <span class="cond-v">한국로봇산업진흥원</span></div>
+      <div class="cond-row"><span class="cond-k">출처</span>
+        <span class="cond-v">kiria</span></div>
+    </div>
+    <div class="why">판정 근거 · 핵심 키워드: 로봇 · 관련 키워드: 모빌리티, 시험평가</div>
+  </div>
+  <div class="card">
+    <div class="card-head">
+      <div class="badge ">14</div>
+      <div class="card-head-text">
+        <div class="card-kicker">한국로봇산업진흥원</div>
+        <div class="card-title"><a href="https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&amp;ibusCode=IBUS_000000000001252" target="_blank"
+          rel="noopener">2026년 실외이동로봇 기술지원사업 참여기업 모집 공고</a></div>
+      </div>
+      <span class="pill open">접수중</span>
+    </div>
+    <div class="chip-row"><span class="chip track">직접 신청</span><span class="chip">로봇</span></div>
+    <div class="cond-table">
+      <div class="cond-row"><span class="cond-k">접수기간</span>
+        <span class="cond-v">2026-11-30 (D-132)</span></div>
+      <div class="cond-row"><span class="cond-k">수행기관</span>
+        <span class="cond-v">한국로봇산업진흥원</span></div>
+      <div class="cond-row"><span class="cond-k">출처</span>
+        <span class="cond-v">kiria</span></div>
+    </div>
+    <div class="why">판정 근거 · 핵심 키워드: 로봇, 실외이동로봇</div>
+  </div>
+  <div class="card">
+    <div class="card-head">
+      <div class="badge ">15</div>
+      <div class="card-head-text">
+        <div class="card-kicker">산업통상부</div>
+        <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000122589" target="_blank"
+          rel="noopener">2026년 제조산업 공정작업용 로봇 엔드이펙터 실증 기반 구축 사업 지원 기업 모집 공고</a></div>
+      </div>
+      <span class="pill open">접수중</span>
+    </div>
+    <div class="chip-row"><span class="chip track">직접 신청</span><span class="chip">기술</span></div>
+    <div class="cond-table">
+      <div class="cond-row"><span class="cond-k">접수기간</span>
+        <span class="cond-v">2026-12-18 (D-150)</span></div>
+      <div class="cond-row"><span class="cond-k">수행기관</span>
+        <span class="cond-v">한국산업기술시험원</span></div>
+      <div class="cond-row"><span class="cond-k">출처</span>
+        <span class="cond-v">bizinfo</span></div>
+    </div>
+    <div class="why">판정 근거 · 핵심 키워드: 로봇, 실증</div>
+  </div></div>
+</div>
+
+<div class="tab-panel" id="tab-new">
+  <div class="section-head"><h2>신규 후보</h2>
+    <div class="section-sub">자동 발견 · 사람 확인 필요</div></div>
+  <div class="wrap"><div class="notice">
+    <b>아직 승인되지 않은 공고입니다.</b> 자동 판정이라 관련 없는 건이 섞일 수 있습니다.<br>
+    승인하려면 저장소의 <code>config/curated.yaml</code> 파일에서
+    <code>approved:</code> 아래에 카드의 키를 추가하세요.
+    다시 보고 싶지 않으면 <code>rejected:</code> 아래에 넣으면 됩니다.
+  </div></div>
+  <div class="wrap"><div class="empty">새로 발견된 공고가 없습니다.</div></div>
+</div>
+
+<footer>
+  <span>자동 수집 · 기업마당 · 한국로봇산업진흥원</span>
+  <span>마지막 갱신 2026-07-21 14:53</span>
+</footer>
+
+<script>
+function switchTab(name, el){
+  document.querySelectorAll('.tab-panel').forEach(p=>p.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
+  document.getElementById('tab-'+name).classList.add('active');
+  el.classList.add('active');
+}
+</script>
+</body></html>
