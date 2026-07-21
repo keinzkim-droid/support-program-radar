@@ -235,7 +235,7 @@ def build(data: dict) -> str:
 
 <header class="hero">
   <div class="eyebrow">● 자동 수집 · 기업마당 + 한국로봇산업진흥원</div>
-  <h1>지금 지원 가능한 사업<br><span class="hl">{len(open_now)}건</span>을 찾았어요</h1>
+  <h1>지금 접수 중인 사업<br><span class="hl">{len(open_now)}건</span>을 찾았어요</h1>
   <p>매일 자동으로 공고를 수집해 회사 조건에 맞는 것만 골라냅니다.
      직접 신청하는 사업과 고객사에 제안할 사업을 나눠서 보여줍니다.</p>
   <div class="stat-row">
@@ -246,39 +246,40 @@ def build(data: dict) -> str:
     <div class="stat"><div class="stat-num">{track_b}</div>
       <div class="stat-label">고객사 제안용</div></div>
     <div class="stat"><div class="stat-num">{len(cands)}</div>
-      <div class="stat-label">미승인 신규 후보</div></div>
+      <div class="stat-label">새로 찾은 공고</div></div>
   </div>
 </header>
 
 <div class="tabs">
   <button class="tab-btn active" onclick="switchTab('cards', this)">
-    승인된 사업 <span class="count">{len(cards)}</span></button>
+    관련 사업 <span class="count">{len(cards)}</span></button>
   <button class="tab-btn" onclick="switchTab('open', this)">
-    지금 지원 가능 <span class="count">{len(open_now)}</span></button>
+    접수 중 <span class="count">{len(open_now)}</span></button>
   <button class="tab-btn" onclick="switchTab('new', this)">
-    <span class="live-dot"></span>신규 후보 <span class="count">{len(cands)}</span></button>
+    <span class="live-dot"></span>새로 찾은 공고 <span class="count">{len(cands)}</span></button>
 </div>
 
 <div class="tab-panel active" id="tab-cards">
-  <div class="section-head"><h2>승인된 사업</h2>
-    <div class="section-sub">검토를 거쳐 정식 등록된 공고</div></div>
-  {grid(cards, today, "아직 승인된 사업이 없습니다. '신규 후보' 탭에서 승인해주세요.")}
+  <div class="section-head"><h2>관련 사업</h2>
+    <div class="section-sub">검토를 마치고 목록에 올린 공고</div></div>
+  {grid(cards, today, "아직 목록에 올린 공고가 없습니다. '새로 찾은 공고' 탭을 확인해주세요.")}
 </div>
 
 <div class="tab-panel" id="tab-open">
-  <div class="section-head"><h2>지금 지원 가능</h2>
+  <div class="section-head"><h2>접수 중</h2>
     <div class="section-sub">마감이 가까운 순서</div></div>
   {grid(open_now, today, "현재 접수 중인 공고가 없습니다.")}
 </div>
 
 <div class="tab-panel" id="tab-new">
-  <div class="section-head"><h2>신규 후보</h2>
-    <div class="section-sub">자동 발견 · 사람 확인 필요</div></div>
+  <div class="section-head"><h2>새로 찾은 공고</h2>
+    <div class="section-sub">자동 발견 · 아직 검토 전</div></div>
   <div class="wrap"><div class="notice">
-    <b>아직 승인되지 않은 공고입니다.</b> 자동 판정이라 관련 없는 건이 섞일 수 있습니다.<br>
-    승인하려면 저장소의 <code>config/curated.yaml</code> 파일에서
-    <code>approved:</code> 아래에 카드의 키를 추가하세요.
-    다시 보고 싶지 않으면 <code>rejected:</code> 아래에 넣으면 됩니다.
+    <b>기계가 자동으로 찾아낸 공고입니다.</b> 관련 없는 건이 섞여 있을 수 있어,
+    사람이 확인하기 전까지는 '관련 사업'에 올리지 않습니다.<br>
+    목록에 추가하려면 저장소의 <code>config/curated.yaml</code>에서
+    <code>approved:</code> 아래에 카드 키를 넣고, 제외하려면
+    <code>rejected:</code> 아래에 넣으세요.
   </div></div>
   {grid(cands, today, "새로 발견된 공고가 없습니다.")}
 </div>
