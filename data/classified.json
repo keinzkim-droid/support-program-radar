@@ -655,6 +655,29 @@
     },
     {
       "source": "bizinfo",
+      "source_id": "PBLN_000000000124598",
+      "title": "2026년 산업 AI 도입ㆍ실증 지원사업 참여기업 모집 재공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124598",
+      "apply_raw": "2026-07-21 ~ 2026-07-30",
+      "apply_start": "2026-07-21",
+      "apply_end": "2026-07-30",
+      "agency": "산업통상부",
+      "exec_agency": "충북과학기술혁신원",
+      "category": "기술",
+      "posted_at": "2026-07-22",
+      "status": "마감임박",
+      "collected_at": "2026-07-22",
+      "key": "bizinfo:PBLN_000000000124598",
+      "track": "A",
+      "score": 6,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: 실증, AI"
+      ]
+    },
+    {
+      "source": "bizinfo",
       "source_id": "PBLN_000000000122268",
       "title": "2026년 2차 메카노바이오활성소재 혁신의료기기 실증 기반구축 생물학적 시험평가인증 지원사업 공고(산업혁신기반구축사업)",
       "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000122268",
@@ -679,6 +702,30 @@
     },
     {
       "source": "bizinfo",
+      "source_id": "PBLN_000000000124590",
+      "title": "2026년 4차 정형ㆍ재활 의료기기 사업화 인증 및 실증 지원 사업 수혜 기업 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124590",
+      "apply_raw": "2026-07-22 ~ 2026-07-29",
+      "apply_start": "2026-07-22",
+      "apply_end": "2026-07-29",
+      "agency": "산업통상부",
+      "exec_agency": "대구경북첨단의료산업진흥재단",
+      "category": "수출",
+      "posted_at": "2026-07-22",
+      "status": "마감임박",
+      "collected_at": "2026-07-22",
+      "key": "bizinfo:PBLN_000000000124590",
+      "track": "A",
+      "score": 4,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: 실증",
+        "관련 키워드: 인증"
+      ]
+    },
+    {
+      "source": "bizinfo",
       "source_id": "PBLN_000000000124469",
       "title": "2026년 하반기 경기도 AI 혁신클러스터 AI 멤버십 기업 모집 공고",
       "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124469",
@@ -698,6 +745,52 @@
       "conditional": null,
       "reasons": [
         "핵심 키워드: AI"
+      ]
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000124620",
+      "title": "[울산] 2026년 AW베트남 전시회 참가 지원사업 참여기업 모집 공고(지역특화 제조데이터 활성화 사업)",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124620",
+      "apply_raw": "2026-07-21 ~ 2026-07-31",
+      "apply_start": "2026-07-21",
+      "apply_end": "2026-07-31",
+      "agency": "울산광역시",
+      "exec_agency": "울산테크노파크",
+      "category": "수출",
+      "posted_at": "2026-07-22",
+      "status": "마감임박",
+      "collected_at": "2026-07-22",
+      "key": "bizinfo:PBLN_000000000124620",
+      "track": "B",
+      "score": 3,
+      "region": "울산",
+      "conditional": null,
+      "reasons": [
+        "고객사향 키워드: 제조데이터"
+      ]
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000124575",
+      "title": "[인천] 2026년 스마트공장 DX견학공장 기업 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124575",
+      "apply_raw": "2026-07-20 ~ 2026-07-31",
+      "apply_start": "2026-07-20",
+      "apply_end": "2026-07-31",
+      "agency": "인천광역시",
+      "exec_agency": "인천테크노파크",
+      "category": "기술",
+      "posted_at": "2026-07-22",
+      "status": "마감임박",
+      "collected_at": "2026-07-22",
+      "key": "bizinfo:PBLN_000000000124575",
+      "track": "B",
+      "score": 3,
+      "region": "인천",
+      "conditional": null,
+      "reasons": [
+        "고객사향 키워드: 스마트공장"
       ]
     },
     {
@@ -802,11 +895,11 @@
     "snip"
   ],
   "stats": {
-    "collected": 388,
+    "collected": 399,
     "cards": 27,
     "expired": 0,
-    "candidates": 7,
+    "candidates": 11,
     "excluded": 0,
-    "dropped": 354
+    "dropped": 361
   }
 }
