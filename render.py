@@ -35,6 +35,7 @@ SOURCE_LABEL = {
 TRACK_LABEL = {
     "A": ("직접 신청", "우리가 신청자"),
     "B": ("고객사 제안", "고객사가 신청자 · 우리는 공급기업"),
+    "C": ("사무실·공간", "임대료·입주 지원"),
 }
 
 CSS = """
@@ -411,6 +412,9 @@ def build(data: dict, build_id: str = "") -> str:
     # 모르는 소스가 생겨도 코드명이라도 나오게 한다(빈칸보다 낫다).
     src_names = [SOURCE_LABEL.get(s, s) for s in data.get("sources", [])]
     src_line = " + ".join(src_names) if src_names else "자동 수집"
+    # 사무실·공간은 성격이 달라 별도 탭으로 뺀다(로봇 사업과 함께 두면 묻힌다).
+    office = [r for r in cards if r["track"] == "C"]
+    cards = [r for r in cards if r["track"] != "C"]
 
     open_now = [r for r in cards + cands if r["status"] in ("접수중", "마감임박")]
     open_now.sort(key=lambda r: r.get("apply_end") or "9999")
@@ -457,6 +461,8 @@ def build(data: dict, build_id: str = "") -> str:
     접수 중 <span class="count">{len(open_now)}</span></button>
   <button class="tab-btn" onclick="switchTab('cards', this)">
     관련 사업 <span class="count">{len(cards)}</span></button>
+  <button class="tab-btn" onclick="switchTab('office', this)">
+    사무실·공간 <span class="count">{len(office)}</span></button>
   <button class="tab-btn" onclick="switchTab('new', this)">
     <span class="live-dot"></span>새로 찾은 공고 <span class="count">{len(cands)}</span></button>
   <button class="tab-btn" onclick="switchTab('expired', this)">
@@ -477,6 +483,13 @@ def build(data: dict, build_id: str = "") -> str:
   <div class="section-head"><h2>접수 중</h2>
     <div class="section-sub">마감이 가까운 순서</div></div>
   {grid(open_now, today, "현재 접수 중인 공고가 없습니다.")}
+</div>
+
+<div class="tab-panel" id="tab-office">
+  <div class="section-head"><h2>사무실·공간</h2>
+    <div class="section-sub">임대료 지원 · 입주기업 모집 (서울 · 경기)</div></div>
+  {grid(office, today, "해당 공고가 없습니다.", selectable=True)}
+  {compare_table(office, today)}
 </div>
 
 <div class="tab-panel" id="tab-new">

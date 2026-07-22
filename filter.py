@@ -33,6 +33,8 @@ REGION_TAG = re.compile(r"^\s*\[([가-힣]+)\]")
 REGION_ALIAS = {
     "경기": "경기", "경기도": "경기", "성남": "성남", "판교": "판교",
     "인천": "인천", "인천광역시": "인천",
+    # '[서울]' 표기와 소관기관 '서울특별시'가 같은 지역으로 잡히게 한다
+    "서울": "서울", "서울특별시": "서울",
 }
 
 
@@ -118,6 +120,23 @@ def judge(item: dict, profile: dict) -> Verdict:
         reasons.append(f"고객사향 키워드: {', '.join(b_hit)}")
         return Verdict("B", score, detect_region(item), None, reasons)
 
+    # 3) 사무실·공간(트랙 C). 로봇 사업과 성격이 달라 따로 본다.
+    #    지역 기준도 달라서 서울까지 넓게 잡는다(이전을 검토 중이므로).
+    c_hit = hits(text, kw.get("track_c_strong") or [])
+    if c_hit and not a_decisive:
+        region = detect_region(item)
+        conditional = None
+        if region:
+            if region in reg["conditional"]:
+                conditional = reg["conditional"][region]
+            elif region not in (reg.get("office_eligible") or reg["eligible"]):
+                return Verdict(None, 0, region, None,
+                               [f"사무실 사업이나 지역 불일치: {region}"])
+        reasons.append(f"사무실·공간 키워드: {', '.join(c_hit)}")
+        if conditional:
+            reasons.append(f"조건부: {conditional}")
+        return Verdict("C", len(c_hit) * sc["strong"], region, conditional, reasons)
+
     score = len(a_strong) * sc["strong"] + len(a_medium) * sc["medium"]
     if a_strong:
         reasons.append(f"핵심 키워드: {', '.join(a_strong)}")
@@ -126,7 +145,7 @@ def judge(item: dict, profile: dict) -> Verdict:
     if score < sc["min_score"]:
         return Verdict(None, score, None, None, reasons + ["점수 미달"])
 
-    # 3) 트랙 A는 지역 자격을 따진다
+    # 4) 트랙 A는 지역 자격을 따진다
     region = detect_region(item)
     conditional = None
     if region:
@@ -203,8 +222,14 @@ def main() -> int:
         # 그러지 않으면 키워드를 손볼 때마다 확정한 목록이 흔들린다.
         if key in approved and v.track is None:
             text = f"{item['title']} {item.get('category','')}"
-            is_b = bool(hits(text, profile["keywords"]["track_b_strong"]))
-            v = Verdict("B" if is_b else "A", v.score, v.region, v.conditional,
+            kw = profile["keywords"]
+            if hits(text, kw.get("track_c_strong") or []):
+                track = "C"
+            elif hits(text, kw["track_b_strong"]):
+                track = "B"
+            else:
+                track = "A"
+            v = Verdict(track, v.score, v.region, v.conditional,
                         (v.reasons or []) + ["사람이 확정"])
 
         if v.track is None:

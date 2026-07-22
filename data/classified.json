@@ -582,6 +582,29 @@
       "reasons": [
         "핵심 키워드: AI"
       ]
+    },
+    {
+      "source": "nipa",
+      "source_id": "16861",
+      "title": "싱가포르IT지원센터 2026년 하반기 입주기업 모집 공고",
+      "url": "https://www.nipa.kr/home/2-2/16861",
+      "apply_raw": "D-30",
+      "apply_start": null,
+      "apply_end": "2026-08-21",
+      "agency": "정보통신산업진흥원",
+      "exec_agency": "정보통신산업진흥원",
+      "category": "ICT",
+      "posted_at": "2026-07-21",
+      "status": "접수중",
+      "collected_at": "2026-07-22",
+      "key": "nipa:16861",
+      "track": "C",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업"
+      ]
     }
   ],
   "excluded": [],
@@ -592,11 +615,11 @@
     "nipa"
   ],
   "stats": {
-    "collected": 79,
+    "collected": 81,
     "cards": 22,
     "expired": 0,
-    "candidates": 3,
+    "candidates": 4,
     "excluded": 0,
-    "dropped": 54
+    "dropped": 55
   }
 }

@@ -1,7 +1,7 @@
 {
-  "collected_at": "2026-07-22T01:44:10",
+  "collected_at": "2026-07-22T11:56:59",
   "failures": [],
-  "count": 79,
+  "count": 81,
   "items": [
     {
       "source": "bizinfo",
@@ -885,6 +885,36 @@
       "exec_agency": "인공지능산업융합사업단",
       "category": "경영",
       "posted_at": "2026-01-13",
+      "status": "",
+      "collected_at": "2026-07-22"
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000117365",
+      "title": "[전남] 강진군 2026년 소상공인 창업 임대료 지원사업 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000117365",
+      "apply_raw": "2026-01-07 ~ 2026-12-18",
+      "apply_start": "2026-01-07",
+      "apply_end": "2026-12-18",
+      "agency": "전라남도",
+      "exec_agency": "기초자치단체",
+      "category": "창업",
+      "posted_at": "2026-01-13",
+      "status": "",
+      "collected_at": "2026-07-22"
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000124405",
+      "title": "[전남광주] 2026년 1인창조ㆍ중장년기술 창업보육센터 지원사업 사업화(창업형) 지원사업 모집 재공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124405",
+      "apply_raw": "2026-07-13 ~ 2026-07-27",
+      "apply_start": "2026-07-13",
+      "apply_end": "2026-07-27",
+      "agency": "전남광주통합특별시",
+      "exec_agency": "전남정보문화산업진흥원",
+      "category": "창업",
+      "posted_at": "2026-07-16",
       "status": "",
       "collected_at": "2026-07-22"
     },
