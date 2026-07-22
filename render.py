@@ -22,7 +22,7 @@ OUT = ROOT / "docs" / "index.html"
 REPO_NEW = "https://github.com/keinzkim-droid/support-program-radar/new/main"
 
 # 자동 실행 시각 안내. .github/workflows/daily.yml의 cron과 함께 고칠 것.
-SCHEDULE_TEXT = "매일 오전 10시·오후 1시"
+SCHEDULE_TEXT = "매일 오전 10시 · 오후 1시경"
 
 # 소스 코드명 → 화면에 쓸 기관명.
 # 새 소스를 collect.py에 추가하면 여기에도 한 줄 넣으면 된다.

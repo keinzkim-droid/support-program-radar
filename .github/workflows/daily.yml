@@ -3,8 +3,10 @@ name: 공고 수집
 on:
   schedule:
     # GitHub cron은 UTC 기준이다. KST = UTC+9.
-    - cron: "0 1 * * *"    # 10:00 KST
-    - cron: "0 4 * * *"    # 13:00 KST
+    # 정각은 전 세계 요청이 몰려 예약 실행이 밀리거나 건너뛰어진다.
+    # 몇 분 어긋낸 시각을 쓰면 대기열이 훨씬 짧다.
+    - cron: "17 1 * * *"   # 10:17 KST
+    - cron: "17 4 * * *"   # 13:17 KST
   workflow_dispatch:        # 수동 실행 버튼
 
 # 결과(data/, docs/)를 저장소에 되커밋해야 하므로 쓰기 권한이 필요하다.
