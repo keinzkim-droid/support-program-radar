@@ -31,6 +31,7 @@ SOURCE_LABEL = {
     "kiria": "한국로봇산업진흥원",
     "nipa": "정보통신산업진흥원",
     "snip": "성남산업진흥원",
+    "kstartup": "K-Startup",
 }
 
 TRACK_LABEL = {

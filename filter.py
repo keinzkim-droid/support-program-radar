@@ -37,6 +37,14 @@ REGION_ALIAS = {
     "서울": "서울", "서울특별시": "서울",
 }
 
+# 비수도권 지역명. 제목에 이 말이 있으면 우리 지역이 아니라고 본다.
+# K-Startup 창업보육센터 공고는 '[지역]' 표기 없이 기관명만 있어(충남대·세종…)
+# 제목 본문까지 봐야 지방 건을 걸러낼 수 있다.
+NON_METRO = ["부산", "대구", "광주", "대전", "울산", "세종",
+             "강원", "춘천", "원주", "충북", "청주", "충남", "천안", "아산",
+             "전북", "전주", "익산", "전남", "여수", "순천",
+             "경북", "포항", "구미", "경남", "창원", "김해", "제주"]
+
 
 @dataclass
 class Verdict:
@@ -89,6 +97,17 @@ def detect_region(item: dict) -> str | None:
     # 광역지자체가 소관이면 지역 사업으로 본다
     if agency.endswith(("광역시", "특별자치도", "도", "특별시")):
         return agency
+
+    # 여기까지 못 찾으면 제목 본문에서 지역명을 찾는다.
+    # 수도권 표기가 있으면 그것을 우선하고(예: '서울창업허브'),
+    # 없이 지방 지역명만 있으면 지방 사업으로 본다(예: '충남대학교 창업보육센터').
+    title = item["title"]
+    for name, key in REGION_ALIAS.items():
+        if name in title:
+            return key
+    for name in NON_METRO:
+        if name in title:
+            return name
     return None
 
 

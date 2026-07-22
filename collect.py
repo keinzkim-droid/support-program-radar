@@ -409,11 +409,90 @@ def collect_snip() -> list[Announcement]:
     return out
 
 
+KSTARTUP_URL = "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do"
+KSTARTUP_MAX_PAGES = 8       # 페이지당 15건. 진행 중 공고 전체를 훑는다.
+KSTARTUP_SN = re.compile(r"go_view\((\d+)\)")
+
+
+def _kstartup_page(page: int) -> list[Announcement]:
+    soup = BeautifulSoup(fetch(KSTARTUP_URL, {"page": str(page)}), PARSER)
+
+    out: list[Announcement] = []
+    for li in soup.find_all("li", class_="notice"):
+        a = li.find("a", href=KSTARTUP_SN)
+        title_el = li.find("p", class_="tit")
+        if not a or not title_el:
+            continue
+        m = KSTARTUP_SN.search(a["href"])
+        if not m:
+            continue
+
+        # <span class="list">에 '기관 / 등록일자 / 시작일자 / 마감일자'가 담긴다.
+        info: dict[str, str] = {}
+        agency = ""
+        for sp in li.find_all("span", class_="list"):
+            t = " ".join(sp.get_text(" ", strip=True).split())
+            hit = re.match(r"(등록일자|시작일자|마감일자)\s*(\d{4}-\d{2}-\d{2})", t)
+            if hit:
+                info[hit.group(1)] = hit.group(2)
+            elif t and t != title_el.get_text(strip=True) and not agency:
+                agency = t
+
+        # 분류 배지는 <span class="flag type03">. BeautifulSoup이 class를 문자열로
+        # 넘기는 경우가 있어 리스트/문자열을 모두 받아 처리한다.
+        def _is_flag(cls) -> bool:
+            if not cls:
+                return False
+            names = cls if isinstance(cls, list) else str(cls).split()
+            return "flag" in names and any(n.startswith("type") for n in names)
+
+        flag = li.find("span", class_=_is_flag)
+        start, end = info.get("시작일자"), info.get("마감일자")
+        out.append(Announcement(
+            source="kstartup",
+            source_id=m.group(1),
+            title=title_el.get_text(" ", strip=True),
+            url=f"{KSTARTUP_URL}?schM=view&pbancSn={m.group(1)}",
+            apply_raw=f"{start or ''} ~ {end or ''}".strip(" ~"),
+            apply_start=start,
+            apply_end=end,
+            agency=agency or "중소벤처기업부",
+            exec_agency=agency,
+            category=flag.get_text(" ", strip=True) if flag else "창업",
+            posted_at=info.get("등록일자", ""),
+        ))
+    return out
+
+
+def collect_kstartup() -> list[Announcement]:
+    """K-Startup 창업지원포털의 '모집중' 공고.
+
+    회사가 창업 7년 이내라 대상이 된다. 분류에 '시설ㆍ공간ㆍ보육'이 있어
+    창업보육센터·스타트업파크 등 입주 공고가 여기로 들어온다.
+    """
+    seen: dict[str, Announcement] = {}
+    for page in range(1, KSTARTUP_MAX_PAGES + 1):
+        if page > 1:
+            time.sleep(DELAY_SEC)
+        got = _kstartup_page(page)
+        before = len(seen)
+        for a in got:
+            seen.setdefault(a.source_id, a)
+        # 새로 추가된 게 없으면 마지막 장을 지난 것이다.
+        if not got or len(seen) == before:
+            break
+
+    if not seen:
+        raise CollectError("K-Startup: 0건 수집. 파서 점검 필요.")
+    return list(seen.values())
+
+
 SOURCES = {
     "bizinfo": collect_bizinfo,
     "kiria": collect_kiria,
     "nipa": collect_nipa,
     "snip": collect_snip,
+    "kstartup": collect_kstartup,
 }
 
 

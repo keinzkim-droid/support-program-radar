@@ -630,6 +630,121 @@
   "expired": [],
   "candidates": [
     {
+      "source": "kstartup",
+      "source_id": "178572",
+      "title": "2026년 3차 배재대학교 창업보육센터 신규 입주기업 모집 공고",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178572",
+      "apply_raw": "2026-07-15 ~ 2026-07-24",
+      "apply_start": "2026-07-15",
+      "apply_end": "2026-07-24",
+      "agency": "창업보육센터 지원",
+      "exec_agency": "창업보육센터 지원",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-07-16",
+      "status": "마감임박",
+      "collected_at": "2026-07-22",
+      "key": "kstartup:178572",
+      "track": "C",
+      "score": 9,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업, 창업보육, 보육센터"
+      ]
+    },
+    {
+      "source": "kstartup",
+      "source_id": "178533",
+      "title": "2026년 한국외대 창업보육센터 입주기업 모집 공고",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178533",
+      "apply_raw": "2026-07-14 ~ 2026-07-26",
+      "apply_start": "2026-07-14",
+      "apply_end": "2026-07-26",
+      "agency": "창업보육센터 지원",
+      "exec_agency": "창업보육센터 지원",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-07-16",
+      "status": "마감임박",
+      "collected_at": "2026-07-22",
+      "key": "kstartup:178533",
+      "track": "C",
+      "score": 9,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업, 창업보육, 보육센터"
+      ]
+    },
+    {
+      "source": "kstartup",
+      "source_id": "178473",
+      "title": "동국대학교 창업보육센터(서울) 신규 입주기업 모집 공고",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178473",
+      "apply_raw": "2026-07-08 ~ 2026-07-30",
+      "apply_start": "2026-07-08",
+      "apply_end": "2026-07-30",
+      "agency": "창업보육센터 지원",
+      "exec_agency": "창업보육센터 지원",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-07-09",
+      "status": "마감임박",
+      "collected_at": "2026-07-22",
+      "key": "kstartup:178473",
+      "track": "C",
+      "score": 9,
+      "region": "서울",
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업, 창업보육, 보육센터"
+      ]
+    },
+    {
+      "source": "kstartup",
+      "source_id": "178453",
+      "title": "[영산대학교 창업보육센터] 2026년 신규입주기업 모집 공고",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178453",
+      "apply_raw": "2026-07-07 ~ 2026-12-30",
+      "apply_start": "2026-07-07",
+      "apply_end": "2026-12-30",
+      "agency": "창업보육센터 지원",
+      "exec_agency": "창업보육센터 지원",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-07-09",
+      "status": "접수중",
+      "collected_at": "2026-07-22",
+      "key": "kstartup:178453",
+      "track": "C",
+      "score": 9,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업, 창업보육, 보육센터"
+      ]
+    },
+    {
+      "source": "kstartup",
+      "source_id": "178527",
+      "title": "[안양대학교 창업보육센터] 2026년 하반기 신규 입주기업 모집",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178527",
+      "apply_raw": "2026-07-15 ~ 2026-12-31",
+      "apply_start": "2026-07-15",
+      "apply_end": "2026-12-31",
+      "agency": "창업보육센터 지원",
+      "exec_agency": "창업보육센터 지원",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-07-16",
+      "status": "접수중",
+      "collected_at": "2026-07-22",
+      "key": "kstartup:178527",
+      "track": "C",
+      "score": 9,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업, 창업보육, 보육센터"
+      ]
+    },
+    {
       "source": "bizinfo",
       "source_id": "PBLN_000000000123203",
       "title": "AI기반 Age-Tech 산업 중심의 디지털의료제품 지원 바이오데이터 및 알고리즘 실증 기술서비스 모집 상시 공고(산업혁신기반구축ㆍ2차년도)",
@@ -674,6 +789,75 @@
       "conditional": null,
       "reasons": [
         "핵심 키워드: 실증, AI"
+      ]
+    },
+    {
+      "source": "kstartup",
+      "source_id": "178491",
+      "title": "바이오·메디컬 연구인프라 활용 지원사업",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178491",
+      "apply_raw": "2026-07-09 ~ 2026-07-30",
+      "apply_start": "2026-07-09",
+      "apply_end": "2026-07-30",
+      "agency": "동국대학교 BMC창업보육센터",
+      "exec_agency": "동국대학교 BMC창업보육센터",
+      "category": "사업화",
+      "posted_at": "2026-07-10",
+      "status": "마감임박",
+      "collected_at": "2026-07-22",
+      "key": "kstartup:178491",
+      "track": "C",
+      "score": 6,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 창업보육, 보육센터"
+      ]
+    },
+    {
+      "source": "kstartup",
+      "source_id": "178553",
+      "title": "[2026년 경기 AI 혁신클러스터] AI 클러스터 오픈이노베이션 연계·실증 프로그램 참가기업 모집",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178553",
+      "apply_raw": "2026-07-15 ~ 2026-07-31",
+      "apply_start": "2026-07-15",
+      "apply_end": "2026-07-31",
+      "agency": "탭엔젤파트너스",
+      "exec_agency": "탭엔젤파트너스",
+      "category": "사업화",
+      "posted_at": "2026-07-16",
+      "status": "마감임박",
+      "collected_at": "2026-07-22",
+      "key": "kstartup:178553",
+      "track": "A",
+      "score": 6,
+      "region": "경기",
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: 실증, AI"
+      ]
+    },
+    {
+      "source": "kstartup",
+      "source_id": "178538",
+      "title": "2026년 규제혁신 로봇 실증사업 2차 공고",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178538",
+      "apply_raw": "2026-07-20 ~ 2026-08-04",
+      "apply_start": "2026-07-20",
+      "apply_end": "2026-08-04",
+      "agency": "한국로봇산업진흥원",
+      "exec_agency": "한국로봇산업진흥원",
+      "category": "사업화",
+      "posted_at": "2026-07-16",
+      "status": "마감임박",
+      "collected_at": "2026-07-22",
+      "key": "kstartup:178538",
+      "track": "A",
+      "score": 6,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: 로봇, 실증"
       ]
     },
     {
@@ -725,6 +909,122 @@
       ]
     },
     {
+      "source": "kstartup",
+      "source_id": "178559",
+      "title": "「2026년 공공데이터 활용기업 AI연계 맞춤형 성장 지원사업」 참여기업 모집 안내",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178559",
+      "apply_raw": "2026-07-15 ~ 2026-08-14",
+      "apply_start": "2026-07-15",
+      "apply_end": "2026-08-14",
+      "agency": "한국지능정보사회진흥원",
+      "exec_agency": "한국지능정보사회진흥원",
+      "category": "멘토링ㆍ컨설팅ㆍ교육",
+      "posted_at": "2026-07-16",
+      "status": "접수중",
+      "collected_at": "2026-07-22",
+      "key": "kstartup:178559",
+      "track": "A",
+      "score": 4,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: AI",
+        "관련 키워드: 데이터"
+      ]
+    },
+    {
+      "source": "kstartup",
+      "source_id": "178560",
+      "title": "2026년 체육인 직업안정(창업지원) 사업 창업보육과정(새싹) 참여자 추가 모집(~7.23.)",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178560",
+      "apply_raw": "2026-07-15 ~ 2026-07-23",
+      "apply_start": "2026-07-15",
+      "apply_end": "2026-07-23",
+      "agency": "2026년 체육인 직업안정(창업지원) 사업 참여자 추가 모집(~7.23.)",
+      "exec_agency": "2026년 체육인 직업안정(창업지원) 사업 참여자 추가 모집(~7.23.)",
+      "category": "사업화",
+      "posted_at": "2026-07-16",
+      "status": "마감임박",
+      "collected_at": "2026-07-22",
+      "key": "kstartup:178560",
+      "track": "C",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 창업보육"
+      ]
+    },
+    {
+      "source": "kstartup",
+      "source_id": "178492",
+      "title": "2026년 하반기「하남스타트업캠퍼스·경기 AI 클러스터 하남」신규 입주자 모집 공고",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178492",
+      "apply_raw": "2026-07-06 ~ 2026-07-24",
+      "apply_start": "2026-07-06",
+      "apply_end": "2026-07-24",
+      "agency": "하남도시공사",
+      "exec_agency": "하남도시공사",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-07-16",
+      "status": "마감임박",
+      "collected_at": "2026-07-22",
+      "key": "kstartup:178492",
+      "track": "A",
+      "score": 3,
+      "region": "경기",
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: AI"
+      ]
+    },
+    {
+      "source": "kstartup",
+      "source_id": "178554",
+      "title": "2026년「강남 취‧창업허브센터」6차 입주 기업 신규 모집",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178554",
+      "apply_raw": "2026-07-10 ~ 2026-07-24",
+      "apply_start": "2026-07-10",
+      "apply_end": "2026-07-24",
+      "agency": "(주)오픈놀",
+      "exec_agency": "(주)오픈놀",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-07-15",
+      "status": "마감임박",
+      "collected_at": "2026-07-22",
+      "key": "kstartup:178554",
+      "track": "C",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 창업허브"
+      ]
+    },
+    {
+      "source": "kstartup",
+      "source_id": "178565",
+      "title": "2026년 서울창업허브 창동-삼성물산 건설부문 오픈이노베이션 참가기업 모집",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178565",
+      "apply_raw": "2026-07-15 ~ 2026-07-24",
+      "apply_start": "2026-07-15",
+      "apply_end": "2026-07-24",
+      "agency": "서울창업허브 창동 운영",
+      "exec_agency": "서울창업허브 창동 운영",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-07-15",
+      "status": "마감임박",
+      "collected_at": "2026-07-22",
+      "key": "kstartup:178565",
+      "track": "C",
+      "score": 3,
+      "region": "서울",
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 창업허브"
+      ]
+    },
+    {
       "source": "bizinfo",
       "source_id": "PBLN_000000000124469",
       "title": "2026년 하반기 경기도 AI 혁신클러스터 AI 멤버십 기업 모집 공고",
@@ -745,6 +1045,98 @@
       "conditional": null,
       "reasons": [
         "핵심 키워드: AI"
+      ]
+    },
+    {
+      "source": "kstartup",
+      "source_id": "178574",
+      "title": "ESG × AI 챌린지 해커톤 참가자 모집",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178574",
+      "apply_raw": "2026-07-15 ~ 2026-07-27",
+      "apply_start": "2026-07-15",
+      "apply_end": "2026-07-27",
+      "agency": "경기창조경제혁신센터",
+      "exec_agency": "경기창조경제혁신센터",
+      "category": "행사ㆍ네트워크",
+      "posted_at": "2026-07-21",
+      "status": "마감임박",
+      "collected_at": "2026-07-22",
+      "key": "kstartup:178574",
+      "track": "A",
+      "score": 3,
+      "region": "경기",
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: AI"
+      ]
+    },
+    {
+      "source": "kstartup",
+      "source_id": "178525",
+      "title": "2026년 G-Space 입주기업 발굴·육성사업 입주기업 추가 모집 공고",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178525",
+      "apply_raw": "2026-07-13 ~ 2026-07-29",
+      "apply_start": "2026-07-13",
+      "apply_end": "2026-07-29",
+      "agency": "청년 창업아카데미(G-Space@East) 운영",
+      "exec_agency": "청년 창업아카데미(G-Space@East) 운영",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-07-16",
+      "status": "마감임박",
+      "collected_at": "2026-07-22",
+      "key": "kstartup:178525",
+      "track": "C",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업"
+      ]
+    },
+    {
+      "source": "kstartup",
+      "source_id": "178566",
+      "title": "2026년 서울창업허브 창동-조이시티 오픈이노베이션 참가기업 모집",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178566",
+      "apply_raw": "2026-07-15 ~ 2026-07-29",
+      "apply_start": "2026-07-15",
+      "apply_end": "2026-07-29",
+      "agency": "서울창업허브 창동 운영",
+      "exec_agency": "서울창업허브 창동 운영",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-07-15",
+      "status": "마감임박",
+      "collected_at": "2026-07-22",
+      "key": "kstartup:178566",
+      "track": "C",
+      "score": 3,
+      "region": "서울",
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 창업허브"
+      ]
+    },
+    {
+      "source": "kstartup",
+      "source_id": "178499",
+      "title": "2026 아트코리아랩 입주기업 모집 공모",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178499",
+      "apply_raw": "2026-07-13 ~ 2026-07-30",
+      "apply_start": "2026-07-13",
+      "apply_end": "2026-07-30",
+      "agency": "예술경영지원센터",
+      "exec_agency": "예술경영지원센터",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-07-10",
+      "status": "마감임박",
+      "collected_at": "2026-07-22",
+      "key": "kstartup:178499",
+      "track": "C",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업"
       ]
     },
     {
@@ -791,6 +1183,259 @@
       "conditional": null,
       "reasons": [
         "고객사향 키워드: 스마트공장"
+      ]
+    },
+    {
+      "source": "kstartup",
+      "source_id": "178601",
+      "title": "1인기업 & 예비·초기창업자 환영! 강동50+센터 공유사무실 입주자 추가모집(~26.7.31.(금))",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178601",
+      "apply_raw": "2026-07-20 ~ 2026-07-31",
+      "apply_start": "2026-07-20",
+      "apply_end": "2026-07-31",
+      "agency": "강동50+센터 공유사무실 입주자 추가모집",
+      "exec_agency": "강동50+센터 공유사무실 입주자 추가모집",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-07-21",
+      "status": "마감임박",
+      "collected_at": "2026-07-22",
+      "key": "kstartup:178601",
+      "track": "C",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 사무실"
+      ]
+    },
+    {
+      "source": "kstartup",
+      "source_id": "178616",
+      "title": "2026년 서울창업허브 창동-동아사이언스 오픈이노베이션 참가기업 모집",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178616",
+      "apply_raw": "2026-07-20 ~ 2026-07-31",
+      "apply_start": "2026-07-20",
+      "apply_end": "2026-07-31",
+      "agency": "서울창업허브 창동 운영",
+      "exec_agency": "서울창업허브 창동 운영",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-07-21",
+      "status": "마감임박",
+      "collected_at": "2026-07-22",
+      "key": "kstartup:178616",
+      "track": "C",
+      "score": 3,
+      "region": "서울",
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 창업허브"
+      ]
+    },
+    {
+      "source": "kstartup",
+      "source_id": "178569",
+      "title": "2026년 서울창업허브 창동 투자 특화 프로그램 - IR 라운드(1회차)",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178569",
+      "apply_raw": "2026-07-15 ~ 2026-07-31",
+      "apply_start": "2026-07-15",
+      "apply_end": "2026-07-31",
+      "agency": "서울창업허브 창동 운영",
+      "exec_agency": "서울창업허브 창동 운영",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-07-15",
+      "status": "마감임박",
+      "collected_at": "2026-07-22",
+      "key": "kstartup:178569",
+      "track": "C",
+      "score": 3,
+      "region": "서울",
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 창업허브"
+      ]
+    },
+    {
+      "source": "kstartup",
+      "source_id": "178639",
+      "title": "26년 국토교통 창업지원센터 입주기업 추가 모집공고",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178639",
+      "apply_raw": "2026-07-21 ~ 2026-08-04",
+      "apply_start": "2026-07-21",
+      "apply_end": "2026-08-04",
+      "agency": "국토교통과학기술진흥원",
+      "exec_agency": "국토교통과학기술진흥원",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-07-22",
+      "status": "마감임박",
+      "collected_at": "2026-07-22",
+      "key": "kstartup:178639",
+      "track": "C",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업"
+      ]
+    },
+    {
+      "source": "kstartup",
+      "source_id": "178596",
+      "title": "2026년 지역창업특화지원사업(1인)  제3차 신규 입주기업 모집",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178596",
+      "apply_raw": "2026-07-16 ~ 2026-08-05",
+      "apply_start": "2026-07-16",
+      "apply_end": "2026-08-05",
+      "agency": "지역창업특화지원",
+      "exec_agency": "지역창업특화지원",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-07-21",
+      "status": "마감임박",
+      "collected_at": "2026-07-22",
+      "key": "kstartup:178596",
+      "track": "C",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업"
+      ]
+    },
+    {
+      "source": "kstartup",
+      "source_id": "178618",
+      "title": "2026년 성북구 중장년 기술창업센터 입주기업 모집공고(2차)",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178618",
+      "apply_raw": "2026-07-20 ~ 2026-08-07",
+      "apply_start": "2026-07-20",
+      "apply_end": "2026-08-07",
+      "agency": "지역창업특화지원",
+      "exec_agency": "지역창업특화지원",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-07-21",
+      "status": "접수중",
+      "collected_at": "2026-07-22",
+      "key": "kstartup:178618",
+      "track": "C",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업"
+      ]
+    },
+    {
+      "source": "kstartup",
+      "source_id": "178623",
+      "title": "2026년  7월 KICXUP 서울 입주기업 모집공고",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178623",
+      "apply_raw": "2026-07-21 ~ 2026-08-07",
+      "apply_start": "2026-07-21",
+      "apply_end": "2026-08-07",
+      "agency": "2026년 7월 KICXUP_서울 _입주기업_모집공고",
+      "exec_agency": "2026년 7월 KICXUP_서울 _입주기업_모집공고",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-07-21",
+      "status": "접수중",
+      "collected_at": "2026-07-22",
+      "key": "kstartup:178623",
+      "track": "C",
+      "score": 3,
+      "region": "서울",
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업"
+      ]
+    },
+    {
+      "source": "kstartup",
+      "source_id": "178609",
+      "title": "[공고 제2026-075호] 2026 Tri Nexus 「AI 딥테크」 오픈이노베이션 참여기업(스타트업) 모집",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178609",
+      "apply_raw": "2026-07-20 ~ 2026-08-10",
+      "apply_start": "2026-07-20",
+      "apply_end": "2026-08-10",
+      "agency": "2026 Tri Nexus AI 딥테크 오픈이노베이션 참여기업(스타트업) 모집",
+      "exec_agency": "2026 Tri Nexus AI 딥테크 오픈이노베이션 참여기업(스타트업) 모집",
+      "category": "사업화",
+      "posted_at": "2026-07-21",
+      "status": "접수중",
+      "collected_at": "2026-07-22",
+      "key": "kstartup:178609",
+      "track": "A",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: AI"
+      ]
+    },
+    {
+      "source": "kstartup",
+      "source_id": "178513",
+      "title": "[무료 AI 역량강화 교육] 생성형 AI 기반 글로벌 특허 분석 및 지식재산권 우회·리스크 최적화 과정",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178513",
+      "apply_raw": "2026-07-10 ~ 2026-08-18",
+      "apply_start": "2026-07-10",
+      "apply_end": "2026-08-18",
+      "agency": "2026 산업전문인력 AI역량강화 지원사업",
+      "exec_agency": "2026 산업전문인력 AI역량강화 지원사업",
+      "category": "멘토링ㆍ컨설팅ㆍ교육",
+      "posted_at": "2026-07-10",
+      "status": "접수중",
+      "collected_at": "2026-07-22",
+      "key": "kstartup:178513",
+      "track": "A",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: AI"
+      ]
+    },
+    {
+      "source": "kstartup",
+      "source_id": "178610",
+      "title": "2026년 제4회 창업기업성장지원센터(이노플러스 스테이지) 신규 입주기업 모집공고",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178610",
+      "apply_raw": "2026-07-20 ~ 2026-08-21",
+      "apply_start": "2026-07-20",
+      "apply_end": "2026-08-21",
+      "agency": "(재)광주테크노파크",
+      "exec_agency": "(재)광주테크노파크",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-07-21",
+      "status": "접수중",
+      "collected_at": "2026-07-22",
+      "key": "kstartup:178610",
+      "track": "C",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업"
+      ]
+    },
+    {
+      "source": "kstartup",
+      "source_id": "178615",
+      "title": "디지털콘텐츠기업 성장지원센터 입주기업 모집 공고(2026-1차)",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178615",
+      "apply_raw": "2026-07-20 ~ 2026-08-21",
+      "apply_start": "2026-07-20",
+      "apply_end": "2026-08-21",
+      "agency": "(사)차세대융합콘텐츠산업협회",
+      "exec_agency": "(사)차세대융합콘텐츠산업협회",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-07-21",
+      "status": "접수중",
+      "collected_at": "2026-07-22",
+      "key": "kstartup:178615",
+      "track": "C",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업"
       ]
     },
     {
@@ -891,15 +1536,16 @@
   "sources": [
     "bizinfo",
     "kiria",
+    "kstartup",
     "nipa",
     "snip"
   ],
   "stats": {
-    "collected": 399,
+    "collected": 519,
     "cards": 27,
     "expired": 0,
-    "candidates": 11,
+    "candidates": 39,
     "excluded": 0,
-    "dropped": 361
+    "dropped": 453
   }
 }
