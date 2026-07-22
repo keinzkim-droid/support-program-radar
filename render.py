@@ -30,6 +30,7 @@ SOURCE_LABEL = {
     "bizinfo": "기업마당",
     "kiria": "한국로봇산업진흥원",
     "nipa": "정보통신산업진흥원",
+    "snip": "성남산업진흥원",
 }
 
 TRACK_LABEL = {

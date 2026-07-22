@@ -514,6 +514,76 @@
   "expired": [],
   "candidates": [
     {
+      "source": "snip",
+      "source_id": "2026-0002-4047",
+      "title": "2026 성남 자율주행 기본시험장 이용 기업&기관 모집",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0002&pjtCd=4047&stateChk=N",
+      "apply_raw": "~ 2026.12.31",
+      "apply_start": null,
+      "apply_end": "2026-12-31",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-01-02",
+      "status": "접수중",
+      "collected_at": "2026-07-22",
+      "key": "snip:2026-0002-4047",
+      "track": "A",
+      "score": 4,
+      "region": "성남",
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: 자율주행",
+        "관련 키워드: 자율"
+      ]
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0192-4185",
+      "title": "2026년 창작센터 성남 아티잔 신규 입주기업 모집 공고",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0192&pjtCd=4185&stateChk=N",
+      "apply_raw": "~ 2026.07.24",
+      "apply_start": null,
+      "apply_end": "2026-07-24",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-07-10",
+      "status": "마감임박",
+      "collected_at": "2026-07-22",
+      "key": "snip:2026-0192-4185",
+      "track": "C",
+      "score": 3,
+      "region": "성남",
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업"
+      ]
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0182-4182",
+      "title": "2026년 4차 성남글로벌융합센터 신규 입주기업 모집",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0182&pjtCd=4182&stateChk=N",
+      "apply_raw": "~ 2026.07.24",
+      "apply_start": null,
+      "apply_end": "2026-07-24",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-07-06",
+      "status": "마감임박",
+      "collected_at": "2026-07-22",
+      "key": "snip:2026-0182-4182",
+      "track": "C",
+      "score": 3,
+      "region": "성남",
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업"
+      ]
+    },
+    {
       "source": "bizinfo",
       "source_id": "PBLN_000000000124553",
       "title": "2026년 협업지능 피지컬AI 기반 SW플랫폼 연구개발 생태계 조성 사업 공고",
@@ -534,6 +604,29 @@
       "conditional": null,
       "reasons": [
         "핵심 키워드: AI"
+      ]
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0204-4190",
+      "title": "제1비즈니스센터 (310호) 입주기업 재공고 모집",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0204&pjtCd=4190&stateChk=N",
+      "apply_raw": "~ 2026.07.29",
+      "apply_start": null,
+      "apply_end": "2026-07-29",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-07-21",
+      "status": "마감임박",
+      "collected_at": "2026-07-22",
+      "key": "snip:2026-0204-4190",
+      "track": "C",
+      "score": 3,
+      "region": "성남",
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업"
       ]
     },
     {
@@ -605,6 +698,29 @@
       "reasons": [
         "사무실·공간 키워드: 입주기업"
       ]
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0092-4131",
+      "title": "KAIST 김재철AI대학원 성남연구센터 AI 기술자문 지원안내",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0092&pjtCd=4131&stateChk=N",
+      "apply_raw": "~ 2026.11.20",
+      "apply_start": null,
+      "apply_end": "2026-11-20",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-04-03",
+      "status": "접수중",
+      "collected_at": "2026-07-22",
+      "key": "snip:2026-0092-4131",
+      "track": "A",
+      "score": 3,
+      "region": "성남",
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: AI"
+      ]
     }
   ],
   "excluded": [],
@@ -612,14 +728,15 @@
   "sources": [
     "bizinfo",
     "kiria",
-    "nipa"
+    "nipa",
+    "snip"
   ],
   "stats": {
-    "collected": 81,
+    "collected": 131,
     "cards": 22,
     "expired": 0,
-    "candidates": 4,
+    "candidates": 9,
     "excluded": 0,
-    "dropped": 55
+    "dropped": 100
   }
 }

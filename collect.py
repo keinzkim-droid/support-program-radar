@@ -304,10 +304,79 @@ def collect_nipa() -> list[Announcement]:
     return out
 
 
+SNIP_URL = "https://portal.snip.or.kr:8443/user/snip/busin/businList.face"
+SNIP_READ = re.compile(r"fn_read\('([^']+)','([^']+)'\)")
+SNIP_DATE = re.compile(r"(\d{4})\.(\d{1,2})\.(\d{1,2})")
+
+
+def collect_snip() -> list[Announcement]:
+    """성남산업진흥원 사업공고.
+
+    회사 소재지(판교)가 성남이라 지역 사업이 직접 걸린다.
+    창업센터 입주 등 사무실·공간 공고도 여기에 올라온다.
+
+    목록에 시작일이 없고 '~ 2026.08.05' 형태로 마감일만 있다.
+    """
+    # 기본 10건만 오면 입주 공고가 금방 밀려난다. 한 번에 넉넉히 받는다.
+    soup = BeautifulSoup(fetch(SNIP_URL, {"cPage": "1", "listCount": "50"}), PARSER)
+    table = soup.find("table")
+    if table is None:
+        raise CollectError("SNIP: 공고 테이블을 찾지 못했다. 사이트 개편 가능성.")
+
+    out: list[Announcement] = []
+    for tr in (table.find("tbody") or table).find_all("tr"):
+        tds = [td.get_text(" ", strip=True) for td in tr.find_all("td")]
+        a = tr.find("a", onclick=True)
+        if not a or len(tds) < 6:
+            continue
+        m = SNIP_READ.search(a["onclick"])
+        if not m:
+            continue
+        annc, code = m.groups()
+
+        raw = tds[2]
+        d = SNIP_DATE.search(raw)
+        end = None
+        if d:
+            y, mo, dy = (int(x) for x in d.groups())
+            try:
+                end = date(y, mo, dy).isoformat()
+            except ValueError:
+                pass
+
+        # 제목 앞에 '진행중'·'마감' 같은 상태 문구가 붙어 있어 분리한다.
+        title = tds[1]
+        status = ""
+        for tag in ("진행중", "마감임박", "마감", "예정"):
+            if title.startswith(tag):
+                status, title = tag, title[len(tag):].strip()
+                break
+
+        out.append(Announcement(
+            source="snip",
+            source_id=f"{annc}-{code}",
+            title=title,
+            url=("https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face"
+                 f"?pjtAnncSn={annc}&pjtCd={code}&stateChk=N"),
+            apply_raw=" ".join(raw.split()),
+            apply_end=end,
+            agency="성남시",
+            exec_agency="성남산업진흥원",
+            category="지역",
+            status=status,
+            posted_at=tds[5].replace(".", "-"),
+        ))
+
+    if not out:
+        raise CollectError("SNIP: 0건 수집. 파서 점검 필요.")
+    return out
+
+
 SOURCES = {
     "bizinfo": collect_bizinfo,
     "kiria": collect_kiria,
     "nipa": collect_nipa,
+    "snip": collect_snip,
 }
 
 
