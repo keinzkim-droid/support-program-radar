@@ -628,7 +628,102 @@
     }
   ],
   "expired": [],
-  "candidates": [],
+  "candidates": [
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000123203",
+      "title": "AI기반 Age-Tech 산업 중심의 디지털의료제품 지원 바이오데이터 및 알고리즘 실증 기술서비스 모집 상시 공고(산업혁신기반구축ㆍ2차년도)",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123203",
+      "apply_raw": "상시 접수",
+      "apply_start": null,
+      "apply_end": null,
+      "agency": "산업통상부",
+      "exec_agency": "한국산업기술시험원",
+      "category": "기술",
+      "posted_at": "2026-06-16",
+      "status": "상시",
+      "collected_at": "2026-07-22",
+      "key": "bizinfo:PBLN_000000000123203",
+      "track": "A",
+      "score": 7,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: 실증, AI",
+        "관련 키워드: 데이터"
+      ]
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000122268",
+      "title": "2026년 2차 메카노바이오활성소재 혁신의료기기 실증 기반구축 생물학적 시험평가인증 지원사업 공고(산업혁신기반구축사업)",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000122268",
+      "apply_raw": "예산 소진시까지",
+      "apply_start": null,
+      "apply_end": null,
+      "agency": "산업통상부",
+      "exec_agency": "국가독성과학연구소",
+      "category": "기술",
+      "posted_at": "2026-05-21",
+      "status": "상시",
+      "collected_at": "2026-07-22",
+      "key": "bizinfo:PBLN_000000000122268",
+      "track": "A",
+      "score": 5,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: 실증",
+        "관련 키워드: 시험평가, 인증"
+      ]
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000123466",
+      "title": "2026년 지능형 반도체 개발ㆍ실증지원 고신뢰 반도체 상용화를 위한 검증ㆍ확인 지원사업 기업 지원 프로그램 통합 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123466",
+      "apply_raw": "상시 접수",
+      "apply_start": null,
+      "apply_end": null,
+      "agency": "산업통상부",
+      "exec_agency": "한국팹리스산업협회",
+      "category": "기술",
+      "posted_at": "2026-06-23",
+      "status": "상시",
+      "collected_at": "2026-07-22",
+      "key": "bizinfo:PBLN_000000000123466",
+      "track": "A",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: 실증"
+      ]
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000120312",
+      "title": "2026년 국가배터리순환클러스터실증화시설 사용자 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120312",
+      "apply_raw": "상시 접수",
+      "apply_start": null,
+      "apply_end": null,
+      "agency": "기후에너지환경부",
+      "exec_agency": "한국환경공단",
+      "category": "기술",
+      "posted_at": "2026-04-02",
+      "status": "상시",
+      "collected_at": "2026-07-22",
+      "key": "bizinfo:PBLN_000000000120312",
+      "track": "A",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: 실증"
+      ]
+    }
+  ],
   "excluded": [],
   "archive_after_days": 30,
   "sources": [
@@ -638,11 +733,11 @@
     "snip"
   ],
   "stats": {
-    "collected": 131,
+    "collected": 144,
     "cards": 27,
     "expired": 0,
-    "candidates": 0,
+    "candidates": 4,
     "excluded": 0,
-    "dropped": 104
+    "dropped": 113
   }
 }

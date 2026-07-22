@@ -126,6 +126,8 @@ def parse_period(raw: str) -> tuple[str | None, str | None]:
 
 
 BIZINFO_URL = "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do"
+BIZINFO_PAGE_SIZE = 15     # rows 파라미터를 늘려도 서버가 15건으로 자른다
+BIZINFO_MAX_PAGES = 4      # 키워드당 최대 60건. 그 이상은 키워드가 너무 넓다는 뜻
 
 # 검색 폼의 전체 파라미터를 갖춰야 한다. keyword만 보내면 500이 떨어진다.
 BIZINFO_FORM = {
@@ -138,9 +140,9 @@ BIZINFO_FORM = {
 }
 
 
-def _bizinfo_rows(keyword: str = "") -> list[Announcement]:
+def _bizinfo_rows(keyword: str = "", cpage: int = 1) -> list[Announcement]:
     """기업마당 목록 한 페이지를 파싱한다. keyword가 비면 최신 목록."""
-    params = dict(BIZINFO_FORM, keyword=keyword)
+    params = dict(BIZINFO_FORM, keyword=keyword, cpage=str(cpage))
     soup = BeautifulSoup(fetch(BIZINFO_URL, params), PARSER)
 
     table = next(
@@ -194,15 +196,22 @@ def collect_bizinfo() -> list[Announcement]:
         seen[a.source_id] = a
 
     for kw in SEARCH_KEYWORDS:         # 키워드 검색 (정밀 추적용)
-        time.sleep(DELAY_SEC)
-        try:
-            got = _bizinfo_rows(kw)
-        except CollectError as e:
-            log.warning("기업마당 검색 실패 kw=%s: %s", kw, e)
-            continue
-        log.info("  기업마당 검색 '%s' %d건", kw, len(got))
-        for a in got:
-            seen.setdefault(a.source_id, a)
+        # 한 페이지는 15건이라 결과가 많은 키워드('실증' 등)는 뒷장에 남는다.
+        # 수집 단계에서 자르면 필터가 볼 기회조차 없어지므로 끝까지 넘긴다.
+        total = 0
+        for page in range(1, BIZINFO_MAX_PAGES + 1):
+            time.sleep(DELAY_SEC)
+            try:
+                got = _bizinfo_rows(kw, page)
+            except CollectError as e:
+                log.warning("기업마당 검색 실패 kw=%s p%d: %s", kw, page, e)
+                break
+            for a in got:
+                seen.setdefault(a.source_id, a)
+            total += len(got)
+            if len(got) < BIZINFO_PAGE_SIZE:   # 마지막 장
+                break
+        log.info("  기업마당 검색 '%s' %d건", kw, total)
 
     if not seen:
         raise CollectError("기업마당: 0건 수집. 파서 점검 필요.")
