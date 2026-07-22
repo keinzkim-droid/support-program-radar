@@ -34,6 +34,7 @@ PROFILE = ROOT / "config" / "profile.yaml"
 _profile = yaml.safe_load(PROFILE.read_text(encoding="utf-8"))
 SEARCH_KEYWORDS: list[str] = (_profile.get("collect") or {}).get("search_keywords", [])
 ARCHIVE_DAYS: int = (_profile.get("scoring") or {}).get("archive_after_days", 30)
+AREA_CODES: dict[str, str] = (_profile.get("collect") or {}).get("area_codes", {})
 
 # HTTP 헤더는 latin-1만 허용하므로 ASCII로만 쓴다.
 UA = ("support-program-radar/0.1 (internal announcement monitor; "
@@ -128,6 +129,9 @@ def parse_period(raw: str) -> tuple[str | None, str | None]:
 BIZINFO_URL = "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do"
 BIZINFO_PAGE_SIZE = 15     # rows 파라미터를 늘려도 서버가 15건으로 자른다
 BIZINFO_MAX_PAGES = 4      # 키워드당 최대 60건. 그 이상은 키워드가 너무 넓다는 뜻
+# 지역 훑기는 그 지역 공고를 빠짐없이 받는 것이 목적이므로 상한을 높인다.
+# (경기도만 150건이 넘는다)
+BIZINFO_AREA_MAX_PAGES = 14
 
 # 검색 폼의 전체 파라미터를 갖춰야 한다. keyword만 보내면 500이 떨어진다.
 BIZINFO_FORM = {
@@ -140,9 +144,15 @@ BIZINFO_FORM = {
 }
 
 
-def _bizinfo_rows(keyword: str = "", cpage: int = 1) -> list[Announcement]:
-    """기업마당 목록 한 페이지를 파싱한다. keyword가 비면 최신 목록."""
-    params = dict(BIZINFO_FORM, keyword=keyword, cpage=str(cpage))
+def _bizinfo_rows(keyword: str = "", cpage: int = 1,
+                  area: str = "") -> list[Announcement]:
+    """기업마당 목록 한 페이지를 파싱한다.
+
+    keyword가 비고 area도 비면 최신 목록,
+    area만 주면 그 지역 공고 전체(제목과 무관)를 받는다.
+    """
+    params = dict(BIZINFO_FORM, keyword=keyword, cpage=str(cpage),
+                  schAreaDetailCodes=area)
     soup = BeautifulSoup(fetch(BIZINFO_URL, params), PARSER)
 
     table = next(
@@ -212,6 +222,24 @@ def collect_bizinfo() -> list[Announcement]:
             if len(got) < BIZINFO_PAGE_SIZE:   # 마지막 장
                 break
         log.info("  기업마당 검색 '%s' %d건", kw, total)
+
+    # 지역 훑기 — 키워드에 안 걸리는 공고를 놓치지 않기 위해서다.
+    # 제목이 어떻든 우리 지역 공고는 전부 받아 필터가 판단하게 한다.
+    for name, code in AREA_CODES.items():
+        total = 0
+        for page in range(1, BIZINFO_AREA_MAX_PAGES + 1):
+            time.sleep(DELAY_SEC)
+            try:
+                got = _bizinfo_rows(cpage=page, area=code)
+            except CollectError as e:
+                log.warning("기업마당 지역 실패 %s p%d: %s", name, page, e)
+                break
+            for a in got:
+                seen.setdefault(a.source_id, a)
+            total += len(got)
+            if len(got) < BIZINFO_PAGE_SIZE:
+                break
+        log.info("  기업마당 지역 '%s' %d건", name, total)
 
     if not seen:
         raise CollectError("기업마당: 0건 수집. 파서 점검 필요.")

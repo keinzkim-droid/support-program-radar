@@ -679,6 +679,52 @@
     },
     {
       "source": "bizinfo",
+      "source_id": "PBLN_000000000124469",
+      "title": "2026년 하반기 경기도 AI 혁신클러스터 AI 멤버십 기업 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124469",
+      "apply_raw": "2026-07-14 ~ 2026-07-27",
+      "apply_start": "2026-07-14",
+      "apply_end": "2026-07-27",
+      "agency": "경기도",
+      "exec_agency": "경기도경제과학진흥원",
+      "category": "경영",
+      "posted_at": "2026-07-20",
+      "status": "마감임박",
+      "collected_at": "2026-07-22",
+      "key": "bizinfo:PBLN_000000000124469",
+      "track": "A",
+      "score": 3,
+      "region": "경기",
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: AI"
+      ]
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000120032",
+      "title": "2026년 제29회 대한민국우수상품전시회(G-FAIR KOREA 2026) 참가기업 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120032",
+      "apply_raw": "2026-03-16 ~ 2026-08-31",
+      "apply_start": "2026-03-16",
+      "apply_end": "2026-08-31",
+      "agency": "경기도",
+      "exec_agency": "경기도경제과학진흥원",
+      "category": "수출",
+      "posted_at": "2026-03-27",
+      "status": "접수중",
+      "collected_at": "2026-07-22",
+      "key": "bizinfo:PBLN_000000000120032",
+      "track": "A",
+      "score": 3,
+      "region": "경기",
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: AI"
+      ]
+    },
+    {
+      "source": "bizinfo",
       "source_id": "PBLN_000000000123466",
       "title": "2026년 지능형 반도체 개발ㆍ실증지원 고신뢰 반도체 상용화를 위한 검증ㆍ확인 지원사업 기업 지원 프로그램 통합 공고",
       "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123466",
@@ -722,6 +768,29 @@
       "reasons": [
         "핵심 키워드: 실증"
       ]
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000122038",
+      "title": "[경기] 시흥시 2026년 AIㆍDX 기반 기업 역량 강화 지원 참여 기업 모집 추가 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000122038",
+      "apply_raw": "예산 소진시까지",
+      "apply_start": null,
+      "apply_end": null,
+      "agency": "경기도",
+      "exec_agency": "시흥산업진흥원",
+      "category": "경영",
+      "posted_at": "2026-05-15",
+      "status": "상시",
+      "collected_at": "2026-07-22",
+      "key": "bizinfo:PBLN_000000000122038",
+      "track": "A",
+      "score": 3,
+      "region": "경기",
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: AI"
+      ]
     }
   ],
   "excluded": [],
@@ -733,11 +802,11 @@
     "snip"
   ],
   "stats": {
-    "collected": 144,
+    "collected": 388,
     "cards": 27,
     "expired": 0,
-    "candidates": 4,
+    "candidates": 7,
     "excluded": 0,
-    "dropped": 113
+    "dropped": 354
   }
 }
