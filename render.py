@@ -141,6 +141,14 @@ h1 .hl{color:var(--accent)}
 .toast b{color:var(--blue-300)}
 .toast .t-note{display:block;margin-top:8px;padding-top:8px;
   border-top:1px solid rgba(255,255,255,.18);color:var(--n400);font-size:12.5px}
+/* 새 데이터가 올라왔을 때 뜨는 알림 */
+.fresh{position:fixed;right:20px;bottom:20px;z-index:55;display:none;
+  align-items:center;gap:12px;background:var(--accent);color:#fff;
+  padding:12px 14px 12px 18px;border-radius:12px;font-size:13.5px;font-weight:600;
+  box-shadow:0 10px 28px rgba(51,150,255,.35)}
+.fresh.on{display:flex}
+.fresh .btn{background:#fff;color:var(--accent-strong);border-color:#fff}
+@media(max-width:600px){.fresh{left:16px;right:16px;justify-content:space-between}}
 /* 한눈에 비교 */
 .table-wrap{max-width:1160px;margin:0 auto 32px;padding:0 28px;overflow-x:auto}
 .table-wrap table{width:100%;min-width:900px;border-collapse:separate;
@@ -220,6 +228,27 @@ function toast(title, decision){
 }
 
 function hideToast(){ document.getElementById('toast').classList.remove('on'); }
+
+// 브라우저가 이 페이지를 캐시해두기 때문에, 갱신이 끝나도 옛 화면이 보일 수 있다.
+// 갱신 시각만 담은 작은 파일을 캐시 우회로 받아 비교하고, 다르면 알려준다.
+// (사용자가 매번 강제 새로고침을 눌러야 하는 상황을 없애려는 것)
+function checkFresh(){
+  fetch('version.json?t=' + Date.now(), { cache: 'no-store' })
+    .then(function(r){ return r.ok ? r.json() : null; })
+    .then(function(v){
+      if(v && BUILD_ID && v.build !== BUILD_ID){
+        document.getElementById('fresh').classList.add('on');
+      }
+    })
+    .catch(function(){ /* 네트워크 문제면 조용히 넘어간다 */ });
+}
+
+function reloadNow(){ location.reload(); }
+
+window.addEventListener('load', function(){
+  checkFresh();
+  setInterval(checkFresh, 5 * 60 * 1000);   // 5분마다 확인
+});
 
 // 비교표 정렬. 같은 칸을 다시 누르면 방향이 뒤집힌다.
 function sortTable(th, col){
@@ -371,7 +400,7 @@ def compare_table(recs: list[dict], today: date) -> str:
 </table></div>"""
 
 
-def build(data: dict) -> str:
+def build(data: dict, build_id: str = "") -> str:
     today = date.fromisoformat(data["generated_at"])
     cards = data["cards"]
     cands = data["candidates"]
@@ -494,9 +523,15 @@ def build(data: dict) -> str:
 
 <div class="toast" id="toast" onclick="hideToast()"></div>
 
+<div class="fresh" id="fresh">
+  <span>새로운 공고 정보가 있습니다.</span>
+  <button class="btn sm" onclick="reloadNow()">새로고침</button>
+</div>
+
 <script>
 var REPO_NEW = {json.dumps(REPO_NEW)};
 var SCHEDULE_TXT = {json.dumps(SCHEDULE_TEXT)};
+var BUILD_ID = {json.dumps(build_id)};
 </script>
 <script>{JS}</script>
 </body></html>
@@ -506,7 +541,19 @@ var SCHEDULE_TXT = {json.dumps(SCHEDULE_TEXT)};
 def main() -> int:
     data = json.loads(IN.read_text(encoding="utf-8"))
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(build(data), encoding="utf-8")
+
+    # 페이지가 '내가 보고 있는 게 최신인가'를 스스로 확인할 수 있도록
+    # 빌드 시각만 담은 작은 파일을 따로 둔다.
+    # GitHub Pages는 HTML을 10분간 캐시하라고 브라우저에 알리고 그 헤더는
+    # 우리가 못 바꾼다. 대신 이 파일을 캐시 우회로 받아 비교한다.
+    build_id = datetime.now().strftime("%Y-%m-%d %H:%M")
+    (OUT.parent / "version.json").write_text(
+        json.dumps({"build": build_id, "generated_at": data["generated_at"]},
+                   ensure_ascii=False),
+        encoding="utf-8",
+    )
+
+    OUT.write_text(build(data, build_id), encoding="utf-8")
     print(f"생성 {OUT.relative_to(ROOT)} "
           f"(승인 {len(data['cards'])} / 후보 {len(data['candidates'])})")
     return 0
