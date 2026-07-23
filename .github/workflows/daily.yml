@@ -40,12 +40,14 @@ jobs:
       # 일부 소스가 막혀도(예: 해외 IP 차단) 나머지는 갱신해야 한다.
       # 여기서 실패시키면 이후 단계가 통째로 건너뛰어져 웹페이지가 멈춘다.
       # 실패 사실은 마지막 단계에서 별도로 알린다.
+      # 사람이 버튼을 누른 것은 '지금 받아와라'는 뜻이므로 간격 제한을 무시한다.
+      # 예약 실행은 3시간 간격 규칙을 지킨다(중복 수집으로 상대 서버에 부담을 주지 않기 위해).
       - name: 수집
         id: collect
         continue-on-error: true
         env:
           PYTHONUTF8: "1"
-        run: python collect.py
+        run: python collect.py ${{ github.event_name == 'workflow_dispatch' && '--force' || '' }}
 
       - name: 분류
         env:
