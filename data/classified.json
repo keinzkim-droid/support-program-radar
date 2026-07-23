@@ -373,6 +373,58 @@
       ]
     },
     {
+      "source": "kstartup",
+      "source_id": "178554",
+      "title": "2026년「강남 취‧창업허브센터」6차 입주 기업 신규 모집",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178554",
+      "apply_raw": "2026-07-10 ~ 2026-07-24",
+      "apply_start": "2026-07-10",
+      "apply_end": "2026-07-24",
+      "agency": "(주)오픈놀",
+      "exec_agency": "(주)오픈놀",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-07-15",
+      "status": "마감임박",
+      "location": "서울특별시 강남구 역삼로 160, 강남취창업허브센터 입주공간: https://www.gangnam-jobnstartup.com/center/sp",
+      "collected_at": "2026-07-23",
+      "key": "kstartup:178554",
+      "track": "C",
+      "score": 3,
+      "region": "서울",
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 창업허브",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
+      "source": "kstartup",
+      "source_id": "178565",
+      "title": "2026년 서울창업허브 창동-삼성물산 건설부문 오픈이노베이션 참가기업 모집",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178565",
+      "apply_raw": "2026-07-15 ~ 2026-07-24",
+      "apply_start": "2026-07-15",
+      "apply_end": "2026-07-24",
+      "agency": "서울창업허브 창동 운영",
+      "exec_agency": "서울창업허브 창동 운영",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-07-15",
+      "status": "마감임박",
+      "location": "",
+      "collected_at": "2026-07-23",
+      "key": "kstartup:178565",
+      "track": "C",
+      "score": 3,
+      "region": "서울",
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 창업허브",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
       "source": "bizinfo",
       "source_id": "PBLN_000000000124553",
       "title": "2026년 협업지능 피지컬AI 기반 SW플랫폼 연구개발 생태계 조성 사업 공고",
@@ -418,6 +470,32 @@
       "reasons": [
         "사무실·공간 키워드: 입주기업"
       ]
+    },
+    {
+      "source": "kstartup",
+      "source_id": "178566",
+      "title": "2026년 서울창업허브 창동-조이시티 오픈이노베이션 참가기업 모집",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178566",
+      "apply_raw": "2026-07-15 ~ 2026-07-29",
+      "apply_start": "2026-07-15",
+      "apply_end": "2026-07-29",
+      "agency": "서울창업허브 창동 운영",
+      "exec_agency": "서울창업허브 창동 운영",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-07-15",
+      "status": "마감임박",
+      "location": "",
+      "collected_at": "2026-07-23",
+      "key": "kstartup:178566",
+      "track": "C",
+      "score": 3,
+      "region": "서울",
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 창업허브",
+        "자동 분류"
+      ],
+      "auto": true
     },
     {
       "source": "bizinfo",
@@ -466,6 +544,84 @@
       "reasons": [
         "핵심 키워드: 로봇"
       ]
+    },
+    {
+      "source": "kstartup",
+      "source_id": "178601",
+      "title": "1인기업 & 예비·초기창업자 환영! 강동50+센터 공유사무실 입주자 추가모집(~26.7.31.(금))",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178601",
+      "apply_raw": "2026-07-20 ~ 2026-07-31",
+      "apply_start": "2026-07-20",
+      "apply_end": "2026-07-31",
+      "agency": "강동50+센터 공유사무실 입주자 추가모집",
+      "exec_agency": "강동50+센터 공유사무실 입주자 추가모집",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-07-21",
+      "status": "마감임박",
+      "location": "지가 서울시인 예비·초기창업자 및 단체 제외대상 - 기존 강동50플러스센터 공유사무실 이용자 - 50플러스 캠퍼스 및 타 센터의 공유사무실 입주",
+      "collected_at": "2026-07-23",
+      "key": "kstartup:178601",
+      "track": "C",
+      "score": 3,
+      "region": "서울",
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 사무실",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
+      "source": "kstartup",
+      "source_id": "178616",
+      "title": "2026년 서울창업허브 창동-동아사이언스 오픈이노베이션 참가기업 모집",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178616",
+      "apply_raw": "2026-07-20 ~ 2026-07-31",
+      "apply_start": "2026-07-20",
+      "apply_end": "2026-07-31",
+      "agency": "서울창업허브 창동 운영",
+      "exec_agency": "서울창업허브 창동 운영",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-07-21",
+      "status": "마감임박",
+      "location": "",
+      "collected_at": "2026-07-23",
+      "key": "kstartup:178616",
+      "track": "C",
+      "score": 3,
+      "region": "서울",
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 창업허브",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
+      "source": "kstartup",
+      "source_id": "178569",
+      "title": "2026년 서울창업허브 창동 투자 특화 프로그램 - IR 라운드(1회차)",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178569",
+      "apply_raw": "2026-07-15 ~ 2026-07-31",
+      "apply_start": "2026-07-15",
+      "apply_end": "2026-07-31",
+      "agency": "서울창업허브 창동 운영",
+      "exec_agency": "서울창업허브 창동 운영",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-07-15",
+      "status": "마감임박",
+      "location": "",
+      "collected_at": "2026-07-23",
+      "key": "kstartup:178569",
+      "track": "C",
+      "score": 3,
+      "region": "서울",
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 창업허브",
+        "자동 분류"
+      ],
+      "auto": true
     },
     {
       "source": "kiria",
@@ -534,11 +690,63 @@
       "key": "kstartup:178639",
       "track": "C",
       "score": 3,
-      "region": "경기",
+      "region": "판교",
       "conditional": null,
       "reasons": [
         "사무실·공간 키워드: 입주기업"
       ]
+    },
+    {
+      "source": "kstartup",
+      "source_id": "178618",
+      "title": "2026년 성북구 중장년 기술창업센터 입주기업 모집공고(2차)",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178618",
+      "apply_raw": "2026-07-20 ~ 2026-08-07",
+      "apply_start": "2026-07-20",
+      "apply_end": "2026-08-07",
+      "agency": "지역창업특화지원",
+      "exec_agency": "지역창업특화지원",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-07-21",
+      "status": "접수중",
+      "location": "(소재지) : 서울특별시 성북구 화랑로 211, 한성대벤처창업지원센터 B1층 - https://sssc.co.kr/sssc/bbs/board.p",
+      "collected_at": "2026-07-23",
+      "key": "kstartup:178618",
+      "track": "C",
+      "score": 3,
+      "region": "서울",
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
+      "source": "kstartup",
+      "source_id": "178623",
+      "title": "2026년  7월 KICXUP 서울 입주기업 모집공고",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178623",
+      "apply_raw": "2026-07-21 ~ 2026-08-07",
+      "apply_start": "2026-07-21",
+      "apply_end": "2026-08-07",
+      "agency": "2026년 7월 KICXUP_서울 _입주기업_모집공고",
+      "exec_agency": "2026년 7월 KICXUP_서울 _입주기업_모집공고",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-07-21",
+      "status": "접수중",
+      "location": "현대아울렛 가산점 5층, 7층 (서울 금천구 디지털로10길 9) ㅇ 공간구성 : 5층 6인실 4.83평 (15.96m²) , 7층 4인실 3평(",
+      "collected_at": "2026-07-23",
+      "key": "kstartup:178623",
+      "track": "C",
+      "score": 3,
+      "region": "서울",
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업",
+        "자동 분류"
+      ],
+      "auto": true
     },
     {
       "source": "kiria",
@@ -1052,54 +1260,6 @@
       ]
     },
     {
-      "source": "kstartup",
-      "source_id": "178554",
-      "title": "2026년「강남 취‧창업허브센터」6차 입주 기업 신규 모집",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178554",
-      "apply_raw": "2026-07-10 ~ 2026-07-24",
-      "apply_start": "2026-07-10",
-      "apply_end": "2026-07-24",
-      "agency": "(주)오픈놀",
-      "exec_agency": "(주)오픈놀",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-07-15",
-      "status": "마감임박",
-      "location": "서울특별시 강남구 역삼로 160, 강남취창업허브센터 입주공간: https://www.gangnam-jobnstartup.com/center/sp",
-      "collected_at": "2026-07-23",
-      "key": "kstartup:178554",
-      "track": "C",
-      "score": 3,
-      "region": "서울",
-      "conditional": null,
-      "reasons": [
-        "사무실·공간 키워드: 창업허브"
-      ]
-    },
-    {
-      "source": "kstartup",
-      "source_id": "178565",
-      "title": "2026년 서울창업허브 창동-삼성물산 건설부문 오픈이노베이션 참가기업 모집",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178565",
-      "apply_raw": "2026-07-15 ~ 2026-07-24",
-      "apply_start": "2026-07-15",
-      "apply_end": "2026-07-24",
-      "agency": "서울창업허브 창동 운영",
-      "exec_agency": "서울창업허브 창동 운영",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-07-15",
-      "status": "마감임박",
-      "location": "",
-      "collected_at": "2026-07-23",
-      "key": "kstartup:178565",
-      "track": "C",
-      "score": 3,
-      "region": "서울",
-      "conditional": null,
-      "reasons": [
-        "사무실·공간 키워드: 창업허브"
-      ]
-    },
-    {
       "source": "bizinfo",
       "source_id": "PBLN_000000000124469",
       "title": "2026년 하반기 경기도 AI 혁신클러스터 AI 멤버십 기업 모집 공고",
@@ -1166,54 +1326,6 @@
       "track": "C",
       "score": 3,
       "region": null,
-      "conditional": null,
-      "reasons": [
-        "사무실·공간 키워드: 입주기업"
-      ]
-    },
-    {
-      "source": "kstartup",
-      "source_id": "178566",
-      "title": "2026년 서울창업허브 창동-조이시티 오픈이노베이션 참가기업 모집",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178566",
-      "apply_raw": "2026-07-15 ~ 2026-07-29",
-      "apply_start": "2026-07-15",
-      "apply_end": "2026-07-29",
-      "agency": "서울창업허브 창동 운영",
-      "exec_agency": "서울창업허브 창동 운영",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-07-15",
-      "status": "마감임박",
-      "location": "",
-      "collected_at": "2026-07-23",
-      "key": "kstartup:178566",
-      "track": "C",
-      "score": 3,
-      "region": "서울",
-      "conditional": null,
-      "reasons": [
-        "사무실·공간 키워드: 창업허브"
-      ]
-    },
-    {
-      "source": "kstartup",
-      "source_id": "178435",
-      "title": "2026년 제주 중장년 기술창업센터 입주기업 모집",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178435",
-      "apply_raw": "2026-07-03 ~ 2026-07-29",
-      "apply_start": "2026-07-03",
-      "apply_end": "2026-07-29",
-      "agency": "지역창업특화지원",
-      "exec_agency": "지역창업특화지원",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-07-07",
-      "status": "마감임박",
-      "location": "제주특별자치도 서귀포시 서호남로 25, 3층 - 제주 월드컵 경기장, 이마트 서귀포점, 서귀포종합버스터미널 인근 ㅇ 센터 소개 참고 : http",
-      "collected_at": "2026-07-23",
-      "key": "kstartup:178435",
-      "track": "C",
-      "score": 3,
-      "region": "경기",
       "conditional": null,
       "reasons": [
         "사무실·공간 키워드: 입주기업"
@@ -1293,78 +1405,6 @@
     },
     {
       "source": "kstartup",
-      "source_id": "178601",
-      "title": "1인기업 & 예비·초기창업자 환영! 강동50+센터 공유사무실 입주자 추가모집(~26.7.31.(금))",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178601",
-      "apply_raw": "2026-07-20 ~ 2026-07-31",
-      "apply_start": "2026-07-20",
-      "apply_end": "2026-07-31",
-      "agency": "강동50+센터 공유사무실 입주자 추가모집",
-      "exec_agency": "강동50+센터 공유사무실 입주자 추가모집",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-07-21",
-      "status": "마감임박",
-      "location": "지가 서울시인 예비·초기창업자 및 단체 제외대상 - 기존 강동50플러스센터 공유사무실 이용자 - 50플러스 캠퍼스 및 타 센터의 공유사무실 입주",
-      "collected_at": "2026-07-23",
-      "key": "kstartup:178601",
-      "track": "C",
-      "score": 3,
-      "region": "서울",
-      "conditional": null,
-      "reasons": [
-        "사무실·공간 키워드: 사무실"
-      ]
-    },
-    {
-      "source": "kstartup",
-      "source_id": "178616",
-      "title": "2026년 서울창업허브 창동-동아사이언스 오픈이노베이션 참가기업 모집",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178616",
-      "apply_raw": "2026-07-20 ~ 2026-07-31",
-      "apply_start": "2026-07-20",
-      "apply_end": "2026-07-31",
-      "agency": "서울창업허브 창동 운영",
-      "exec_agency": "서울창업허브 창동 운영",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-07-21",
-      "status": "마감임박",
-      "location": "",
-      "collected_at": "2026-07-23",
-      "key": "kstartup:178616",
-      "track": "C",
-      "score": 3,
-      "region": "서울",
-      "conditional": null,
-      "reasons": [
-        "사무실·공간 키워드: 창업허브"
-      ]
-    },
-    {
-      "source": "kstartup",
-      "source_id": "178569",
-      "title": "2026년 서울창업허브 창동 투자 특화 프로그램 - IR 라운드(1회차)",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178569",
-      "apply_raw": "2026-07-15 ~ 2026-07-31",
-      "apply_start": "2026-07-15",
-      "apply_end": "2026-07-31",
-      "agency": "서울창업허브 창동 운영",
-      "exec_agency": "서울창업허브 창동 운영",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-07-15",
-      "status": "마감임박",
-      "location": "",
-      "collected_at": "2026-07-23",
-      "key": "kstartup:178569",
-      "track": "C",
-      "score": 3,
-      "region": "서울",
-      "conditional": null,
-      "reasons": [
-        "사무실·공간 키워드: 창업허브"
-      ]
-    },
-    {
-      "source": "kstartup",
       "source_id": "178596",
       "title": "2026년 지역창업특화지원사업(1인)  제3차 신규 입주기업 모집",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178596",
@@ -1382,54 +1422,6 @@
       "track": "C",
       "score": 3,
       "region": null,
-      "conditional": null,
-      "reasons": [
-        "사무실·공간 키워드: 입주기업"
-      ]
-    },
-    {
-      "source": "kstartup",
-      "source_id": "178618",
-      "title": "2026년 성북구 중장년 기술창업센터 입주기업 모집공고(2차)",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178618",
-      "apply_raw": "2026-07-20 ~ 2026-08-07",
-      "apply_start": "2026-07-20",
-      "apply_end": "2026-08-07",
-      "agency": "지역창업특화지원",
-      "exec_agency": "지역창업특화지원",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-07-21",
-      "status": "접수중",
-      "location": "(소재지) : 서울특별시 성북구 화랑로 211, 한성대벤처창업지원센터 B1층 - https://sssc.co.kr/sssc/bbs/board.p",
-      "collected_at": "2026-07-23",
-      "key": "kstartup:178618",
-      "track": "C",
-      "score": 3,
-      "region": "서울",
-      "conditional": null,
-      "reasons": [
-        "사무실·공간 키워드: 입주기업"
-      ]
-    },
-    {
-      "source": "kstartup",
-      "source_id": "178623",
-      "title": "2026년  7월 KICXUP 서울 입주기업 모집공고",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178623",
-      "apply_raw": "2026-07-21 ~ 2026-08-07",
-      "apply_start": "2026-07-21",
-      "apply_end": "2026-08-07",
-      "agency": "2026년 7월 KICXUP_서울 _입주기업_모집공고",
-      "exec_agency": "2026년 7월 KICXUP_서울 _입주기업_모집공고",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-07-21",
-      "status": "접수중",
-      "location": "현대아울렛 가산점 5층, 7층 (서울 금천구 디지털로10길 9) ㅇ 공간구성 : 5층 6인실 4.83평 (15.96m²) , 7층 4인실 3평(",
-      "collected_at": "2026-07-23",
-      "key": "kstartup:178623",
-      "track": "C",
-      "score": 3,
-      "region": "서울",
       "conditional": null,
       "reasons": [
         "사무실·공간 키워드: 입주기업"
@@ -1663,10 +1655,10 @@
   ],
   "stats": {
     "collected": 506,
-    "cards": 31,
+    "cards": 39,
     "expired": 1,
-    "candidates": 36,
+    "candidates": 27,
     "excluded": 0,
-    "dropped": 438
+    "dropped": 439
   }
 }

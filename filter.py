@@ -92,12 +92,16 @@ def detect_region(item: dict) -> str | None:
     # '국토교통 창업지원센터'는 목록상 전국이지만 사무실은 판교에 있다.
     loc = item.get("location") or ""
     if loc:
-        for name, key in REGION_ALIAS.items():
-            if name in loc:
-                return key
+        # 주소는 앞부분이 광역시·도다. 뒷부분 건물명에 지역명이 섞이는 경우가
+        # 있어(예: '제주 … 제주 월드컵 경기장' → '경기') 앞 25자만 본다.
+        head = loc[:25]
+        # 지방을 먼저 본다. 수도권 단어가 주소 뒤에 우연히 들어가는 일이 있다.
         for name in NON_METRO:
-            if name in loc:
+            if name in head:
                 return name
+        for name, key in REGION_ALIAS.items():
+            if name in head:
+                return key
 
     m = REGION_TAG.match(item["title"])
     if m:
@@ -200,7 +204,11 @@ def should_auto_promote(rec: dict, profile: dict) -> bool:
     cfg = (profile.get("scoring") or {}).get("auto_promote") or {}
     if not cfg:
         return False
-    if rec["score"] < cfg.get("min_score", 99):
+
+    # 사무실은 점수 기준을 따로 둔다. 위 주석 참고 — 점수가 관련성을 못 잰다.
+    floor = (cfg.get("office_min_score", 3) if rec["track"] == "C"
+             else cfg.get("min_score", 99))
+    if rec["score"] < floor:
         return False
 
     text = f"{rec['title']} {rec.get('exec_agency', '')}"
