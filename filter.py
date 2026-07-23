@@ -205,24 +205,34 @@ def should_auto_promote(rec: dict, profile: dict) -> bool:
     if not cfg:
         return False
 
-    # 사무실은 점수 기준을 따로 둔다. 위 주석 참고 — 점수가 관련성을 못 잰다.
-    floor = (cfg.get("office_min_score", 3) if rec["track"] == "C"
-             else cfg.get("min_score", 99))
-    if rec["score"] < floor:
+    # 조건부 지역(인천 등)은 자격이 아직 없으므로 자동으로 올리지 않는다.
+    if rec.get("conditional"):
         return False
 
     text = f"{rec['title']} {rec.get('exec_agency', '')}"
     if any(w in text for w in cfg.get("block") or []):
         return False
 
-    # 지역이 확인된 것만 올린다. '전국'은 실제로 전국구일 수도 있지만
-    # 지역 표기가 없어 못 찾은 것일 수도 있어 사람이 본다.
-    if cfg.get("require_region") and not rec.get("region"):
+    region = rec.get("region")
+
+    # 사무실은 위치가 본질이라 지역을 반드시 확인한다.
+    if rec["track"] == "C":
+        if cfg.get("office_require_region", True) and not region:
+            return False
+        return rec["score"] >= cfg.get("office_min_score", 3)
+
+    # 트랙 B(고객사 제안)는 지역 제한이 없어 전국 공고가 다 들어온다.
+    # 자동으로 올리는 것은 수도권·전국만 하고, 타지역은 사람이 본다.
+    # 그 지역에 고객사가 있을 때만 의미가 있어 일괄 판단할 수 없다.
+    if region and region not in (profile["region"].get("office_eligible")
+                                 or profile["region"]["eligible"]):
         return False
-    # 조건부 지역(인천 등)은 자격이 아직 없으므로 자동으로 올리지 않는다.
-    if rec.get("conditional"):
-        return False
-    return True
+
+    # 우리 지역이면 낮은 점수도 올리고(지자체 사업은 키워드가 적게 걸린다),
+    # 지역 표기가 없는 전국구 사업이면 점수로 확실한 것만 올린다.
+    floor = (cfg.get("local_min_score", 3) if region
+             else cfg.get("nationwide_min_score", 6))
+    return rec["score"] >= floor
 
 
 def status_of(item: dict, today: date, soon_days: int) -> str:

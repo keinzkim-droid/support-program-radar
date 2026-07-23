@@ -153,6 +153,32 @@
       ]
     },
     {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000124598",
+      "title": "2026년 산업 AI 도입ㆍ실증 지원사업 참여기업 모집 재공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124598",
+      "apply_raw": "2026-07-21 ~ 2026-07-30",
+      "apply_start": "2026-07-21",
+      "apply_end": "2026-07-30",
+      "agency": "산업통상부",
+      "exec_agency": "충북과학기술혁신원",
+      "category": "기술",
+      "posted_at": "2026-07-22",
+      "status": "마감임박",
+      "location": "",
+      "collected_at": "2026-07-23",
+      "key": "bizinfo:PBLN_000000000124598",
+      "track": "A",
+      "score": 6,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: 실증, AI",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
       "source": "kstartup",
       "source_id": "178553",
       "title": "[2026년 경기 AI 혁신클러스터] AI 클러스터 오픈이노베이션 연계·실증 프로그램 참가기업 모집",
@@ -201,6 +227,32 @@
       "reasons": [
         "핵심 키워드: 로봇, 실증"
       ]
+    },
+    {
+      "source": "kstartup",
+      "source_id": "178538",
+      "title": "2026년 규제혁신 로봇 실증사업 2차 공고",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178538",
+      "apply_raw": "2026-07-20 ~ 2026-08-04",
+      "apply_start": "2026-07-20",
+      "apply_end": "2026-08-04",
+      "agency": "한국로봇산업진흥원",
+      "exec_agency": "한국로봇산업진흥원",
+      "category": "사업화",
+      "posted_at": "2026-07-16",
+      "status": "마감임박",
+      "location": "",
+      "collected_at": "2026-07-23",
+      "key": "kstartup:178538",
+      "track": "A",
+      "score": 6,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: 로봇, 실증",
+        "자동 분류"
+      ],
+      "auto": true
     },
     {
       "source": "kiria",
@@ -374,6 +426,32 @@
     },
     {
       "source": "kstartup",
+      "source_id": "178492",
+      "title": "2026년 하반기「하남스타트업캠퍼스·경기 AI 클러스터 하남」신규 입주자 모집 공고",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178492",
+      "apply_raw": "2026-07-06 ~ 2026-07-24",
+      "apply_start": "2026-07-06",
+      "apply_end": "2026-07-24",
+      "agency": "하남도시공사",
+      "exec_agency": "하남도시공사",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-07-16",
+      "status": "마감임박",
+      "location": "",
+      "collected_at": "2026-07-23",
+      "key": "kstartup:178492",
+      "track": "A",
+      "score": 3,
+      "region": "경기",
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: AI",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
+      "source": "kstartup",
       "source_id": "178554",
       "title": "2026년「강남 취‧창업허브센터」6차 입주 기업 신규 모집",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178554",
@@ -420,6 +498,58 @@
       "conditional": null,
       "reasons": [
         "사무실·공간 키워드: 창업허브",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000124469",
+      "title": "2026년 하반기 경기도 AI 혁신클러스터 AI 멤버십 기업 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124469",
+      "apply_raw": "2026-07-14 ~ 2026-07-27",
+      "apply_start": "2026-07-14",
+      "apply_end": "2026-07-27",
+      "agency": "경기도",
+      "exec_agency": "경기도경제과학진흥원",
+      "category": "경영",
+      "posted_at": "2026-07-20",
+      "status": "마감임박",
+      "location": "",
+      "collected_at": "2026-07-23",
+      "key": "bizinfo:PBLN_000000000124469",
+      "track": "A",
+      "score": 3,
+      "region": "경기",
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: AI",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
+      "source": "kstartup",
+      "source_id": "178574",
+      "title": "ESG × AI 챌린지 해커톤 참가자 모집",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178574",
+      "apply_raw": "2026-07-15 ~ 2026-07-27",
+      "apply_start": "2026-07-15",
+      "apply_end": "2026-07-27",
+      "agency": "경기창조경제혁신센터",
+      "exec_agency": "경기창조경제혁신센터",
+      "category": "행사ㆍ네트워크",
+      "posted_at": "2026-07-21",
+      "status": "마감임박",
+      "location": "",
+      "collected_at": "2026-07-23",
+      "key": "kstartup:178574",
+      "track": "A",
+      "score": 3,
+      "region": "경기",
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: AI",
         "자동 분류"
       ],
       "auto": true
@@ -797,6 +927,32 @@
       ]
     },
     {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000120032",
+      "title": "2026년 제29회 대한민국우수상품전시회(G-FAIR KOREA 2026) 참가기업 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120032",
+      "apply_raw": "2026-03-16 ~ 2026-08-31",
+      "apply_start": "2026-03-16",
+      "apply_end": "2026-08-31",
+      "agency": "경기도",
+      "exec_agency": "경기도경제과학진흥원",
+      "category": "수출",
+      "posted_at": "2026-03-27",
+      "status": "접수중",
+      "location": "",
+      "collected_at": "2026-07-23",
+      "key": "bizinfo:PBLN_000000000120032",
+      "track": "A",
+      "score": 3,
+      "region": "경기",
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: AI",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
       "source": "snip",
       "source_id": "2026-0092-4131",
       "title": "KAIST 김재철AI대학원 성남연구센터 AI 기술자문 지원안내",
@@ -963,6 +1119,32 @@
       "reasons": [
         "고객사향 키워드: 제조혁신"
       ]
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000122038",
+      "title": "[경기] 시흥시 2026년 AIㆍDX 기반 기업 역량 강화 지원 참여 기업 모집 추가 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000122038",
+      "apply_raw": "예산 소진시까지",
+      "apply_start": null,
+      "apply_end": null,
+      "agency": "경기도",
+      "exec_agency": "시흥산업진흥원",
+      "category": "경영",
+      "posted_at": "2026-05-15",
+      "status": "상시",
+      "location": "",
+      "collected_at": "2026-07-23",
+      "key": "bizinfo:PBLN_000000000122038",
+      "track": "A",
+      "score": 3,
+      "region": "경기",
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: AI",
+        "자동 분류"
+      ],
+      "auto": true
     }
   ],
   "expired": [
@@ -1065,30 +1247,6 @@
       ]
     },
     {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000124598",
-      "title": "2026년 산업 AI 도입ㆍ실증 지원사업 참여기업 모집 재공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124598",
-      "apply_raw": "2026-07-21 ~ 2026-07-30",
-      "apply_start": "2026-07-21",
-      "apply_end": "2026-07-30",
-      "agency": "산업통상부",
-      "exec_agency": "충북과학기술혁신원",
-      "category": "기술",
-      "posted_at": "2026-07-22",
-      "status": "마감임박",
-      "location": "",
-      "collected_at": "2026-07-23",
-      "key": "bizinfo:PBLN_000000000124598",
-      "track": "A",
-      "score": 6,
-      "region": null,
-      "conditional": null,
-      "reasons": [
-        "핵심 키워드: 실증, AI"
-      ]
-    },
-    {
       "source": "kstartup",
       "source_id": "178491",
       "title": "바이오·메디컬 연구인프라 활용 지원사업",
@@ -1110,30 +1268,6 @@
       "conditional": null,
       "reasons": [
         "사무실·공간 키워드: 창업보육, 보육센터"
-      ]
-    },
-    {
-      "source": "kstartup",
-      "source_id": "178538",
-      "title": "2026년 규제혁신 로봇 실증사업 2차 공고",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178538",
-      "apply_raw": "2026-07-20 ~ 2026-08-04",
-      "apply_start": "2026-07-20",
-      "apply_end": "2026-08-04",
-      "agency": "한국로봇산업진흥원",
-      "exec_agency": "한국로봇산업진흥원",
-      "category": "사업화",
-      "posted_at": "2026-07-16",
-      "status": "마감임박",
-      "location": "",
-      "collected_at": "2026-07-23",
-      "key": "kstartup:178538",
-      "track": "A",
-      "score": 6,
-      "region": null,
-      "conditional": null,
-      "reasons": [
-        "핵심 키워드: 로봇, 실증"
       ]
     },
     {
@@ -1233,78 +1367,6 @@
       "conditional": null,
       "reasons": [
         "사무실·공간 키워드: 창업보육"
-      ]
-    },
-    {
-      "source": "kstartup",
-      "source_id": "178492",
-      "title": "2026년 하반기「하남스타트업캠퍼스·경기 AI 클러스터 하남」신규 입주자 모집 공고",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178492",
-      "apply_raw": "2026-07-06 ~ 2026-07-24",
-      "apply_start": "2026-07-06",
-      "apply_end": "2026-07-24",
-      "agency": "하남도시공사",
-      "exec_agency": "하남도시공사",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-07-16",
-      "status": "마감임박",
-      "location": "",
-      "collected_at": "2026-07-23",
-      "key": "kstartup:178492",
-      "track": "A",
-      "score": 3,
-      "region": "경기",
-      "conditional": null,
-      "reasons": [
-        "핵심 키워드: AI"
-      ]
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000124469",
-      "title": "2026년 하반기 경기도 AI 혁신클러스터 AI 멤버십 기업 모집 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124469",
-      "apply_raw": "2026-07-14 ~ 2026-07-27",
-      "apply_start": "2026-07-14",
-      "apply_end": "2026-07-27",
-      "agency": "경기도",
-      "exec_agency": "경기도경제과학진흥원",
-      "category": "경영",
-      "posted_at": "2026-07-20",
-      "status": "마감임박",
-      "location": "",
-      "collected_at": "2026-07-23",
-      "key": "bizinfo:PBLN_000000000124469",
-      "track": "A",
-      "score": 3,
-      "region": "경기",
-      "conditional": null,
-      "reasons": [
-        "핵심 키워드: AI"
-      ]
-    },
-    {
-      "source": "kstartup",
-      "source_id": "178574",
-      "title": "ESG × AI 챌린지 해커톤 참가자 모집",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178574",
-      "apply_raw": "2026-07-15 ~ 2026-07-27",
-      "apply_start": "2026-07-15",
-      "apply_end": "2026-07-27",
-      "agency": "경기창조경제혁신센터",
-      "exec_agency": "경기창조경제혁신센터",
-      "category": "행사ㆍ네트워크",
-      "posted_at": "2026-07-21",
-      "status": "마감임박",
-      "location": "",
-      "collected_at": "2026-07-23",
-      "key": "kstartup:178574",
-      "track": "A",
-      "score": 3,
-      "region": "경기",
-      "conditional": null,
-      "reasons": [
-        "핵심 키워드: AI"
       ]
     },
     {
@@ -1549,30 +1611,6 @@
     },
     {
       "source": "bizinfo",
-      "source_id": "PBLN_000000000120032",
-      "title": "2026년 제29회 대한민국우수상품전시회(G-FAIR KOREA 2026) 참가기업 모집 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120032",
-      "apply_raw": "2026-03-16 ~ 2026-08-31",
-      "apply_start": "2026-03-16",
-      "apply_end": "2026-08-31",
-      "agency": "경기도",
-      "exec_agency": "경기도경제과학진흥원",
-      "category": "수출",
-      "posted_at": "2026-03-27",
-      "status": "접수중",
-      "location": "",
-      "collected_at": "2026-07-23",
-      "key": "bizinfo:PBLN_000000000120032",
-      "track": "A",
-      "score": 3,
-      "region": "경기",
-      "conditional": null,
-      "reasons": [
-        "핵심 키워드: AI"
-      ]
-    },
-    {
-      "source": "bizinfo",
       "source_id": "PBLN_000000000123466",
       "title": "2026년 지능형 반도체 개발ㆍ실증지원 고신뢰 반도체 상용화를 위한 검증ㆍ확인 지원사업 기업 지원 프로그램 통합 공고",
       "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123466",
@@ -1618,30 +1656,6 @@
       "reasons": [
         "핵심 키워드: 실증"
       ]
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000122038",
-      "title": "[경기] 시흥시 2026년 AIㆍDX 기반 기업 역량 강화 지원 참여 기업 모집 추가 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000122038",
-      "apply_raw": "예산 소진시까지",
-      "apply_start": null,
-      "apply_end": null,
-      "agency": "경기도",
-      "exec_agency": "시흥산업진흥원",
-      "category": "경영",
-      "posted_at": "2026-05-15",
-      "status": "상시",
-      "location": "",
-      "collected_at": "2026-07-23",
-      "key": "bizinfo:PBLN_000000000122038",
-      "track": "A",
-      "score": 3,
-      "region": "경기",
-      "conditional": null,
-      "reasons": [
-        "핵심 키워드: AI"
-      ]
     }
   ],
   "excluded": [],
@@ -1655,9 +1669,9 @@
   ],
   "stats": {
     "collected": 506,
-    "cards": 39,
+    "cards": 46,
     "expired": 1,
-    "candidates": 27,
+    "candidates": 20,
     "excluded": 0,
     "dropped": 439
   }
