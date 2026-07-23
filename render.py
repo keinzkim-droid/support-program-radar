@@ -21,6 +21,12 @@ OUT = ROOT / "docs" / "index.html"
 # 승인 목록을 GitHub 웹 편집기로 바로 여는 링크.
 REPO_NEW = "https://github.com/keinzkim-droid/support-program-radar/new/main"
 
+# 수동 실행 화면. 정적 페이지라 여기서 직접 API를 부를 수 없다 —
+# 공개 저장소에 토큰을 넣으면 누구나 가져갈 수 있기 때문이다.
+# 대신 실행 화면을 바로 열어 클릭 수를 줄인다.
+RUN_URL = ("https://github.com/keinzkim-droid/support-program-radar"
+           "/actions/workflows/daily.yml")
+
 # 자동 실행 시각 안내. .github/workflows/daily.yml의 cron과 함께 고칠 것.
 SCHEDULE_TEXT = "매일 오전·오후 (하루 2회 이상)"
 
@@ -64,6 +70,9 @@ body{background:var(--bg);color:var(--text);
   transform:rotate(45deg)}
 .nav-tag{font-size:12.5px;color:var(--text2);background:var(--n50);padding:6px 12px;
   border-radius:100px;border:1px solid var(--border)}
+.nav-right{display:flex;align-items:center;gap:10px}
+.nav-right .btn{text-decoration:none}
+@media(max-width:600px){.nav-tag{display:none}}
 .hero{max-width:1160px;margin:0 auto;padding:56px 28px 32px}
 .eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:600;
   color:var(--accent-strong);background:var(--soft);padding:7px 13px;border-radius:100px;
@@ -441,8 +450,10 @@ def staleness_banner(collected_at: str) -> str:
     return f"""
 <div class="wrap"><div class="stale {level}">
   <b>⚠ 마지막 수집: {esc(ago)}</b> — {msg}<br>
-  <span class="s-note">GitHub 저장소의 Actions 탭에서 <b>공고 수집 → Run workflow</b>로
-  직접 실행할 수 있습니다. 화면의 공고는 마지막 수집 시점 기준입니다.</span>
+  <span class="s-note">화면의 공고는 마지막 수집 시점 기준입니다.
+  아래 버튼을 누른 뒤 열리는 화면에서 <b>Run workflow</b>를 클릭하면 바로 갱신됩니다.</span>
+  <a class="btn sm" style="margin-top:12px;display:inline-block"
+     href="{RUN_URL}" target="_blank" rel="noopener">지금 갱신하기</a>
 </div></div>"""
 
 
@@ -481,7 +492,12 @@ def build(data: dict, build_id: str = "") -> str:
 
 <nav class="nav"><div class="nav-inner">
   <div class="brand"><span class="dot"></span>지원사업 레이더</div>
-  <div class="nav-tag">{esc(data['generated_at'])} 자동 갱신</div>
+  <div class="nav-right">
+    <span class="nav-tag">{esc(data['generated_at'])} 갱신</span>
+    <a class="btn sm ghost" href="{RUN_URL}" target="_blank" rel="noopener"
+       title="열리는 화면에서 Run workflow를 누르면 최신 공고를 다시 수집합니다">
+      새로 수집</a>
+  </div>
 </div></nav>
 
 <header class="hero">
