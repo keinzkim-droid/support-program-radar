@@ -75,6 +75,7 @@ class Announcement:
     category: str = ""     # 지원분야
     posted_at: str = ""    # 등록일
     status: str = ""       # 소스가 알려주는 상태(진행중/대기중 등)
+    location: str = ""     # 사무실 공고의 실제 소재지(상세에서만 얻을 수 있다)
     collected_at: str = field(default_factory=lambda: date.today().isoformat())
 
     @property
@@ -487,6 +488,46 @@ def collect_kstartup() -> list[Announcement]:
     return list(seen.values())
 
 
+OFFICE_HINT = re.compile(r"입주|임대|사무공간|사무실|보육센터|창업공간|공유오피스")
+# 본문에서 소재지를 찾는다. '소재지 - 판교 제2테크노밸리…', '주소 : 경기도 성남시…'
+ADDRESS = re.compile(r"(?:소재지|주소|위치)\s*[-:：]?\s*([^\n]{6,80})")
+REGION_WORDS = ["판교", "성남", "경기도", "경기", "서울", "인천"]
+
+
+def enrich_office(items: list[dict]) -> int:
+    """사무실로 보이는 공고만 상세를 열어 소재지를 채운다.
+
+    목록의 '지역'은 주관기관 기준이라 실제 사무실 위치와 다르다.
+    예: '국토교통 창업지원센터'는 목록상 전국이지만 실제로는 판교 제2테크노밸리다.
+    제목만으로는 판단할 수 없어 이 정보가 없으면 지역 판정이 불가능하다.
+
+    전체를 훑으면 요청이 수백 건이 되므로 사무실 후보에만 적용한다.
+    """
+    targets = [i for i in items
+               if OFFICE_HINT.search(i["title"]) or "시설" in (i.get("category") or "")]
+    log.info("사무실 후보 %d건의 소재지를 확인한다", len(targets))
+
+    found = 0
+    for i in targets:
+        if i.get("location"):
+            continue
+        time.sleep(DELAY_SEC)
+        try:
+            text = re.sub(r"\s+", " ",
+                          BeautifulSoup(fetch(i["url"]), PARSER).get_text(" ", strip=True))
+        except CollectError:
+            continue
+        for m in ADDRESS.finditer(text):
+            seg = m.group(1)
+            if any(w in seg for w in REGION_WORDS):
+                i["location"] = seg.strip()[:80]
+                found += 1
+                break
+    if found:
+        log.info("  소재지 %d건 확인", found)
+    return found
+
+
 SOURCES = {
     "bizinfo": collect_bizinfo,
     "kiria": collect_kiria,
@@ -556,6 +597,12 @@ def main() -> int:
             if stale:
                 log.warning("%-8s 지난 수집분 %d건 유지", name, len(stale))
                 items.extend(stale)
+
+    # 사무실 공고는 제목·목록에 위치가 없어 상세를 봐야 지역을 알 수 있다.
+    try:
+        enrich_office(items)
+    except Exception as e:                      # 부가 정보이므로 실패해도 계속한다
+        log.warning("소재지 확인 실패: %s", e)
 
     # 승인된 공고는 소스 목록에서 밀려나도 유지한다.
     # 기업마당 검색 결과는 매일 바뀌는데, 사람이 확정한 목록이 거기 휘둘리면

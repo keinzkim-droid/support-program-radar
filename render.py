@@ -126,6 +126,7 @@ h1 .hl{color:var(--accent)}
 .cond-row{display:flex;justify-content:space-between;gap:12px;font-size:12.5px;padding:4px 0}
 .cond-k{color:var(--text2);flex:none;width:72px}
 .cond-v{color:var(--text);font-weight:600;text-align:right}
+.cond-v.loc{font-weight:500;font-size:12px;line-height:1.5;color:var(--accent-strong)}
 .why{font-size:11.5px;color:var(--text2);margin-top:10px;line-height:1.6}
 .acts{display:flex;gap:8px;margin-top:14px;padding-top:12px;
   border-top:1px dashed var(--border)}
@@ -355,6 +356,9 @@ def card_html(rec: dict, idx: int, today: date,
         <span class="cond-v">{esc(rec.get('exec_agency') or '-')}</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">{esc(rec.get('source'))}</span></div>
+      {f'''<div class="cond-row"><span class="cond-k">소재지</span>
+        <span class="cond-v loc">{esc(rec["location"][:52])}</span></div>'''
+       if rec.get("location") else ""}
     </div>
     <div class="why">판정 근거 · {esc(reasons)}</div>
     {pick}

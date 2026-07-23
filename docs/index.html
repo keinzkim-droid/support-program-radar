@@ -93,6 +93,7 @@ h1 .hl{color:var(--accent)}
 .cond-row{display:flex;justify-content:space-between;gap:12px;font-size:12.5px;padding:4px 0}
 .cond-k{color:var(--text2);flex:none;width:72px}
 .cond-v{color:var(--text);font-weight:600;text-align:right}
+.cond-v.loc{font-weight:500;font-size:12px;line-height:1.5;color:var(--accent-strong)}
 .why{font-size:11.5px;color:var(--text2);margin-top:10px;line-height:1.6}
 .acts{display:flex;gap:8px;margin-top:14px;padding-top:12px;
   border-top:1px dashed var(--border)}
@@ -168,7 +169,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
 
 <header class="hero">
   <div class="eyebrow">● 자동 수집 · 기업마당 + 한국로봇산업진흥원 + K-Startup + 정보통신산업진흥원 + 성남산업진흥원</div>
-  <h1>지금 접수 중인 사업<br><span class="hl">51건</span>을 찾았어요</h1>
+  <h1>지금 접수 중인 사업<br><span class="hl">50건</span>을 찾았어요</h1>
   <p>매일 자동으로 공고를 수집해 회사 조건에 맞는 것만 골라냅니다.
      직접 신청하는 사업과 고객사에 제안할 사업을 나눠서 보여줍니다.</p>
   <div class="stat-row">
@@ -178,20 +179,20 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
       <div class="stat-label">직접 신청 대상</div></div>
     <div class="stat"><div class="stat-num">12</div>
       <div class="stat-label">고객사 제안용</div></div>
-    <div class="stat"><div class="stat-num">37</div>
+    <div class="stat"><div class="stat-num">36</div>
       <div class="stat-label">새로 찾은 공고</div></div>
   </div>
 </header>
 
 <div class="tabs">
   <button class="tab-btn active" onclick="switchTab('open', this)">
-    접수 중 <span class="count">51</span></button>
+    접수 중 <span class="count">50</span></button>
   <button class="tab-btn" onclick="switchTab('cards', this)">
     관련 사업 <span class="count">25</span></button>
   <button class="tab-btn" onclick="switchTab('office', this)">
-    사무실·공간 <span class="count">4</span></button>
+    사무실·공간 <span class="count">6</span></button>
   <button class="tab-btn" onclick="switchTab('new', this)">
-    <span class="live-dot"></span>새로 찾은 공고 <span class="count">37</span></button>
+    <span class="live-dot"></span>새로 찾은 공고 <span class="count">36</span></button>
   <button class="tab-btn" onclick="switchTab('expired', this)">
     마감 <span class="count">1</span></button>
   <button class="tab-btn" onclick="switchTab('excluded', this)">
@@ -221,6 +222,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">한국로봇산업진흥원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kiria</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 로봇, 제조로봇, 실증 · 관련 키워드: 인증</div>
     <div class="acts"><button class="btn sm ghost" onclick="decide('kiria:IBUS_000000000001256','2026년 제조로봇 실증사업 작업장 안전인증 및 안전컨설팅 지원사업(2차) 모집 공고','pending')">되돌리기</button></div>
@@ -243,6 +245,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">한국로봇산업진흥원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kiria</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 로봇, 서비스로봇, 실증</div>
     <div class="acts"><button class="btn sm ghost" onclick="decide('kiria:IBUS_000000000001258','2026년 「서비스로봇 실증사업」 지원과제 2차 모집 공고','pending')">되돌리기</button></div>
@@ -265,6 +268,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">정보통신산업진흥원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">bizinfo</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 실증, AI</div>
     <div class="acts"><button class="btn sm ghost" onclick="decide('bizinfo:PBLN_000000000124527','2026년 인간-AI 협업형 LAM 개발ㆍ글로벌 실증 사업 공고','pending')">되돌리기</button></div>
@@ -287,6 +291,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">탭엔젤파트너스</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 실증, AI · 자동 분류</div>
     <div class="acts"><button class="btn sm ghost" onclick="decide('kstartup:178553','[2026년 경기 AI 혁신클러스터] AI 클러스터 오픈이노베이션 연계·실증 프로그램 참가기업 모집','pending')">되돌리기</button></div>
@@ -309,6 +314,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">한국로봇산업진흥원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kiria</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 로봇, 실증</div>
     <div class="acts"><button class="btn sm ghost" onclick="decide('kiria:IBUS_000000000001259','2026년 「규제혁신 로봇 실증사업」지원과제 2차 모집 공고','pending')">되돌리기</button></div>
@@ -331,6 +337,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">한국로봇산업진흥원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kiria</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 로봇, 실외이동로봇</div>
     <div class="acts"><button class="btn sm ghost" onclick="decide('kiria:IBUS_000000000001252','2026년 실외이동로봇 기술지원사업 참여기업 모집 공고','pending')">되돌리기</button></div>
@@ -353,6 +360,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">한국산업기술시험원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">bizinfo</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 로봇, 실증</div>
     <div class="acts"><button class="btn sm ghost" onclick="decide('bizinfo:PBLN_000000000122589','2026년 제조산업 공정작업용 로봇 엔드이펙터 실증 기반 구축 사업 지원 기업 모집 공고','pending')">되돌리기</button></div>
@@ -375,6 +383,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">한국로봇산업진흥원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kiria</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 로봇 · 관련 키워드: 모빌리티, 시험평가</div>
     <div class="acts"><button class="btn sm ghost" onclick="decide('kiria:IBUS_000000000001251','「2026년 모빌리티 혁신제품 시험평가 지원」지원 대상 기업 상시모집 공고','pending')">되돌리기</button></div>
@@ -397,6 +406,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">성남산업진흥원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">snip</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 자율주행 · 관련 키워드: 자율</div>
     <div class="acts"><button class="btn sm ghost" onclick="decide('snip:2026-0002-4047','2026 성남 자율주행 기본시험장 이용 기업&amp;기관 모집','pending')">되돌리기</button></div>
@@ -419,6 +429,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">전남테크노파크</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">bizinfo</span></div>
+      
     </div>
     <div class="why">판정 근거 · 고객사향 키워드: 제조혁신</div>
     <div class="acts"><button class="btn sm ghost" onclick="decide('bizinfo:PBLN_000000000124187','[전남광주] 2026년 탄소중립 제조혁신 고도화 2단계 사업 참여기업 추가모집 공고','pending')">되돌리기</button></div>
@@ -441,6 +452,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">포항테크노파크</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">bizinfo</span></div>
+      
     </div>
     <div class="why">판정 근거 · 고객사향 키워드: 스마트공장</div>
     <div class="acts"><button class="btn sm ghost" onclick="decide('bizinfo:PBLN_000000000123543','[경북] 포항시 2026년 경북형(포항) 스마트공장(기초단계) 구축지원사업 추가모집 공고','pending')">되돌리기</button></div>
@@ -463,6 +475,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">정보통신산업진흥원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">bizinfo</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: AI</div>
     <div class="acts"><button class="btn sm ghost" onclick="decide('bizinfo:PBLN_000000000124553','2026년 협업지능 피지컬AI 기반 SW플랫폼 연구개발 생태계 조성 사업 공고','pending')">되돌리기</button></div>
@@ -485,6 +498,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">충북대학교 산학협력단</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">bizinfo</span></div>
+      
     </div>
     <div class="why">판정 근거 · 고객사향 키워드: 제조혁신</div>
     <div class="acts"><button class="btn sm ghost" onclick="decide('bizinfo:PBLN_000000000124138','2026년 충북청주 강소특구 X 심텍 AI 제조혁신 오픈이노베이션 지원사업 모집 공고','pending')">되돌리기</button></div>
@@ -507,6 +521,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">한국생산기술연구원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">bizinfo</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 로봇</div>
     <div class="acts"><button class="btn sm ghost" onclick="decide('bizinfo:PBLN_000000000123881','2026년 4차 제조공정 로봇도입 엔지니어링 컨설팅 모집 공고','pending')">되돌리기</button></div>
@@ -529,6 +544,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">한국로봇산업진흥원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kiria</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 로봇</div>
     <div class="acts"><button class="btn sm ghost" onclick="decide('kiria:IBUS_000000000001260','2026년도「신뢰성기반활용지원사업」 수시형 2차 참여기업 모집','pending')">되돌리기</button></div>
@@ -551,6 +567,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">인천테크노파크</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">bizinfo</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 로봇 · 조건부: 조건부 지역</div>
     <div class="acts"><button class="btn sm ghost" onclick="decide('bizinfo:PBLN_000000000124444','[인천] 2026년 로봇 액셀러레이팅 프로그램 참여기업 모집 공고(로봇산업 혁신성장 지원사업)','pending')">되돌리기</button></div>
@@ -573,6 +590,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">한국로봇산업진흥원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kiria</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 로봇</div>
     <div class="acts"><button class="btn sm ghost" onclick="decide('kiria:IBUS_000000000001261','2026년도 「한-체코 첨단로봇산업 협력센터 구축사업」 지원과제 모집 공고','pending')">되돌리기</button></div>
@@ -595,6 +613,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">충북테크노파크</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">bizinfo</span></div>
+      
     </div>
     <div class="why">판정 근거 · 고객사향 키워드: 스마트공장</div>
     <div class="acts"><button class="btn sm ghost" onclick="decide('bizinfo:PBLN_000000000123766','[충북] 2026년 스마트공장 구축 자부담금 지원사업 수혜기업 모집 공고','pending')">되돌리기</button></div>
@@ -617,6 +636,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">성남산업진흥원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">snip</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: AI</div>
     <div class="acts"><button class="btn sm ghost" onclick="decide('snip:2026-0092-4131','KAIST 김재철AI대학원 성남연구센터 AI 기술자문 지원안내','pending')">되돌리기</button></div>
@@ -639,6 +659,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">전북테크노파크</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">bizinfo</span></div>
+      
     </div>
     <div class="why">판정 근거 · 고객사향 키워드: 스마트공장</div>
     <div class="acts"><button class="btn sm ghost" onclick="decide('bizinfo:PBLN_000000000124248','[전북] 무주군 2026년 3차 지역특화형(농식품기업) 스마트공장 구축지원사업 수시모집 공고','pending')">되돌리기</button></div>
@@ -661,6 +682,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">광주테크노파크</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">bizinfo</span></div>
+      
     </div>
     <div class="why">판정 근거 · 고객사향 키워드: 스마트공장</div>
     <div class="acts"><button class="btn sm ghost" onclick="decide('bizinfo:PBLN_000000000121614','[광주] 2026년 스마트공장 지원계획 공고','pending')">되돌리기</button></div>
@@ -683,6 +705,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">중소기업기술정보진흥원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">bizinfo</span></div>
+      
     </div>
     <div class="why">판정 근거 · 고객사향 키워드: 스마트공장</div>
     <div class="acts"><button class="btn sm ghost" onclick="decide('bizinfo:PBLN_000000000118006','2026년 스마트공장 수준확인 사업 공고','pending')">되돌리기</button></div>
@@ -705,6 +728,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">스마트제조혁신추진단</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">bizinfo</span></div>
+      
     </div>
     <div class="why">판정 근거 · 고객사향 키워드: 제조혁신</div>
     <div class="acts"><button class="btn sm ghost" onclick="decide('bizinfo:PBLN_000000000116004','스마트 공장 수준 확인(2026년 스마트 제조혁신 지원사업 통합 공고)','pending')">되돌리기</button></div>
@@ -727,6 +751,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">스마트제조혁신추진단</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">bizinfo</span></div>
+      
     </div>
     <div class="why">판정 근거 · 고객사향 키워드: 제조혁신</div>
     <div class="acts"><button class="btn sm ghost" onclick="decide('bizinfo:PBLN_000000000116008','제조 DX멘토단 활용지원(2026년 스마트 제조혁신 지원사업 통합 공고)','pending')">되돌리기</button></div>
@@ -749,6 +774,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">중소기업기술정보진흥원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">bizinfo</span></div>
+      
     </div>
     <div class="why">판정 근거 · 고객사향 키워드: 제조혁신</div>
     <div class="acts"><button class="btn sm ghost" onclick="decide('bizinfo:PBLN_000000000115994','2026년 스마트 제조혁신 지원사업 통합 공고','pending')">되돌리기</button></div>
@@ -1009,6 +1035,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">전남테크노파크</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">bizinfo</span></div>
+      
     </div>
     <div class="why">판정 근거 · 고객사향 키워드: 제조혁신</div>
     
@@ -1031,6 +1058,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">2026년 체육인 직업안정(창업지원) 사업 참여자 추가 모집(~7.23.)</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      
     </div>
     <div class="why">판정 근거 · 사무실·공간 키워드: 창업보육</div>
     
@@ -1053,6 +1081,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">포항테크노파크</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">bizinfo</span></div>
+      
     </div>
     <div class="why">판정 근거 · 고객사향 키워드: 스마트공장</div>
     
@@ -1075,6 +1104,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">창업보육센터 지원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      
     </div>
     <div class="why">판정 근거 · 사무실·공간 키워드: 입주기업, 창업보육, 보육센터</div>
     
@@ -1097,6 +1127,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">하남도시공사</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: AI</div>
     
@@ -1111,7 +1142,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
       </div>
       <span class="pill soon">마감임박</span>
     </div>
-    <div class="chip-row"><span class="chip track">사무실·공간</span><span class="chip">시설ㆍ공간ㆍ보육</span></div>
+    <div class="chip-row"><span class="chip track">사무실·공간</span><span class="chip">서울</span><span class="chip">시설ㆍ공간ㆍ보육</span></div>
     <div class="cond-table">
       <div class="cond-row"><span class="cond-k">접수기간</span>
         <span class="cond-v">2026-07-24 (D-1)</span></div>
@@ -1119,6 +1150,8 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">(주)오픈놀</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      <div class="cond-row"><span class="cond-k">소재지</span>
+        <span class="cond-v loc">서울특별시 강남구 역삼로 160, 강남취창업허브센터 입주공간: https://www.gangn</span></div>
     </div>
     <div class="why">판정 근거 · 사무실·공간 키워드: 창업허브</div>
     
@@ -1141,6 +1174,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">서울창업허브 창동 운영</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      
     </div>
     <div class="why">판정 근거 · 사무실·공간 키워드: 창업허브</div>
     
@@ -1148,28 +1182,6 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
   <div class="card">
     <div class="card-head">
       <div class="badge ">08</div>
-      <div class="card-head-text">
-        <div class="card-kicker">창업보육센터 지원</div>
-        <div class="card-title"><a href="https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&amp;pbancSn=178533" target="_blank"
-          rel="noopener">2026년 한국외대 창업보육센터 입주기업 모집 공고</a></div>
-      </div>
-      <span class="pill soon">마감임박</span>
-    </div>
-    <div class="chip-row"><span class="chip track">사무실·공간</span><span class="chip">시설ㆍ공간ㆍ보육</span></div>
-    <div class="cond-table">
-      <div class="cond-row"><span class="cond-k">접수기간</span>
-        <span class="cond-v">2026-07-26 (D-3)</span></div>
-      <div class="cond-row"><span class="cond-k">수행기관</span>
-        <span class="cond-v">창업보육센터 지원</span></div>
-      <div class="cond-row"><span class="cond-k">출처</span>
-        <span class="cond-v">kstartup</span></div>
-    </div>
-    <div class="why">판정 근거 · 사무실·공간 키워드: 입주기업, 창업보육, 보육센터</div>
-    
-  </div>
-  <div class="card">
-    <div class="card-head">
-      <div class="badge ">09</div>
       <div class="card-head-text">
         <div class="card-kicker">한국로봇산업진흥원</div>
         <div class="card-title"><a href="https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&amp;ibusCode=IBUS_000000000001256" target="_blank"
@@ -1185,13 +1197,14 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">한국로봇산업진흥원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kiria</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 로봇, 제조로봇, 실증 · 관련 키워드: 인증</div>
     
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">10</div>
+      <div class="badge ">09</div>
       <div class="card-head-text">
         <div class="card-kicker">경기도</div>
         <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124469" target="_blank"
@@ -1207,13 +1220,14 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">경기도경제과학진흥원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">bizinfo</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: AI</div>
     
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">11</div>
+      <div class="badge ">10</div>
       <div class="card-head-text">
         <div class="card-kicker">경기창조경제혁신센터</div>
         <div class="card-title"><a href="https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&amp;pbancSn=178574" target="_blank"
@@ -1229,13 +1243,14 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">경기창조경제혁신센터</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: AI</div>
     
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">12</div>
+      <div class="badge ">11</div>
       <div class="card-head-text">
         <div class="card-kicker">과학기술정보통신부</div>
         <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124527" target="_blank"
@@ -1251,13 +1266,14 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">정보통신산업진흥원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">bizinfo</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 실증, AI</div>
     
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">13</div>
+      <div class="badge ">12</div>
       <div class="card-head-text">
         <div class="card-kicker">과학기술정보통신부</div>
         <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124553" target="_blank"
@@ -1273,13 +1289,14 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">정보통신산업진흥원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">bizinfo</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: AI</div>
     
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">14</div>
+      <div class="badge ">13</div>
       <div class="card-head-text">
         <div class="card-kicker">산업통상부</div>
         <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124590" target="_blank"
@@ -1295,13 +1312,14 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">대구경북첨단의료산업진흥재단</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">bizinfo</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 실증 · 관련 키워드: 인증</div>
     
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">15</div>
+      <div class="badge ">14</div>
       <div class="card-head-text">
         <div class="card-kicker">청년 창업아카데미(G-Space@East) 운영</div>
         <div class="card-title"><a href="https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&amp;pbancSn=178525" target="_blank"
@@ -1317,13 +1335,14 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">청년 창업아카데미(G-Space@East) 운영</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      
     </div>
     <div class="why">판정 근거 · 사무실·공간 키워드: 입주기업</div>
     
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">16</div>
+      <div class="badge ">15</div>
       <div class="card-head-text">
         <div class="card-kicker">서울창업허브 창동 운영</div>
         <div class="card-title"><a href="https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&amp;pbancSn=178566" target="_blank"
@@ -1339,8 +1358,33 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">서울창업허브 창동 운영</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      
     </div>
     <div class="why">판정 근거 · 사무실·공간 키워드: 창업허브</div>
+    
+  </div>
+  <div class="card">
+    <div class="card-head">
+      <div class="badge ">16</div>
+      <div class="card-head-text">
+        <div class="card-kicker">지역창업특화지원</div>
+        <div class="card-title"><a href="https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&amp;pbancSn=178435" target="_blank"
+          rel="noopener">2026년 제주 중장년 기술창업센터 입주기업 모집</a></div>
+      </div>
+      <span class="pill soon">마감임박</span>
+    </div>
+    <div class="chip-row"><span class="chip track">사무실·공간</span><span class="chip">경기</span><span class="chip">시설ㆍ공간ㆍ보육</span></div>
+    <div class="cond-table">
+      <div class="cond-row"><span class="cond-k">접수기간</span>
+        <span class="cond-v">2026-07-29 (D-6)</span></div>
+      <div class="cond-row"><span class="cond-k">수행기관</span>
+        <span class="cond-v">지역창업특화지원</span></div>
+      <div class="cond-row"><span class="cond-k">출처</span>
+        <span class="cond-v">kstartup</span></div>
+      <div class="cond-row"><span class="cond-k">소재지</span>
+        <span class="cond-v loc">제주특별자치도 서귀포시 서호남로 25, 3층 - 제주 월드컵 경기장, 이마트 서귀포점, 서귀포</span></div>
+    </div>
+    <div class="why">판정 근거 · 사무실·공간 키워드: 입주기업</div>
     
   </div>
   <div class="card">
@@ -1361,6 +1405,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">충북대학교 산학협력단</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">bizinfo</span></div>
+      
     </div>
     <div class="why">판정 근거 · 고객사향 키워드: 제조혁신</div>
     
@@ -1383,6 +1428,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">충북과학기술혁신원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">bizinfo</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 실증, AI</div>
     
@@ -1405,6 +1451,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">동국대학교 BMC창업보육센터</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      
     </div>
     <div class="why">판정 근거 · 사무실·공간 키워드: 창업보육, 보육센터</div>
     
@@ -1419,7 +1466,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
       </div>
       <span class="pill soon">마감임박</span>
     </div>
-    <div class="chip-row"><span class="chip track">사무실·공간</span><span class="chip">시설ㆍ공간ㆍ보육</span></div>
+    <div class="chip-row"><span class="chip track">사무실·공간</span><span class="chip">서울</span><span class="chip">시설ㆍ공간ㆍ보육</span></div>
     <div class="cond-table">
       <div class="cond-row"><span class="cond-k">접수기간</span>
         <span class="cond-v">2026-07-30 (D-7)</span></div>
@@ -1427,6 +1474,8 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">예술경영지원센터</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      <div class="cond-row"><span class="cond-k">소재지</span>
+        <span class="cond-v loc">서울시 종로구 율곡로 6, 트윈트리타워 A동 아트코리아랩 입주비용(관리비) 입주공간 유형에 따</span></div>
     </div>
     <div class="why">판정 근거 · 사무실·공간 키워드: 입주기업</div>
     
@@ -1449,6 +1498,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">탭엔젤파트너스</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 실증, AI · 자동 분류</div>
     
@@ -1471,6 +1521,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">한국생산기술연구원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">bizinfo</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 로봇</div>
     
@@ -1493,6 +1544,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">울산테크노파크</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">bizinfo</span></div>
+      
     </div>
     <div class="why">판정 근거 · 고객사향 키워드: 제조데이터</div>
     
@@ -1515,6 +1567,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">인천테크노파크</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">bizinfo</span></div>
+      
     </div>
     <div class="why">판정 근거 · 고객사향 키워드: 스마트공장</div>
     
@@ -1529,7 +1582,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
       </div>
       <span class="pill soon">마감임박</span>
     </div>
-    <div class="chip-row"><span class="chip track">사무실·공간</span><span class="chip">시설ㆍ공간ㆍ보육</span></div>
+    <div class="chip-row"><span class="chip track">사무실·공간</span><span class="chip">서울</span><span class="chip">시설ㆍ공간ㆍ보육</span></div>
     <div class="cond-table">
       <div class="cond-row"><span class="cond-k">접수기간</span>
         <span class="cond-v">2026-07-31 (D-8)</span></div>
@@ -1537,6 +1590,8 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">강동50+센터 공유사무실 입주자 추가모집</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      <div class="cond-row"><span class="cond-k">소재지</span>
+        <span class="cond-v loc">지가 서울시인 예비·초기창업자 및 단체 제외대상 - 기존 강동50플러스센터 공유사무실 이용자 </span></div>
     </div>
     <div class="why">판정 근거 · 사무실·공간 키워드: 사무실</div>
     
@@ -1559,6 +1614,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">서울창업허브 창동 운영</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      
     </div>
     <div class="why">판정 근거 · 사무실·공간 키워드: 창업허브</div>
     
@@ -1581,6 +1637,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">서울창업허브 창동 운영</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      
     </div>
     <div class="why">판정 근거 · 사무실·공간 키워드: 창업허브</div>
     
@@ -1603,6 +1660,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">한국로봇산업진흥원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kiria</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 로봇</div>
     
@@ -1625,6 +1683,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">한국로봇산업진흥원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kiria</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 로봇, 서비스로봇, 실증</div>
     
@@ -1647,6 +1706,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">한국로봇산업진흥원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kiria</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 로봇, 실증</div>
     
@@ -1669,6 +1729,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">인천테크노파크</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">bizinfo</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 로봇 · 조건부: 조건부 지역</div>
     
@@ -1691,6 +1752,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">한국로봇산업진흥원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 로봇, 실증</div>
     
@@ -1713,6 +1775,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">지역창업특화지원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      
     </div>
     <div class="why">판정 근거 · 사무실·공간 키워드: 입주기업</div>
     
@@ -1727,7 +1790,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
       </div>
       <span class="pill open">접수중</span>
     </div>
-    <div class="chip-row"><span class="chip track">사무실·공간</span><span class="chip">시설ㆍ공간ㆍ보육</span></div>
+    <div class="chip-row"><span class="chip track">사무실·공간</span><span class="chip">서울</span><span class="chip">시설ㆍ공간ㆍ보육</span></div>
     <div class="cond-table">
       <div class="cond-row"><span class="cond-k">접수기간</span>
         <span class="cond-v">2026-08-07 (D-15)</span></div>
@@ -1735,6 +1798,8 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">지역창업특화지원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      <div class="cond-row"><span class="cond-k">소재지</span>
+        <span class="cond-v loc">(소재지) : 서울특별시 성북구 화랑로 211, 한성대벤처창업지원센터 B1층 - https:/</span></div>
     </div>
     <div class="why">판정 근거 · 사무실·공간 키워드: 입주기업</div>
     
@@ -1757,6 +1822,8 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">2026년 7월 KICXUP_서울 _입주기업_모집공고</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      <div class="cond-row"><span class="cond-k">소재지</span>
+        <span class="cond-v loc">현대아울렛 가산점 5층, 7층 (서울 금천구 디지털로10길 9) ㅇ 공간구성 : 5층 6인실 </span></div>
     </div>
     <div class="why">판정 근거 · 사무실·공간 키워드: 입주기업</div>
     
@@ -1779,6 +1846,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">2026 Tri Nexus AI 딥테크 오픈이노베이션 참여기업(스타트업) 모집</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: AI</div>
     
@@ -1801,6 +1869,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">한국지능정보사회진흥원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: AI · 관련 키워드: 데이터</div>
     
@@ -1823,6 +1892,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">2026 산업전문인력 AI역량강화 지원사업</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: AI</div>
     
@@ -1845,6 +1915,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">한국로봇산업진흥원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kiria</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 로봇</div>
     
@@ -1867,6 +1938,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">정보통신산업진흥원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">nipa</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 인공지능</div>
     
@@ -1889,6 +1961,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">(재)광주테크노파크</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      
     </div>
     <div class="why">판정 근거 · 사무실·공간 키워드: 입주기업</div>
     
@@ -1903,7 +1976,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
       </div>
       <span class="pill open">접수중</span>
     </div>
-    <div class="chip-row"><span class="chip track">사무실·공간</span><span class="chip">시설ㆍ공간ㆍ보육</span></div>
+    <div class="chip-row"><span class="chip track">사무실·공간</span><span class="chip">경기</span><span class="chip">시설ㆍ공간ㆍ보육</span></div>
     <div class="cond-table">
       <div class="cond-row"><span class="cond-k">접수기간</span>
         <span class="cond-v">2026-08-21 (D-29)</span></div>
@@ -1911,6 +1984,8 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">(사)차세대융합콘텐츠산업협회</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      <div class="cond-row"><span class="cond-k">소재지</span>
+        <span class="cond-v loc">경기도 안양시 동안구 시민대로 327번길 11-41, 5~6층 ○ 공간구성 : B타입(12.4</span></div>
     </div>
     <div class="why">판정 근거 · 사무실·공간 키워드: 입주기업</div>
     
@@ -1933,6 +2008,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">충북테크노파크</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">bizinfo</span></div>
+      
     </div>
     <div class="why">판정 근거 · 고객사향 키워드: 스마트공장</div>
     
@@ -1955,6 +2031,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">경기도경제과학진흥원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">bizinfo</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: AI</div>
     
@@ -1977,6 +2054,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">한국로봇산업진흥원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kiria</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 로봇 · 관련 키워드: 모빌리티, 시험평가</div>
     
@@ -1999,6 +2077,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">성남산업진흥원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">snip</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: AI</div>
     
@@ -2021,6 +2100,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">한국로봇산업진흥원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kiria</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 로봇, 실외이동로봇</div>
     
@@ -2043,6 +2123,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">한국산업기술시험원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">bizinfo</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 로봇, 실증</div>
     
@@ -2065,6 +2146,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">창업보육센터 지원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      
     </div>
     <div class="why">판정 근거 · 사무실·공간 키워드: 입주기업, 창업보육, 보육센터</div>
     
@@ -2087,30 +2169,9 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">성남산업진흥원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">snip</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 자율주행 · 관련 키워드: 자율</div>
-    
-  </div>
-  <div class="card">
-    <div class="card-head">
-      <div class="badge ">51</div>
-      <div class="card-head-text">
-        <div class="card-kicker">창업보육센터 지원</div>
-        <div class="card-title"><a href="https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&amp;pbancSn=178527" target="_blank"
-          rel="noopener">[안양대학교 창업보육센터] 2026년 하반기 신규 입주기업 모집</a></div>
-      </div>
-      <span class="pill open">접수중</span>
-    </div>
-    <div class="chip-row"><span class="chip track">사무실·공간</span><span class="chip">시설ㆍ공간ㆍ보육</span></div>
-    <div class="cond-table">
-      <div class="cond-row"><span class="cond-k">접수기간</span>
-        <span class="cond-v">2026-12-31 (D-161)</span></div>
-      <div class="cond-row"><span class="cond-k">수행기관</span>
-        <span class="cond-v">창업보육센터 지원</span></div>
-      <div class="cond-row"><span class="cond-k">출처</span>
-        <span class="cond-v">kstartup</span></div>
-    </div>
-    <div class="why">판정 근거 · 사무실·공간 키워드: 입주기업, 창업보육, 보육센터</div>
     
   </div></div>
 </div>
@@ -2122,6 +2183,30 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
   <div class="card">
     <div class="card-head">
       <div class="badge ">01</div>
+      <div class="card-head-text">
+        <div class="card-kicker">창업보육센터 지원</div>
+        <div class="card-title"><a href="https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&amp;pbancSn=178533" target="_blank"
+          rel="noopener">2026년 한국외대 창업보육센터 입주기업 모집 공고</a></div>
+      </div>
+      <span class="pill soon">마감임박</span>
+    </div>
+    <div class="chip-row"><span class="chip track">사무실·공간</span><span class="chip">경기</span><span class="chip">시설ㆍ공간ㆍ보육</span><span class="chip auto">자동 분류</span></div>
+    <div class="cond-table">
+      <div class="cond-row"><span class="cond-k">접수기간</span>
+        <span class="cond-v">2026-07-26 (D-3)</span></div>
+      <div class="cond-row"><span class="cond-k">수행기관</span>
+        <span class="cond-v">창업보육센터 지원</span></div>
+      <div class="cond-row"><span class="cond-k">출처</span>
+        <span class="cond-v">kstartup</span></div>
+      <div class="cond-row"><span class="cond-k">소재지</span>
+        <span class="cond-v loc">경기도 용인시 처인구 모현읍 외대로81, 한국외대 글로벌캠퍼스 창업보육센터 3) 공간구성 : </span></div>
+    </div>
+    <div class="why">판정 근거 · 사무실·공간 키워드: 입주기업, 창업보육, 보육센터 · 자동 분류</div>
+    <div class="acts"><button class="btn sm ghost" onclick="decide('kstartup:178533','2026년 한국외대 창업보육센터 입주기업 모집 공고','pending')">되돌리기</button></div>
+  </div>
+  <div class="card">
+    <div class="card-head">
+      <div class="badge ">02</div>
       <div class="card-head-text">
         <div class="card-kicker">창업보육센터 지원</div>
         <div class="card-title"><a href="https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&amp;pbancSn=178473" target="_blank"
@@ -2137,13 +2222,39 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">창업보육센터 지원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      <div class="cond-row"><span class="cond-k">소재지</span>
+        <span class="cond-v loc">(주소) : 동국대학교 충무로관 내(서울특별시 중구 퇴계로36길 2) - 입주예정일 : 202</span></div>
     </div>
     <div class="why">판정 근거 · 사무실·공간 키워드: 입주기업, 창업보육, 보육센터 · 자동 분류</div>
     <div class="acts"><button class="btn sm ghost" onclick="decide('kstartup:178473','동국대학교 창업보육센터(서울) 신규 입주기업 모집 공고','pending')">되돌리기</button></div>
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">02</div>
+      <div class="badge ">03</div>
+      <div class="card-head-text">
+        <div class="card-kicker">창업보육센터 지원</div>
+        <div class="card-title"><a href="https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&amp;pbancSn=178527" target="_blank"
+          rel="noopener">[안양대학교 창업보육센터] 2026년 하반기 신규 입주기업 모집</a></div>
+      </div>
+      <span class="pill open">접수중</span>
+    </div>
+    <div class="chip-row"><span class="chip track">사무실·공간</span><span class="chip">경기</span><span class="chip">시설ㆍ공간ㆍ보육</span><span class="chip auto">자동 분류</span></div>
+    <div class="cond-table">
+      <div class="cond-row"><span class="cond-k">접수기간</span>
+        <span class="cond-v">2026-12-31 (D-161)</span></div>
+      <div class="cond-row"><span class="cond-k">수행기관</span>
+        <span class="cond-v">창업보육센터 지원</span></div>
+      <div class="cond-row"><span class="cond-k">출처</span>
+        <span class="cond-v">kstartup</span></div>
+      <div class="cond-row"><span class="cond-k">소재지</span>
+        <span class="cond-v loc">경기도 안양시 만안구 안양로 311 프로젝트500타워 15층(롯데시네마 안양일번가 건물) ￭ </span></div>
+    </div>
+    <div class="why">판정 근거 · 사무실·공간 키워드: 입주기업, 창업보육, 보육센터 · 자동 분류</div>
+    <div class="acts"><button class="btn sm ghost" onclick="decide('kstartup:178527','[안양대학교 창업보육센터] 2026년 하반기 신규 입주기업 모집','pending')">되돌리기</button></div>
+  </div>
+  <div class="card">
+    <div class="card-head">
+      <div class="badge ">04</div>
       <div class="card-head-text">
         <div class="card-kicker">성남시</div>
         <div class="card-title"><a href="https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0182&amp;pjtCd=4182&amp;stateChk=N" target="_blank"
@@ -2159,13 +2270,14 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">성남산업진흥원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">snip</span></div>
+      
     </div>
     <div class="why">판정 근거 · 사무실·공간 키워드: 입주기업</div>
     <div class="acts"><button class="btn sm ghost" onclick="decide('snip:2026-0182-4182','2026년 4차 성남글로벌융합센터 신규 입주기업 모집','pending')">되돌리기</button></div>
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">03</div>
+      <div class="badge ">05</div>
       <div class="card-head-text">
         <div class="card-kicker">성남시</div>
         <div class="card-title"><a href="https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0204&amp;pjtCd=4190&amp;stateChk=N" target="_blank"
@@ -2181,13 +2293,14 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">성남산업진흥원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">snip</span></div>
+      
     </div>
     <div class="why">판정 근거 · 사무실·공간 키워드: 입주기업</div>
     <div class="acts"><button class="btn sm ghost" onclick="decide('snip:2026-0204-4190','제1비즈니스센터 (310호) 입주기업 재공고 모집','pending')">되돌리기</button></div>
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">04</div>
+      <div class="badge ">06</div>
       <div class="card-head-text">
         <div class="card-kicker">국토교통과학기술진흥원</div>
         <div class="card-title"><a href="https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&amp;pbancSn=178639" target="_blank"
@@ -2195,7 +2308,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
       </div>
       <span class="pill soon">마감임박</span>
     </div>
-    <div class="chip-row"><span class="chip track">사무실·공간</span><span class="chip">시설ㆍ공간ㆍ보육</span></div>
+    <div class="chip-row"><span class="chip track">사무실·공간</span><span class="chip">경기</span><span class="chip">시설ㆍ공간ㆍ보육</span></div>
     <div class="cond-table">
       <div class="cond-row"><span class="cond-k">접수기간</span>
         <span class="cond-v">2026-08-04 (D-12)</span></div>
@@ -2203,16 +2316,27 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">국토교통과학기술진흥원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      <div class="cond-row"><span class="cond-k">소재지</span>
+        <span class="cond-v loc">판교 제2테크노밸리 글로벌비즈센터 업무동 5층 국토교통 창업지원센터 * 주소 : 경기도 성남시</span></div>
     </div>
     <div class="why">판정 근거 · 사무실·공간 키워드: 입주기업</div>
     <div class="acts"><button class="btn sm ghost" onclick="decide('kstartup:178639','26년 국토교통 창업지원센터 입주기업 추가 모집공고','pending')">되돌리기</button></div>
   </div></div>
   
 <div class="section-head"><h2>한눈에 비교</h2>
-  <div class="section-sub">4건 전체 · 제목을 누르면 정렬됩니다</div></div>
+  <div class="section-sub">6건 전체 · 제목을 누르면 정렬됩니다</div></div>
 <div class="table-wrap"><table id="cmp">
   <thead><tr><th onclick="sortTable(this,0)">구분<span class="arw">↕</span></th><th onclick="sortTable(this,1)">사업명<span class="arw">↕</span></th><th onclick="sortTable(this,2)">소관기관<span class="arw">↕</span></th><th onclick="sortTable(this,3)">지역<span class="arw">↕</span></th><th onclick="sortTable(this,4)">접수기간<span class="arw">↕</span></th><th onclick="sortTable(this,5)">상태<span class="arw">↕</span></th></tr></thead>
   <tbody>
+      <tr>
+        <td>고객사 제안</td>
+        <td class="name"><a href="https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&amp;pbancSn=178533" target="_blank"
+            rel="noopener">2026년 한국외대 창업보육센터 입주기업 모집 공고</a></td>
+        <td>창업보육센터 지원</td>
+        <td>경기</td>
+        <td data-v="2026-07-26">2026-07-26 (D-3)</td>
+        <td data-v="1"><span class="pill soon">마감임박</span></td>
+      </tr>
       <tr>
         <td>고객사 제안</td>
         <td class="name"><a href="https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&amp;pbancSn=178473" target="_blank"
@@ -2221,6 +2345,15 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <td>서울</td>
         <td data-v="2026-07-30">2026-07-30 (D-7)</td>
         <td data-v="1"><span class="pill soon">마감임박</span></td>
+      </tr>
+      <tr>
+        <td>고객사 제안</td>
+        <td class="name"><a href="https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&amp;pbancSn=178527" target="_blank"
+            rel="noopener">[안양대학교 창업보육센터] 2026년 하반기 신규 입주기업 모집</a></td>
+        <td>창업보육센터 지원</td>
+        <td>경기</td>
+        <td data-v="2026-12-31">2026-12-31 (D-161)</td>
+        <td data-v="2"><span class="pill open">접수중</span></td>
       </tr>
       <tr>
         <td>고객사 제안</td>
@@ -2245,7 +2378,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <td class="name"><a href="https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&amp;pbancSn=178639" target="_blank"
             rel="noopener">26년 국토교통 창업지원센터 입주기업 추가 모집공고</a></td>
         <td>국토교통과학기술진흥원</td>
-        <td>전국</td>
+        <td>경기</td>
         <td data-v="2026-08-04">2026-08-04 (D-12)</td>
         <td data-v="1"><span class="pill soon">마감임박</span></td>
       </tr></tbody>
@@ -2283,6 +2416,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">창업보육센터 지원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      
     </div>
     <div class="why">판정 근거 · 사무실·공간 키워드: 입주기업, 창업보육, 보육센터</div>
     <div class="acts"><button class="btn sm" onclick="decide('kstartup:178572','2026년 3차 배재대학교 창업보육센터 신규 입주기업 모집 공고','approved')">관련 사업으로</button><button class="btn sm ghost" onclick="decide('kstartup:178572','2026년 3차 배재대학교 창업보육센터 신규 입주기업 모집 공고','rejected')">제외</button></div>
@@ -2290,28 +2424,6 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
   <div class="card">
     <div class="card-head">
       <div class="badge ">02</div>
-      <div class="card-head-text">
-        <div class="card-kicker">창업보육센터 지원</div>
-        <div class="card-title"><a href="https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&amp;pbancSn=178533" target="_blank"
-          rel="noopener">2026년 한국외대 창업보육센터 입주기업 모집 공고</a></div>
-      </div>
-      <span class="pill soon">마감임박</span>
-    </div>
-    <div class="chip-row"><span class="chip track">사무실·공간</span><span class="chip">시설ㆍ공간ㆍ보육</span></div>
-    <div class="cond-table">
-      <div class="cond-row"><span class="cond-k">접수기간</span>
-        <span class="cond-v">2026-07-26 (D-3)</span></div>
-      <div class="cond-row"><span class="cond-k">수행기관</span>
-        <span class="cond-v">창업보육센터 지원</span></div>
-      <div class="cond-row"><span class="cond-k">출처</span>
-        <span class="cond-v">kstartup</span></div>
-    </div>
-    <div class="why">판정 근거 · 사무실·공간 키워드: 입주기업, 창업보육, 보육센터</div>
-    <div class="acts"><button class="btn sm" onclick="decide('kstartup:178533','2026년 한국외대 창업보육센터 입주기업 모집 공고','approved')">관련 사업으로</button><button class="btn sm ghost" onclick="decide('kstartup:178533','2026년 한국외대 창업보육센터 입주기업 모집 공고','rejected')">제외</button></div>
-  </div>
-  <div class="card">
-    <div class="card-head">
-      <div class="badge ">03</div>
       <div class="card-head-text">
         <div class="card-kicker">창업보육센터 지원</div>
         <div class="card-title"><a href="https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&amp;pbancSn=178453" target="_blank"
@@ -2327,35 +2439,14 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">창업보육센터 지원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      
     </div>
     <div class="why">판정 근거 · 사무실·공간 키워드: 입주기업, 창업보육, 보육센터</div>
     <div class="acts"><button class="btn sm" onclick="decide('kstartup:178453','[영산대학교 창업보육센터] 2026년 신규입주기업 모집 공고','approved')">관련 사업으로</button><button class="btn sm ghost" onclick="decide('kstartup:178453','[영산대학교 창업보육센터] 2026년 신규입주기업 모집 공고','rejected')">제외</button></div>
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">04</div>
-      <div class="card-head-text">
-        <div class="card-kicker">창업보육센터 지원</div>
-        <div class="card-title"><a href="https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&amp;pbancSn=178527" target="_blank"
-          rel="noopener">[안양대학교 창업보육센터] 2026년 하반기 신규 입주기업 모집</a></div>
-      </div>
-      <span class="pill open">접수중</span>
-    </div>
-    <div class="chip-row"><span class="chip track">사무실·공간</span><span class="chip">시설ㆍ공간ㆍ보육</span></div>
-    <div class="cond-table">
-      <div class="cond-row"><span class="cond-k">접수기간</span>
-        <span class="cond-v">2026-12-31 (D-161)</span></div>
-      <div class="cond-row"><span class="cond-k">수행기관</span>
-        <span class="cond-v">창업보육센터 지원</span></div>
-      <div class="cond-row"><span class="cond-k">출처</span>
-        <span class="cond-v">kstartup</span></div>
-    </div>
-    <div class="why">판정 근거 · 사무실·공간 키워드: 입주기업, 창업보육, 보육센터</div>
-    <div class="acts"><button class="btn sm" onclick="decide('kstartup:178527','[안양대학교 창업보육센터] 2026년 하반기 신규 입주기업 모집','approved')">관련 사업으로</button><button class="btn sm ghost" onclick="decide('kstartup:178527','[안양대학교 창업보육센터] 2026년 하반기 신규 입주기업 모집','rejected')">제외</button></div>
-  </div>
-  <div class="card">
-    <div class="card-head">
-      <div class="badge ">05</div>
+      <div class="badge ">03</div>
       <div class="card-head-text">
         <div class="card-kicker">산업통상부</div>
         <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123203" target="_blank"
@@ -2371,13 +2462,14 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">한국산업기술시험원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">bizinfo</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 실증, AI · 관련 키워드: 데이터</div>
     <div class="acts"><button class="btn sm" onclick="decide('bizinfo:PBLN_000000000123203','AI기반 Age-Tech 산업 중심의 디지털의료제품 지원 바이오데이터 및 알고리즘 실증 기술서비스 모집 상시 공고(산업혁신기반구축ㆍ2차년도)','approved')">관련 사업으로</button><button class="btn sm ghost" onclick="decide('bizinfo:PBLN_000000000123203','AI기반 Age-Tech 산업 중심의 디지털의료제품 지원 바이오데이터 및 알고리즘 실증 기술서비스 모집 상시 공고(산업혁신기반구축ㆍ2차년도)','rejected')">제외</button></div>
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">06</div>
+      <div class="badge ">04</div>
       <div class="card-head-text">
         <div class="card-kicker">산업통상부</div>
         <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124598" target="_blank"
@@ -2393,13 +2485,14 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">충북과학기술혁신원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">bizinfo</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 실증, AI</div>
     <div class="acts"><button class="btn sm" onclick="decide('bizinfo:PBLN_000000000124598','2026년 산업 AI 도입ㆍ실증 지원사업 참여기업 모집 재공고','approved')">관련 사업으로</button><button class="btn sm ghost" onclick="decide('bizinfo:PBLN_000000000124598','2026년 산업 AI 도입ㆍ실증 지원사업 참여기업 모집 재공고','rejected')">제외</button></div>
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">07</div>
+      <div class="badge ">05</div>
       <div class="card-head-text">
         <div class="card-kicker">동국대학교 BMC창업보육센터</div>
         <div class="card-title"><a href="https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&amp;pbancSn=178491" target="_blank"
@@ -2415,13 +2508,14 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">동국대학교 BMC창업보육센터</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      
     </div>
     <div class="why">판정 근거 · 사무실·공간 키워드: 창업보육, 보육센터</div>
     <div class="acts"><button class="btn sm" onclick="decide('kstartup:178491','바이오·메디컬 연구인프라 활용 지원사업','approved')">관련 사업으로</button><button class="btn sm ghost" onclick="decide('kstartup:178491','바이오·메디컬 연구인프라 활용 지원사업','rejected')">제외</button></div>
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">08</div>
+      <div class="badge ">06</div>
       <div class="card-head-text">
         <div class="card-kicker">한국로봇산업진흥원</div>
         <div class="card-title"><a href="https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&amp;pbancSn=178538" target="_blank"
@@ -2437,13 +2531,14 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">한국로봇산업진흥원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 로봇, 실증</div>
     <div class="acts"><button class="btn sm" onclick="decide('kstartup:178538','2026년 규제혁신 로봇 실증사업 2차 공고','approved')">관련 사업으로</button><button class="btn sm ghost" onclick="decide('kstartup:178538','2026년 규제혁신 로봇 실증사업 2차 공고','rejected')">제외</button></div>
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">09</div>
+      <div class="badge ">07</div>
       <div class="card-head-text">
         <div class="card-kicker">산업통상부</div>
         <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000122268" target="_blank"
@@ -2459,13 +2554,14 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">국가독성과학연구소</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">bizinfo</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 실증 · 관련 키워드: 시험평가, 인증</div>
     <div class="acts"><button class="btn sm" onclick="decide('bizinfo:PBLN_000000000122268','2026년 2차 메카노바이오활성소재 혁신의료기기 실증 기반구축 생물학적 시험평가인증 지원사업 공고(산업혁신기반구축사업)','approved')">관련 사업으로</button><button class="btn sm ghost" onclick="decide('bizinfo:PBLN_000000000122268','2026년 2차 메카노바이오활성소재 혁신의료기기 실증 기반구축 생물학적 시험평가인증 지원사업 공고(산업혁신기반구축사업)','rejected')">제외</button></div>
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">10</div>
+      <div class="badge ">08</div>
       <div class="card-head-text">
         <div class="card-kicker">산업통상부</div>
         <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124590" target="_blank"
@@ -2481,13 +2577,14 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">대구경북첨단의료산업진흥재단</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">bizinfo</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 실증 · 관련 키워드: 인증</div>
     <div class="acts"><button class="btn sm" onclick="decide('bizinfo:PBLN_000000000124590','2026년 4차 정형ㆍ재활 의료기기 사업화 인증 및 실증 지원 사업 수혜 기업 모집 공고','approved')">관련 사업으로</button><button class="btn sm ghost" onclick="decide('bizinfo:PBLN_000000000124590','2026년 4차 정형ㆍ재활 의료기기 사업화 인증 및 실증 지원 사업 수혜 기업 모집 공고','rejected')">제외</button></div>
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">11</div>
+      <div class="badge ">09</div>
       <div class="card-head-text">
         <div class="card-kicker">한국지능정보사회진흥원</div>
         <div class="card-title"><a href="https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&amp;pbancSn=178559" target="_blank"
@@ -2503,13 +2600,14 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">한국지능정보사회진흥원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: AI · 관련 키워드: 데이터</div>
     <div class="acts"><button class="btn sm" onclick="decide('kstartup:178559','「2026년 공공데이터 활용기업 AI연계 맞춤형 성장 지원사업」 참여기업 모집 안내','approved')">관련 사업으로</button><button class="btn sm ghost" onclick="decide('kstartup:178559','「2026년 공공데이터 활용기업 AI연계 맞춤형 성장 지원사업」 참여기업 모집 안내','rejected')">제외</button></div>
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">12</div>
+      <div class="badge ">10</div>
       <div class="card-head-text">
         <div class="card-kicker">2026년 체육인 직업안정(창업지원) 사업 참여자 추가 모집(~7.23.)</div>
         <div class="card-title"><a href="https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&amp;pbancSn=178560" target="_blank"
@@ -2525,13 +2623,14 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">2026년 체육인 직업안정(창업지원) 사업 참여자 추가 모집(~7.23.)</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      
     </div>
     <div class="why">판정 근거 · 사무실·공간 키워드: 창업보육</div>
     <div class="acts"><button class="btn sm" onclick="decide('kstartup:178560','2026년 체육인 직업안정(창업지원) 사업 창업보육과정(새싹) 참여자 추가 모집(~7.23.)','approved')">관련 사업으로</button><button class="btn sm ghost" onclick="decide('kstartup:178560','2026년 체육인 직업안정(창업지원) 사업 창업보육과정(새싹) 참여자 추가 모집(~7.23.)','rejected')">제외</button></div>
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">13</div>
+      <div class="badge ">11</div>
       <div class="card-head-text">
         <div class="card-kicker">하남도시공사</div>
         <div class="card-title"><a href="https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&amp;pbancSn=178492" target="_blank"
@@ -2547,13 +2646,14 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">하남도시공사</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: AI</div>
     <div class="acts"><button class="btn sm" onclick="decide('kstartup:178492','2026년 하반기「하남스타트업캠퍼스·경기 AI 클러스터 하남」신규 입주자 모집 공고','approved')">관련 사업으로</button><button class="btn sm ghost" onclick="decide('kstartup:178492','2026년 하반기「하남스타트업캠퍼스·경기 AI 클러스터 하남」신규 입주자 모집 공고','rejected')">제외</button></div>
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">14</div>
+      <div class="badge ">12</div>
       <div class="card-head-text">
         <div class="card-kicker">(주)오픈놀</div>
         <div class="card-title"><a href="https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&amp;pbancSn=178554" target="_blank"
@@ -2561,7 +2661,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
       </div>
       <span class="pill soon">마감임박</span>
     </div>
-    <div class="chip-row"><span class="chip track">사무실·공간</span><span class="chip">시설ㆍ공간ㆍ보육</span></div>
+    <div class="chip-row"><span class="chip track">사무실·공간</span><span class="chip">서울</span><span class="chip">시설ㆍ공간ㆍ보육</span></div>
     <div class="cond-table">
       <div class="cond-row"><span class="cond-k">접수기간</span>
         <span class="cond-v">2026-07-24 (D-1)</span></div>
@@ -2569,13 +2669,15 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">(주)오픈놀</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      <div class="cond-row"><span class="cond-k">소재지</span>
+        <span class="cond-v loc">서울특별시 강남구 역삼로 160, 강남취창업허브센터 입주공간: https://www.gangn</span></div>
     </div>
     <div class="why">판정 근거 · 사무실·공간 키워드: 창업허브</div>
     <div class="acts"><button class="btn sm" onclick="decide('kstartup:178554','2026년「강남 취‧창업허브센터」6차 입주 기업 신규 모집','approved')">관련 사업으로</button><button class="btn sm ghost" onclick="decide('kstartup:178554','2026년「강남 취‧창업허브센터」6차 입주 기업 신규 모집','rejected')">제외</button></div>
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">15</div>
+      <div class="badge ">13</div>
       <div class="card-head-text">
         <div class="card-kicker">서울창업허브 창동 운영</div>
         <div class="card-title"><a href="https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&amp;pbancSn=178565" target="_blank"
@@ -2591,13 +2693,14 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">서울창업허브 창동 운영</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      
     </div>
     <div class="why">판정 근거 · 사무실·공간 키워드: 창업허브</div>
     <div class="acts"><button class="btn sm" onclick="decide('kstartup:178565','2026년 서울창업허브 창동-삼성물산 건설부문 오픈이노베이션 참가기업 모집','approved')">관련 사업으로</button><button class="btn sm ghost" onclick="decide('kstartup:178565','2026년 서울창업허브 창동-삼성물산 건설부문 오픈이노베이션 참가기업 모집','rejected')">제외</button></div>
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">16</div>
+      <div class="badge ">14</div>
       <div class="card-head-text">
         <div class="card-kicker">경기도</div>
         <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124469" target="_blank"
@@ -2613,13 +2716,14 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">경기도경제과학진흥원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">bizinfo</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: AI</div>
     <div class="acts"><button class="btn sm" onclick="decide('bizinfo:PBLN_000000000124469','2026년 하반기 경기도 AI 혁신클러스터 AI 멤버십 기업 모집 공고','approved')">관련 사업으로</button><button class="btn sm ghost" onclick="decide('bizinfo:PBLN_000000000124469','2026년 하반기 경기도 AI 혁신클러스터 AI 멤버십 기업 모집 공고','rejected')">제외</button></div>
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">17</div>
+      <div class="badge ">15</div>
       <div class="card-head-text">
         <div class="card-kicker">경기창조경제혁신센터</div>
         <div class="card-title"><a href="https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&amp;pbancSn=178574" target="_blank"
@@ -2635,13 +2739,14 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">경기창조경제혁신센터</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: AI</div>
     <div class="acts"><button class="btn sm" onclick="decide('kstartup:178574','ESG × AI 챌린지 해커톤 참가자 모집','approved')">관련 사업으로</button><button class="btn sm ghost" onclick="decide('kstartup:178574','ESG × AI 챌린지 해커톤 참가자 모집','rejected')">제외</button></div>
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">18</div>
+      <div class="badge ">16</div>
       <div class="card-head-text">
         <div class="card-kicker">청년 창업아카데미(G-Space@East) 운영</div>
         <div class="card-title"><a href="https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&amp;pbancSn=178525" target="_blank"
@@ -2657,13 +2762,14 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">청년 창업아카데미(G-Space@East) 운영</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      
     </div>
     <div class="why">판정 근거 · 사무실·공간 키워드: 입주기업</div>
     <div class="acts"><button class="btn sm" onclick="decide('kstartup:178525','2026년 G-Space 입주기업 발굴·육성사업 입주기업 추가 모집 공고','approved')">관련 사업으로</button><button class="btn sm ghost" onclick="decide('kstartup:178525','2026년 G-Space 입주기업 발굴·육성사업 입주기업 추가 모집 공고','rejected')">제외</button></div>
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">19</div>
+      <div class="badge ">17</div>
       <div class="card-head-text">
         <div class="card-kicker">서울창업허브 창동 운영</div>
         <div class="card-title"><a href="https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&amp;pbancSn=178566" target="_blank"
@@ -2679,13 +2785,38 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">서울창업허브 창동 운영</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      
     </div>
     <div class="why">판정 근거 · 사무실·공간 키워드: 창업허브</div>
     <div class="acts"><button class="btn sm" onclick="decide('kstartup:178566','2026년 서울창업허브 창동-조이시티 오픈이노베이션 참가기업 모집','approved')">관련 사업으로</button><button class="btn sm ghost" onclick="decide('kstartup:178566','2026년 서울창업허브 창동-조이시티 오픈이노베이션 참가기업 모집','rejected')">제외</button></div>
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">20</div>
+      <div class="badge ">18</div>
+      <div class="card-head-text">
+        <div class="card-kicker">지역창업특화지원</div>
+        <div class="card-title"><a href="https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&amp;pbancSn=178435" target="_blank"
+          rel="noopener">2026년 제주 중장년 기술창업센터 입주기업 모집</a></div>
+      </div>
+      <span class="pill soon">마감임박</span>
+    </div>
+    <div class="chip-row"><span class="chip track">사무실·공간</span><span class="chip">경기</span><span class="chip">시설ㆍ공간ㆍ보육</span></div>
+    <div class="cond-table">
+      <div class="cond-row"><span class="cond-k">접수기간</span>
+        <span class="cond-v">2026-07-29 (D-6)</span></div>
+      <div class="cond-row"><span class="cond-k">수행기관</span>
+        <span class="cond-v">지역창업특화지원</span></div>
+      <div class="cond-row"><span class="cond-k">출처</span>
+        <span class="cond-v">kstartup</span></div>
+      <div class="cond-row"><span class="cond-k">소재지</span>
+        <span class="cond-v loc">제주특별자치도 서귀포시 서호남로 25, 3층 - 제주 월드컵 경기장, 이마트 서귀포점, 서귀포</span></div>
+    </div>
+    <div class="why">판정 근거 · 사무실·공간 키워드: 입주기업</div>
+    <div class="acts"><button class="btn sm" onclick="decide('kstartup:178435','2026년 제주 중장년 기술창업센터 입주기업 모집','approved')">관련 사업으로</button><button class="btn sm ghost" onclick="decide('kstartup:178435','2026년 제주 중장년 기술창업센터 입주기업 모집','rejected')">제외</button></div>
+  </div>
+  <div class="card">
+    <div class="card-head">
+      <div class="badge ">19</div>
       <div class="card-head-text">
         <div class="card-kicker">예술경영지원센터</div>
         <div class="card-title"><a href="https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&amp;pbancSn=178499" target="_blank"
@@ -2693,7 +2824,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
       </div>
       <span class="pill soon">마감임박</span>
     </div>
-    <div class="chip-row"><span class="chip track">사무실·공간</span><span class="chip">시설ㆍ공간ㆍ보육</span></div>
+    <div class="chip-row"><span class="chip track">사무실·공간</span><span class="chip">서울</span><span class="chip">시설ㆍ공간ㆍ보육</span></div>
     <div class="cond-table">
       <div class="cond-row"><span class="cond-k">접수기간</span>
         <span class="cond-v">2026-07-30 (D-7)</span></div>
@@ -2701,13 +2832,15 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">예술경영지원센터</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      <div class="cond-row"><span class="cond-k">소재지</span>
+        <span class="cond-v loc">서울시 종로구 율곡로 6, 트윈트리타워 A동 아트코리아랩 입주비용(관리비) 입주공간 유형에 따</span></div>
     </div>
     <div class="why">판정 근거 · 사무실·공간 키워드: 입주기업</div>
     <div class="acts"><button class="btn sm" onclick="decide('kstartup:178499','2026 아트코리아랩 입주기업 모집 공모','approved')">관련 사업으로</button><button class="btn sm ghost" onclick="decide('kstartup:178499','2026 아트코리아랩 입주기업 모집 공모','rejected')">제외</button></div>
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge b">21</div>
+      <div class="badge b">20</div>
       <div class="card-head-text">
         <div class="card-kicker">울산광역시</div>
         <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124620" target="_blank"
@@ -2723,13 +2856,14 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">울산테크노파크</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">bizinfo</span></div>
+      
     </div>
     <div class="why">판정 근거 · 고객사향 키워드: 제조데이터</div>
     <div class="acts"><button class="btn sm" onclick="decide('bizinfo:PBLN_000000000124620','[울산] 2026년 AW베트남 전시회 참가 지원사업 참여기업 모집 공고(지역특화 제조데이터 활성화 사업)','approved')">관련 사업으로</button><button class="btn sm ghost" onclick="decide('bizinfo:PBLN_000000000124620','[울산] 2026년 AW베트남 전시회 참가 지원사업 참여기업 모집 공고(지역특화 제조데이터 활성화 사업)','rejected')">제외</button></div>
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge b">22</div>
+      <div class="badge b">21</div>
       <div class="card-head-text">
         <div class="card-kicker">인천광역시</div>
         <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124575" target="_blank"
@@ -2745,13 +2879,14 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">인천테크노파크</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">bizinfo</span></div>
+      
     </div>
     <div class="why">판정 근거 · 고객사향 키워드: 스마트공장</div>
     <div class="acts"><button class="btn sm" onclick="decide('bizinfo:PBLN_000000000124575','[인천] 2026년 스마트공장 DX견학공장 기업 모집 공고','approved')">관련 사업으로</button><button class="btn sm ghost" onclick="decide('bizinfo:PBLN_000000000124575','[인천] 2026년 스마트공장 DX견학공장 기업 모집 공고','rejected')">제외</button></div>
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">23</div>
+      <div class="badge ">22</div>
       <div class="card-head-text">
         <div class="card-kicker">강동50+센터 공유사무실 입주자 추가모집</div>
         <div class="card-title"><a href="https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&amp;pbancSn=178601" target="_blank"
@@ -2759,7 +2894,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
       </div>
       <span class="pill soon">마감임박</span>
     </div>
-    <div class="chip-row"><span class="chip track">사무실·공간</span><span class="chip">시설ㆍ공간ㆍ보육</span></div>
+    <div class="chip-row"><span class="chip track">사무실·공간</span><span class="chip">서울</span><span class="chip">시설ㆍ공간ㆍ보육</span></div>
     <div class="cond-table">
       <div class="cond-row"><span class="cond-k">접수기간</span>
         <span class="cond-v">2026-07-31 (D-8)</span></div>
@@ -2767,13 +2902,15 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">강동50+센터 공유사무실 입주자 추가모집</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      <div class="cond-row"><span class="cond-k">소재지</span>
+        <span class="cond-v loc">지가 서울시인 예비·초기창업자 및 단체 제외대상 - 기존 강동50플러스센터 공유사무실 이용자 </span></div>
     </div>
     <div class="why">판정 근거 · 사무실·공간 키워드: 사무실</div>
     <div class="acts"><button class="btn sm" onclick="decide('kstartup:178601','1인기업 &amp; 예비·초기창업자 환영! 강동50+센터 공유사무실 입주자 추가모집(~26.7.31.(금))','approved')">관련 사업으로</button><button class="btn sm ghost" onclick="decide('kstartup:178601','1인기업 &amp; 예비·초기창업자 환영! 강동50+센터 공유사무실 입주자 추가모집(~26.7.31.(금))','rejected')">제외</button></div>
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">24</div>
+      <div class="badge ">23</div>
       <div class="card-head-text">
         <div class="card-kicker">서울창업허브 창동 운영</div>
         <div class="card-title"><a href="https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&amp;pbancSn=178616" target="_blank"
@@ -2789,13 +2926,14 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">서울창업허브 창동 운영</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      
     </div>
     <div class="why">판정 근거 · 사무실·공간 키워드: 창업허브</div>
     <div class="acts"><button class="btn sm" onclick="decide('kstartup:178616','2026년 서울창업허브 창동-동아사이언스 오픈이노베이션 참가기업 모집','approved')">관련 사업으로</button><button class="btn sm ghost" onclick="decide('kstartup:178616','2026년 서울창업허브 창동-동아사이언스 오픈이노베이션 참가기업 모집','rejected')">제외</button></div>
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">25</div>
+      <div class="badge ">24</div>
       <div class="card-head-text">
         <div class="card-kicker">서울창업허브 창동 운영</div>
         <div class="card-title"><a href="https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&amp;pbancSn=178569" target="_blank"
@@ -2811,13 +2949,14 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">서울창업허브 창동 운영</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      
     </div>
     <div class="why">판정 근거 · 사무실·공간 키워드: 창업허브</div>
     <div class="acts"><button class="btn sm" onclick="decide('kstartup:178569','2026년 서울창업허브 창동 투자 특화 프로그램 - IR 라운드(1회차)','approved')">관련 사업으로</button><button class="btn sm ghost" onclick="decide('kstartup:178569','2026년 서울창업허브 창동 투자 특화 프로그램 - IR 라운드(1회차)','rejected')">제외</button></div>
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">26</div>
+      <div class="badge ">25</div>
       <div class="card-head-text">
         <div class="card-kicker">지역창업특화지원</div>
         <div class="card-title"><a href="https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&amp;pbancSn=178596" target="_blank"
@@ -2833,13 +2972,14 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">지역창업특화지원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      
     </div>
     <div class="why">판정 근거 · 사무실·공간 키워드: 입주기업</div>
     <div class="acts"><button class="btn sm" onclick="decide('kstartup:178596','2026년 지역창업특화지원사업(1인)  제3차 신규 입주기업 모집','approved')">관련 사업으로</button><button class="btn sm ghost" onclick="decide('kstartup:178596','2026년 지역창업특화지원사업(1인)  제3차 신규 입주기업 모집','rejected')">제외</button></div>
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">27</div>
+      <div class="badge ">26</div>
       <div class="card-head-text">
         <div class="card-kicker">지역창업특화지원</div>
         <div class="card-title"><a href="https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&amp;pbancSn=178618" target="_blank"
@@ -2847,7 +2987,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
       </div>
       <span class="pill open">접수중</span>
     </div>
-    <div class="chip-row"><span class="chip track">사무실·공간</span><span class="chip">시설ㆍ공간ㆍ보육</span></div>
+    <div class="chip-row"><span class="chip track">사무실·공간</span><span class="chip">서울</span><span class="chip">시설ㆍ공간ㆍ보육</span></div>
     <div class="cond-table">
       <div class="cond-row"><span class="cond-k">접수기간</span>
         <span class="cond-v">2026-08-07 (D-15)</span></div>
@@ -2855,13 +2995,15 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">지역창업특화지원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      <div class="cond-row"><span class="cond-k">소재지</span>
+        <span class="cond-v loc">(소재지) : 서울특별시 성북구 화랑로 211, 한성대벤처창업지원센터 B1층 - https:/</span></div>
     </div>
     <div class="why">판정 근거 · 사무실·공간 키워드: 입주기업</div>
     <div class="acts"><button class="btn sm" onclick="decide('kstartup:178618','2026년 성북구 중장년 기술창업센터 입주기업 모집공고(2차)','approved')">관련 사업으로</button><button class="btn sm ghost" onclick="decide('kstartup:178618','2026년 성북구 중장년 기술창업센터 입주기업 모집공고(2차)','rejected')">제외</button></div>
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">28</div>
+      <div class="badge ">27</div>
       <div class="card-head-text">
         <div class="card-kicker">2026년 7월 KICXUP_서울 _입주기업_모집공고</div>
         <div class="card-title"><a href="https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&amp;pbancSn=178623" target="_blank"
@@ -2877,13 +3019,15 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">2026년 7월 KICXUP_서울 _입주기업_모집공고</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      <div class="cond-row"><span class="cond-k">소재지</span>
+        <span class="cond-v loc">현대아울렛 가산점 5층, 7층 (서울 금천구 디지털로10길 9) ㅇ 공간구성 : 5층 6인실 </span></div>
     </div>
     <div class="why">판정 근거 · 사무실·공간 키워드: 입주기업</div>
     <div class="acts"><button class="btn sm" onclick="decide('kstartup:178623','2026년  7월 KICXUP 서울 입주기업 모집공고','approved')">관련 사업으로</button><button class="btn sm ghost" onclick="decide('kstartup:178623','2026년  7월 KICXUP 서울 입주기업 모집공고','rejected')">제외</button></div>
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">29</div>
+      <div class="badge ">28</div>
       <div class="card-head-text">
         <div class="card-kicker">2026 Tri Nexus AI 딥테크 오픈이노베이션 참여기업(스타트업) 모집</div>
         <div class="card-title"><a href="https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&amp;pbancSn=178609" target="_blank"
@@ -2899,13 +3043,14 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">2026 Tri Nexus AI 딥테크 오픈이노베이션 참여기업(스타트업) 모집</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: AI</div>
     <div class="acts"><button class="btn sm" onclick="decide('kstartup:178609','[공고 제2026-075호] 2026 Tri Nexus 「AI 딥테크」 오픈이노베이션 참여기업(스타트업) 모집','approved')">관련 사업으로</button><button class="btn sm ghost" onclick="decide('kstartup:178609','[공고 제2026-075호] 2026 Tri Nexus 「AI 딥테크」 오픈이노베이션 참여기업(스타트업) 모집','rejected')">제외</button></div>
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">30</div>
+      <div class="badge ">29</div>
       <div class="card-head-text">
         <div class="card-kicker">2026 산업전문인력 AI역량강화 지원사업</div>
         <div class="card-title"><a href="https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&amp;pbancSn=178513" target="_blank"
@@ -2921,13 +3066,14 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">2026 산업전문인력 AI역량강화 지원사업</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: AI</div>
     <div class="acts"><button class="btn sm" onclick="decide('kstartup:178513','[무료 AI 역량강화 교육] 생성형 AI 기반 글로벌 특허 분석 및 지식재산권 우회·리스크 최적화 과정','approved')">관련 사업으로</button><button class="btn sm ghost" onclick="decide('kstartup:178513','[무료 AI 역량강화 교육] 생성형 AI 기반 글로벌 특허 분석 및 지식재산권 우회·리스크 최적화 과정','rejected')">제외</button></div>
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">31</div>
+      <div class="badge ">30</div>
       <div class="card-head-text">
         <div class="card-kicker">정보통신산업진흥원</div>
         <div class="card-title"><a href="https://www.nipa.kr/home/2-2/16866" target="_blank"
@@ -2943,13 +3089,14 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">정보통신산업진흥원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">nipa</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 인공지능</div>
     <div class="acts"><button class="btn sm" onclick="decide('nipa:16866','특화 인공지능 파운데이션 모델 개발(사이버 보안 분야) 사업 공고','approved')">관련 사업으로</button><button class="btn sm ghost" onclick="decide('nipa:16866','특화 인공지능 파운데이션 모델 개발(사이버 보안 분야) 사업 공고','rejected')">제외</button></div>
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">32</div>
+      <div class="badge ">31</div>
       <div class="card-head-text">
         <div class="card-kicker">(재)광주테크노파크</div>
         <div class="card-title"><a href="https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&amp;pbancSn=178610" target="_blank"
@@ -2965,13 +3112,14 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">(재)광주테크노파크</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      
     </div>
     <div class="why">판정 근거 · 사무실·공간 키워드: 입주기업</div>
     <div class="acts"><button class="btn sm" onclick="decide('kstartup:178610','2026년 제4회 창업기업성장지원센터(이노플러스 스테이지) 신규 입주기업 모집공고','approved')">관련 사업으로</button><button class="btn sm ghost" onclick="decide('kstartup:178610','2026년 제4회 창업기업성장지원센터(이노플러스 스테이지) 신규 입주기업 모집공고','rejected')">제외</button></div>
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">33</div>
+      <div class="badge ">32</div>
       <div class="card-head-text">
         <div class="card-kicker">(사)차세대융합콘텐츠산업협회</div>
         <div class="card-title"><a href="https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&amp;pbancSn=178615" target="_blank"
@@ -2979,7 +3127,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
       </div>
       <span class="pill open">접수중</span>
     </div>
-    <div class="chip-row"><span class="chip track">사무실·공간</span><span class="chip">시설ㆍ공간ㆍ보육</span></div>
+    <div class="chip-row"><span class="chip track">사무실·공간</span><span class="chip">경기</span><span class="chip">시설ㆍ공간ㆍ보육</span></div>
     <div class="cond-table">
       <div class="cond-row"><span class="cond-k">접수기간</span>
         <span class="cond-v">2026-08-21 (D-29)</span></div>
@@ -2987,13 +3135,15 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">(사)차세대융합콘텐츠산업협회</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">kstartup</span></div>
+      <div class="cond-row"><span class="cond-k">소재지</span>
+        <span class="cond-v loc">경기도 안양시 동안구 시민대로 327번길 11-41, 5~6층 ○ 공간구성 : B타입(12.4</span></div>
     </div>
     <div class="why">판정 근거 · 사무실·공간 키워드: 입주기업</div>
     <div class="acts"><button class="btn sm" onclick="decide('kstartup:178615','디지털콘텐츠기업 성장지원센터 입주기업 모집 공고(2026-1차)','approved')">관련 사업으로</button><button class="btn sm ghost" onclick="decide('kstartup:178615','디지털콘텐츠기업 성장지원센터 입주기업 모집 공고(2026-1차)','rejected')">제외</button></div>
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">34</div>
+      <div class="badge ">33</div>
       <div class="card-head-text">
         <div class="card-kicker">경기도</div>
         <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120032" target="_blank"
@@ -3009,13 +3159,14 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">경기도경제과학진흥원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">bizinfo</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: AI</div>
     <div class="acts"><button class="btn sm" onclick="decide('bizinfo:PBLN_000000000120032','2026년 제29회 대한민국우수상품전시회(G-FAIR KOREA 2026) 참가기업 모집 공고','approved')">관련 사업으로</button><button class="btn sm ghost" onclick="decide('bizinfo:PBLN_000000000120032','2026년 제29회 대한민국우수상품전시회(G-FAIR KOREA 2026) 참가기업 모집 공고','rejected')">제외</button></div>
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">35</div>
+      <div class="badge ">34</div>
       <div class="card-head-text">
         <div class="card-kicker">산업통상부</div>
         <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123466" target="_blank"
@@ -3031,13 +3182,14 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">한국팹리스산업협회</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">bizinfo</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 실증</div>
     <div class="acts"><button class="btn sm" onclick="decide('bizinfo:PBLN_000000000123466','2026년 지능형 반도체 개발ㆍ실증지원 고신뢰 반도체 상용화를 위한 검증ㆍ확인 지원사업 기업 지원 프로그램 통합 공고','approved')">관련 사업으로</button><button class="btn sm ghost" onclick="decide('bizinfo:PBLN_000000000123466','2026년 지능형 반도체 개발ㆍ실증지원 고신뢰 반도체 상용화를 위한 검증ㆍ확인 지원사업 기업 지원 프로그램 통합 공고','rejected')">제외</button></div>
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">36</div>
+      <div class="badge ">35</div>
       <div class="card-head-text">
         <div class="card-kicker">기후에너지환경부</div>
         <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120312" target="_blank"
@@ -3053,13 +3205,14 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">한국환경공단</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">bizinfo</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 실증</div>
     <div class="acts"><button class="btn sm" onclick="decide('bizinfo:PBLN_000000000120312','2026년 국가배터리순환클러스터실증화시설 사용자 모집 공고','approved')">관련 사업으로</button><button class="btn sm ghost" onclick="decide('bizinfo:PBLN_000000000120312','2026년 국가배터리순환클러스터실증화시설 사용자 모집 공고','rejected')">제외</button></div>
   </div>
   <div class="card">
     <div class="card-head">
-      <div class="badge ">37</div>
+      <div class="badge ">36</div>
       <div class="card-head-text">
         <div class="card-kicker">경기도</div>
         <div class="card-title"><a href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000122038" target="_blank"
@@ -3075,6 +3228,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">시흥산업진흥원</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">bizinfo</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: AI</div>
     <div class="acts"><button class="btn sm" onclick="decide('bizinfo:PBLN_000000000122038','[경기] 시흥시 2026년 AIㆍDX 기반 기업 역량 강화 지원 참여 기업 모집 추가 공고','approved')">관련 사업으로</button><button class="btn sm ghost" onclick="decide('bizinfo:PBLN_000000000122038','[경기] 시흥시 2026년 AIㆍDX 기반 기업 역량 강화 지원 참여 기업 모집 추가 공고','rejected')">제외</button></div>
@@ -3108,6 +3262,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <span class="cond-v">경기테크노파크</span></div>
       <div class="cond-row"><span class="cond-k">출처</span>
         <span class="cond-v">bizinfo</span></div>
+      
     </div>
     <div class="why">판정 근거 · 핵심 키워드: 로봇, 제조로봇, 실증</div>
     <div class="acts"><button class="btn sm ghost" onclick="decide('bizinfo:PBLN_000000000123179','[경기] 2026년 2차 제조로봇 도입ㆍ실증 및 고도화지원 사업 공고(제조로봇 도입지원)','pending')">되돌리기</button></div>
@@ -3127,7 +3282,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
 
 <footer>
   <span>자동 수집 · 기업마당 · 한국로봇산업진흥원 · K-Startup · 정보통신산업진흥원 · 성남산업진흥원</span>
-  <span>마지막 갱신 2026-07-23 14:04</span>
+  <span>마지막 갱신 2026-07-23 14:15</span>
 </footer>
 
 <div class="toast" id="toast" onclick="hideToast()"></div>
@@ -3140,7 +3295,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
 <script>
 var REPO_NEW = "https://github.com/keinzkim-droid/support-program-radar/new/main";
 var SCHEDULE_TXT = "\ub9e4\uc77c \uc624\uc804\u00b7\uc624\ud6c4 (\ud558\ub8e8 2\ud68c \uc774\uc0c1)";
-var BUILD_ID = "2026-07-23 14:04";
+var BUILD_ID = "2026-07-23 14:15";
 </script>
 <script>
 function switchTab(name, el){

@@ -87,6 +87,18 @@ def load_decisions() -> dict[str, str]:
 
 def detect_region(item: dict) -> str | None:
     """제목 태그와 소관기관에서 지역을 뽑는다. 못 찾으면 전국(None)."""
+    # 사무실 공고는 상세에서 확인한 실제 소재지를 최우선으로 본다.
+    # 목록의 지역은 주관기관 기준이라 실제 위치와 다르다 —
+    # '국토교통 창업지원센터'는 목록상 전국이지만 사무실은 판교에 있다.
+    loc = item.get("location") or ""
+    if loc:
+        for name, key in REGION_ALIAS.items():
+            if name in loc:
+                return key
+        for name in NON_METRO:
+            if name in loc:
+                return name
+
     m = REGION_TAG.match(item["title"])
     if m:
         return REGION_ALIAS.get(m.group(1), m.group(1))
