@@ -496,12 +496,37 @@ SOURCES = {
 }
 
 
+MIN_INTERVAL_HOURS = 3     # 이 시간 안에 수집했으면 건너뛴다
+
+
+def _too_soon() -> float | None:
+    """최근에 수집했으면 경과 시간을 돌려준다.
+
+    예약 실행이 자꾸 밀려서 하루 6회로 시도 횟수를 늘렸다. 그대로 두면
+    정부 사이트에 가는 요청도 3배가 되므로, 실제 수집은 간격을 두고 한다.
+    '여러 번 시도하되 필요할 때만 수집한다'는 뜻이다.
+    """
+    if "--force" in sys.argv or not OUT.exists():
+        return None
+    try:
+        prev = json.loads(OUT.read_text(encoding="utf-8"))["collected_at"]
+        gap = (datetime.now() - datetime.fromisoformat(prev)).total_seconds() / 3600
+    except (ValueError, KeyError, OSError):
+        return None
+    return gap if gap < MIN_INTERVAL_HOURS else None
+
+
 def main() -> int:
     logging.basicConfig(
         level=logging.INFO,
         format="%(levelname)s %(message)s",
         stream=sys.stdout,
     )
+
+    gap = _too_soon()
+    if gap is not None:
+        log.info("%.1f시간 전에 수집했다. 건너뛴다 (--force로 무시 가능)", gap)
+        return 0
 
     # 실패한 소스는 지난번 수집분을 그대로 살린다.
     # 그러지 않으면 일시적 장애 한 번에 웹페이지에서 공고가 통째로 사라진다.
