@@ -26,6 +26,31 @@
       ]
     },
     {
+      "source": "kstartup",
+      "source_id": "178473",
+      "title": "동국대학교 창업보육센터(서울) 신규 입주기업 모집 공고",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178473",
+      "apply_raw": "2026-07-08 ~ 2026-07-30",
+      "apply_start": "2026-07-08",
+      "apply_end": "2026-07-30",
+      "agency": "창업보육센터 지원",
+      "exec_agency": "창업보육센터 지원",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-07-09",
+      "status": "마감임박",
+      "collected_at": "2026-07-23",
+      "key": "kstartup:178473",
+      "track": "C",
+      "score": 9,
+      "region": "서울",
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업, 창업보육, 보육센터",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
       "source": "kiria",
       "source_id": "IBUS_000000000001258",
       "title": "2026년 「서비스로봇 실증사업」 지원과제 2차 모집 공고",
@@ -70,6 +95,31 @@
       "reasons": [
         "핵심 키워드: 실증, AI"
       ]
+    },
+    {
+      "source": "kstartup",
+      "source_id": "178553",
+      "title": "[2026년 경기 AI 혁신클러스터] AI 클러스터 오픈이노베이션 연계·실증 프로그램 참가기업 모집",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178553",
+      "apply_raw": "2026-07-15 ~ 2026-07-31",
+      "apply_start": "2026-07-15",
+      "apply_end": "2026-07-31",
+      "agency": "탭엔젤파트너스",
+      "exec_agency": "탭엔젤파트너스",
+      "category": "사업화",
+      "posted_at": "2026-07-16",
+      "status": "마감임박",
+      "collected_at": "2026-07-23",
+      "key": "kstartup:178553",
+      "track": "A",
+      "score": 6,
+      "region": "경기",
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: 실증, AI",
+        "자동 분류"
+      ],
+      "auto": true
     },
     {
       "source": "kiria",
@@ -397,6 +447,29 @@
       ]
     },
     {
+      "source": "kstartup",
+      "source_id": "178639",
+      "title": "26년 국토교통 창업지원센터 입주기업 추가 모집공고",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178639",
+      "apply_raw": "2026-07-21 ~ 2026-08-04",
+      "apply_start": "2026-07-21",
+      "apply_end": "2026-08-04",
+      "agency": "국토교통과학기술진흥원",
+      "exec_agency": "국토교통과학기술진흥원",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-07-22",
+      "status": "마감임박",
+      "collected_at": "2026-07-23",
+      "key": "kstartup:178639",
+      "track": "C",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업"
+      ]
+    },
+    {
       "source": "kiria",
       "source_id": "IBUS_000000000001261",
       "title": "2026년도 「한-체코 첨단로봇산업 협력센터 구축사업」 지원과제 모집 공고",
@@ -678,29 +751,6 @@
     },
     {
       "source": "kstartup",
-      "source_id": "178473",
-      "title": "동국대학교 창업보육센터(서울) 신규 입주기업 모집 공고",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178473",
-      "apply_raw": "2026-07-08 ~ 2026-07-30",
-      "apply_start": "2026-07-08",
-      "apply_end": "2026-07-30",
-      "agency": "창업보육센터 지원",
-      "exec_agency": "창업보육센터 지원",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-07-09",
-      "status": "마감임박",
-      "collected_at": "2026-07-23",
-      "key": "kstartup:178473",
-      "track": "C",
-      "score": 9,
-      "region": "서울",
-      "conditional": null,
-      "reasons": [
-        "사무실·공간 키워드: 입주기업, 창업보육, 보육센터"
-      ]
-    },
-    {
-      "source": "kstartup",
       "source_id": "178453",
       "title": "[영산대학교 창업보육센터] 2026년 신규입주기업 모집 공고",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178453",
@@ -813,29 +863,6 @@
       "conditional": null,
       "reasons": [
         "사무실·공간 키워드: 창업보육, 보육센터"
-      ]
-    },
-    {
-      "source": "kstartup",
-      "source_id": "178553",
-      "title": "[2026년 경기 AI 혁신클러스터] AI 클러스터 오픈이노베이션 연계·실증 프로그램 참가기업 모집",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178553",
-      "apply_raw": "2026-07-15 ~ 2026-07-31",
-      "apply_start": "2026-07-15",
-      "apply_end": "2026-07-31",
-      "agency": "탭엔젤파트너스",
-      "exec_agency": "탭엔젤파트너스",
-      "category": "사업화",
-      "posted_at": "2026-07-16",
-      "status": "마감임박",
-      "collected_at": "2026-07-23",
-      "key": "kstartup:178553",
-      "track": "A",
-      "score": 6,
-      "region": "경기",
-      "conditional": null,
-      "reasons": [
-        "핵심 키워드: 실증, AI"
       ]
     },
     {
@@ -1257,29 +1284,6 @@
     },
     {
       "source": "kstartup",
-      "source_id": "178639",
-      "title": "26년 국토교통 창업지원센터 입주기업 추가 모집공고",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178639",
-      "apply_raw": "2026-07-21 ~ 2026-08-04",
-      "apply_start": "2026-07-21",
-      "apply_end": "2026-08-04",
-      "agency": "국토교통과학기술진흥원",
-      "exec_agency": "국토교통과학기술진흥원",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-07-22",
-      "status": "마감임박",
-      "collected_at": "2026-07-23",
-      "key": "kstartup:178639",
-      "track": "C",
-      "score": 3,
-      "region": null,
-      "conditional": null,
-      "reasons": [
-        "사무실·공간 키워드: 입주기업"
-      ]
-    },
-    {
-      "source": "kstartup",
       "source_id": "178596",
       "title": "2026년 지역창업특화지원사업(1인)  제3차 신규 입주기업 모집",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178596",
@@ -1566,9 +1570,9 @@
   ],
   "stats": {
     "collected": 506,
-    "cards": 26,
+    "cards": 29,
     "expired": 1,
-    "candidates": 40,
+    "candidates": 37,
     "excluded": 0,
     "dropped": 439
   }

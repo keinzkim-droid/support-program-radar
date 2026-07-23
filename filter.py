@@ -178,6 +178,33 @@ def judge(item: dict, profile: dict) -> Verdict:
     return Verdict("A", score, region, conditional, reasons)
 
 
+def should_auto_promote(rec: dict, profile: dict) -> bool:
+    """사람 승인 없이 목록에 올려도 되는가.
+
+    점수만으로는 판단할 수 없다. 점수는 '관련성'이 아니라 '키워드가 몇 개
+    겹쳤나'를 재기 때문에, 대전·부산 대학의 창업보육센터가 9점으로 최상위에
+    온다(입주기업+창업보육+보육센터). 그래서 지역 확인을 함께 요구한다.
+    """
+    cfg = (profile.get("scoring") or {}).get("auto_promote") or {}
+    if not cfg:
+        return False
+    if rec["score"] < cfg.get("min_score", 99):
+        return False
+
+    text = f"{rec['title']} {rec.get('exec_agency', '')}"
+    if any(w in text for w in cfg.get("block") or []):
+        return False
+
+    # 지역이 확인된 것만 올린다. '전국'은 실제로 전국구일 수도 있지만
+    # 지역 표기가 없어 못 찾은 것일 수도 있어 사람이 본다.
+    if cfg.get("require_region") and not rec.get("region"):
+        return False
+    # 조건부 지역(인천 등)은 자격이 아직 없으므로 자동으로 올리지 않는다.
+    if rec.get("conditional"):
+        return False
+    return True
+
+
 def status_of(item: dict, today: date, soon_days: int) -> str:
     """접수 상태. 소스가 알려주면 그걸 우선한다."""
     end = item.get("apply_end")
@@ -198,8 +225,12 @@ def main() -> int:
     rejected = set(curated.get("rejected") or [])
 
     # 웹페이지에서 누른 결정이 curated.yaml보다 우선한다(최신 의사이므로).
+    # decided는 '사람이 이미 판단한 건' — 자동 분류가 이를 덮어쓰면 안 된다.
+    # 특히 되돌리기(pending)를 눌렀는데 다시 자동 승격되면 되돌릴 방법이 없어진다.
+    decisions = load_decisions()
+    decided: set[str] = set(decisions) | set(curated.get("rejected") or [])
     rejected_at: dict[str, str] = {}
-    for key, (decision, when) in load_decisions().items():
+    for key, (decision, when) in decisions.items():
         approved.discard(key)
         rejected.discard(key)
         if decision == "approved":
@@ -284,9 +315,18 @@ def main() -> int:
             reasons=v.reasons,
             status=status,
         )
+        # 자동 승격 — 조건을 만족하면 사람 승인 없이 목록에 올린다.
+        # 사람이 이미 판단한 건(approved/rejected/pending 결정 파일)은 건드리지 않는다.
+        auto = False
+        if key not in approved and key not in decided:
+            auto = should_auto_promote(rec, profile)
+            if auto:
+                rec["reasons"] = (rec.get("reasons") or []) + ["자동 분류"]
+                rec["auto"] = True
+
         if archived:
             expired.append(rec)
-        elif key in approved:
+        elif key in approved or auto:
             cards.append(rec)
         else:
             candidates.append(rec)

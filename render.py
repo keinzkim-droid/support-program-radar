@@ -121,6 +121,7 @@ h1 .hl{color:var(--accent)}
   background:var(--n50);color:var(--n800);border:1px solid var(--border)}
 .chip.track{background:var(--soft);color:var(--accent-strong);border-color:transparent}
 .chip.cond{background:#fff4e0;color:#a5670a;border-color:#f3d9a8}
+.chip.auto{background:#eef7f2;color:#0a7d55;border-color:#c8e6d8}
 .cond-table{border-top:1px solid var(--border);padding-top:12px}
 .cond-row{display:flex;justify-content:space-between;gap:12px;font-size:12.5px;padding:4px 0}
 .cond-k{color:var(--text2);flex:none;width:72px}
@@ -330,6 +331,9 @@ def card_html(rec: dict, idx: int, today: date,
         chips.append(f'<span class="chip">{esc(rec["category"])}</span>')
     if rec.get("conditional"):
         chips.append(f'<span class="chip cond">조건부 · {esc(rec["conditional"])}</span>')
+    # 사람이 확인한 것과 기계가 올린 것을 구분해 보여준다.
+    if rec.get("auto"):
+        chips.append('<span class="chip auto">자동 분류</span>')
 
     reasons = " · ".join(rec.get("reasons") or [])
     return f"""
@@ -475,7 +479,8 @@ def build(data: dict, build_id: str = "") -> str:
 
 <div class="tab-panel" id="tab-cards">
   <div class="section-head"><h2>관련 사업</h2>
-    <div class="section-sub">검토를 마친 공고 · 마감된 것은 '마감' 탭으로 이동합니다</div></div>
+    <div class="section-sub">조건에 맞아 자동 분류된 공고 + 직접 확인한 공고 ·
+      아니라고 판단되면 <b>되돌리기</b>를 누르세요</div></div>
   {grid(cards, today, "아직 목록에 올린 공고가 없습니다. '새로 찾은 공고' 탭을 확인해주세요.",
         selectable=True)}
   {compare_table(cards, today)}

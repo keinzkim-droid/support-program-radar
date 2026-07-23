@@ -16,6 +16,14 @@ on:
     - cron: "41 6 * * *"   # 15:41 KST
   workflow_dispatch:        # 수동 실행 버튼
 
+  # 웹페이지 버튼으로 결정 파일이 올라오면 바로 화면에 반영한다.
+  # 다음 예약까지 기다리면 '눌렀는데 안 바뀐다'가 되어 오해를 부른다.
+  # 수집은 3시간 간격 규칙에 걸려 대체로 생략되고 분류·렌더만 다시 돈다.
+  push:
+    paths:
+      - "config/decisions/**"
+      - "config/curated.yaml"
+
 # 결과(data/, docs/)를 저장소에 되커밋해야 하므로 쓰기 권한이 필요하다.
 permissions:
   contents: write
