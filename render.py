@@ -122,6 +122,12 @@ h1 .hl{color:var(--accent)}
 .chip.track{background:var(--soft);color:var(--accent-strong);border-color:transparent}
 .chip.cond{background:#fff4e0;color:#a5670a;border-color:#f3d9a8}
 .chip.auto{background:#eef7f2;color:#0a7d55;border-color:#c8e6d8}
+/* 수집이 멈췄을 때 뜨는 경고 */
+.stale{border-radius:12px;padding:16px 20px;font-size:13.5px;line-height:1.7;
+  margin-bottom:20px}
+.stale.warn{background:#fff4e0;border:1px solid #f3d9a8;color:#7a4d06}
+.stale.alert{background:#ffecec;border:1px solid #ffbdbd;color:#a11}
+.stale .s-note{display:block;margin-top:6px;font-size:12.5px;opacity:.85}
 .cond-table{border-top:1px solid var(--border);padding-top:12px}
 .cond-row{display:flex;justify-content:space-between;gap:12px;font-size:12.5px;padding:4px 0}
 .cond-k{color:var(--text2);flex:none;width:72px}
@@ -411,6 +417,35 @@ def compare_table(recs: list[dict], today: date) -> str:
 </table></div>"""
 
 
+# 수집이 멈춰도 화면은 옛 데이터를 그대로 보여준다. 예약이 아예 안 걸리면
+# 실패 메일도 오지 않아 며칠째 멈춘 것을 아무도 모른다.
+# 그래서 데이터가 낡으면 페이지가 스스로 알린다 — 경고가 없으면 정상이라는 뜻.
+STALE_WARN_HOURS = 24
+STALE_ALERT_HOURS = 48
+
+
+def staleness_banner(collected_at: str) -> str:
+    """마지막 수집이 오래됐으면 눈에 띄게 알린다."""
+    try:
+        gap = (datetime.now() - datetime.fromisoformat(collected_at)).total_seconds() / 3600
+    except (ValueError, TypeError):
+        return ""
+    if gap < STALE_WARN_HOURS:
+        return ""
+
+    days = int(gap // 24)
+    ago = f"{days}일 전" if days else f"{int(gap)}시간 전"
+    level = "alert" if gap >= STALE_ALERT_HOURS else "warn"
+    msg = ("자동 수집이 멈춘 것으로 보입니다."
+           if gap >= STALE_ALERT_HOURS else "수집이 평소보다 지연되고 있습니다.")
+    return f"""
+<div class="wrap"><div class="stale {level}">
+  <b>⚠ 마지막 수집: {esc(ago)}</b> — {msg}<br>
+  <span class="s-note">GitHub 저장소의 Actions 탭에서 <b>공고 수집 → Run workflow</b>로
+  직접 실행할 수 있습니다. 화면의 공고는 마지막 수집 시점 기준입니다.</span>
+</div></div>"""
+
+
 def build(data: dict, build_id: str = "") -> str:
     today = date.fromisoformat(data["generated_at"])
     cards = data["cards"]
@@ -465,6 +500,8 @@ def build(data: dict, build_id: str = "") -> str:
       <div class="stat-label">새로 찾은 공고</div></div>
   </div>
 </header>
+
+{staleness_banner(data.get("collected_at") or "")}
 
 <div class="tabs">
   <button class="tab-btn active" onclick="switchTab('open', this)">

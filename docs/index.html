@@ -89,6 +89,12 @@ h1 .hl{color:var(--accent)}
 .chip.track{background:var(--soft);color:var(--accent-strong);border-color:transparent}
 .chip.cond{background:#fff4e0;color:#a5670a;border-color:#f3d9a8}
 .chip.auto{background:#eef7f2;color:#0a7d55;border-color:#c8e6d8}
+/* 수집이 멈췄을 때 뜨는 경고 */
+.stale{border-radius:12px;padding:16px 20px;font-size:13.5px;line-height:1.7;
+  margin-bottom:20px}
+.stale.warn{background:#fff4e0;border:1px solid #f3d9a8;color:#7a4d06}
+.stale.alert{background:#ffecec;border:1px solid #ffbdbd;color:#a11}
+.stale .s-note{display:block;margin-top:6px;font-size:12.5px;opacity:.85}
 .cond-table{border-top:1px solid var(--border);padding-top:12px}
 .cond-row{display:flex;justify-content:space-between;gap:12px;font-size:12.5px;padding:4px 0}
 .cond-k{color:var(--text2);flex:none;width:72px}
@@ -183,6 +189,8 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
       <div class="stat-label">새로 찾은 공고</div></div>
   </div>
 </header>
+
+
 
 <div class="tabs">
   <button class="tab-btn active" onclick="switchTab('open', this)">
@@ -3181,7 +3189,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
 
 <footer>
   <span>자동 수집 · 기업마당 · 한국로봇산업진흥원 · K-Startup · 정보통신산업진흥원 · 성남산업진흥원</span>
-  <span>마지막 갱신 2026-07-23 14:29</span>
+  <span>마지막 갱신 2026-07-23 15:17</span>
 </footer>
 
 <div class="toast" id="toast" onclick="hideToast()"></div>
@@ -3194,7 +3202,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
 <script>
 var REPO_NEW = "https://github.com/keinzkim-droid/support-program-radar/new/main";
 var SCHEDULE_TXT = "\ub9e4\uc77c \uc624\uc804\u00b7\uc624\ud6c4 (\ud558\ub8e8 2\ud68c \uc774\uc0c1)";
-var BUILD_ID = "2026-07-23 14:29";
+var BUILD_ID = "2026-07-23 15:17";
 </script>
 <script>
 function switchTab(name, el){

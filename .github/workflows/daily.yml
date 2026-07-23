@@ -79,6 +79,22 @@ jobs:
             git push
           fi
 
+      # 며칠째 수집이 안 되고 있으면 실패로 끝내 메일이 가게 한다.
+      # 예약이 아예 안 걸리는 경우는 실행 자체가 없어 아무 신호도 없다.
+      # 어쩌다 한 번이라도 돌면 이 단계에서 잡힌다.
+      - name: 수집 지연 확인
+        run: |
+          python - <<'PY'
+          import json, sys
+          from datetime import datetime
+          d = json.load(open("data/announcements.json", encoding="utf-8"))
+          gap = (datetime.now() - datetime.fromisoformat(d["collected_at"])).total_seconds() / 3600
+          print(f"마지막 수집: {gap:.1f}시간 전")
+          if gap >= 48:
+              print("::error::48시간 넘게 수집되지 않았다. 예약 실행을 점검할 것.")
+              sys.exit(1)
+          PY
+
       # 갱신은 마쳤으니, 실패한 소스가 있으면 이제 알린다.
       # 조용히 넘어가면 어느 소스가 몇 주째 멈춰 있는지 아무도 모르게 된다.
       - name: 수집 실패 확인

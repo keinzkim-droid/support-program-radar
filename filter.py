@@ -375,6 +375,9 @@ def main() -> int:
         # 화면 문구를 실제 수집 소스에서 만들기 위해 넘긴다.
         # 하드코딩해두면 소스를 추가할 때마다 문구가 낡는다.
         "sources": sorted({i["source"] for i in raw["items"]}),
+        # 마지막으로 실제 수집한 시각. 렌더가 '얼마나 낡았나'를 판단한다.
+        # generated_at(분류 시각)과 다르다 — 수집이 멈춰도 분류는 매번 돈다.
+        "collected_at": raw.get("collected_at", ""),
         "stats": {
             "collected": raw["count"],
             "cards": len(cards),
