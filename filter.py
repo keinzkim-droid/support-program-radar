@@ -19,6 +19,8 @@ from pathlib import Path
 
 import yaml
 
+from collect import now_kst   # UTC 러너에서 날짜가 하루 밀리지 않도록 KST 사용
+
 ROOT = Path(__file__).parent
 PROFILE = ROOT / "config" / "profile.yaml"
 CURATED = ROOT / "config" / "curated.yaml"
@@ -271,7 +273,7 @@ def main() -> int:
         # pending이면 양쪽 어디에도 넣지 않아 '새로 찾은 공고'로 돌아간다
 
     raw = json.loads(IN.read_text(encoding="utf-8"))
-    today = date.today()
+    today = now_kst().date()
     soon = profile["scoring"]["deadline_soon_days"]
 
     archive_days = profile["scoring"].get("archive_after_days", 30)

@@ -14,6 +14,8 @@ import sys
 from datetime import date, datetime
 from pathlib import Path
 
+from collect import now_kst   # 화면 시각을 한국시간으로 통일한다
+
 ROOT = Path(__file__).parent
 IN = ROOT / "data" / "classified.json"
 OUT = ROOT / "docs" / "index.html"
@@ -427,7 +429,7 @@ STALE_ALERT_HOURS = 48
 def staleness_banner(collected_at: str) -> str:
     """마지막 수집이 오래됐으면 눈에 띄게 알린다."""
     try:
-        gap = (datetime.now() - datetime.fromisoformat(collected_at)).total_seconds() / 3600
+        gap = (now_kst() - datetime.fromisoformat(collected_at)).total_seconds() / 3600
     except (ValueError, TypeError):
         return ""
     if gap < STALE_WARN_HOURS:
@@ -579,7 +581,7 @@ def build(data: dict, build_id: str = "") -> str:
 
 <footer>
   <span>자동 수집 · {esc(' · '.join(src_names))}</span>
-  <span>마지막 갱신 {esc(datetime.now().strftime('%Y-%m-%d %H:%M'))}</span>
+  <span>마지막 갱신 {esc(now_kst().strftime('%Y-%m-%d %H:%M'))} (KST)</span>
 </footer>
 
 <div class="toast" id="toast" onclick="hideToast()"></div>
@@ -607,7 +609,7 @@ def main() -> int:
     # 빌드 시각만 담은 작은 파일을 따로 둔다.
     # GitHub Pages는 HTML을 10분간 캐시하라고 브라우저에 알리고 그 헤더는
     # 우리가 못 바꾼다. 대신 이 파일을 캐시 우회로 받아 비교한다.
-    build_id = datetime.now().strftime("%Y-%m-%d %H:%M")
+    build_id = now_kst().strftime("%Y-%m-%d %H:%M")
     (OUT.parent / "version.json").write_text(
         json.dumps({"build": build_id, "generated_at": data["generated_at"]},
                    ensure_ascii=False),

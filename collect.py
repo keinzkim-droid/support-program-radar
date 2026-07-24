@@ -18,8 +18,17 @@ import re
 import sys
 import time
 from dataclasses import dataclass, asdict, field
-from datetime import date, datetime, timedelta
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
+
+# GitHub 러너(UTC)에서 돌든 로컬 PC(KST)에서 돌든 화면 시각은 한국시간으로
+# 통일한다. datetime.now()는 실행 환경의 로컬 시간을 써서 시각이 뒤섞인다.
+KST = timezone(timedelta(hours=9))
+
+
+def now_kst() -> datetime:
+    """실행 위치와 무관하게 한국시간(naive). ISO/표시 모두 이걸 쓴다."""
+    return datetime.now(KST).replace(tzinfo=None)
 
 import requests
 import yaml
@@ -77,7 +86,7 @@ class Announcement:
     posted_at: str = ""    # 등록일
     status: str = ""       # 소스가 알려주는 상태(진행중/대기중 등)
     location: str = ""     # 사무실 공고의 실제 소재지(상세에서만 얻을 수 있다)
-    collected_at: str = field(default_factory=lambda: date.today().isoformat())
+    collected_at: str = field(default_factory=lambda: now_kst().date().isoformat())
 
     @property
     def key(self) -> str:
@@ -305,7 +314,7 @@ def collect_nipa() -> list[Announcement]:
     if table is None:
         raise CollectError("NIPA: 공고 테이블을 찾지 못했다. 사이트 개편 가능성.")
 
-    today = date.today()
+    today = now_kst().date()
     out: list[Announcement] = []
     for tr in (table.find("tbody") or table).find_all("tr"):
         tds = [td.get_text(" ", strip=True) for td in tr.find_all("td")]
@@ -551,7 +560,7 @@ def _too_soon() -> float | None:
         return None
     try:
         prev = json.loads(OUT.read_text(encoding="utf-8"))["collected_at"]
-        gap = (datetime.now() - datetime.fromisoformat(prev)).total_seconds() / 3600
+        gap = (now_kst() - datetime.fromisoformat(prev)).total_seconds() / 3600
     except (ValueError, KeyError, OSError):
         return None
     return gap if gap < MIN_INTERVAL_HOURS else None
@@ -622,7 +631,7 @@ def main() -> int:
                        for group in previous.values() for i in group}
         # 오래 전에 마감된 것까지 되살리면 데이터가 무한정 커진다.
         # 화면에서 내리는 기준(archive_after_days)과 같은 선을 쓴다.
-        cutoff = (date.today() - timedelta(days=ARCHIVE_DAYS)).isoformat()
+        cutoff = (now_kst().date() - timedelta(days=ARCHIVE_DAYS)).isoformat()
         restored = 0
         for key in approved - have:
             old = seen_before.get(key)
@@ -636,7 +645,7 @@ def main() -> int:
     OUT.write_text(
         json.dumps(
             {
-                "collected_at": datetime.now().isoformat(timespec="seconds"),
+                "collected_at": now_kst().isoformat(timespec="seconds"),
                 "failures": failures,
                 "count": len(items),
                 "items": items,
