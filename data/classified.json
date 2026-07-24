@@ -53,6 +53,32 @@
       "auto": true
     },
     {
+      "source": "kstartup",
+      "source_id": "178473",
+      "title": "동국대학교 창업보육센터(서울) 신규 입주기업 모집 공고",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178473",
+      "apply_raw": "2026-07-08 ~ 2026-07-30",
+      "apply_start": "2026-07-08",
+      "apply_end": "2026-07-30",
+      "agency": "창업보육센터 지원",
+      "exec_agency": "창업보육센터 지원",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-07-09",
+      "status": "마감임박",
+      "location": "(주소) : 동국대학교 충무로관 내(서울특별시 중구 퇴계로36길 2) - 입주예정일 : 2026.8.15. - 입주비용 1) 입주보증금 : 3.",
+      "collected_at": "2026-07-24",
+      "key": "kstartup:178473",
+      "track": "C",
+      "score": 9,
+      "region": "서울",
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업, 창업보육, 보육센터",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
       "source": "kiria",
       "source_id": "IBUS_000000000001258",
       "title": "2026년 「서비스로봇 실증사업」 지원과제 2차 모집 공고",
@@ -376,32 +402,6 @@
     },
     {
       "source": "kstartup",
-      "source_id": "178492",
-      "title": "2026년 하반기「하남스타트업캠퍼스·경기 AI 클러스터 하남」신규 입주자 모집 공고",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178492",
-      "apply_raw": "2026-07-06 ~ 2026-07-24",
-      "apply_start": "2026-07-06",
-      "apply_end": "2026-07-24",
-      "agency": "하남도시공사",
-      "exec_agency": "하남도시공사",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-07-16",
-      "status": "마감임박",
-      "location": "",
-      "collected_at": "2026-07-24",
-      "key": "kstartup:178492",
-      "track": "A",
-      "score": 3,
-      "region": "경기",
-      "conditional": null,
-      "reasons": [
-        "핵심 키워드: AI",
-        "자동 분류"
-      ],
-      "auto": true
-    },
-    {
-      "source": "kstartup",
       "source_id": "178554",
       "title": "2026년「강남 취‧창업허브센터」6차 입주 기업 신규 모집",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178554",
@@ -416,32 +416,6 @@
       "location": "서울특별시 강남구 역삼로 160, 강남취창업허브센터 입주공간: https://www.gangnam-jobnstartup.com/center/sp",
       "collected_at": "2026-07-24",
       "key": "kstartup:178554",
-      "track": "C",
-      "score": 3,
-      "region": "서울",
-      "conditional": null,
-      "reasons": [
-        "사무실·공간 키워드: 창업허브",
-        "자동 분류"
-      ],
-      "auto": true
-    },
-    {
-      "source": "kstartup",
-      "source_id": "178565",
-      "title": "2026년 서울창업허브 창동-삼성물산 건설부문 오픈이노베이션 참가기업 모집",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178565",
-      "apply_raw": "2026-07-15 ~ 2026-07-24",
-      "apply_start": "2026-07-15",
-      "apply_end": "2026-07-24",
-      "agency": "서울창업허브 창동 운영",
-      "exec_agency": "서울창업허브 창동 운영",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-07-15",
-      "status": "마감임박",
-      "location": "",
-      "collected_at": "2026-07-24",
-      "key": "kstartup:178565",
       "track": "C",
       "score": 3,
       "region": "서울",
@@ -1719,13 +1693,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-07-24T13:46:27",
+  "collected_at": "2026-07-24T18:12:35",
   "stats": {
-    "collected": 510,
-    "cards": 47,
+    "collected": 523,
+    "cards": 46,
     "expired": 2,
     "candidates": 20,
     "excluded": 0,
-    "dropped": 441
+    "dropped": 455
   }
 }
