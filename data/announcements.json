@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-24T10:01:49",
+  "collected_at": "2026-07-24T13:46:27",
   "failures": [],
   "count": 510,
   "items": [
@@ -8117,19 +8117,18 @@
     },
     {
       "source": "bizinfo",
-      "source_id": "PBLN_000000000124187",
-      "title": "[전남광주] 2026년 탄소중립 제조혁신 고도화 2단계 사업 참여기업 추가모집 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124187",
-      "apply_raw": "2026-07-08 ~ 2026-07-23",
-      "apply_start": "2026-07-08",
-      "apply_end": "2026-07-23",
-      "agency": "전남광주통합특별시",
-      "exec_agency": "전남테크노파크",
-      "category": "경영",
-      "posted_at": "2026-07-09",
+      "source_id": "PBLN_000000000123179",
+      "title": "[경기] 2026년 2차 제조로봇 도입ㆍ실증 및 고도화지원 사업 공고(제조로봇 도입지원)",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123179",
+      "apply_raw": "2026-06-15 ~ 2026-07-22",
+      "apply_start": "2026-06-15",
+      "apply_end": "2026-07-22",
+      "agency": "경기도",
+      "exec_agency": "경기테크노파크",
+      "category": "기술",
+      "posted_at": "2026-06-15",
       "status": "",
-      "location": "",
-      "collected_at": "2026-07-23"
+      "collected_at": "2026-07-22"
     },
     {
       "source": "bizinfo",
@@ -8148,18 +8147,19 @@
     },
     {
       "source": "bizinfo",
-      "source_id": "PBLN_000000000123179",
-      "title": "[경기] 2026년 2차 제조로봇 도입ㆍ실증 및 고도화지원 사업 공고(제조로봇 도입지원)",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123179",
-      "apply_raw": "2026-06-15 ~ 2026-07-22",
-      "apply_start": "2026-06-15",
-      "apply_end": "2026-07-22",
-      "agency": "경기도",
-      "exec_agency": "경기테크노파크",
-      "category": "기술",
-      "posted_at": "2026-06-15",
+      "source_id": "PBLN_000000000124187",
+      "title": "[전남광주] 2026년 탄소중립 제조혁신 고도화 2단계 사업 참여기업 추가모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124187",
+      "apply_raw": "2026-07-08 ~ 2026-07-23",
+      "apply_start": "2026-07-08",
+      "apply_end": "2026-07-23",
+      "agency": "전남광주통합특별시",
+      "exec_agency": "전남테크노파크",
+      "category": "경영",
+      "posted_at": "2026-07-09",
       "status": "",
-      "collected_at": "2026-07-22"
+      "location": "",
+      "collected_at": "2026-07-23"
     }
   ]
 }
