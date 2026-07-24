@@ -35,6 +35,7 @@ _profile = yaml.safe_load(PROFILE.read_text(encoding="utf-8"))
 SEARCH_KEYWORDS: list[str] = (_profile.get("collect") or {}).get("search_keywords", [])
 ARCHIVE_DAYS: int = (_profile.get("scoring") or {}).get("archive_after_days", 30)
 AREA_CODES: dict[str, str] = (_profile.get("collect") or {}).get("area_codes", {})
+BIZINFO_GIVE_UP_AFTER: int = (_profile.get("collect") or {}).get("give_up_after", 3)
 
 # HTTP 헤더는 latin-1만 허용하므로 ASCII로만 쓴다.
 UA = ("support-program-radar/0.1 (internal announcement monitor; "
@@ -133,8 +134,6 @@ BIZINFO_MAX_PAGES = 4      # 키워드당 최대 60건. 그 이상은 키워드�
 # 지역 훑기는 그 지역 공고를 빠짐없이 받는 것이 목적이므로 상한을 높인다.
 # (경기도만 150건이 넘는다)
 BIZINFO_AREA_MAX_PAGES = 14
-# 연속 이만큼 실패하면 차단된 것으로 보고 기업마당 수집을 중단한다.
-BIZINFO_GIVE_UP_AFTER = 2
 
 # 검색 폼의 전체 파라미터를 갖춰야 한다. keyword만 보내면 500이 떨어진다.
 BIZINFO_FORM = {

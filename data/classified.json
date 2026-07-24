@@ -327,6 +327,30 @@
       ]
     },
     {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000123543",
+      "title": "[경북] 포항시 2026년 경북형(포항) 스마트공장(기초단계) 구축지원사업 추가모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123543",
+      "apply_raw": "2026-06-30 ~ 2026-07-24",
+      "apply_start": "2026-06-30",
+      "apply_end": "2026-07-24",
+      "agency": "경상북도",
+      "exec_agency": "포항테크노파크",
+      "category": "경영",
+      "posted_at": "2026-06-24",
+      "status": "마감임박",
+      "location": "",
+      "collected_at": "2026-07-24",
+      "key": "bizinfo:PBLN_000000000123543",
+      "track": "B",
+      "score": 3,
+      "region": "경북",
+      "conditional": null,
+      "reasons": [
+        "고객사향 키워드: 스마트공장"
+      ]
+    },
+    {
       "source": "snip",
       "source_id": "2026-0182-4182",
       "title": "2026년 4차 성남글로벌융합센터 신규 입주기업 모집",
@@ -427,30 +451,6 @@
         "자동 분류"
       ],
       "auto": true
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000123543",
-      "title": "[경북] 포항시 2026년 경북형(포항) 스마트공장(기초단계) 구축지원사업 추가모집 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123543",
-      "apply_raw": "2026-06-30 ~ 2026-07-24",
-      "apply_start": "2026-06-30",
-      "apply_end": "2026-07-24",
-      "agency": "경상북도",
-      "exec_agency": "포항테크노파크",
-      "category": "경영",
-      "posted_at": "2026-06-24",
-      "status": "마감임박",
-      "location": "",
-      "collected_at": "2026-07-23",
-      "key": "bizinfo:PBLN_000000000123543",
-      "track": "B",
-      "score": 3,
-      "region": "경북",
-      "conditional": null,
-      "reasons": [
-        "고객사향 키워드: 스마트공장"
-      ]
     },
     {
       "source": "bizinfo",
@@ -591,7 +591,7 @@
       "posted_at": "2026-07-09",
       "status": "마감임박",
       "location": "",
-      "collected_at": "2026-07-23",
+      "collected_at": "2026-07-24",
       "key": "bizinfo:PBLN_000000000124138",
       "track": "B",
       "score": 3,
@@ -932,6 +932,30 @@
     },
     {
       "source": "bizinfo",
+      "source_id": "PBLN_000000000123766",
+      "title": "[충북] 2026년 스마트공장 구축 자부담금 지원사업 수혜기업 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123766",
+      "apply_raw": "2026-07-01 ~ 2026-08-31",
+      "apply_start": "2026-07-01",
+      "apply_end": "2026-08-31",
+      "agency": "충청북도",
+      "exec_agency": "충북테크노파크",
+      "category": "경영",
+      "posted_at": "2026-06-30",
+      "status": "접수중",
+      "location": "",
+      "collected_at": "2026-07-24",
+      "key": "bizinfo:PBLN_000000000123766",
+      "track": "B",
+      "score": 3,
+      "region": "충북",
+      "conditional": null,
+      "reasons": [
+        "고객사향 키워드: 스마트공장"
+      ]
+    },
+    {
+      "source": "bizinfo",
       "source_id": "PBLN_000000000120032",
       "title": "2026년 제29회 대한민국우수상품전시회(G-FAIR KOREA 2026) 참가기업 모집 공고",
       "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120032",
@@ -955,30 +979,6 @@
         "자동 분류"
       ],
       "auto": true
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000123766",
-      "title": "[충북] 2026년 스마트공장 구축 자부담금 지원사업 수혜기업 모집 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123766",
-      "apply_raw": "2026-07-01 ~ 2026-08-31",
-      "apply_start": "2026-07-01",
-      "apply_end": "2026-08-31",
-      "agency": "충청북도",
-      "exec_agency": "충북테크노파크",
-      "category": "경영",
-      "posted_at": "2026-06-30",
-      "status": "접수중",
-      "location": "",
-      "collected_at": "2026-07-23",
-      "key": "bizinfo:PBLN_000000000123766",
-      "track": "B",
-      "score": 3,
-      "region": "충북",
-      "conditional": null,
-      "reasons": [
-        "고객사향 키워드: 스마트공장"
-      ]
     },
     {
       "source": "snip",
@@ -1006,6 +1006,150 @@
     },
     {
       "source": "bizinfo",
+      "source_id": "PBLN_000000000124248",
+      "title": "[전북] 무주군 2026년 3차 지역특화형(농식품기업) 스마트공장 구축지원사업 수시모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124248",
+      "apply_raw": "모집 완료시",
+      "apply_start": null,
+      "apply_end": null,
+      "agency": "중소벤처기업부",
+      "exec_agency": "전북테크노파크",
+      "category": "경영",
+      "posted_at": "2026-07-10",
+      "status": "상시",
+      "location": "",
+      "collected_at": "2026-07-24",
+      "key": "bizinfo:PBLN_000000000124248",
+      "track": "B",
+      "score": 3,
+      "region": "전북",
+      "conditional": null,
+      "reasons": [
+        "고객사향 키워드: 스마트공장"
+      ]
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000121614",
+      "title": "[광주] 2026년 스마트공장 지원계획 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000121614",
+      "apply_raw": "예산 소진시까지",
+      "apply_start": null,
+      "apply_end": null,
+      "agency": "중소벤처기업부",
+      "exec_agency": "광주테크노파크",
+      "category": "기술",
+      "posted_at": "2026-05-06",
+      "status": "상시",
+      "location": "",
+      "collected_at": "2026-07-24",
+      "key": "bizinfo:PBLN_000000000121614",
+      "track": "B",
+      "score": 3,
+      "region": "광주",
+      "conditional": null,
+      "reasons": [
+        "고객사향 키워드: 스마트공장"
+      ]
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000118006",
+      "title": "2026년 스마트공장 수준확인 사업 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000118006",
+      "apply_raw": "예산 소진시까지",
+      "apply_start": null,
+      "apply_end": null,
+      "agency": "중소벤처기업부",
+      "exec_agency": "중소기업기술정보진흥원",
+      "category": "경영",
+      "posted_at": "2026-01-29",
+      "status": "상시",
+      "location": "",
+      "collected_at": "2026-07-24",
+      "key": "bizinfo:PBLN_000000000118006",
+      "track": "B",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "고객사향 키워드: 스마트공장"
+      ]
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000116004",
+      "title": "스마트 공장 수준 확인(2026년 스마트 제조혁신 지원사업 통합 공고)",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000116004",
+      "apply_raw": "상시 접수",
+      "apply_start": null,
+      "apply_end": null,
+      "agency": "중소벤처기업부",
+      "exec_agency": "스마트제조혁신추진단",
+      "category": "기술",
+      "posted_at": "2025-10-31",
+      "status": "상시",
+      "location": "",
+      "collected_at": "2026-07-24",
+      "key": "bizinfo:PBLN_000000000116004",
+      "track": "B",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "고객사향 키워드: 제조혁신"
+      ]
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000116008",
+      "title": "제조 DX멘토단 활용지원(2026년 스마트 제조혁신 지원사업 통합 공고)",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000116008",
+      "apply_raw": "세부사업별 상이",
+      "apply_start": null,
+      "apply_end": null,
+      "agency": "중소벤처기업부",
+      "exec_agency": "스마트제조혁신추진단",
+      "category": "기술",
+      "posted_at": "2025-10-31",
+      "status": "상시",
+      "location": "",
+      "collected_at": "2026-07-24",
+      "key": "bizinfo:PBLN_000000000116008",
+      "track": "B",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "고객사향 키워드: 제조혁신"
+      ]
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000115994",
+      "title": "2026년 스마트 제조혁신 지원사업 통합 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000115994",
+      "apply_raw": "세부사업별 상이",
+      "apply_start": null,
+      "apply_end": null,
+      "agency": "중소벤처기업부",
+      "exec_agency": "중소기업기술정보진흥원",
+      "category": "기술",
+      "posted_at": "2025-10-31",
+      "status": "상시",
+      "location": "",
+      "collected_at": "2026-07-24",
+      "key": "bizinfo:PBLN_000000000115994",
+      "track": "B",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "고객사향 키워드: 제조혁신"
+      ]
+    },
+    {
+      "source": "bizinfo",
       "source_id": "PBLN_000000000122038",
       "title": "[경기] 시흥시 2026년 AIㆍDX 기반 기업 역량 강화 지원 참여 기업 모집 추가 공고",
       "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000122038",
@@ -1029,150 +1173,6 @@
         "자동 분류"
       ],
       "auto": true
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000115994",
-      "title": "2026년 스마트 제조혁신 지원사업 통합 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000115994",
-      "apply_raw": "세부사업별 상이",
-      "apply_start": null,
-      "apply_end": null,
-      "agency": "중소벤처기업부",
-      "exec_agency": "중소기업기술정보진흥원",
-      "category": "기술",
-      "posted_at": "2025-10-31",
-      "status": "상시",
-      "location": "",
-      "collected_at": "2026-07-23",
-      "key": "bizinfo:PBLN_000000000115994",
-      "track": "B",
-      "score": 3,
-      "region": null,
-      "conditional": null,
-      "reasons": [
-        "고객사향 키워드: 제조혁신"
-      ]
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000116004",
-      "title": "스마트 공장 수준 확인(2026년 스마트 제조혁신 지원사업 통합 공고)",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000116004",
-      "apply_raw": "상시 접수",
-      "apply_start": null,
-      "apply_end": null,
-      "agency": "중소벤처기업부",
-      "exec_agency": "스마트제조혁신추진단",
-      "category": "기술",
-      "posted_at": "2025-10-31",
-      "status": "상시",
-      "location": "",
-      "collected_at": "2026-07-23",
-      "key": "bizinfo:PBLN_000000000116004",
-      "track": "B",
-      "score": 3,
-      "region": null,
-      "conditional": null,
-      "reasons": [
-        "고객사향 키워드: 제조혁신"
-      ]
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000118006",
-      "title": "2026년 스마트공장 수준확인 사업 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000118006",
-      "apply_raw": "예산 소진시까지",
-      "apply_start": null,
-      "apply_end": null,
-      "agency": "중소벤처기업부",
-      "exec_agency": "중소기업기술정보진흥원",
-      "category": "경영",
-      "posted_at": "2026-01-29",
-      "status": "상시",
-      "location": "",
-      "collected_at": "2026-07-23",
-      "key": "bizinfo:PBLN_000000000118006",
-      "track": "B",
-      "score": 3,
-      "region": null,
-      "conditional": null,
-      "reasons": [
-        "고객사향 키워드: 스마트공장"
-      ]
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000124248",
-      "title": "[전북] 무주군 2026년 3차 지역특화형(농식품기업) 스마트공장 구축지원사업 수시모집 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124248",
-      "apply_raw": "모집 완료시",
-      "apply_start": null,
-      "apply_end": null,
-      "agency": "중소벤처기업부",
-      "exec_agency": "전북테크노파크",
-      "category": "경영",
-      "posted_at": "2026-07-10",
-      "status": "상시",
-      "location": "",
-      "collected_at": "2026-07-23",
-      "key": "bizinfo:PBLN_000000000124248",
-      "track": "B",
-      "score": 3,
-      "region": "전북",
-      "conditional": null,
-      "reasons": [
-        "고객사향 키워드: 스마트공장"
-      ]
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000116008",
-      "title": "제조 DX멘토단 활용지원(2026년 스마트 제조혁신 지원사업 통합 공고)",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000116008",
-      "apply_raw": "세부사업별 상이",
-      "apply_start": null,
-      "apply_end": null,
-      "agency": "중소벤처기업부",
-      "exec_agency": "스마트제조혁신추진단",
-      "category": "기술",
-      "posted_at": "2025-10-31",
-      "status": "상시",
-      "location": "",
-      "collected_at": "2026-07-23",
-      "key": "bizinfo:PBLN_000000000116008",
-      "track": "B",
-      "score": 3,
-      "region": null,
-      "conditional": null,
-      "reasons": [
-        "고객사향 키워드: 제조혁신"
-      ]
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000121614",
-      "title": "[광주] 2026년 스마트공장 지원계획 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000121614",
-      "apply_raw": "예산 소진시까지",
-      "apply_start": null,
-      "apply_end": null,
-      "agency": "중소벤처기업부",
-      "exec_agency": "광주테크노파크",
-      "category": "기술",
-      "posted_at": "2026-05-06",
-      "status": "상시",
-      "location": "",
-      "collected_at": "2026-07-23",
-      "key": "bizinfo:PBLN_000000000121614",
-      "track": "B",
-      "score": 3,
-      "region": "광주",
-      "conditional": null,
-      "reasons": [
-        "고객사향 키워드: 스마트공장"
-      ]
     }
   ],
   "expired": [
@@ -1719,13 +1719,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-07-24T09:51:11",
+  "collected_at": "2026-07-24T10:01:49",
   "stats": {
-    "collected": 509,
+    "collected": 510,
     "cards": 47,
     "expired": 2,
     "candidates": 20,
     "excluded": 0,
-    "dropped": 440
+    "dropped": 441
   }
 }
