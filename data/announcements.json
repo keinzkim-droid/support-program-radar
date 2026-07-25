@@ -1,9 +1,7 @@
 {
-  "collected_at": "2026-07-25T09:23:50",
-  "failures": [
-    "bizinfo"
-  ],
-  "count": 523,
+  "collected_at": "2026-07-25T12:48:59",
+  "failures": [],
+  "count": 509,
   "items": [
     {
       "source": "bizinfo",
@@ -19,7 +17,7 @@
       "posted_at": "2026-07-24",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -35,7 +33,7 @@
       "posted_at": "2026-07-24",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -51,7 +49,7 @@
       "posted_at": "2026-07-24",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -67,7 +65,7 @@
       "posted_at": "2026-07-24",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -83,7 +81,7 @@
       "posted_at": "2026-07-24",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -99,7 +97,7 @@
       "posted_at": "2026-07-24",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -115,7 +113,7 @@
       "posted_at": "2026-07-24",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -131,7 +129,7 @@
       "posted_at": "2026-07-24",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -147,7 +145,7 @@
       "posted_at": "2026-07-24",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -163,7 +161,7 @@
       "posted_at": "2026-07-24",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -179,7 +177,7 @@
       "posted_at": "2026-07-24",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -195,7 +193,7 @@
       "posted_at": "2026-07-24",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -211,7 +209,7 @@
       "posted_at": "2026-07-24",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -227,7 +225,7 @@
       "posted_at": "2026-07-24",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -243,7 +241,7 @@
       "posted_at": "2026-07-24",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -259,7 +257,7 @@
       "posted_at": "2026-07-21",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -275,7 +273,7 @@
       "posted_at": "2026-07-21",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -291,7 +289,7 @@
       "posted_at": "2026-07-21",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -307,7 +305,7 @@
       "posted_at": "2026-07-21",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -323,7 +321,7 @@
       "posted_at": "2026-07-16",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -339,7 +337,7 @@
       "posted_at": "2026-07-16",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -355,7 +353,7 @@
       "posted_at": "2026-07-13",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -371,23 +369,7 @@
       "posted_at": "2026-07-09",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000124083",
-      "title": "[경남] 김해시 2026년 3차 물류영역 서비스로봇 공통플랫폼구축사업 기업지원 수혜기업 모집 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124083",
-      "apply_raw": "2026-07-06 ~ 2026-07-24",
-      "apply_start": "2026-07-06",
-      "apply_end": "2026-07-24",
-      "agency": "경상남도",
-      "exec_agency": "경남테크노파크",
-      "category": "기술",
-      "posted_at": "2026-07-08",
-      "status": "",
-      "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -403,7 +385,7 @@
       "posted_at": "2026-07-08",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -419,7 +401,7 @@
       "posted_at": "2026-07-07",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -435,7 +417,7 @@
       "posted_at": "2026-07-07",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -451,7 +433,7 @@
       "posted_at": "2026-07-02",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -467,7 +449,7 @@
       "posted_at": "2026-05-29",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -483,7 +465,7 @@
       "posted_at": "2026-05-08",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -499,7 +481,7 @@
       "posted_at": "2026-04-06",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -515,7 +497,7 @@
       "posted_at": "2026-07-22",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -531,7 +513,7 @@
       "posted_at": "2026-07-10",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -547,23 +529,7 @@
       "posted_at": "2026-06-30",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000123543",
-      "title": "[경북] 포항시 2026년 경북형(포항) 스마트공장(기초단계) 구축지원사업 추가모집 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123543",
-      "apply_raw": "2026-06-30 ~ 2026-07-24",
-      "apply_start": "2026-06-30",
-      "apply_end": "2026-07-24",
-      "agency": "경상북도",
-      "exec_agency": "포항테크노파크",
-      "category": "경영",
-      "posted_at": "2026-06-24",
-      "status": "",
-      "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -579,7 +545,7 @@
       "posted_at": "2026-05-06",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -595,7 +561,7 @@
       "posted_at": "2026-01-29",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -611,7 +577,7 @@
       "posted_at": "2025-10-31",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -627,7 +593,7 @@
       "posted_at": "2026-07-09",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -643,7 +609,7 @@
       "posted_at": "2025-10-31",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -659,7 +625,7 @@
       "posted_at": "2025-10-31",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -675,7 +641,7 @@
       "posted_at": "2026-07-23",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -691,7 +657,7 @@
       "posted_at": "2026-07-22",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -707,7 +673,7 @@
       "posted_at": "2026-07-22",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -723,7 +689,7 @@
       "posted_at": "2026-07-21",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -739,7 +705,7 @@
       "posted_at": "2026-07-16",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -755,7 +721,7 @@
       "posted_at": "2026-07-15",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -771,7 +737,7 @@
       "posted_at": "2026-07-13",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -787,7 +753,7 @@
       "posted_at": "2026-07-13",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -803,7 +769,7 @@
       "posted_at": "2026-07-10",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -819,7 +785,7 @@
       "posted_at": "2026-07-07",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -835,7 +801,7 @@
       "posted_at": "2026-07-07",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -851,7 +817,7 @@
       "posted_at": "2026-07-02",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -867,7 +833,7 @@
       "posted_at": "2026-07-02",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -883,7 +849,7 @@
       "posted_at": "2026-06-30",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -899,7 +865,7 @@
       "posted_at": "2026-06-23",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -915,7 +881,7 @@
       "posted_at": "2026-06-17",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -931,7 +897,7 @@
       "posted_at": "2026-06-16",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -947,7 +913,7 @@
       "posted_at": "2026-05-29",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -963,7 +929,7 @@
       "posted_at": "2026-05-26",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -979,7 +945,7 @@
       "posted_at": "2026-05-21",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -995,7 +961,7 @@
       "posted_at": "2026-04-16",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1011,7 +977,7 @@
       "posted_at": "2026-04-02",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1027,7 +993,7 @@
       "posted_at": "2026-03-09",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1043,7 +1009,7 @@
       "posted_at": "2026-03-05",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1059,7 +1025,7 @@
       "posted_at": "2026-07-23",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1075,7 +1041,7 @@
       "posted_at": "2026-07-16",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1091,7 +1057,7 @@
       "posted_at": "2026-07-16",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1107,7 +1073,7 @@
       "posted_at": "2026-07-15",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1123,7 +1089,7 @@
       "posted_at": "2026-07-15",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1139,7 +1105,7 @@
       "posted_at": "2026-07-13",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1155,7 +1121,7 @@
       "posted_at": "2026-05-08",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1171,7 +1137,7 @@
       "posted_at": "2026-01-13",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1187,7 +1153,7 @@
       "posted_at": "2026-07-16",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1203,7 +1169,7 @@
       "posted_at": "2026-01-13",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1219,7 +1185,7 @@
       "posted_at": "2026-07-24",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1235,7 +1201,7 @@
       "posted_at": "2026-07-24",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1251,7 +1217,7 @@
       "posted_at": "2026-07-23",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1267,7 +1233,7 @@
       "posted_at": "2026-07-23",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1283,7 +1249,7 @@
       "posted_at": "2026-07-23",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1299,7 +1265,7 @@
       "posted_at": "2026-07-23",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1315,7 +1281,7 @@
       "posted_at": "2026-07-23",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1331,7 +1297,7 @@
       "posted_at": "2026-07-23",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1347,7 +1313,7 @@
       "posted_at": "2026-07-23",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1363,7 +1329,7 @@
       "posted_at": "2026-07-23",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1379,7 +1345,7 @@
       "posted_at": "2026-07-22",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1395,7 +1361,7 @@
       "posted_at": "2026-07-22",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1411,7 +1377,7 @@
       "posted_at": "2026-07-14",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1427,23 +1393,7 @@
       "posted_at": "2026-07-10",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000124126",
-      "title": "[서울] 2026년 2차 SCEWC 서울관 참여기업 모집 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124126",
-      "apply_raw": "2026-07-07 ~ 2026-07-24",
-      "apply_start": "2026-07-07",
-      "apply_end": "2026-07-24",
-      "agency": "서울특별시",
-      "exec_agency": "서울AI재단",
-      "category": "수출",
-      "posted_at": "2026-07-08",
-      "status": "",
-      "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1459,7 +1409,7 @@
       "posted_at": "2026-07-08",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1475,23 +1425,7 @@
       "posted_at": "2026-07-08",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000124079",
-      "title": "[서울] 2026년 대한민국 안전산업박람회 참여기업 모집 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124079",
-      "apply_raw": "2026-07-06 ~ 2026-07-24",
-      "apply_start": "2026-07-06",
-      "apply_end": "2026-07-24",
-      "agency": "서울특별시",
-      "exec_agency": "기초자치단체",
-      "category": "내수",
-      "posted_at": "2026-07-08",
-      "status": "",
-      "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1507,7 +1441,7 @@
       "posted_at": "2026-07-07",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1523,7 +1457,7 @@
       "posted_at": "2026-07-07",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1539,23 +1473,7 @@
       "posted_at": "2026-07-03",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000123865",
-      "title": "[서울] 2026년 서울형 가족ㆍ전문 뿌리기업 선정 통합 모집 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123865",
-      "apply_raw": "2026-07-01 ~ 2026-07-24",
-      "apply_start": "2026-07-01",
-      "apply_end": "2026-07-24",
-      "agency": "서울특별시",
-      "exec_agency": "서울경제진흥원",
-      "category": "기타",
-      "posted_at": "2026-07-02",
-      "status": "",
-      "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1571,7 +1489,7 @@
       "posted_at": "2026-07-02",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1587,7 +1505,7 @@
       "posted_at": "2026-07-01",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1603,7 +1521,7 @@
       "posted_at": "2026-07-01",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1619,7 +1537,7 @@
       "posted_at": "2026-06-18",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1635,7 +1553,7 @@
       "posted_at": "2026-05-21",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1651,7 +1569,7 @@
       "posted_at": "2026-05-19",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1667,7 +1585,7 @@
       "posted_at": "2026-04-24",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1683,7 +1601,7 @@
       "posted_at": "2026-03-31",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1699,7 +1617,7 @@
       "posted_at": "2026-03-26",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1715,7 +1633,7 @@
       "posted_at": "2026-03-19",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1731,7 +1649,7 @@
       "posted_at": "2026-03-11",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1747,7 +1665,7 @@
       "posted_at": "2026-03-11",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1763,7 +1681,7 @@
       "posted_at": "2026-03-03",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1779,7 +1697,7 @@
       "posted_at": "2026-02-10",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1795,7 +1713,7 @@
       "posted_at": "2026-02-10",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1811,7 +1729,7 @@
       "posted_at": "2026-02-05",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1827,7 +1745,7 @@
       "posted_at": "2026-02-03",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1843,7 +1761,7 @@
       "posted_at": "2026-02-02",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1859,7 +1777,7 @@
       "posted_at": "2026-02-02",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1875,7 +1793,7 @@
       "posted_at": "2026-02-02",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1891,7 +1809,7 @@
       "posted_at": "2026-01-23",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1907,7 +1825,7 @@
       "posted_at": "2026-01-16",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1923,7 +1841,7 @@
       "posted_at": "2026-01-05",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1939,7 +1857,7 @@
       "posted_at": "2026-07-24",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1955,7 +1873,7 @@
       "posted_at": "2026-07-24",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1971,7 +1889,7 @@
       "posted_at": "2026-07-23",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -1987,7 +1905,7 @@
       "posted_at": "2026-07-23",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2003,7 +1921,7 @@
       "posted_at": "2026-07-23",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2019,7 +1937,7 @@
       "posted_at": "2026-07-23",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2035,7 +1953,7 @@
       "posted_at": "2026-07-22",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2051,7 +1969,7 @@
       "posted_at": "2026-07-22",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2067,7 +1985,7 @@
       "posted_at": "2026-07-22",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2083,7 +2001,7 @@
       "posted_at": "2026-07-22",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2099,7 +2017,7 @@
       "posted_at": "2026-07-22",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2115,7 +2033,7 @@
       "posted_at": "2026-07-21",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2131,7 +2049,7 @@
       "posted_at": "2026-07-21",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2147,7 +2065,7 @@
       "posted_at": "2026-07-21",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2163,7 +2081,7 @@
       "posted_at": "2026-07-20",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2179,7 +2097,7 @@
       "posted_at": "2026-07-20",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2195,7 +2113,7 @@
       "posted_at": "2026-07-20",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2211,7 +2129,7 @@
       "posted_at": "2026-07-20",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2227,23 +2145,7 @@
       "posted_at": "2026-07-16",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000124455",
-      "title": "[경기] 용인시 2026년 2차 경력보유여성 채용기업 고용장려금 지원사업 참여기업 모집 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124455",
-      "apply_raw": "2026-07-15 ~ 2026-07-24",
-      "apply_start": "2026-07-15",
-      "apply_end": "2026-07-24",
-      "agency": "경기도",
-      "exec_agency": "기초자치단체",
-      "category": "인력",
-      "posted_at": "2026-07-16",
-      "status": "",
-      "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2259,7 +2161,7 @@
       "posted_at": "2026-07-16",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2275,7 +2177,7 @@
       "posted_at": "2026-07-16",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2291,7 +2193,7 @@
       "posted_at": "2026-07-16",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2307,7 +2209,7 @@
       "posted_at": "2026-07-16",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2323,7 +2225,7 @@
       "posted_at": "2026-07-16",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2339,7 +2241,7 @@
       "posted_at": "2026-07-16",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2355,7 +2257,7 @@
       "posted_at": "2026-07-15",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2371,7 +2273,7 @@
       "posted_at": "2026-07-15",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2387,7 +2289,7 @@
       "posted_at": "2026-07-15",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2403,7 +2305,7 @@
       "posted_at": "2026-07-15",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2419,7 +2321,7 @@
       "posted_at": "2026-07-15",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2435,7 +2337,7 @@
       "posted_at": "2026-07-15",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2451,7 +2353,7 @@
       "posted_at": "2026-07-15",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2467,7 +2369,7 @@
       "posted_at": "2026-07-15",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2483,39 +2385,7 @@
       "posted_at": "2026-07-15",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000124344",
-      "title": "[경기] 2026년 양자-반도체 팹 융합활용 R&D 지원 사업 참여기관(기업ㆍ대학) 추가 모집 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124344",
-      "apply_raw": "2026-07-07 ~ 2026-07-24",
-      "apply_start": "2026-07-07",
-      "apply_end": "2026-07-24",
-      "agency": "경기도",
-      "exec_agency": "한국나노기술원",
-      "category": "기술",
-      "posted_at": "2026-07-14",
-      "status": "",
-      "location": "",
-      "collected_at": "2026-07-24"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000124314",
-      "title": "[경기] 광주시 2026년 미국 시장개척단 참가기업 모집 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124314",
-      "apply_raw": "2026-07-13 ~ 2026-07-24",
-      "apply_start": "2026-07-13",
-      "apply_end": "2026-07-24",
-      "agency": "경기도",
-      "exec_agency": "경기도경제과학진흥원",
-      "category": "수출",
-      "posted_at": "2026-07-14",
-      "status": "",
-      "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2531,7 +2401,7 @@
       "posted_at": "2026-07-14",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2547,39 +2417,7 @@
       "posted_at": "2026-07-13",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000124244",
-      "title": "[경기] 2026년 현대백화점 사회적경제조직 팝업행사 참여기업 모집 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124244",
-      "apply_raw": "2026-07-09 ~ 2026-07-24",
-      "apply_start": "2026-07-09",
-      "apply_end": "2026-07-24",
-      "agency": "경기도",
-      "exec_agency": "경기도사회적경제원",
-      "category": "내수",
-      "posted_at": "2026-07-10",
-      "status": "",
-      "location": "",
-      "collected_at": "2026-07-24"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000124241",
-      "title": "[경기] 성남시 2026년 콘텐츠 글로벌 진출지원(GDC) 사업 지원기업 모집 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124241",
-      "apply_raw": "2026-07-02 ~ 2026-07-24",
-      "apply_start": "2026-07-02",
-      "apply_end": "2026-07-24",
-      "agency": "경기도",
-      "exec_agency": "성남산업진흥원",
-      "category": "수출",
-      "posted_at": "2026-07-10",
-      "status": "",
-      "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2595,7 +2433,7 @@
       "posted_at": "2026-07-10",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2611,7 +2449,7 @@
       "posted_at": "2026-07-10",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2627,7 +2465,7 @@
       "posted_at": "2026-07-10",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2643,7 +2481,7 @@
       "posted_at": "2026-07-10",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2659,23 +2497,7 @@
       "posted_at": "2026-07-10",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000124165",
-      "title": "[경기] 안양시 2026년 유망기업 국내 공동관 참가기업 모집 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124165",
-      "apply_raw": "2026-07-15 ~ 2026-07-24",
-      "apply_start": "2026-07-15",
-      "apply_end": "2026-07-24",
-      "agency": "경기도",
-      "exec_agency": "안양산업진흥원",
-      "category": "내수",
-      "posted_at": "2026-07-09",
-      "status": "",
-      "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2691,7 +2513,7 @@
       "posted_at": "2026-07-09",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2707,7 +2529,7 @@
       "posted_at": "2026-07-08",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2723,7 +2545,7 @@
       "posted_at": "2026-07-08",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2739,7 +2561,7 @@
       "posted_at": "2026-07-08",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2755,7 +2577,7 @@
       "posted_at": "2026-07-07",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2771,7 +2593,7 @@
       "posted_at": "2026-07-07",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2787,7 +2609,7 @@
       "posted_at": "2026-07-07",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2803,7 +2625,7 @@
       "posted_at": "2026-07-02",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2819,7 +2641,7 @@
       "posted_at": "2026-07-01",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2835,7 +2657,7 @@
       "posted_at": "2026-07-01",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2851,7 +2673,7 @@
       "posted_at": "2026-07-01",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2867,23 +2689,7 @@
       "posted_at": "2026-07-01",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000123809",
-      "title": "바이오ㆍ메디컬 투자 브릿지 프로그램 참여기업 모집 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123809",
-      "apply_raw": "2026-06-30 ~ 2026-07-24",
-      "apply_start": "2026-06-30",
-      "apply_end": "2026-07-24",
-      "agency": "경기도",
-      "exec_agency": "동국대학교",
-      "category": "창업",
-      "posted_at": "2026-07-01",
-      "status": "",
-      "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2899,7 +2705,7 @@
       "posted_at": "2026-06-30",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2915,7 +2721,7 @@
       "posted_at": "2026-06-30",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2931,7 +2737,7 @@
       "posted_at": "2026-06-30",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2947,7 +2753,7 @@
       "posted_at": "2026-06-26",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2963,23 +2769,7 @@
       "posted_at": "2026-06-24",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000123387",
-      "title": "[경기] 안양시 2026년 우수기업 선정 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123387",
-      "apply_raw": "2026-06-15 ~ 2026-07-24",
-      "apply_start": "2026-06-15",
-      "apply_end": "2026-07-24",
-      "agency": "경기도",
-      "exec_agency": "기초자치단체",
-      "category": "경영",
-      "posted_at": "2026-06-19",
-      "status": "",
-      "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -2995,7 +2785,7 @@
       "posted_at": "2026-06-17",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3011,7 +2801,7 @@
       "posted_at": "2026-06-16",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3027,7 +2817,7 @@
       "posted_at": "2026-06-16",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3043,7 +2833,7 @@
       "posted_at": "2026-06-15",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3059,7 +2849,7 @@
       "posted_at": "2026-06-15",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3075,7 +2865,7 @@
       "posted_at": "2026-06-11",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3091,7 +2881,7 @@
       "posted_at": "2026-06-10",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3107,7 +2897,7 @@
       "posted_at": "2026-06-09",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3123,7 +2913,7 @@
       "posted_at": "2026-06-08",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3139,7 +2929,7 @@
       "posted_at": "2026-06-08",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3155,7 +2945,7 @@
       "posted_at": "2026-05-29",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3171,7 +2961,7 @@
       "posted_at": "2026-05-29",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3187,7 +2977,7 @@
       "posted_at": "2026-05-28",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3203,7 +2993,7 @@
       "posted_at": "2026-05-26",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3219,7 +3009,7 @@
       "posted_at": "2026-05-26",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3235,7 +3025,7 @@
       "posted_at": "2026-05-26",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3251,7 +3041,7 @@
       "posted_at": "2026-05-21",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3267,7 +3057,7 @@
       "posted_at": "2026-05-15",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3283,7 +3073,7 @@
       "posted_at": "2026-05-15",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3299,7 +3089,7 @@
       "posted_at": "2026-05-15",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3315,7 +3105,7 @@
       "posted_at": "2026-05-15",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3331,7 +3121,7 @@
       "posted_at": "2026-05-13",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3347,7 +3137,7 @@
       "posted_at": "2026-05-06",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3363,7 +3153,7 @@
       "posted_at": "2026-04-29",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3379,7 +3169,7 @@
       "posted_at": "2026-04-28",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3395,7 +3185,7 @@
       "posted_at": "2026-04-22",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3411,7 +3201,7 @@
       "posted_at": "2026-04-21",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3427,7 +3217,7 @@
       "posted_at": "2026-04-17",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3443,7 +3233,7 @@
       "posted_at": "2026-04-16",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3459,7 +3249,7 @@
       "posted_at": "2026-04-16",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3475,7 +3265,7 @@
       "posted_at": "2026-04-09",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3491,7 +3281,7 @@
       "posted_at": "2026-04-07",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3507,7 +3297,7 @@
       "posted_at": "2026-04-07",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3523,7 +3313,7 @@
       "posted_at": "2026-04-07",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3539,7 +3329,7 @@
       "posted_at": "2026-04-07",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3555,7 +3345,7 @@
       "posted_at": "2026-04-03",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3571,7 +3361,7 @@
       "posted_at": "2026-04-03",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3587,7 +3377,7 @@
       "posted_at": "2026-04-01",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3603,7 +3393,7 @@
       "posted_at": "2026-03-31",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3619,7 +3409,7 @@
       "posted_at": "2026-03-31",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3635,7 +3425,7 @@
       "posted_at": "2026-03-31",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3651,7 +3441,7 @@
       "posted_at": "2026-03-27",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3667,7 +3457,7 @@
       "posted_at": "2026-03-27",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3683,7 +3473,7 @@
       "posted_at": "2026-03-25",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3699,7 +3489,7 @@
       "posted_at": "2026-03-20",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3715,7 +3505,7 @@
       "posted_at": "2026-03-19",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3731,7 +3521,7 @@
       "posted_at": "2026-03-19",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3747,7 +3537,7 @@
       "posted_at": "2026-03-19",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3763,7 +3553,7 @@
       "posted_at": "2026-03-19",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3779,7 +3569,7 @@
       "posted_at": "2026-03-13",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3795,7 +3585,7 @@
       "posted_at": "2026-03-13",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3811,7 +3601,7 @@
       "posted_at": "2026-03-10",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3827,7 +3617,7 @@
       "posted_at": "2026-02-26",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3843,7 +3633,7 @@
       "posted_at": "2026-02-26",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3859,7 +3649,7 @@
       "posted_at": "2026-02-26",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3875,7 +3665,7 @@
       "posted_at": "2026-02-20",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3891,7 +3681,7 @@
       "posted_at": "2026-02-10",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3907,7 +3697,7 @@
       "posted_at": "2026-02-10",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3923,7 +3713,7 @@
       "posted_at": "2026-02-09",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3939,7 +3729,7 @@
       "posted_at": "2026-02-09",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3955,7 +3745,7 @@
       "posted_at": "2026-02-09",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3971,7 +3761,7 @@
       "posted_at": "2026-02-05",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -3987,7 +3777,7 @@
       "posted_at": "2026-02-04",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4003,7 +3793,7 @@
       "posted_at": "2026-02-04",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4019,7 +3809,7 @@
       "posted_at": "2026-01-30",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4035,7 +3825,7 @@
       "posted_at": "2026-01-29",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4051,7 +3841,7 @@
       "posted_at": "2026-01-28",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4067,7 +3857,7 @@
       "posted_at": "2026-01-28",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4083,7 +3873,7 @@
       "posted_at": "2026-01-28",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4099,7 +3889,7 @@
       "posted_at": "2026-01-28",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4115,7 +3905,7 @@
       "posted_at": "2026-01-28",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4131,7 +3921,7 @@
       "posted_at": "2026-01-28",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4147,7 +3937,7 @@
       "posted_at": "2026-01-22",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4163,7 +3953,7 @@
       "posted_at": "2026-01-22",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4179,7 +3969,7 @@
       "posted_at": "2026-01-21",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4195,7 +3985,7 @@
       "posted_at": "2026-01-21",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4211,7 +4001,7 @@
       "posted_at": "2026-01-15",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4227,7 +4017,7 @@
       "posted_at": "2026-01-13",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4243,7 +4033,7 @@
       "posted_at": "2026-01-07",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4259,7 +4049,7 @@
       "posted_at": "2026-01-07",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4275,7 +4065,7 @@
       "posted_at": "2026-01-06",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4291,7 +4081,7 @@
       "posted_at": "2026-01-06",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4307,7 +4097,7 @@
       "posted_at": "2026-01-05",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4323,7 +4113,7 @@
       "posted_at": "2026-01-02",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4339,7 +4129,7 @@
       "posted_at": "2026-01-02",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4355,7 +4145,7 @@
       "posted_at": "2026-01-02",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4371,7 +4161,7 @@
       "posted_at": "2026-01-02",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4387,7 +4177,7 @@
       "posted_at": "2026-07-23",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4403,7 +4193,7 @@
       "posted_at": "2026-07-22",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4419,7 +4209,7 @@
       "posted_at": "2026-07-22",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4435,7 +4225,7 @@
       "posted_at": "2026-07-20",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4451,7 +4241,7 @@
       "posted_at": "2026-07-16",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4467,7 +4257,7 @@
       "posted_at": "2026-07-16",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4483,7 +4273,7 @@
       "posted_at": "2026-07-16",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4499,23 +4289,7 @@
       "posted_at": "2026-07-16",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000124410",
-      "title": "[인천] 강화군 2026년 일본(도쿄,오사카) 해외시장 개척사업 참가업체 모집 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124410",
-      "apply_raw": "2026-07-13 ~ 2026-07-24",
-      "apply_start": "2026-07-13",
-      "apply_end": "2026-07-24",
-      "agency": "인천광역시",
-      "exec_agency": "인천테크노파크",
-      "category": "수출",
-      "posted_at": "2026-07-16",
-      "status": "",
-      "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4531,7 +4305,7 @@
       "posted_at": "2026-07-15",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4547,7 +4321,7 @@
       "posted_at": "2026-07-10",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4563,7 +4337,7 @@
       "posted_at": "2026-07-09",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4579,7 +4353,7 @@
       "posted_at": "2026-07-09",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4595,23 +4369,7 @@
       "posted_at": "2026-07-09",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000124092",
-      "title": "[인천] 2026년 뿌리청년 일할맛남 참여기업 추가 모집 공고(뿌리청년 사내맛남)",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124092",
-      "apply_raw": "2026-07-03 ~ 2026-07-24",
-      "apply_start": "2026-07-03",
-      "apply_end": "2026-07-24",
-      "agency": "인천광역시",
-      "exec_agency": "인천경영자총협회",
-      "category": "인력",
-      "posted_at": "2026-07-08",
-      "status": "",
-      "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4627,7 +4385,7 @@
       "posted_at": "2026-07-03",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4643,7 +4401,7 @@
       "posted_at": "2026-07-03",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4659,7 +4417,7 @@
       "posted_at": "2026-06-30",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4675,7 +4433,7 @@
       "posted_at": "2026-06-18",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4691,7 +4449,7 @@
       "posted_at": "2026-06-10",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4707,7 +4465,7 @@
       "posted_at": "2026-06-10",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4723,7 +4481,7 @@
       "posted_at": "2026-05-22",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4739,7 +4497,7 @@
       "posted_at": "2026-05-19",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4755,7 +4513,7 @@
       "posted_at": "2026-05-11",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4771,7 +4529,7 @@
       "posted_at": "2026-04-29",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4787,7 +4545,7 @@
       "posted_at": "2026-04-24",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4803,7 +4561,7 @@
       "posted_at": "2026-04-10",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4819,7 +4577,7 @@
       "posted_at": "2026-04-01",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4835,7 +4593,7 @@
       "posted_at": "2026-03-30",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4851,7 +4609,7 @@
       "posted_at": "2026-03-27",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4867,7 +4625,7 @@
       "posted_at": "2026-03-27",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4883,7 +4641,7 @@
       "posted_at": "2026-03-26",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4899,7 +4657,7 @@
       "posted_at": "2026-03-11",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4915,7 +4673,7 @@
       "posted_at": "2026-03-09",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4931,7 +4689,7 @@
       "posted_at": "2026-03-04",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4947,7 +4705,7 @@
       "posted_at": "2026-03-03",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4963,7 +4721,7 @@
       "posted_at": "2026-03-03",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4979,7 +4737,7 @@
       "posted_at": "2026-03-03",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -4995,7 +4753,7 @@
       "posted_at": "2026-03-03",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -5011,7 +4769,7 @@
       "posted_at": "2026-02-25",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -5027,7 +4785,7 @@
       "posted_at": "2026-02-25",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -5043,7 +4801,7 @@
       "posted_at": "2026-02-25",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -5059,7 +4817,7 @@
       "posted_at": "2026-02-20",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -5075,7 +4833,7 @@
       "posted_at": "2026-02-04",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -5091,7 +4849,7 @@
       "posted_at": "2026-02-04",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -5107,7 +4865,7 @@
       "posted_at": "2026-01-30",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -5123,7 +4881,7 @@
       "posted_at": "2026-01-29",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -5139,7 +4897,7 @@
       "posted_at": "2026-01-29",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -5155,7 +4913,7 @@
       "posted_at": "2026-01-29",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -5171,7 +4929,7 @@
       "posted_at": "2026-01-23",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -5187,7 +4945,7 @@
       "posted_at": "2026-01-21",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -5203,7 +4961,7 @@
       "posted_at": "2026-01-21",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -5219,7 +4977,7 @@
       "posted_at": "2026-01-21",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -5235,7 +4993,7 @@
       "posted_at": "2026-01-20",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -5251,7 +5009,7 @@
       "posted_at": "2026-01-09",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -5267,7 +5025,7 @@
       "posted_at": "2026-01-06",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "bizinfo",
@@ -5283,53 +5041,7 @@
       "posted_at": "2026-01-02",
       "status": "",
       "location": "",
-      "collected_at": "2026-07-24"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000124187",
-      "title": "[전남광주] 2026년 탄소중립 제조혁신 고도화 2단계 사업 참여기업 추가모집 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124187",
-      "apply_raw": "2026-07-08 ~ 2026-07-23",
-      "apply_start": "2026-07-08",
-      "apply_end": "2026-07-23",
-      "agency": "전남광주통합특별시",
-      "exec_agency": "전남테크노파크",
-      "category": "경영",
-      "posted_at": "2026-07-09",
-      "status": "",
-      "location": "",
-      "collected_at": "2026-07-23"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000123179",
-      "title": "[경기] 2026년 2차 제조로봇 도입ㆍ실증 및 고도화지원 사업 공고(제조로봇 도입지원)",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123179",
-      "apply_raw": "2026-06-15 ~ 2026-07-22",
-      "apply_start": "2026-06-15",
-      "apply_end": "2026-07-22",
-      "agency": "경기도",
-      "exec_agency": "경기테크노파크",
-      "category": "기술",
-      "posted_at": "2026-06-15",
-      "status": "",
-      "collected_at": "2026-07-22"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000124553",
-      "title": "2026년 협업지능 피지컬AI 기반 SW플랫폼 연구개발 생태계 조성 사업 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124553",
-      "apply_raw": "2026-06-26 ~ 2026-07-28",
-      "apply_start": "2026-06-26",
-      "apply_end": "2026-07-28",
-      "agency": "과학기술정보통신부",
-      "exec_agency": "정보통신산업진흥원",
-      "category": "기술",
-      "posted_at": "2026-07-21",
-      "status": "",
-      "collected_at": "2026-07-22"
+      "collected_at": "2026-07-25"
     },
     {
       "source": "kiria",
@@ -8370,6 +8082,68 @@
       "status": "",
       "location": "제주특별자치도 서귀포시 서호남로 25, 3층 - 제주 월드컵 경기장, 이마트 서귀포점, 서귀포종합버스터미널 인근 ㅇ 센터 소개 참고 : http",
       "collected_at": "2026-07-25"
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000123179",
+      "title": "[경기] 2026년 2차 제조로봇 도입ㆍ실증 및 고도화지원 사업 공고(제조로봇 도입지원)",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123179",
+      "apply_raw": "2026-06-15 ~ 2026-07-22",
+      "apply_start": "2026-06-15",
+      "apply_end": "2026-07-22",
+      "agency": "경기도",
+      "exec_agency": "경기테크노파크",
+      "category": "기술",
+      "posted_at": "2026-06-15",
+      "status": "",
+      "collected_at": "2026-07-22"
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000123543",
+      "title": "[경북] 포항시 2026년 경북형(포항) 스마트공장(기초단계) 구축지원사업 추가모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123543",
+      "apply_raw": "2026-06-30 ~ 2026-07-24",
+      "apply_start": "2026-06-30",
+      "apply_end": "2026-07-24",
+      "agency": "경상북도",
+      "exec_agency": "포항테크노파크",
+      "category": "경영",
+      "posted_at": "2026-06-24",
+      "status": "",
+      "location": "",
+      "collected_at": "2026-07-24"
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000124553",
+      "title": "2026년 협업지능 피지컬AI 기반 SW플랫폼 연구개발 생태계 조성 사업 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124553",
+      "apply_raw": "2026-06-26 ~ 2026-07-28",
+      "apply_start": "2026-06-26",
+      "apply_end": "2026-07-28",
+      "agency": "과학기술정보통신부",
+      "exec_agency": "정보통신산업진흥원",
+      "category": "기술",
+      "posted_at": "2026-07-21",
+      "status": "",
+      "collected_at": "2026-07-22"
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000124187",
+      "title": "[전남광주] 2026년 탄소중립 제조혁신 고도화 2단계 사업 참여기업 추가모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124187",
+      "apply_raw": "2026-07-08 ~ 2026-07-23",
+      "apply_start": "2026-07-08",
+      "apply_end": "2026-07-23",
+      "agency": "전남광주통합특별시",
+      "exec_agency": "전남테크노파크",
+      "category": "경영",
+      "posted_at": "2026-07-09",
+      "status": "",
+      "location": "",
+      "collected_at": "2026-07-23"
     }
   ]
 }
