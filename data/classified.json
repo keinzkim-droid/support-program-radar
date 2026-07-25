@@ -1077,30 +1077,6 @@
   ],
   "expired": [
     {
-      "source": "snip",
-      "source_id": "2026-0182-4182",
-      "title": "2026년 4차 성남글로벌융합센터 신규 입주기업 모집",
-      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0182&pjtCd=4182&stateChk=N",
-      "apply_raw": "~ 2026.07.24",
-      "apply_start": null,
-      "apply_end": "2026-07-24",
-      "agency": "성남시",
-      "exec_agency": "성남산업진흥원",
-      "category": "지역",
-      "posted_at": "2026-07-06",
-      "status": "마감",
-      "location": "",
-      "collected_at": "2026-07-25",
-      "key": "snip:2026-0182-4182",
-      "track": "C",
-      "score": 3,
-      "region": "성남",
-      "conditional": null,
-      "reasons": [
-        "사무실·공간 키워드: 입주기업"
-      ]
-    },
-    {
       "source": "bizinfo",
       "source_id": "PBLN_000000000123543",
       "title": "[경북] 포항시 2026년 경북형(포항) 스마트공장(기초단계) 구축지원사업 추가모집 공고",
@@ -1122,6 +1098,30 @@
       "conditional": null,
       "reasons": [
         "고객사향 키워드: 스마트공장"
+      ]
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0182-4182",
+      "title": "2026년 4차 성남글로벌융합센터 신규 입주기업 모집",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0182&pjtCd=4182&stateChk=N",
+      "apply_raw": "~ 2026.07.24",
+      "apply_start": null,
+      "apply_end": "2026-07-24",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-07-06",
+      "status": "마감",
+      "location": "",
+      "collected_at": "2026-07-25",
+      "key": "snip:2026-0182-4182",
+      "track": "C",
+      "score": 3,
+      "region": "성남",
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업"
       ]
     },
     {
@@ -1643,7 +1643,7 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-07-25T12:48:59",
+  "collected_at": "2026-07-25T17:45:31",
   "stats": {
     "collected": 509,
     "cards": 43,
