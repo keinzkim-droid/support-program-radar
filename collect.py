@@ -86,6 +86,7 @@ class Announcement:
     posted_at: str = ""    # 등록일
     status: str = ""       # 소스가 알려주는 상태(진행중/대기중 등)
     location: str = ""     # 사무실 공고의 실제 소재지(상세에서만 얻을 수 있다)
+    founding: str = ""     # 창업업력 조건(K-Startup 상세). 비교표 표시 전용
     collected_at: str = field(default_factory=lambda: now_kst().date().isoformat())
 
     @property
@@ -537,6 +538,51 @@ def enrich_office(items: list[dict]) -> int:
     return found
 
 
+# 창업업력. K-Startup 상세에만 정형화돼 있다. '창업업력 1년미만, 2년미만, 3년미만'
+FOUNDING = re.compile(
+    r"창업업력\s*([0-9년미만 ,~부터이상제한없음전체예비창업]+?)"
+    r"(?:연락처|대상연령|기관구분|담당|지역|접수기간|모집|공고)")
+# 창업업력을 확인할 K-Startup 공고를 좁히는 키워드(비교표에 오를 법한 것만).
+FOUNDING_TARGET_WORDS = ("로봇", "AI", "인공지능", "실증", "제조", "자율",
+                         "모빌리티", "딥테크", "기술", "R&D", "스케일업")
+
+
+def enrich_founding(items: list[dict]) -> int:
+    """K-Startup 공고의 '창업업력' 조건을 비교표용으로 뽑는다.
+
+    표시 전용이다. 판정(필터)에는 절대 쓰지 않는다 — 추출이 틀려도 공고가
+    사라지면 안 되기 때문이다. 못 뽑으면 빈칸으로 둔다.
+    K-Startup 상세에만 정형 필드가 있어 이 소스만 대상으로 한다.
+    """
+    # K-Startup 120건을 전부 열면 요청이 과하다. 비교표에 오를 법한 것 —
+    # 사무실 후보이거나 우리 관심 키워드가 제목에 걸린 것 — 만 연다.
+    targets = [
+        i for i in items
+        if i["source"] == "kstartup" and not i.get("founding")
+        and (OFFICE_HINT.search(i["title"])
+             or any(k in i["title"] for k in FOUNDING_TARGET_WORDS))
+    ]
+    if not targets:
+        return 0
+    log.info("K-Startup %d건의 창업업력을 확인한다", len(targets))
+
+    found = 0
+    for i in targets:
+        time.sleep(DELAY_SEC)
+        try:
+            text = re.sub(r"\s+", " ",
+                          BeautifulSoup(fetch(i["url"]), PARSER).get_text(" ", strip=True))
+        except CollectError:
+            continue
+        m = FOUNDING.search(text)
+        if m and m.group(1).strip():
+            i["founding"] = m.group(1).strip()[:60]
+            found += 1
+    if found:
+        log.info("  창업업력 %d건 확인", found)
+    return found
+
+
 SOURCES = {
     "bizinfo": collect_bizinfo,
     "kiria": collect_kiria,
@@ -618,6 +664,12 @@ def main() -> int:
         enrich_office(items)
     except Exception as e:                      # 부가 정보이므로 실패해도 계속한다
         log.warning("소재지 확인 실패: %s", e)
+
+    # 창업업력(비교표 표시용). 판정에는 쓰지 않는다.
+    try:
+        enrich_founding(items)
+    except Exception as e:
+        log.warning("창업업력 확인 실패: %s", e)
 
     # 승인된 공고는 소스 목록에서 밀려나도 유지한다.
     # 기업마당 검색 결과는 매일 바뀌는데, 사람이 확정한 목록이 거기 휘둘리면

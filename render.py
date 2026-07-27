@@ -182,6 +182,9 @@ h1 .hl{color:var(--accent)}
 .table-wrap td.name{color:var(--text);font-weight:700}
 .table-wrap td.name a{color:inherit;text-decoration:none}
 .table-wrap td.name a:hover{text-decoration:underline}
+.fnd{font-size:11.5px;font-weight:600;padding:3px 8px;border-radius:6px;white-space:nowrap}
+.fnd.ok{background:#eef7f2;color:#0a7d55}
+.fnd.no{background:var(--n50);color:var(--text2)}
 .empty{max-width:1160px;margin:0 auto;padding:40px 28px;color:var(--text2);
   font-size:14px;text-align:center;background:var(--surface);border:1px dashed var(--border);
   border-radius:16px}
@@ -382,6 +385,23 @@ def grid(recs: list[dict], today: date, empty_msg: str,
     return f'<div class="grid">{cards}</div>'
 
 
+def founding_html(founding: str | None) -> str:
+    """창업업력 조건을 표시한다. 표시 전용 — 판정에는 쓰지 않는다.
+
+    우리 회사는 창업 3년 8개월(3년 이상 5년 미만)이다. 이 구간이 대상에
+    포함되는지만 색으로 귀띔한다. 다만 파싱이 틀릴 수 있으니 확정이 아니라
+    참고다 — '전체'거나 상한이 5년 이상이면 대체로 자격이 있다.
+    """
+    if not founding:
+        return ""
+    txt = founding
+    # '전체'/'제한없음'이거나 5·7·10년 미만이 포함되면 우리 구간이 대상
+    ok = ("전체" in txt or "제한없음" in txt
+          or any(w in txt for w in ("5년미만", "7년미만", "10년미만", "이상")))
+    cls = "ok" if ok else "no"
+    return f'<span class="fnd {cls}" title="표시 전용 · 공고문에서 재확인">{esc(txt)}</span>'
+
+
 def compare_table(recs: list[dict], today: date) -> str:
     """한눈에 비교. 카드를 하나씩 읽지 않고 전체를 훑을 때 쓴다."""
     if not recs:
@@ -389,12 +409,16 @@ def compare_table(recs: list[dict], today: date) -> str:
     # 정렬용 값. 화면에 보이는 문자열과 정렬 기준이 다른 칸이 있다.
     # 접수기간은 'D-12' 같은 표시라 그대로 정렬하면 엉키므로 날짜를 따로 넘긴다.
     status_order = {"마감임박": "1", "접수중": "2", "상시": "3", "마감": "4"}
+    # 창업업력 정보가 하나도 없으면 그 열을 아예 만들지 않는다(K-Startup 없는 탭 등).
+    has_founding = any(r.get("founding") for r in recs)
+
     rows = []
     for r in recs:
         track = "직접 신청" if r["track"] == "A" else "고객사 제안"
         cond = ' <span class="chip cond">조건부</span>' if r.get("conditional") else ""
         # 마감일이 없는 '상시'는 맨 뒤로 보낸다
         end_key = r.get("apply_end") or "9999-12-31"
+        founding_cell = f"<td>{founding_html(r.get('founding'))}</td>" if has_founding else ""
         rows.append(f"""
       <tr>
         <td>{esc(track)}</td>
@@ -404,9 +428,12 @@ def compare_table(recs: list[dict], today: date) -> str:
         <td>{esc(r.get('region') or '전국')}</td>
         <td data-v="{esc(end_key)}">{esc(deadline_note(r, today))}</td>
         <td data-v="{status_order.get(r['status'], '9')}">{status_pill(r['status'])}</td>
+        {founding_cell}
       </tr>""")
 
     heads = ["구분", "사업명", "소관기관", "지역", "접수기간", "상태"]
+    if has_founding:
+        heads.append("창업업력")
     th = "".join(
         f'<th onclick="sortTable(this,{i})">{h}<span class="arw">↕</span></th>'
         for i, h in enumerate(heads))

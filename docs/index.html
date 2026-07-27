@@ -147,6 +147,9 @@ h1 .hl{color:var(--accent)}
 .table-wrap td.name{color:var(--text);font-weight:700}
 .table-wrap td.name a{color:inherit;text-decoration:none}
 .table-wrap td.name a:hover{text-decoration:underline}
+.fnd{font-size:11.5px;font-weight:600;padding:3px 8px;border-radius:6px;white-space:nowrap}
+.fnd.ok{background:#eef7f2;color:#0a7d55}
+.fnd.no{background:var(--n50);color:var(--text2)}
 .empty{max-width:1160px;margin:0 auto;padding:40px 28px;color:var(--text2);
   font-size:14px;text-align:center;background:var(--surface);border:1px dashed var(--border);
   border-radius:16px}
@@ -883,7 +886,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
 <div class="section-head"><h2>한눈에 비교</h2>
   <div class="section-sub">29건 전체 · 제목을 누르면 정렬됩니다</div></div>
 <div class="table-wrap"><table id="cmp">
-  <thead><tr><th onclick="sortTable(this,0)">구분<span class="arw">↕</span></th><th onclick="sortTable(this,1)">사업명<span class="arw">↕</span></th><th onclick="sortTable(this,2)">소관기관<span class="arw">↕</span></th><th onclick="sortTable(this,3)">지역<span class="arw">↕</span></th><th onclick="sortTable(this,4)">접수기간<span class="arw">↕</span></th><th onclick="sortTable(this,5)">상태<span class="arw">↕</span></th></tr></thead>
+  <thead><tr><th onclick="sortTable(this,0)">구분<span class="arw">↕</span></th><th onclick="sortTable(this,1)">사업명<span class="arw">↕</span></th><th onclick="sortTable(this,2)">소관기관<span class="arw">↕</span></th><th onclick="sortTable(this,3)">지역<span class="arw">↕</span></th><th onclick="sortTable(this,4)">접수기간<span class="arw">↕</span></th><th onclick="sortTable(this,5)">상태<span class="arw">↕</span></th><th onclick="sortTable(this,6)">창업업력<span class="arw">↕</span></th></tr></thead>
   <tbody>
       <tr>
         <td>직접 신청</td>
@@ -893,6 +896,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <td>전국</td>
         <td data-v="2026-07-27">2026-07-27 (오늘 마감)</td>
         <td data-v="1"><span class="pill soon">마감임박</span></td>
+        <td></td>
       </tr>
       <tr>
         <td>직접 신청</td>
@@ -902,6 +906,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <td>전국</td>
         <td data-v="2026-08-04">2026-08-04 (D-8)</td>
         <td data-v="1"><span class="pill soon">마감임박</span></td>
+        <td></td>
       </tr>
       <tr>
         <td>직접 신청</td>
@@ -911,6 +916,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <td>전국</td>
         <td data-v="2026-07-28">2026-07-28 (D-1)</td>
         <td data-v="1"><span class="pill soon">마감임박</span></td>
+        <td></td>
       </tr>
       <tr>
         <td>직접 신청</td>
@@ -920,6 +926,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <td>전국</td>
         <td data-v="2026-07-30">2026-07-30 (D-3)</td>
         <td data-v="1"><span class="pill soon">마감임박</span></td>
+        <td></td>
       </tr>
       <tr>
         <td>직접 신청</td>
@@ -929,6 +936,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <td>경기</td>
         <td data-v="2026-07-31">2026-07-31 (D-4)</td>
         <td data-v="1"><span class="pill soon">마감임박</span></td>
+        <td><span class="fnd ok" title="표시 전용 · 공고문에서 재확인">7년미만</span></td>
       </tr>
       <tr>
         <td>직접 신청</td>
@@ -938,6 +946,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <td>전국</td>
         <td data-v="2026-08-04">2026-08-04 (D-8)</td>
         <td data-v="1"><span class="pill soon">마감임박</span></td>
+        <td></td>
       </tr>
       <tr>
         <td>직접 신청</td>
@@ -947,6 +956,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <td>전국</td>
         <td data-v="2026-08-04">2026-08-04 (D-8)</td>
         <td data-v="1"><span class="pill soon">마감임박</span></td>
+        <td><span class="fnd ok" title="표시 전용 · 공고문에서 재확인">1년미만, 2년미만, 3년미만, 5년미만, 7년미만, 10년미만</span></td>
       </tr>
       <tr>
         <td>직접 신청</td>
@@ -956,6 +966,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <td>전국</td>
         <td data-v="2026-11-30">2026-11-30 (D-126)</td>
         <td data-v="2"><span class="pill open">접수중</span></td>
+        <td></td>
       </tr>
       <tr>
         <td>직접 신청</td>
@@ -965,6 +976,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <td>전국</td>
         <td data-v="2026-12-18">2026-12-18 (D-144)</td>
         <td data-v="2"><span class="pill open">접수중</span></td>
+        <td></td>
       </tr>
       <tr>
         <td>직접 신청</td>
@@ -974,6 +986,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <td>전국</td>
         <td data-v="2026-11-15">2026-11-15 (D-111)</td>
         <td data-v="2"><span class="pill open">접수중</span></td>
+        <td></td>
       </tr>
       <tr>
         <td>직접 신청</td>
@@ -983,6 +996,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <td>성남</td>
         <td data-v="2026-12-31">2026-12-31 (D-157)</td>
         <td data-v="2"><span class="pill open">접수중</span></td>
+        <td></td>
       </tr>
       <tr>
         <td>직접 신청</td>
@@ -992,6 +1006,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <td>경기</td>
         <td data-v="2026-07-27">2026-07-27 (오늘 마감)</td>
         <td data-v="1"><span class="pill soon">마감임박</span></td>
+        <td></td>
       </tr>
       <tr>
         <td>직접 신청</td>
@@ -1001,6 +1016,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <td>경기</td>
         <td data-v="2026-07-27">2026-07-27 (오늘 마감)</td>
         <td data-v="1"><span class="pill soon">마감임박</span></td>
+        <td><span class="fnd ok" title="표시 전용 · 공고문에서 재확인">전체</span></td>
       </tr>
       <tr>
         <td>직접 신청</td>
@@ -1010,6 +1026,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <td>전국</td>
         <td data-v="2026-07-28">2026-07-28 (D-1)</td>
         <td data-v="1"><span class="pill soon">마감임박</span></td>
+        <td></td>
       </tr>
       <tr>
         <td>고객사 제안</td>
@@ -1019,6 +1036,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <td>충청북도</td>
         <td data-v="2026-07-30">2026-07-30 (D-3)</td>
         <td data-v="1"><span class="pill soon">마감임박</span></td>
+        <td></td>
       </tr>
       <tr>
         <td>직접 신청</td>
@@ -1028,6 +1046,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <td>전국</td>
         <td data-v="2026-07-31">2026-07-31 (D-4)</td>
         <td data-v="1"><span class="pill soon">마감임박</span></td>
+        <td></td>
       </tr>
       <tr>
         <td>직접 신청</td>
@@ -1037,6 +1056,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <td>전국</td>
         <td data-v="2026-08-03">2026-08-03 (D-7)</td>
         <td data-v="1"><span class="pill soon">마감임박</span></td>
+        <td></td>
       </tr>
       <tr>
         <td>직접 신청</td>
@@ -1046,6 +1066,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <td>인천</td>
         <td data-v="2026-08-04">2026-08-04 (D-8)</td>
         <td data-v="1"><span class="pill soon">마감임박</span></td>
+        <td></td>
       </tr>
       <tr>
         <td>직접 신청</td>
@@ -1055,6 +1076,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <td>전국</td>
         <td data-v="2026-08-19">2026-08-19 (D-23)</td>
         <td data-v="2"><span class="pill open">접수중</span></td>
+        <td></td>
       </tr>
       <tr>
         <td>고객사 제안</td>
@@ -1064,6 +1086,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <td>충북</td>
         <td data-v="2026-08-31">2026-08-31 (D-35)</td>
         <td data-v="2"><span class="pill open">접수중</span></td>
+        <td></td>
       </tr>
       <tr>
         <td>직접 신청</td>
@@ -1073,6 +1096,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <td>경기</td>
         <td data-v="2026-08-31">2026-08-31 (D-35)</td>
         <td data-v="2"><span class="pill open">접수중</span></td>
+        <td></td>
       </tr>
       <tr>
         <td>직접 신청</td>
@@ -1082,6 +1106,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <td>성남</td>
         <td data-v="2026-11-20">2026-11-20 (D-116)</td>
         <td data-v="2"><span class="pill open">접수중</span></td>
+        <td></td>
       </tr>
       <tr>
         <td>고객사 제안</td>
@@ -1091,6 +1116,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <td>전북</td>
         <td data-v="9999-12-31">모집 완료시</td>
         <td data-v="3"><span class="pill always">상시</span></td>
+        <td></td>
       </tr>
       <tr>
         <td>고객사 제안</td>
@@ -1100,6 +1126,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <td>광주</td>
         <td data-v="9999-12-31">예산 소진시까지</td>
         <td data-v="3"><span class="pill always">상시</span></td>
+        <td></td>
       </tr>
       <tr>
         <td>고객사 제안</td>
@@ -1109,6 +1136,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <td>전국</td>
         <td data-v="9999-12-31">예산 소진시까지</td>
         <td data-v="3"><span class="pill always">상시</span></td>
+        <td></td>
       </tr>
       <tr>
         <td>고객사 제안</td>
@@ -1118,6 +1146,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <td>전국</td>
         <td data-v="9999-12-31">상시 접수</td>
         <td data-v="3"><span class="pill always">상시</span></td>
+        <td></td>
       </tr>
       <tr>
         <td>고객사 제안</td>
@@ -1127,6 +1156,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <td>전국</td>
         <td data-v="9999-12-31">세부사업별 상이</td>
         <td data-v="3"><span class="pill always">상시</span></td>
+        <td></td>
       </tr>
       <tr>
         <td>고객사 제안</td>
@@ -1136,6 +1166,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <td>전국</td>
         <td data-v="9999-12-31">세부사업별 상이</td>
         <td data-v="3"><span class="pill always">상시</span></td>
+        <td></td>
       </tr>
       <tr>
         <td>직접 신청</td>
@@ -1145,6 +1176,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <td>경기</td>
         <td data-v="9999-12-31">예산 소진시까지</td>
         <td data-v="3"><span class="pill always">상시</span></td>
+        <td></td>
       </tr></tbody>
 </table></div>
 </div>
@@ -2324,7 +2356,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
 <div class="section-head"><h2>한눈에 비교</h2>
   <div class="section-sub">13건 전체 · 제목을 누르면 정렬됩니다</div></div>
 <div class="table-wrap"><table id="cmp">
-  <thead><tr><th onclick="sortTable(this,0)">구분<span class="arw">↕</span></th><th onclick="sortTable(this,1)">사업명<span class="arw">↕</span></th><th onclick="sortTable(this,2)">소관기관<span class="arw">↕</span></th><th onclick="sortTable(this,3)">지역<span class="arw">↕</span></th><th onclick="sortTable(this,4)">접수기간<span class="arw">↕</span></th><th onclick="sortTable(this,5)">상태<span class="arw">↕</span></th></tr></thead>
+  <thead><tr><th onclick="sortTable(this,0)">구분<span class="arw">↕</span></th><th onclick="sortTable(this,1)">사업명<span class="arw">↕</span></th><th onclick="sortTable(this,2)">소관기관<span class="arw">↕</span></th><th onclick="sortTable(this,3)">지역<span class="arw">↕</span></th><th onclick="sortTable(this,4)">접수기간<span class="arw">↕</span></th><th onclick="sortTable(this,5)">상태<span class="arw">↕</span></th><th onclick="sortTable(this,6)">창업업력<span class="arw">↕</span></th></tr></thead>
   <tbody>
       <tr>
         <td>고객사 제안</td>
@@ -2334,6 +2366,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <td>서울</td>
         <td data-v="2026-07-30">2026-07-30 (D-3)</td>
         <td data-v="1"><span class="pill soon">마감임박</span></td>
+        <td></td>
       </tr>
       <tr>
         <td>고객사 제안</td>
@@ -2343,6 +2376,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <td>경기</td>
         <td data-v="2026-12-31">2026-12-31 (D-157)</td>
         <td data-v="2"><span class="pill open">접수중</span></td>
+        <td></td>
       </tr>
       <tr>
         <td>고객사 제안</td>
@@ -2352,6 +2386,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <td>성남</td>
         <td data-v="2026-07-29">2026-07-29 (D-2)</td>
         <td data-v="1"><span class="pill soon">마감임박</span></td>
+        <td></td>
       </tr>
       <tr>
         <td>고객사 제안</td>
@@ -2361,6 +2396,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <td>서울</td>
         <td data-v="2026-07-29">2026-07-29 (D-2)</td>
         <td data-v="1"><span class="pill soon">마감임박</span></td>
+        <td></td>
       </tr>
       <tr>
         <td>고객사 제안</td>
@@ -2370,6 +2406,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <td>서울</td>
         <td data-v="2026-07-31">2026-07-31 (D-4)</td>
         <td data-v="1"><span class="pill soon">마감임박</span></td>
+        <td><span class="fnd ok" title="표시 전용 · 공고문에서 재확인">전체</span></td>
       </tr>
       <tr>
         <td>고객사 제안</td>
@@ -2379,6 +2416,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <td>서울</td>
         <td data-v="2026-07-31">2026-07-31 (D-4)</td>
         <td data-v="1"><span class="pill soon">마감임박</span></td>
+        <td></td>
       </tr>
       <tr>
         <td>고객사 제안</td>
@@ -2388,6 +2426,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <td>서울</td>
         <td data-v="2026-07-31">2026-07-31 (D-4)</td>
         <td data-v="1"><span class="pill soon">마감임박</span></td>
+        <td></td>
       </tr>
       <tr>
         <td>고객사 제안</td>
@@ -2397,6 +2436,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <td>판교</td>
         <td data-v="2026-08-04">2026-08-04 (D-8)</td>
         <td data-v="1"><span class="pill soon">마감임박</span></td>
+        <td></td>
       </tr>
       <tr>
         <td>고객사 제안</td>
@@ -2406,6 +2446,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <td>서울</td>
         <td data-v="2026-08-05">2026-08-05 (D-9)</td>
         <td data-v="1"><span class="pill soon">마감임박</span></td>
+        <td></td>
       </tr>
       <tr>
         <td>고객사 제안</td>
@@ -2415,6 +2456,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <td>서울</td>
         <td data-v="2026-08-07">2026-08-07 (D-11)</td>
         <td data-v="1"><span class="pill soon">마감임박</span></td>
+        <td></td>
       </tr>
       <tr>
         <td>고객사 제안</td>
@@ -2424,6 +2466,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <td>서울</td>
         <td data-v="2026-08-07">2026-08-07 (D-11)</td>
         <td data-v="1"><span class="pill soon">마감임박</span></td>
+        <td><span class="fnd ok" title="표시 전용 · 공고문에서 재확인">7년미만</span></td>
       </tr>
       <tr>
         <td>고객사 제안</td>
@@ -2433,6 +2476,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <td>서울</td>
         <td data-v="2026-08-11">2026-08-11 (D-15)</td>
         <td data-v="2"><span class="pill open">접수중</span></td>
+        <td><span class="fnd ok" title="표시 전용 · 공고문에서 재확인">전체</span></td>
       </tr>
       <tr>
         <td>고객사 제안</td>
@@ -2442,6 +2486,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
         <td>서울</td>
         <td data-v="2026-08-13">2026-08-13 (D-17)</td>
         <td data-v="2"><span class="pill open">접수중</span></td>
+        <td><span class="fnd ok" title="표시 전용 · 공고문에서 재확인">전체</span></td>
       </tr></tbody>
 </table></div>
 </div>
@@ -3016,7 +3061,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
 
 <footer>
   <span>자동 수집 · 기업마당 · 한국로봇산업진흥원 · K-Startup · 정보통신산업진흥원 · 성남산업진흥원</span>
-  <span>마지막 갱신 2026-07-27 13:12 (KST)</span>
+  <span>마지막 갱신 2026-07-27 13:33 (KST)</span>
 </footer>
 
 <div class="toast" id="toast" onclick="hideToast()"></div>
@@ -3029,7 +3074,7 @@ footer{max-width:1160px;margin:0 auto;padding:32px 28px 56px;
 <script>
 var REPO_NEW = "https://github.com/keinzkim-droid/support-program-radar/new/main";
 var SCHEDULE_TXT = "\ub9e4\uc77c \uc624\uc804\u00b7\uc624\ud6c4 (\ud558\ub8e8 2\ud68c \uc774\uc0c1)";
-var BUILD_ID = "2026-07-27 13:12";
+var BUILD_ID = "2026-07-27 13:33";
 </script>
 <script>
 function switchTab(name, el){
