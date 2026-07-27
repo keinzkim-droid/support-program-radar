@@ -367,33 +367,6 @@
       "auto": true
     },
     {
-      "source": "kstartup",
-      "source_id": "178574",
-      "title": "ESG × AI 챌린지 해커톤 참가자 모집",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178574",
-      "apply_raw": "2026-07-15 ~ 2026-07-27",
-      "apply_start": "2026-07-15",
-      "apply_end": "2026-07-27",
-      "agency": "경기창조경제혁신센터",
-      "exec_agency": "경기창조경제혁신센터",
-      "category": "행사ㆍ네트워크",
-      "posted_at": "2026-07-21",
-      "status": "마감임박",
-      "location": "",
-      "founding": "전체",
-      "collected_at": "2026-07-27",
-      "key": "kstartup:178574",
-      "track": "A",
-      "score": 3,
-      "region": "경기",
-      "conditional": null,
-      "reasons": [
-        "핵심 키워드: AI",
-        "자동 분류"
-      ],
-      "auto": true
-    },
-    {
       "source": "bizinfo",
       "source_id": "PBLN_000000000124553",
       "title": "2026년 협업지능 피지컬AI 기반 SW플랫폼 연구개발 생태계 조성 사업 공고",
@@ -1678,13 +1651,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-07-27T13:33:16",
+  "collected_at": "2026-07-27T16:54:33",
   "stats": {
-    "collected": 504,
-    "cards": 42,
+    "collected": 506,
+    "cards": 41,
     "expired": 4,
     "candidates": 19,
     "excluded": 0,
-    "dropped": 439
+    "dropped": 442
   }
 }
