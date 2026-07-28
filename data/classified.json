@@ -1317,6 +1317,32 @@
       ]
     },
     {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000124792",
+      "title": "2026년 인증획득제품 해외 실증 지원사업(추경 포함) 추가 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124792",
+      "apply_raw": "모집 완료시",
+      "apply_start": null,
+      "apply_end": null,
+      "agency": "중소벤처기업부",
+      "exec_agency": "한국건설생활환경시험연구원",
+      "category": "기술",
+      "posted_at": "2026-07-28",
+      "status": "상시",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-07-28",
+      "key": "bizinfo:PBLN_000000000124792",
+      "track": "A",
+      "score": 4,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: 실증",
+        "관련 키워드: 인증"
+      ]
+    },
+    {
       "source": "kstartup",
       "source_id": "178525",
       "title": "2026년 G-Space 입주기업 발굴·육성사업 입주기업 추가 모집 공고",
@@ -1392,6 +1418,56 @@
       ]
     },
     {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000124774",
+      "title": "2026년 체육인 직업안정 사업(창업지원) 창업보육과정(새싹) 참여자 추가모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124774",
+      "apply_raw": "2026-07-10 ~ 2026-07-31",
+      "apply_start": "2026-07-10",
+      "apply_end": "2026-07-31",
+      "agency": "문화체육관광부",
+      "exec_agency": "국민체육진흥공단",
+      "category": "창업",
+      "posted_at": "2026-07-28",
+      "status": "마감임박",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-07-28",
+      "key": "bizinfo:PBLN_000000000124774",
+      "track": "C",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 창업보육"
+      ]
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000124814",
+      "title": "2026년 강소특구 글로벌 현지 실증(PoC) 및 해외규격인허가 획득 컨설팅 참여기업 모집 연장 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124814",
+      "apply_raw": "2026-07-27 ~ 2026-08-03",
+      "apply_start": "2026-07-27",
+      "apply_end": "2026-08-03",
+      "agency": "과학기술정보통신부",
+      "exec_agency": "연구개발특구진흥재단",
+      "category": "기술",
+      "posted_at": "2026-07-28",
+      "status": "마감임박",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-07-28",
+      "key": "bizinfo:PBLN_000000000124814",
+      "track": "A",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: 실증"
+      ]
+    },
+    {
       "source": "kstartup",
       "source_id": "178596",
       "title": "2026년 지역창업특화지원사업(1인)  제3차 신규 입주기업 모집",
@@ -1414,6 +1490,31 @@
       "conditional": null,
       "reasons": [
         "사무실·공간 키워드: 입주기업"
+      ]
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000124817",
+      "title": "LED 조명제품 전과정평가(LCA) 지원 모집 공고(Al기반 조명산업의 자원순환 및 서비스화 실증기반 구축 사업)",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124817",
+      "apply_raw": "2026-07-27 ~ 2026-08-06",
+      "apply_start": "2026-07-27",
+      "apply_end": "2026-08-06",
+      "agency": "산업통상부",
+      "exec_agency": "인천테크노파크",
+      "category": "기술",
+      "posted_at": "2026-07-28",
+      "status": "마감임박",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-07-28",
+      "key": "bizinfo:PBLN_000000000124817",
+      "track": "A",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: 실증"
       ]
     },
     {
@@ -1464,6 +1565,31 @@
       "conditional": null,
       "reasons": [
         "핵심 키워드: AI"
+      ]
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000124816",
+      "title": "[강원] 2026년 2차 지역특화형(바이오헬스ㆍ식품) 스마트공장 구축사업 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124816",
+      "apply_raw": "2026-07-24 ~ 2026-08-13",
+      "apply_start": "2026-07-24",
+      "apply_end": "2026-08-13",
+      "agency": "강원특별자치도",
+      "exec_agency": "강원테크노파크",
+      "category": "경영",
+      "posted_at": "2026-07-28",
+      "status": "접수중",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-07-28",
+      "key": "bizinfo:PBLN_000000000124816",
+      "track": "B",
+      "score": 3,
+      "region": "강원",
+      "conditional": null,
+      "reasons": [
+        "고객사향 키워드: 스마트공장"
       ]
     },
     {
@@ -1617,6 +1743,31 @@
       ]
     },
     {
+      "source": "kstartup",
+      "source_id": "178672",
+      "title": "[무료 AI 역량강화 교육] 생성형 AI기반, 글로벌 마케팅 자동화 및 현지화 에이전트 구축과",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178672",
+      "apply_raw": "2026-07-24 ~ 2026-08-31",
+      "apply_start": "2026-07-24",
+      "apply_end": "2026-08-31",
+      "agency": "2026 산업전문인력 AI역량강화 지원사업",
+      "exec_agency": "2026 산업전문인력 AI역량강화 지원사업",
+      "category": "멘토링ㆍ컨설팅ㆍ교육",
+      "posted_at": "2026-07-28",
+      "status": "접수중",
+      "location": "",
+      "founding": "1년미만, 2년미만, 3년미만, 5년미만, 7년미만, 10년미만",
+      "collected_at": "2026-07-28",
+      "key": "kstartup:178672",
+      "track": "A",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: AI"
+      ]
+    },
+    {
       "source": "bizinfo",
       "source_id": "PBLN_000000000123466",
       "title": "2026년 지능형 반도체 개발ㆍ실증지원 고신뢰 반도체 상용화를 위한 검증ㆍ확인 지원사업 기업 지원 프로그램 통합 공고",
@@ -1676,13 +1827,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-07-28T12:50:37",
+  "collected_at": "2026-07-28T18:29:07",
   "stats": {
-    "collected": 501,
+    "collected": 513,
     "cards": 40,
     "expired": 5,
-    "candidates": 20,
+    "candidates": 26,
     "excluded": 0,
-    "dropped": 436
+    "dropped": 442
   }
 }
