@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-28T09:17:02",
+  "collected_at": "2026-07-28T12:50:37",
   "failures": [],
   "count": 501,
   "items": [
@@ -8469,22 +8469,6 @@
     },
     {
       "source": "bizinfo",
-      "source_id": "PBLN_000000000124187",
-      "title": "[전남광주] 2026년 탄소중립 제조혁신 고도화 2단계 사업 참여기업 추가모집 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124187",
-      "apply_raw": "2026-07-08 ~ 2026-07-23",
-      "apply_start": "2026-07-08",
-      "apply_end": "2026-07-23",
-      "agency": "전남광주통합특별시",
-      "exec_agency": "전남테크노파크",
-      "category": "경영",
-      "posted_at": "2026-07-09",
-      "status": "",
-      "location": "",
-      "collected_at": "2026-07-23"
-    },
-    {
-      "source": "bizinfo",
       "source_id": "PBLN_000000000123543",
       "title": "[경북] 포항시 2026년 경북형(포항) 스마트공장(기초단계) 구축지원사업 추가모집 공고",
       "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123543",
@@ -8513,6 +8497,22 @@
       "posted_at": "2026-07-21",
       "status": "",
       "collected_at": "2026-07-22"
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000124187",
+      "title": "[전남광주] 2026년 탄소중립 제조혁신 고도화 2단계 사업 참여기업 추가모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124187",
+      "apply_raw": "2026-07-08 ~ 2026-07-23",
+      "apply_start": "2026-07-08",
+      "apply_end": "2026-07-23",
+      "agency": "전남광주통합특별시",
+      "exec_agency": "전남테크노파크",
+      "category": "경영",
+      "posted_at": "2026-07-09",
+      "status": "",
+      "location": "",
+      "collected_at": "2026-07-23"
     }
   ]
 }
