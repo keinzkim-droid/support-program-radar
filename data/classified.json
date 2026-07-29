@@ -418,6 +418,33 @@
       "auto": true
     },
     {
+      "source": "kstartup",
+      "source_id": "178569",
+      "title": "2026년 서울창업허브 창동 투자 특화 프로그램 - IR 라운드(1회차)",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178569",
+      "apply_raw": "2026-07-15 ~ 2026-07-31",
+      "apply_start": "2026-07-15",
+      "apply_end": "2026-07-31",
+      "agency": "서울창업허브 창동 운영",
+      "exec_agency": "서울창업허브 창동 운영",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-07-15",
+      "status": "마감임박",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-07-29",
+      "key": "kstartup:178569",
+      "track": "C",
+      "score": 3,
+      "region": "서울",
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 창업허브",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
       "source": "kiria",
       "source_id": "IBUS_000000000001260",
       "title": "2026년도「신뢰성기반활용지원사업」 수시형 2차 참여기업 모집",
@@ -1214,31 +1241,6 @@
       ]
     },
     {
-      "source": "kstartup",
-      "source_id": "178525",
-      "title": "2026년 G-Space 입주기업 발굴·육성사업 입주기업 추가 모집 공고",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178525",
-      "apply_raw": "2026-07-13 ~ 2026-07-29",
-      "apply_start": "2026-07-13",
-      "apply_end": "2026-07-29",
-      "agency": "청년 창업아카데미(G-Space@East) 운영",
-      "exec_agency": "청년 창업아카데미(G-Space@East) 운영",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-07-16",
-      "status": "마감임박",
-      "location": "",
-      "founding": "7년미만",
-      "collected_at": "2026-07-29",
-      "key": "kstartup:178525",
-      "track": "C",
-      "score": 3,
-      "region": null,
-      "conditional": null,
-      "reasons": [
-        "사무실·공간 키워드: 입주기업"
-      ]
-    },
-    {
       "source": "bizinfo",
       "source_id": "PBLN_000000000124575",
       "title": "[인천] 2026년 스마트공장 DX견학공장 기업 모집 공고",
@@ -1539,6 +1541,31 @@
       ]
     },
     {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000124877",
+      "title": "2026년 AI 융합 에스테틱 의료기기 글로벌 사업화 기반구축 사업(1차년도) 참여기업 통합모집 공고(바이오산업 개방형 생태계 조성 촉진)",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124877",
+      "apply_raw": "2026-07-28 ~ 2026-08-19",
+      "apply_start": "2026-07-28",
+      "apply_end": "2026-08-19",
+      "agency": "산업통상부",
+      "exec_agency": "원주의료기기산업진흥원",
+      "category": "기술",
+      "posted_at": "2026-07-29",
+      "status": "접수중",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-07-29",
+      "key": "bizinfo:PBLN_000000000124877",
+      "track": "A",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: AI"
+      ]
+    },
+    {
       "source": "kstartup",
       "source_id": "178708",
       "title": "2026년 제3차 창업지원센터 입주기업 모집공고(~8/19, 수 16시까지)",
@@ -1561,6 +1588,56 @@
       "conditional": null,
       "reasons": [
         "사무실·공간 키워드: 입주기업"
+      ]
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000124870",
+      "title": "[전남광주] 2026년 스마트공장(기초단계) 보급ㆍ확산사업 지원 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124870",
+      "apply_raw": "2026-07-28 ~ 2026-08-21",
+      "apply_start": "2026-07-28",
+      "apply_end": "2026-08-21",
+      "agency": "전남광주통합특별시",
+      "exec_agency": "전남테크노파크",
+      "category": "경영",
+      "posted_at": "2026-07-29",
+      "status": "접수중",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-07-29",
+      "key": "bizinfo:PBLN_000000000124870",
+      "track": "B",
+      "score": 3,
+      "region": "전남광주",
+      "conditional": null,
+      "reasons": [
+        "고객사향 키워드: 스마트공장"
+      ]
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000124869",
+      "title": "[전남광주] 2026년 지역특화형 스마트공장(식품ㆍ바이오) 구축지원사업(기초) 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124869",
+      "apply_raw": "2026-07-28 ~ 2026-08-21",
+      "apply_start": "2026-07-28",
+      "apply_end": "2026-08-21",
+      "agency": "전남광주통합특별시",
+      "exec_agency": "전남테크노파크",
+      "category": "경영",
+      "posted_at": "2026-07-29",
+      "status": "접수중",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-07-29",
+      "key": "bizinfo:PBLN_000000000124869",
+      "track": "B",
+      "score": 3,
+      "region": "전남광주",
+      "conditional": null,
+      "reasons": [
+        "고객사향 키워드: 스마트공장"
       ]
     },
     {
@@ -1715,6 +1792,31 @@
     },
     {
       "source": "bizinfo",
+      "source_id": "PBLN_000000000124835",
+      "title": "[경기] 화성시 2026년 반도체 소부장기업 실증(장비사용료) 지원사업  참여기업 추가모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124835",
+      "apply_raw": "2026-07-21 ~ 2026-09-30",
+      "apply_start": "2026-07-21",
+      "apply_end": "2026-09-30",
+      "agency": "경기도",
+      "exec_agency": "화성산업진흥원",
+      "category": "기술",
+      "posted_at": "2026-07-29",
+      "status": "접수중",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-07-29",
+      "key": "bizinfo:PBLN_000000000124835",
+      "track": "A",
+      "score": 3,
+      "region": "경기",
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: 실증"
+      ]
+    },
+    {
+      "source": "bizinfo",
       "source_id": "PBLN_000000000123466",
       "title": "2026년 지능형 반도체 개발ㆍ실증지원 고신뢰 반도체 상용화를 위한 검증ㆍ확인 지원사업 기업 지원 프로그램 통합 공고",
       "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123466",
@@ -1773,13 +1875,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-07-29T12:54:37",
+  "collected_at": "2026-07-29T18:31:56",
   "stats": {
-    "collected": 505,
-    "cards": 36,
+    "collected": 520,
+    "cards": 37,
     "expired": 6,
-    "candidates": 27,
+    "candidates": 30,
     "excluded": 0,
-    "dropped": 436
+    "dropped": 447
   }
 }
