@@ -1915,6 +1915,56 @@
       "reasons": [
         "핵심 키워드: 실증"
       ]
+    },
+    {
+      "source": "nipa",
+      "source_id": "16726",
+      "title": "2026년 산업전문인력 AI역량강화 지원사업 발표평가 결과 및 지원 대상과제 선정 공고",
+      "url": "https://www.nipa.kr/home/2-2/16726",
+      "apply_raw": "상시 모집",
+      "apply_start": null,
+      "apply_end": null,
+      "agency": "정보통신산업진흥원",
+      "exec_agency": "정보통신산업진흥원",
+      "category": "ICT",
+      "posted_at": "2026-04-20",
+      "status": "상시",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-07-30",
+      "key": "nipa:16726",
+      "track": "A",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: AI"
+      ]
+    },
+    {
+      "source": "nipa",
+      "source_id": "16691",
+      "title": "2026년 산업전문인력 AI역량강화 지원사업 서류평가 결과 및 발표평가 대상자 선정 공고",
+      "url": "https://www.nipa.kr/home/2-2/16691",
+      "apply_raw": "상시 모집",
+      "apply_start": null,
+      "apply_end": null,
+      "agency": "정보통신산업진흥원",
+      "exec_agency": "정보통신산업진흥원",
+      "category": "ICT",
+      "posted_at": "2026-04-08",
+      "status": "상시",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-07-30",
+      "key": "nipa:16691",
+      "track": "A",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: AI"
+      ]
     }
   ],
   "excluded": [],
@@ -1926,13 +1976,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-07-30T16:56:05",
+  "collected_at": "2026-07-30T17:26:16",
   "stats": {
-    "collected": 524,
+    "collected": 574,
     "cards": 37,
     "expired": 7,
-    "candidates": 31,
+    "candidates": 33,
     "excluded": 0,
-    "dropped": 449
+    "dropped": 497
   }
 }

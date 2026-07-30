@@ -303,17 +303,18 @@ NIPA_URL = "https://www.nipa.kr/home/2-2"
 NIPA_DDAY = re.compile(r"D-(\d+)")
 
 
-def collect_nipa() -> list[Announcement]:
-    """정보통신산업진흥원(NIPA) 사업공고.
+NIPA_MAX_PAGES = 6         # 페이지당 10건. 진행중 공고를 놓치지 않을 만큼만.
 
-    목록에 접수기간이 없고 'D-31' / '종료' 형태의 잔여일만 있다.
-    상세 페이지까지 들어가면 요청이 10배로 늘어나므로,
-    잔여일에서 마감일을 역산하고 원문은 apply_raw에 남긴다.
-    """
-    soup = BeautifulSoup(fetch(NIPA_URL), PARSER)
+
+def _nipa_page(page: int) -> list[Announcement]:
+    # NIPA의 페이지 파라미터는 'page'가 아니라 'curPage'다.
+    # 'page'로 보내면 무시되어 1페이지만 반복 수신 → 뒤 페이지를 통째로 놓친다.
+    soup = BeautifulSoup(fetch(NIPA_URL, {"curPage": str(page)}), PARSER)
     table = soup.find("table")
     if table is None:
-        raise CollectError("NIPA: 공고 테이블을 찾지 못했다. 사이트 개편 가능성.")
+        if page == 1:
+            raise CollectError("NIPA: 공고 테이블을 찾지 못했다. 사이트 개편 가능성.")
+        return []
 
     today = now_kst().date()
     out: list[Announcement] = []
@@ -346,10 +347,40 @@ def collect_nipa() -> list[Announcement]:
             category="ICT",
             posted_at=tds[4],
         ))
-
-    if not out:
-        raise CollectError("NIPA: 0건 수집. 파서 점검 필요.")
     return out
+
+
+def collect_nipa() -> list[Announcement]:
+    """정보통신산업진흥원(NIPA) 사업공고.
+
+    목록에 접수기간이 없고 'D-31' / '종료' 형태의 잔여일만 있다.
+    1페이지(10건)만 받으면 진행중 공고가 뒤 페이지에 남는다 → 여러 장 받는다.
+    목록은 최신 등록순이라 뒤로 갈수록 마감이 많지만, 상시모집·장기(D-123)
+    공고가 드문드문 섞여 있다. 그래서 '한 번 0이면 멈춤'은 이르다 —
+    진행중이 0인 페이지가 연속 2번 나오면 그때 멈춘다.
+    """
+    seen: dict[str, Announcement] = {}
+    today = now_kst().date().isoformat()
+    empty_streak = 0
+    for page in range(1, NIPA_MAX_PAGES + 1):
+        if page > 1:
+            time.sleep(DELAY_SEC)
+        got = _nipa_page(page)
+        if not got:
+            break
+        for a in got:
+            seen.setdefault(a.source_id, a)
+        # 진행중(마감일이 오늘 이후)이 하나도 없는 페이지가 연속 2번이면 그만.
+        if any((a.apply_end or "") >= today for a in got):
+            empty_streak = 0
+        else:
+            empty_streak += 1
+            if empty_streak >= 2:
+                break
+
+    if not seen:
+        raise CollectError("NIPA: 0건 수집. 파서 점검 필요.")
+    return list(seen.values())
 
 
 SNIP_URL = "https://portal.snip.or.kr:8443/user/snip/busin/businList.face"
