@@ -388,19 +388,18 @@ SNIP_READ = re.compile(r"fn_read\('([^']+)','([^']+)'\)")
 SNIP_DATE = re.compile(r"(\d{4})\.(\d{1,2})\.(\d{1,2})")
 
 
-def collect_snip() -> list[Announcement]:
-    """성남산업진흥원 사업공고.
+SNIP_PAGE_SIZE = 50        # listCount. 한 장에 넉넉히 받아 페이지 수를 줄인다.
+SNIP_MAX_PAGES = 6         # 폭주 방지용 안전선. 실제 종료는 진행중 소진으로.
 
-    회사 소재지(판교)가 성남이라 지역 사업이 직접 걸린다.
-    창업센터 입주 등 사무실·공간 공고도 여기에 올라온다.
 
-    목록에 시작일이 없고 '~ 2026.08.05' 형태로 마감일만 있다.
-    """
-    # 기본 10건만 오면 입주 공고가 금방 밀려난다. 한 번에 넉넉히 받는다.
-    soup = BeautifulSoup(fetch(SNIP_URL, {"cPage": "1", "listCount": "50"}), PARSER)
+def _snip_page(page: int) -> list[Announcement]:
+    soup = BeautifulSoup(
+        fetch(SNIP_URL, {"cPage": str(page), "listCount": str(SNIP_PAGE_SIZE)}), PARSER)
     table = soup.find("table")
     if table is None:
-        raise CollectError("SNIP: 공고 테이블을 찾지 못했다. 사이트 개편 가능성.")
+        if page == 1:
+            raise CollectError("SNIP: 공고 테이블을 찾지 못했다. 사이트 개편 가능성.")
+        return []
 
     out: list[Announcement] = []
     for tr in (table.find("tbody") or table).find_all("tr"):
@@ -447,14 +446,50 @@ def collect_snip() -> list[Announcement]:
             status=status,
             posted_at=tds[5].replace(".", "-"),
         ))
-
-    if not out:
-        raise CollectError("SNIP: 0건 수집. 파서 점검 필요.")
     return out
 
 
+def collect_snip() -> list[Announcement]:
+    """성남산업진흥원 사업공고.
+
+    회사 소재지(판교)가 성남이라 지역 사업이 직접 걸린다.
+    창업센터 입주 등 사무실·공간 공고도 여기에 올라온다.
+
+    목록에 시작일이 없고 '~ 2026.08.05' 형태로 마감일만 있다.
+
+    한 장(50건)만 받으면 진행중이 50건을 넘는 순간부터 잘린다.
+    목록은 등록순이라 진행중이 앞쪽에 몰리지만(뒷장은 이미 마감분),
+    그 가정에 기대지 않고 진행중이 소진될 때까지 페이지를 넘긴다.
+    (NIPA와 같은 방식 — 진행중 0인 페이지가 연속 2번이면 그만)
+    """
+    seen: dict[str, Announcement] = {}
+    today = now_kst().date().isoformat()
+    empty_streak = 0
+    for page in range(1, SNIP_MAX_PAGES + 1):
+        if page > 1:
+            time.sleep(DELAY_SEC)
+        got = _snip_page(page)
+        if not got:
+            break
+        for a in got:
+            seen.setdefault(a.source_id, a)
+        if any((a.apply_end or "") >= today for a in got):
+            empty_streak = 0
+        else:
+            empty_streak += 1
+            if empty_streak >= 2:
+                break
+
+    if not seen:
+        raise CollectError("SNIP: 0건 수집. 파서 점검 필요.")
+    return list(seen.values())
+
+
 KSTARTUP_URL = "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do"
-KSTARTUP_MAX_PAGES = 8       # 페이지당 15건. 진행 중 공고 전체를 훑는다.
+# '모집중' 공고가 실제로 17페이지(약 250건)까지 있었다. 상한 8이면 절반 넘게
+# 놓친다(사무실·공간 공고가 뒷장에 섞여 있어 특히 아깝다). 상한은 폭주 방지용
+# 안전선일 뿐이고, 실제 종료는 빈 페이지에서 자연히 걸린다.
+KSTARTUP_MAX_PAGES = 25      # 페이지당 15건 = 최대 375건까지. 종료는 빈 페이지로.
 KSTARTUP_SN = re.compile(r"go_view\((\d+)\)")
 
 
