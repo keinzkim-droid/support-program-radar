@@ -374,10 +374,12 @@ def collect_snip() -> list[Announcement]:
     out: list[Announcement] = []
     for tr in (table.find("tbody") or table).find_all("tr"):
         tds = [td.get_text(" ", strip=True) for td in tr.find_all("td")]
-        a = tr.find("a", onclick=True)
-        if not a or len(tds) < 6:
+        if len(tds) < 6:
             continue
-        m = SNIP_READ.search(a["onclick"])
+        # fn_read('공고번호','코드')는 행마다 위치가 다르다 — 보통 <a>에 있지만
+        # 재공고 행은 <tr>에 있다. 어디 있든 행 전체 HTML에서 찾는다.
+        # (이 마크업 차이 때문에 '추가 모집' 재공고를 통째로 놓쳤었다)
+        m = SNIP_READ.search(str(tr))
         if not m:
             continue
         annc, code = m.groups()
