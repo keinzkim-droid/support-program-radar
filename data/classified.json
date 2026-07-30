@@ -393,33 +393,6 @@
       "auto": true
     },
     {
-      "source": "kstartup",
-      "source_id": "178569",
-      "title": "2026년 서울창업허브 창동 투자 특화 프로그램 - IR 라운드(1회차)",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178569",
-      "apply_raw": "2026-07-15 ~ 2026-07-31",
-      "apply_start": "2026-07-15",
-      "apply_end": "2026-07-31",
-      "agency": "서울창업허브 창동 운영",
-      "exec_agency": "서울창업허브 창동 운영",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-07-15",
-      "status": "마감임박",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-07-30",
-      "key": "kstartup:178569",
-      "track": "C",
-      "score": 3,
-      "region": "서울",
-      "conditional": null,
-      "reasons": [
-        "사무실·공간 키워드: 창업허브",
-        "자동 분류"
-      ],
-      "auto": true
-    },
-    {
       "source": "kiria",
       "source_id": "IBUS_000000000001260",
       "title": "2026년도「신뢰성기반활용지원사업」 수시형 2차 참여기업 모집",
@@ -1899,13 +1872,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-07-30T09:17:20",
+  "collected_at": "2026-07-30T12:41:52",
   "stats": {
     "collected": 511,
-    "cards": 36,
+    "cards": 35,
     "expired": 7,
     "candidates": 31,
     "excluded": 0,
-    "dropped": 437
+    "dropped": 438
   }
 }
