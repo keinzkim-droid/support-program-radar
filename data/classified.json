@@ -2447,13 +2447,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-07-31T09:41:57",
+  "collected_at": "2026-07-31T13:16:05",
   "stats": {
-    "collected": 798,
+    "collected": 800,
     "cards": 44,
     "expired": 8,
     "candidates": 43,
     "excluded": 0,
-    "dropped": 703
+    "dropped": 705
   }
 }
