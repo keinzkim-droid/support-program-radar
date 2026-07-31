@@ -135,33 +135,6 @@
       "auto": true
     },
     {
-      "source": "kstartup",
-      "source_id": "178553",
-      "title": "[2026년 경기 AI 혁신클러스터] AI 클러스터 오픈이노베이션 연계·실증 프로그램 참가기업 모집",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178553",
-      "apply_raw": "2026-07-15 ~ 2026-07-31",
-      "apply_start": "2026-07-15",
-      "apply_end": "2026-07-31",
-      "agency": "탭엔젤파트너스",
-      "exec_agency": "탭엔젤파트너스",
-      "category": "사업화",
-      "posted_at": "2026-07-16",
-      "status": "마감임박",
-      "location": "",
-      "founding": "7년미만",
-      "collected_at": "2026-07-31",
-      "key": "kstartup:178553",
-      "track": "A",
-      "score": 6,
-      "region": "경기",
-      "conditional": null,
-      "reasons": [
-        "핵심 키워드: 실증, AI",
-        "자동 분류"
-      ],
-      "auto": true
-    },
-    {
       "source": "kiria",
       "source_id": "IBUS_000000000001259",
       "title": "2026년 「규제혁신 로봇 실증사업」지원과제 2차 모집 공고",
@@ -394,87 +367,6 @@
       "reasons": [
         "핵심 키워드: 로봇"
       ]
-    },
-    {
-      "source": "kstartup",
-      "source_id": "178601",
-      "title": "1인기업 & 예비·초기창업자 환영! 강동50+센터 공유사무실 입주자 추가모집(~26.7.31.(금))",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178601",
-      "apply_raw": "2026-07-20 ~ 2026-07-31",
-      "apply_start": "2026-07-20",
-      "apply_end": "2026-07-31",
-      "agency": "강동50+센터 공유사무실 입주자 추가모집",
-      "exec_agency": "강동50+센터 공유사무실 입주자 추가모집",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-07-21",
-      "status": "마감임박",
-      "location": "지가 서울시인 예비·초기창업자 및 단체 제외대상 - 기존 강동50플러스센터 공유사무실 이용자 - 50플러스 캠퍼스 및 타 센터의 공유사무실 입주",
-      "founding": "전체",
-      "collected_at": "2026-07-31",
-      "key": "kstartup:178601",
-      "track": "C",
-      "score": 3,
-      "region": "서울",
-      "conditional": null,
-      "reasons": [
-        "사무실·공간 키워드: 사무실",
-        "자동 분류"
-      ],
-      "auto": true
-    },
-    {
-      "source": "kstartup",
-      "source_id": "178616",
-      "title": "2026년 서울창업허브 창동-동아사이언스 오픈이노베이션 참가기업 모집",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178616",
-      "apply_raw": "2026-07-20 ~ 2026-07-31",
-      "apply_start": "2026-07-20",
-      "apply_end": "2026-07-31",
-      "agency": "서울창업허브 창동 운영",
-      "exec_agency": "서울창업허브 창동 운영",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-07-21",
-      "status": "마감임박",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-07-31",
-      "key": "kstartup:178616",
-      "track": "C",
-      "score": 3,
-      "region": "서울",
-      "conditional": null,
-      "reasons": [
-        "사무실·공간 키워드: 창업허브",
-        "자동 분류"
-      ],
-      "auto": true
-    },
-    {
-      "source": "kstartup",
-      "source_id": "178569",
-      "title": "2026년 서울창업허브 창동 투자 특화 프로그램 - IR 라운드(1회차)",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178569",
-      "apply_raw": "2026-07-15 ~ 2026-07-31",
-      "apply_start": "2026-07-15",
-      "apply_end": "2026-07-31",
-      "agency": "서울창업허브 창동 운영",
-      "exec_agency": "서울창업허브 창동 운영",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-07-15",
-      "status": "마감임박",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-07-31",
-      "key": "kstartup:178569",
-      "track": "C",
-      "score": 3,
-      "region": "서울",
-      "conditional": null,
-      "reasons": [
-        "사무실·공간 키워드: 창업허브",
-        "자동 분류"
-      ],
-      "auto": true
     },
     {
       "source": "kstartup",
@@ -1484,32 +1376,6 @@
     },
     {
       "source": "kstartup",
-      "source_id": "178739",
-      "title": "용인시 AI 데이터 기반 창업 지원 참여자 모집 연장",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178739",
-      "apply_raw": "2026-07-27 ~ 2026-07-31",
-      "apply_start": "2026-07-27",
-      "apply_end": "2026-07-31",
-      "agency": "용인시 AI 데이터 기반 창업 지원 참여자 추가 모집",
-      "exec_agency": "용인시 AI 데이터 기반 창업 지원 참여자 추가 모집",
-      "category": "사업화",
-      "posted_at": "2026-07-30",
-      "status": "마감임박",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-07-31",
-      "key": "kstartup:178739",
-      "track": "A",
-      "score": 4,
-      "region": null,
-      "conditional": null,
-      "reasons": [
-        "핵심 키워드: AI",
-        "관련 키워드: 데이터"
-      ]
-    },
-    {
-      "source": "kstartup",
       "source_id": "178559",
       "title": "「2026년 공공데이터 활용기업 AI연계 맞춤형 성장 지원사업」 참여기업 모집 안내",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178559",
@@ -1911,6 +1777,31 @@
       ]
     },
     {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000124947",
+      "title": "2026년 콘크리트 2차 제품 제조기업 및 레미콘기업 패키지 지원사업 모집공고(시멘트산업 이산화탄소 저감 및 종합실증센터 구축사업)",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124947",
+      "apply_raw": "2026-07-28 ~ 2026-08-14",
+      "apply_start": "2026-07-28",
+      "apply_end": "2026-08-14",
+      "agency": "기후에너지환경부",
+      "exec_agency": "충북테크노파크",
+      "category": "경영",
+      "posted_at": "2026-07-31",
+      "status": "마감임박",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-07-31",
+      "key": "bizinfo:PBLN_000000000124947",
+      "track": "A",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: 실증"
+      ]
+    },
+    {
       "source": "kstartup",
       "source_id": "178683",
       "title": "2026년 제1회 테크플러스 스테이지 입주기업 모집 공고",
@@ -1933,6 +1824,31 @@
       "conditional": null,
       "reasons": [
         "사무실·공간 키워드: 입주기업"
+      ]
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000124976",
+      "title": "전 국민 AI 서비스 보편적 활용 지원 (모두의 AI) 사업 수정 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124976",
+      "apply_raw": "2026-07-13 ~ 2026-08-18",
+      "apply_start": "2026-07-13",
+      "apply_end": "2026-08-18",
+      "agency": "과학기술정보통신부",
+      "exec_agency": "정보통신산업진흥원",
+      "category": "기술",
+      "posted_at": "2026-07-31",
+      "status": "접수중",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-07-31",
+      "key": "bizinfo:PBLN_000000000124976",
+      "track": "A",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: AI"
       ]
     },
     {
@@ -2008,6 +1924,31 @@
       "conditional": null,
       "reasons": [
         "사무실·공간 키워드: 입주기업"
+      ]
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000124960",
+      "title": "2026년 3차 섬유산업 지능형 마이크로팩토리 제조 플랫폼 실증기반 구축사업 I-Tube 기술지원 서비스 참여기업 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124960",
+      "apply_raw": "2026-07-27 ~ 2026-08-21",
+      "apply_start": "2026-07-27",
+      "apply_end": "2026-08-21",
+      "agency": "산업통상부",
+      "exec_agency": "한국생산기술연구원",
+      "category": "기술",
+      "posted_at": "2026-07-31",
+      "status": "접수중",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-07-31",
+      "key": "bizinfo:PBLN_000000000124960",
+      "track": "A",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: 실증"
       ]
     },
     {
@@ -2447,13 +2388,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-07-31T13:16:05",
+  "collected_at": "2026-07-31T18:46:03",
   "stats": {
-    "collected": 800,
-    "cards": 44,
+    "collected": 787,
+    "cards": 40,
     "expired": 8,
-    "candidates": 43,
+    "candidates": 45,
     "excluded": 0,
-    "dropped": 705
+    "dropped": 694
   }
 }
