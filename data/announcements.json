@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-01T09:25:58",
+  "collected_at": "2026-08-01T13:16:16",
   "failures": [],
   "count": 748,
   "items": [
@@ -12619,22 +12619,6 @@
     },
     {
       "source": "bizinfo",
-      "source_id": "PBLN_000000000123543",
-      "title": "[경북] 포항시 2026년 경북형(포항) 스마트공장(기초단계) 구축지원사업 추가모집 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123543",
-      "apply_raw": "2026-06-30 ~ 2026-07-24",
-      "apply_start": "2026-06-30",
-      "apply_end": "2026-07-24",
-      "agency": "경상북도",
-      "exec_agency": "포항테크노파크",
-      "category": "경영",
-      "posted_at": "2026-06-24",
-      "status": "",
-      "location": "",
-      "collected_at": "2026-07-24"
-    },
-    {
-      "source": "bizinfo",
       "source_id": "PBLN_000000000124138",
       "title": "2026년 충북청주 강소특구 X 심텍 AI 제조혁신 오픈이노베이션 지원사업 모집 공고",
       "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124138",
@@ -12668,6 +12652,22 @@
     },
     {
       "source": "bizinfo",
+      "source_id": "PBLN_000000000123543",
+      "title": "[경북] 포항시 2026년 경북형(포항) 스마트공장(기초단계) 구축지원사업 추가모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123543",
+      "apply_raw": "2026-06-30 ~ 2026-07-24",
+      "apply_start": "2026-06-30",
+      "apply_end": "2026-07-24",
+      "agency": "경상북도",
+      "exec_agency": "포항테크노파크",
+      "category": "경영",
+      "posted_at": "2026-06-24",
+      "status": "",
+      "location": "",
+      "collected_at": "2026-07-24"
+    },
+    {
+      "source": "bizinfo",
       "source_id": "PBLN_000000000123881",
       "title": "2026년 4차 제조공정 로봇도입 엔지니어링 컨설팅 모집 공고",
       "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123881",
@@ -12685,21 +12685,6 @@
     },
     {
       "source": "bizinfo",
-      "source_id": "PBLN_000000000123179",
-      "title": "[경기] 2026년 2차 제조로봇 도입ㆍ실증 및 고도화지원 사업 공고(제조로봇 도입지원)",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123179",
-      "apply_raw": "2026-06-15 ~ 2026-07-22",
-      "apply_start": "2026-06-15",
-      "apply_end": "2026-07-22",
-      "agency": "경기도",
-      "exec_agency": "경기테크노파크",
-      "category": "기술",
-      "posted_at": "2026-06-15",
-      "status": "",
-      "collected_at": "2026-07-22"
-    },
-    {
-      "source": "bizinfo",
       "source_id": "PBLN_000000000124553",
       "title": "2026년 협업지능 피지컬AI 기반 SW플랫폼 연구개발 생태계 조성 사업 공고",
       "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124553",
@@ -12710,6 +12695,21 @@
       "exec_agency": "정보통신산업진흥원",
       "category": "기술",
       "posted_at": "2026-07-21",
+      "status": "",
+      "collected_at": "2026-07-22"
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000123179",
+      "title": "[경기] 2026년 2차 제조로봇 도입ㆍ실증 및 고도화지원 사업 공고(제조로봇 도입지원)",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123179",
+      "apply_raw": "2026-06-15 ~ 2026-07-22",
+      "apply_start": "2026-06-15",
+      "apply_end": "2026-07-22",
+      "agency": "경기도",
+      "exec_agency": "경기테크노파크",
+      "category": "기술",
+      "posted_at": "2026-06-15",
       "status": "",
       "collected_at": "2026-07-22"
     }
