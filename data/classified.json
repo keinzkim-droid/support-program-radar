@@ -1122,6 +1122,30 @@
       ]
     },
     {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000123543",
+      "title": "[경북] 포항시 2026년 경북형(포항) 스마트공장(기초단계) 구축지원사업 추가모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123543",
+      "apply_raw": "2026-06-30 ~ 2026-07-24",
+      "apply_start": "2026-06-30",
+      "apply_end": "2026-07-24",
+      "agency": "경상북도",
+      "exec_agency": "포항테크노파크",
+      "category": "경영",
+      "posted_at": "2026-06-24",
+      "status": "마감",
+      "location": "",
+      "collected_at": "2026-07-24",
+      "key": "bizinfo:PBLN_000000000123543",
+      "track": "B",
+      "score": 3,
+      "region": "경북",
+      "conditional": null,
+      "reasons": [
+        "고객사향 키워드: 스마트공장"
+      ]
+    },
+    {
       "source": "snip",
       "source_id": "2026-0182-4182",
       "title": "2026년 4차 성남글로벌융합센터 신규 입주기업 모집",
@@ -1144,30 +1168,6 @@
       "conditional": null,
       "reasons": [
         "사무실·공간 키워드: 입주기업"
-      ]
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000123543",
-      "title": "[경북] 포항시 2026년 경북형(포항) 스마트공장(기초단계) 구축지원사업 추가모집 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123543",
-      "apply_raw": "2026-06-30 ~ 2026-07-24",
-      "apply_start": "2026-06-30",
-      "apply_end": "2026-07-24",
-      "agency": "경상북도",
-      "exec_agency": "포항테크노파크",
-      "category": "경영",
-      "posted_at": "2026-06-24",
-      "status": "마감",
-      "location": "",
-      "collected_at": "2026-07-24",
-      "key": "bizinfo:PBLN_000000000123543",
-      "track": "B",
-      "score": 3,
-      "region": "경북",
-      "conditional": null,
-      "reasons": [
-        "고객사향 키워드: 스마트공장"
       ]
     },
     {
@@ -2286,13 +2286,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-08-03T13:19:23",
+  "collected_at": "2026-08-03T17:00:47",
   "stats": {
-    "collected": 747,
+    "collected": 746,
     "cards": 38,
     "expired": 9,
     "candidates": 42,
     "excluded": 0,
-    "dropped": 658
+    "dropped": 657
   }
 }
