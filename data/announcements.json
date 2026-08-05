@@ -1,264 +1,262 @@
 {
-  "collected_at": "2026-08-05T13:01:43",
-  "failures": [
-    "bizinfo"
-  ],
-  "count": 745,
+  "collected_at": "2026-08-05T18:40:43",
+  "failures": [],
+  "count": 795,
   "items": [
     {
       "source": "bizinfo",
-      "source_id": "PBLN_000000000125088",
-      "title": "한중 문화 및 푸드 교류 페스티벌 참가기업 모집 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125088",
-      "apply_raw": "2026-08-03 ~ 2026-08-18",
+      "source_id": "PBLN_000000000125143",
+      "title": "[전북] 전북사회적경제혁신타운 생생마을 한가위 큰장터 참여업체 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125143",
+      "apply_raw": "2026-08-03 ~ 2026-08-17",
       "apply_start": "2026-08-03",
-      "apply_end": "2026-08-18",
-      "agency": "문화체육관광부",
-      "exec_agency": "한국콘텐츠진흥원",
-      "category": "수출",
-      "posted_at": "2026-08-04",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-04"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000125087",
-      "title": "[충북] 2026년 글로벌 무역데이터 AI 플랫폼을 활용한 바이어발굴 지원사업 참여기업 모집 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125087",
-      "apply_raw": "선착순 접수",
-      "apply_start": null,
-      "apply_end": null,
-      "agency": "충청북도",
-      "exec_agency": "지방중소벤처기업청",
-      "category": "수출",
-      "posted_at": "2026-08-04",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-04"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000125086",
-      "title": "2026년 녹색자산유동화증권 이차보전 지원사업(기보2차) 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125086",
-      "apply_raw": "2026-08-03 ~ 2026-09-09",
-      "apply_start": "2026-08-03",
-      "apply_end": "2026-09-09",
-      "agency": "기후에너지환경부",
-      "exec_agency": "한국환경산업기술원",
-      "category": "금융",
-      "posted_at": "2026-08-04",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-04"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000125085",
-      "title": "[충남] 2026년 6차 K-브랜드분쟁 대응전략 지원사업 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125085",
-      "apply_raw": "2026-08-01 ~ 2026-08-21",
-      "apply_start": "2026-08-01",
-      "apply_end": "2026-08-21",
-      "agency": "지식재산처",
-      "exec_agency": "한국지식재산보호원",
-      "category": "수출",
-      "posted_at": "2026-08-04",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-04"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000125084",
-      "title": "[경기] 화성시 2026년 중소기업 매출채권보험 지원사업 변경사항 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125084",
-      "apply_raw": "예산 소진시까지",
-      "apply_start": null,
-      "apply_end": null,
-      "agency": "경기도",
-      "exec_agency": "기초자치단체",
-      "category": "금융",
-      "posted_at": "2026-08-04",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-04"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000125083",
-      "title": "[인천] 2026년 6차 K-브랜드분쟁 대응전략 지원사업 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125083",
-      "apply_raw": "2026-08-01 ~ 2026-08-21",
-      "apply_start": "2026-08-01",
-      "apply_end": "2026-08-21",
-      "agency": "지식재산처",
-      "exec_agency": "한국지식재산보호원",
-      "category": "수출",
-      "posted_at": "2026-08-04",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-04"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000125082",
-      "title": "[대전] 2026년 6차 K-브랜드분쟁 대응전략 지원사업 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125082",
-      "apply_raw": "2026-08-01 ~ 2026-08-21",
-      "apply_start": "2026-08-01",
-      "apply_end": "2026-08-21",
-      "agency": "지식재산처",
-      "exec_agency": "한국지식재산보호원",
-      "category": "수출",
-      "posted_at": "2026-08-04",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-04"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000125081",
-      "title": "2026년 6차 K-브랜드분쟁 대응전략 지원사업 정기 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125081",
-      "apply_raw": "2026-08-03 ~ 2026-08-21",
-      "apply_start": "2026-08-03",
-      "apply_end": "2026-08-21",
-      "agency": "지식재산처",
-      "exec_agency": "한국지식재산보호원",
-      "category": "수출",
-      "posted_at": "2026-08-04",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-04"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000125080",
-      "title": "[충남] 2026년 6차 특허분쟁 대응전략 지원사업 공고(충남연계)",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125080",
-      "apply_raw": "2026-08-03 ~ 2026-08-21",
-      "apply_start": "2026-08-03",
-      "apply_end": "2026-08-21",
-      "agency": "지식재산처",
-      "exec_agency": "한국지식재산보호원",
-      "category": "기술",
-      "posted_at": "2026-08-04",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-04"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000125079",
-      "title": "[경기] 화성시 2027년 미국 라스베가스 CES 전시회 참관단 모집 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125079",
-      "apply_raw": "2026-08-03 ~ 2026-08-21",
-      "apply_start": "2026-08-03",
-      "apply_end": "2026-08-21",
-      "agency": "경기도",
-      "exec_agency": "기초자치단체",
-      "category": "수출",
-      "posted_at": "2026-08-04",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-04"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000125078",
-      "title": "[대전] 2026년 6차 특허분쟁 대응전략 지원사업 공고(대전연계)",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125078",
-      "apply_raw": "2026-08-03 ~ 2026-08-21",
-      "apply_start": "2026-08-03",
-      "apply_end": "2026-08-21",
-      "agency": "지식재산처",
-      "exec_agency": "한국지식재산보호원",
-      "category": "기술",
-      "posted_at": "2026-08-04",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-04"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000125077",
-      "title": "[울산] 2026년 자동차 부품업종 근로자 지역정착 지원사업 참여기업 모집 수정 공고(지역ㆍ산업맞춤형 일자리지원 사업(자율계정))",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125077",
-      "apply_raw": "예산 소진시까지",
-      "apply_start": null,
-      "apply_end": null,
-      "agency": "울산광역시",
-      "exec_agency": "울산경제일자리진흥원",
-      "category": "인력",
-      "posted_at": "2026-08-04",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-04"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000125076",
-      "title": "[인천] 2026년 6차 특허분쟁 대응전략 지원사업 공고(인천연계)",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125076",
-      "apply_raw": "2026-08-03 ~ 2026-08-21",
-      "apply_start": "2026-08-03",
-      "apply_end": "2026-08-21",
-      "agency": "지식재산처",
-      "exec_agency": "한국지식재산보호원",
-      "category": "기술",
-      "posted_at": "2026-08-04",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-04"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000125075",
-      "title": "[대구] 2026년 모빌리티 부품 제조AI 확산센터 구축 사업 기업컨설팅 지원 수혜기업 모집 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125075",
-      "apply_raw": "2026-08-03 ~ 2026-08-12",
-      "apply_start": "2026-08-03",
-      "apply_end": "2026-08-12",
-      "agency": "산업통상부",
-      "exec_agency": "대구테크노파크",
-      "category": "경영",
-      "posted_at": "2026-08-04",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-04"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000125074",
-      "title": "[전북] 2026년 지역창업특화지원(전주1인창조기업지원센터) 선택형 지원사업 모집 재공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125074",
-      "apply_raw": "2026-08-03 ~ 2026-08-10",
-      "apply_start": "2026-08-03",
-      "apply_end": "2026-08-10",
+      "apply_end": "2026-08-17",
       "agency": "전북특별자치도",
-      "exec_agency": "전주정보문화산업진흥원",
-      "category": "경영",
-      "posted_at": "2026-08-04",
+      "exec_agency": "전북특별자치도경제통상진흥원",
+      "category": "내수",
+      "posted_at": "2026-08-05",
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000125142",
+      "title": "[경기] 성남시 공동브랜드 활용 사업화 패키지 참여기업 모집 공고(성남 섬유제조 소공인특화지원센터)",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125142",
+      "apply_raw": "2026-07-31 ~ 2026-08-14",
+      "apply_start": "2026-07-31",
+      "apply_end": "2026-08-14",
+      "agency": "경기도",
+      "exec_agency": "성남산업진흥원",
+      "category": "경영",
+      "posted_at": "2026-08-05",
+      "status": "",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000125141",
+      "title": "[전남광주] 2026년 무등포레스트 상품화 참여기업 모집 공고(남부권 광역관광개발 사업)",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125141",
+      "apply_raw": "2026-08-03 ~ 2026-08-23",
+      "apply_start": "2026-08-03",
+      "apply_end": "2026-08-23",
+      "agency": "전남광주통합특별시",
+      "exec_agency": "광주광역시관광공사",
+      "category": "경영",
+      "posted_at": "2026-08-05",
+      "status": "",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000125140",
+      "title": "2026년 한일 IT기업교류회(오키나와 나하) 참가기업 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125140",
+      "apply_raw": "2026-08-05 ~ 2026-08-19",
+      "apply_start": "2026-08-05",
+      "apply_end": "2026-08-19",
+      "agency": "산업통상부",
+      "exec_agency": "한일산업기술협력재단",
+      "category": "수출",
+      "posted_at": "2026-08-05",
+      "status": "",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000125139",
+      "title": "[경기] 용인시 2026년 기업환경 개선사업 모집 추가 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125139",
+      "apply_raw": "2026-07-27 ~ 2026-08-11",
+      "apply_start": "2026-07-27",
+      "apply_end": "2026-08-11",
+      "agency": "경기도",
+      "exec_agency": "기초자치단체",
+      "category": "경영",
+      "posted_at": "2026-08-05",
+      "status": "",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000125138",
+      "title": "[대전] 2026년 하반기 중소기업 밀집지역 위기대응 체계 구축사업 Stand-up 맞춤지원 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125138",
+      "apply_raw": "2026-08-04 ~ 2026-08-19",
+      "apply_start": "2026-08-04",
+      "apply_end": "2026-08-19",
+      "agency": "대전광역시",
+      "exec_agency": "대전테크노파크",
+      "category": "기술",
+      "posted_at": "2026-08-05",
+      "status": "",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000125137",
+      "title": "2026년 글로벌 진출 스마트 휴머니제이션 사업 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125137",
+      "apply_raw": "2026-07-29 ~ 2026-08-18",
+      "apply_start": "2026-07-29",
+      "apply_end": "2026-08-18",
+      "agency": "산업통상부",
+      "exec_agency": "한국산업기술시험원",
+      "category": "기술",
+      "posted_at": "2026-08-05",
+      "status": "",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000125136",
+      "title": "[경기] 용인시 2026년 2차 해외진출 종합지원사업(해외물류비) 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125136",
+      "apply_raw": "예산 소진시까지",
+      "apply_start": null,
+      "apply_end": null,
+      "agency": "경기도",
+      "exec_agency": "용인시산업진흥원",
+      "category": "수출",
+      "posted_at": "2026-08-05",
+      "status": "",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000125135",
+      "title": "[경기] 용인시 2026년 2차 인증ㆍ지식재산 지원사업 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125135",
+      "apply_raw": "2026-08-05 ~ 2026-08-27",
+      "apply_start": "2026-08-05",
+      "apply_end": "2026-08-27",
+      "agency": "경기도",
+      "exec_agency": "용인시산업진흥원",
+      "category": "기술",
+      "posted_at": "2026-08-05",
+      "status": "",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000125134",
+      "title": "[경기] 2026년 AI 융복합 사업계획서 컨설팅 프로그램 참여기업 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125134",
+      "apply_raw": "2026-08-04 ~ 2026-08-14",
+      "apply_start": "2026-08-04",
+      "apply_end": "2026-08-14",
+      "agency": "경기도",
+      "exec_agency": "한양대학교",
+      "category": "경영",
+      "posted_at": "2026-08-05",
+      "status": "",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000125132",
+      "title": "[충남] 2026년 디지털품질역량강화사업 크라우드 테스팅 희망기업 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125132",
+      "apply_raw": "2026-08-04 ~ 2026-11-28",
+      "apply_start": "2026-08-04",
+      "apply_end": "2026-11-28",
+      "agency": "충청남도",
+      "exec_agency": "충남테크노파크",
+      "category": "기술",
+      "posted_at": "2026-08-05",
+      "status": "",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000125131",
+      "title": "[강원] 2026년 2차 사회연대경제 청년 일경험 시범사업 참여기업 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125131",
+      "apply_raw": "2026-08-04 ~ 2026-08-10",
+      "apply_start": "2026-08-04",
+      "apply_end": "2026-08-10",
+      "agency": "강원특별자치도",
+      "exec_agency": "강원특별자치도경제진흥원",
+      "category": "인력",
+      "posted_at": "2026-08-05",
+      "status": "",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000125129",
+      "title": "2026년 4차 미래차 애프터마켓부품 산업 활성화 기반구축 기업지원 수혜기업 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125129",
+      "apply_raw": "2026-08-04 ~ 2026-08-14",
+      "apply_start": "2026-08-04",
+      "apply_end": "2026-08-14",
+      "agency": "산업통상부",
+      "exec_agency": "경북IT융합산업기술원",
+      "category": "수출",
+      "posted_at": "2026-08-05",
+      "status": "",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000125128",
+      "title": "[경북] 포항시 2026년 지역산업위기대응 맞춤형 지원사업 수출상담회 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125128",
+      "apply_raw": "2026-08-04 ~ 2026-08-14",
+      "apply_start": "2026-08-04",
+      "apply_end": "2026-08-14",
+      "agency": "경상북도",
+      "exec_agency": "경북테크노파크",
+      "category": "수출",
+      "posted_at": "2026-08-05",
+      "status": "",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000125127",
+      "title": "[경남] 2026년 3분기 중소기업육성자금 일반자금 지원계획 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125127",
+      "apply_raw": "2026-08-25 ~ 2026-08-27",
+      "apply_start": "2026-08-25",
+      "apply_end": "2026-08-27",
+      "agency": "경상남도",
+      "exec_agency": "경남투자경제진흥원",
+      "category": "금융",
+      "posted_at": "2026-08-05",
+      "status": "",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -275,7 +273,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -292,7 +290,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -309,7 +307,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -326,7 +324,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -343,7 +341,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -360,7 +358,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -377,24 +375,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000124444",
-      "title": "[인천] 2026년 로봇 액셀러레이팅 프로그램 참여기업 모집 공고(로봇산업 혁신성장 지원사업)",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124444",
-      "apply_raw": "2026-07-15 ~ 2026-08-04",
-      "apply_start": "2026-07-15",
-      "apply_end": "2026-08-04",
-      "agency": "인천광역시",
-      "exec_agency": "인천테크노파크",
-      "category": "기술",
-      "posted_at": "2026-07-16",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -411,7 +392,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -428,7 +409,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -445,41 +426,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000124068",
-      "title": "2026년 2차 규제혁신 로봇 실증사업 지원 과제 모집 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124068",
-      "apply_raw": "2026-07-20 ~ 2026-08-04",
-      "apply_start": "2026-07-20",
-      "apply_end": "2026-08-04",
-      "agency": "산업통상부",
-      "exec_agency": "한국로봇산업진흥원",
-      "category": "기술",
-      "posted_at": "2026-07-07",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-04"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000124066",
-      "title": "2026년 2차 서비스로봇 실증사업 지원 과제 모집 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124066",
-      "apply_raw": "2026-07-20 ~ 2026-08-04",
-      "apply_start": "2026-07-20",
-      "apply_end": "2026-08-04",
-      "agency": "산업통상부",
-      "exec_agency": "한국로봇산업진흥원",
-      "category": "기술",
-      "posted_at": "2026-07-07",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -496,7 +443,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -513,7 +460,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -530,7 +477,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -547,7 +494,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -564,7 +511,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -581,7 +528,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -598,7 +545,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -615,7 +562,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -632,7 +579,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -649,7 +596,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -666,7 +613,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -683,7 +630,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -700,7 +647,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -717,7 +664,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -734,7 +681,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -751,7 +698,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -768,7 +715,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -785,7 +732,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -802,7 +749,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -819,7 +766,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -836,7 +783,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -853,7 +800,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -870,7 +817,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -887,7 +834,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -904,7 +851,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -921,7 +868,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -938,7 +885,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -955,7 +902,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -972,7 +919,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -989,7 +936,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1006,7 +953,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1023,7 +970,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1040,7 +987,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1057,7 +1004,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1074,7 +1021,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1091,7 +1038,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1108,7 +1055,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1125,7 +1072,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1142,7 +1089,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1159,7 +1106,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1176,7 +1123,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1193,7 +1140,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1210,7 +1157,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1227,7 +1174,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1244,7 +1191,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1261,7 +1208,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1278,7 +1225,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1295,7 +1242,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1312,7 +1259,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1329,7 +1276,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1346,7 +1293,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1363,7 +1310,41 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000125124",
+      "title": "[서울] 2026년 대한민국 안전산업박람회 참여기업 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125124",
+      "apply_raw": "2026-08-04 ~ 2026-08-11",
+      "apply_start": "2026-08-04",
+      "apply_end": "2026-08-11",
+      "agency": "서울특별시",
+      "exec_agency": "직접수행",
+      "category": "내수",
+      "posted_at": "2026-08-05",
+      "status": "",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000125099",
+      "title": "2026년 물산업 혁신기술 R&D 지원사업 추가 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125099",
+      "apply_raw": "2026-07-31 ~ 2026-08-31",
+      "apply_start": "2026-07-31",
+      "apply_end": "2026-08-31",
+      "agency": "서울특별시",
+      "exec_agency": "서울물재생시설공단",
+      "category": "기술",
+      "posted_at": "2026-08-05",
+      "status": "",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1380,7 +1361,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1397,7 +1378,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1414,7 +1395,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1431,7 +1412,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1448,7 +1429,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1465,24 +1446,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000124712",
-      "title": "[서울] 2026년 1차 IP디딤돌 프로그램 창업자 후속지원 모집공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124712",
-      "apply_raw": "2026-07-22 ~ 2026-08-04",
-      "apply_start": "2026-07-22",
-      "apply_end": "2026-08-04",
-      "agency": "서울특별시",
-      "exec_agency": "서울경제진흥원",
-      "category": "창업",
-      "posted_at": "2026-07-24",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1499,7 +1463,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1516,24 +1480,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000124674",
-      "title": "[서울] 종로구 2026년 소상공인 라이브커머스 지원사업 참여자 모집 재공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124674",
-      "apply_raw": "2026-07-21 ~ 2026-08-04",
-      "apply_start": "2026-07-21",
-      "apply_end": "2026-08-04",
-      "agency": "서울특별시",
-      "exec_agency": "기초자치단체",
-      "category": "내수",
-      "posted_at": "2026-07-23",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1550,7 +1497,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1567,7 +1514,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1584,7 +1531,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1601,7 +1548,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1618,7 +1565,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1635,24 +1582,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000124204",
-      "title": "[서울] 2026년 Slush 참가 지원사업 모집 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124204",
-      "apply_raw": "2026-07-09 ~ 2026-08-04",
-      "apply_start": "2026-07-09",
-      "apply_end": "2026-08-04",
-      "agency": "서울특별시",
-      "exec_agency": "서울경제진흥원",
-      "category": "수출",
-      "posted_at": "2026-07-10",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1669,7 +1599,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1686,7 +1616,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1703,7 +1633,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1720,7 +1650,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1737,7 +1667,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1754,7 +1684,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1771,7 +1701,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1788,7 +1718,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1805,7 +1735,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1822,7 +1752,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1839,7 +1769,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1856,7 +1786,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1873,7 +1803,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1890,7 +1820,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1907,7 +1837,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1924,7 +1854,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1941,7 +1871,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1958,7 +1888,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1975,7 +1905,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -1992,7 +1922,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2009,7 +1939,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2026,7 +1956,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2043,7 +1973,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2060,7 +1990,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2077,7 +2007,75 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000125118",
+      "title": "[경기] 성남시 2026년 폴란드 방산 시장개척단 참가기업 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125118",
+      "apply_raw": "2026-07-31 ~ 2026-08-18",
+      "apply_start": "2026-07-31",
+      "apply_end": "2026-08-18",
+      "agency": "경기도",
+      "exec_agency": "성남산업진흥원",
+      "category": "수출",
+      "posted_at": "2026-08-05",
+      "status": "",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000125112",
+      "title": "[경기] 2026년 3차 경기스타트업플랫폼 투자연계 지원 프로그램 온라인 밋업위크 참여기업 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125112",
+      "apply_raw": "2026-08-03 ~ 2026-08-17",
+      "apply_start": "2026-08-03",
+      "apply_end": "2026-08-17",
+      "agency": "경기도",
+      "exec_agency": "경기도경제과학진흥원",
+      "category": "창업",
+      "posted_at": "2026-08-05",
+      "status": "",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000125084",
+      "title": "[경기] 화성시 2026년 중소기업 매출채권보험 지원사업 변경사항 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125084",
+      "apply_raw": "예산 소진시까지",
+      "apply_start": null,
+      "apply_end": null,
+      "agency": "경기도",
+      "exec_agency": "기초자치단체",
+      "category": "금융",
+      "posted_at": "2026-08-04",
+      "status": "",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000125079",
+      "title": "[경기] 화성시 2027년 미국 라스베가스 CES 전시회 참관단 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125079",
+      "apply_raw": "2026-08-03 ~ 2026-08-21",
+      "apply_start": "2026-08-03",
+      "apply_end": "2026-08-21",
+      "agency": "경기도",
+      "exec_agency": "기초자치단체",
+      "category": "수출",
+      "posted_at": "2026-08-04",
+      "status": "",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2094,7 +2092,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2111,7 +2109,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2128,7 +2126,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2145,7 +2143,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2162,7 +2160,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2179,7 +2177,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2196,7 +2194,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2213,7 +2211,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2230,7 +2228,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2247,7 +2245,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2264,7 +2262,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2281,7 +2279,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2298,7 +2296,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2315,7 +2313,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2332,7 +2330,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2349,7 +2347,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2366,7 +2364,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2383,7 +2381,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2400,7 +2398,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2417,7 +2415,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2434,7 +2432,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2451,7 +2449,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2468,7 +2466,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2485,7 +2483,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2502,7 +2500,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2519,7 +2517,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2536,7 +2534,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2553,7 +2551,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2570,7 +2568,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2587,7 +2585,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2604,7 +2602,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2621,7 +2619,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2638,7 +2636,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2655,7 +2653,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2672,7 +2670,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2689,7 +2687,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2706,7 +2704,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2723,7 +2721,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2740,7 +2738,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2757,7 +2755,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2774,7 +2772,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2791,7 +2789,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2808,7 +2806,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2825,7 +2823,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2842,7 +2840,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2859,7 +2857,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2876,7 +2874,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2893,7 +2891,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2910,7 +2908,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2927,7 +2925,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2944,7 +2942,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2961,7 +2959,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2978,7 +2976,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -2995,7 +2993,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3012,7 +3010,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3029,7 +3027,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3046,7 +3044,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3063,7 +3061,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3080,7 +3078,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3097,7 +3095,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3114,7 +3112,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3131,7 +3129,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3148,7 +3146,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3165,7 +3163,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3182,7 +3180,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3199,7 +3197,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3216,7 +3214,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3233,7 +3231,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3250,7 +3248,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3267,7 +3265,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3284,7 +3282,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3301,7 +3299,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3318,7 +3316,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3335,7 +3333,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3352,7 +3350,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3369,7 +3367,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3386,7 +3384,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3403,7 +3401,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3420,7 +3418,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3437,7 +3435,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3454,7 +3452,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3471,7 +3469,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3488,7 +3486,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3505,7 +3503,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3522,7 +3520,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3539,7 +3537,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3556,7 +3554,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3573,7 +3571,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3590,7 +3588,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3607,7 +3605,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3624,7 +3622,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3641,7 +3639,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3658,7 +3656,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3675,7 +3673,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3692,7 +3690,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3709,7 +3707,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3726,7 +3724,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3743,7 +3741,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3760,7 +3758,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3777,7 +3775,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3794,7 +3792,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3811,7 +3809,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3828,7 +3826,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3845,7 +3843,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3862,7 +3860,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3879,7 +3877,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3896,7 +3894,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3913,7 +3911,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3930,7 +3928,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3947,7 +3945,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3964,7 +3962,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3981,7 +3979,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -3998,7 +3996,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4015,7 +4013,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4032,7 +4030,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4049,7 +4047,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4066,7 +4064,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4083,7 +4081,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4100,7 +4098,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4117,7 +4115,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4134,7 +4132,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4151,7 +4149,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4168,7 +4166,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4185,7 +4183,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4202,7 +4200,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4219,7 +4217,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4236,7 +4234,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4253,7 +4251,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4270,7 +4268,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4287,7 +4285,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4304,7 +4302,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4321,7 +4319,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4338,7 +4336,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4355,7 +4353,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4372,7 +4370,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4389,7 +4387,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4406,7 +4404,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4423,7 +4421,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4440,7 +4438,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4457,7 +4455,24 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000125114",
+      "title": "[인천] 2026년 2차 인천형 예비사회적기업 지정계획 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125114",
+      "apply_raw": "2026-08-03 ~ 2026-08-21",
+      "apply_start": "2026-08-03",
+      "apply_end": "2026-08-21",
+      "agency": "인천광역시",
+      "exec_agency": "직접수행",
+      "category": "기타",
+      "posted_at": "2026-08-05",
+      "status": "",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4474,7 +4489,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4491,7 +4506,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4508,7 +4523,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4525,7 +4540,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4542,7 +4557,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4559,7 +4574,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4576,7 +4591,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4593,7 +4608,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4610,7 +4625,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4627,7 +4642,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4644,7 +4659,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4661,7 +4676,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4678,7 +4693,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4695,7 +4710,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4712,7 +4727,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4729,7 +4744,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4746,7 +4761,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4763,7 +4778,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4780,7 +4795,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4797,7 +4812,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4814,7 +4829,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4831,7 +4846,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4848,7 +4863,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4865,7 +4880,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4882,7 +4897,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4899,7 +4914,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4916,7 +4931,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4933,7 +4948,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4950,7 +4965,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4967,7 +4982,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -4984,7 +4999,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -5001,7 +5016,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -5018,7 +5033,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -5035,7 +5050,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -5052,7 +5067,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -5069,7 +5084,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -5086,7 +5101,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -5103,7 +5118,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -5120,7 +5135,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -5137,7 +5152,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -5154,7 +5169,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -5171,7 +5186,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -5188,7 +5203,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -5205,7 +5220,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -5222,7 +5237,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -5239,7 +5254,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -5256,7 +5271,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -5273,7 +5288,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -5290,7 +5305,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -5307,7 +5322,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -5324,7 +5339,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -5341,7 +5356,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "bizinfo",
@@ -5358,103 +5373,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-04"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000124138",
-      "title": "2026년 충북청주 강소특구 X 심텍 AI 제조혁신 오픈이노베이션 지원사업 모집 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124138",
-      "apply_raw": "2026-07-07 ~ 2026-07-30",
-      "apply_start": "2026-07-07",
-      "apply_end": "2026-07-30",
-      "agency": "충청북도",
-      "exec_agency": "충북대학교 산학협력단",
-      "category": "기술",
-      "posted_at": "2026-07-09",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-07-30"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000123543",
-      "title": "[경북] 포항시 2026년 경북형(포항) 스마트공장(기초단계) 구축지원사업 추가모집 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123543",
-      "apply_raw": "2026-06-30 ~ 2026-07-24",
-      "apply_start": "2026-06-30",
-      "apply_end": "2026-07-24",
-      "agency": "경상북도",
-      "exec_agency": "포항테크노파크",
-      "category": "경영",
-      "posted_at": "2026-06-24",
-      "status": "",
-      "location": "",
-      "collected_at": "2026-07-24"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000124553",
-      "title": "2026년 협업지능 피지컬AI 기반 SW플랫폼 연구개발 생태계 조성 사업 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124553",
-      "apply_raw": "2026-06-26 ~ 2026-07-28",
-      "apply_start": "2026-06-26",
-      "apply_end": "2026-07-28",
-      "agency": "과학기술정보통신부",
-      "exec_agency": "정보통신산업진흥원",
-      "category": "기술",
-      "posted_at": "2026-07-21",
-      "status": "",
-      "collected_at": "2026-07-22"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000124187",
-      "title": "[전남광주] 2026년 탄소중립 제조혁신 고도화 2단계 사업 참여기업 추가모집 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124187",
-      "apply_raw": "2026-07-08 ~ 2026-07-23",
-      "apply_start": "2026-07-08",
-      "apply_end": "2026-07-23",
-      "agency": "전남광주통합특별시",
-      "exec_agency": "전남테크노파크",
-      "category": "경영",
-      "posted_at": "2026-07-09",
-      "status": "",
-      "location": "",
-      "collected_at": "2026-07-23"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000123881",
-      "title": "2026년 4차 제조공정 로봇도입 엔지니어링 컨설팅 모집 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123881",
-      "apply_raw": "2026-07-01 ~ 2026-07-31",
-      "apply_start": "2026-07-01",
-      "apply_end": "2026-07-31",
-      "agency": "산업통상부",
-      "exec_agency": "한국생산기술연구원",
-      "category": "기술",
-      "posted_at": "2026-07-02",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-07-31"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000123179",
-      "title": "[경기] 2026년 2차 제조로봇 도입ㆍ실증 및 고도화지원 사업 공고(제조로봇 도입지원)",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123179",
-      "apply_raw": "2026-06-15 ~ 2026-07-22",
-      "apply_start": "2026-06-15",
-      "apply_end": "2026-07-22",
-      "agency": "경기도",
-      "exec_agency": "경기테크노파크",
-      "category": "기술",
-      "posted_at": "2026-06-15",
-      "status": "",
-      "collected_at": "2026-07-22"
+      "collected_at": "2026-08-05"
     },
     {
       "source": "kiria",
@@ -5622,6 +5541,23 @@
       "category": "로봇",
       "posted_at": "2026-05-28",
       "status": "진행중",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "nipa",
+      "source_id": "16895",
+      "title": "2026년 2차 ICT 비즈니스 파트너십(일본) 참가기업 모집 안내",
+      "url": "https://www.nipa.kr/home/2-2/16895",
+      "apply_raw": "D-28",
+      "apply_start": null,
+      "apply_end": "2026-09-02",
+      "agency": "정보통신산업진흥원",
+      "exec_agency": "정보통신산업진흥원",
+      "category": "ICT",
+      "posted_at": "2026-08-05",
+      "status": "",
       "location": "",
       "founding": "",
       "collected_at": "2026-08-05"
@@ -6630,18 +6566,18 @@
       "collected_at": "2026-08-05"
     },
     {
-      "source": "nipa",
-      "source_id": "16572",
-      "title": "2026년 산업맞춤형 혁신바우처 지원사업 공급기업 최종 등록 결과 안내",
-      "url": "https://www.nipa.kr/home/2-2/16572",
-      "apply_raw": "종료",
+      "source": "snip",
+      "source_id": "2026-0221-4200",
+      "title": "2026년 유관기관 협력(오아시스마켓) 지원사업 참가기업 모집",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0221&pjtCd=4200&stateChk=N",
+      "apply_raw": "~ 2026.08.20",
       "apply_start": null,
-      "apply_end": "2026-08-04",
-      "agency": "정보통신산업진흥원",
-      "exec_agency": "정보통신산업진흥원",
-      "category": "ICT",
-      "posted_at": "2026-03-16",
-      "status": "",
+      "apply_end": "2026-08-20",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-08-05",
+      "status": "진행중",
       "location": "",
       "founding": "",
       "collected_at": "2026-08-05"
@@ -6777,23 +6713,6 @@
       "exec_agency": "성남산업진흥원",
       "category": "지역",
       "posted_at": "2026-07-22",
-      "status": "진행중",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-05"
-    },
-    {
-      "source": "snip",
-      "source_id": "2026-0205-4191",
-      "title": "2026년 북유럽 시장개척단 참가기업 모집",
-      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0205&pjtCd=4191&stateChk=N",
-      "apply_raw": "~ 2026.08.05",
-      "apply_start": null,
-      "apply_end": "2026-08-05",
-      "agency": "성남시",
-      "exec_agency": "성남산업진흥원",
-      "category": "지역",
-      "posted_at": "2026-07-21",
       "status": "진행중",
       "location": "",
       "founding": "",
@@ -6947,23 +6866,6 @@
       "exec_agency": "성남산업진흥원",
       "category": "지역",
       "posted_at": "2026-07-07",
-      "status": "진행중",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-05"
-    },
-    {
-      "source": "snip",
-      "source_id": "2026-0184-4172",
-      "title": "2026년 중소기업 청정공정 확산사업(공정진단, 설비보급)",
-      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0184&pjtCd=4172&stateChk=N",
-      "apply_raw": "~ 2026.08.05",
-      "apply_start": null,
-      "apply_end": "2026-08-05",
-      "agency": "성남시",
-      "exec_agency": "성남산업진흥원",
-      "category": "지역",
-      "posted_at": "2026-07-06",
       "status": "진행중",
       "location": "",
       "founding": "",
@@ -7362,6 +7264,23 @@
     },
     {
       "source": "snip",
+      "source_id": "2026-0205-4191",
+      "title": "2026년 북유럽 시장개척단 참가기업 모집",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0205&pjtCd=4191&stateChk=N",
+      "apply_raw": "~ 2026.08.05",
+      "apply_start": null,
+      "apply_end": "2026-08-05",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-07-21",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
       "source_id": "2026-0204-4190",
       "title": "제1비즈니스센터 (310호) 입주기업 재공고 모집",
       "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0204&pjtCd=4190&stateChk=N",
@@ -7491,6 +7410,23 @@
       "exec_agency": "성남산업진흥원",
       "category": "지역",
       "posted_at": "2026-07-08",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0184-4172",
+      "title": "2026년 중소기업 청정공정 확산사업(공정진단, 설비보급)",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0184&pjtCd=4172&stateChk=N",
+      "apply_raw": "~ 2026.08.05",
+      "apply_start": null,
+      "apply_end": "2026-08-05",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-07-06",
       "status": "마감",
       "location": "",
       "founding": "",
@@ -9197,6 +9133,907 @@
       "collected_at": "2026-08-05"
     },
     {
+      "source": "snip",
+      "source_id": "2026-0068-4117",
+      "title": "2026년 베트남 국제 프리미엄 소비재전(VIPREMIUM) 참가기업 모집",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0068&pjtCd=4117&stateChk=N",
+      "apply_raw": "~ 2026.03.27",
+      "apply_start": null,
+      "apply_end": "2026-03-27",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-03-13",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0065-4102",
+      "title": "2026년 IT기술기반 청년인재 기업 매칭 지원 사업 협력기관 추가모집 공고",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0065&pjtCd=4102&stateChk=N",
+      "apply_raw": "~ 2026.03.18",
+      "apply_start": null,
+      "apply_end": "2026-03-18",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-03-12",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0064-4043",
+      "title": "[성남시니어산업혁신센터]Age-Tech 기업 사업화 지원 참여기업 모집 공고",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0064&pjtCd=4043&stateChk=N",
+      "apply_raw": "~ 2026.03.27",
+      "apply_start": null,
+      "apply_end": "2026-03-27",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-03-11",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0063-4097",
+      "title": "「시스템반도체 개발 인프라 활용 지원」사업 기업 모집【 설계 검증 부문 】",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0063&pjtCd=4097&stateChk=N",
+      "apply_raw": "~ 2026.03.24",
+      "apply_start": null,
+      "apply_end": "2026-03-24",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-03-10",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0062-4103",
+      "title": "성남창업센터(킨스타워) 개방형 2차 추가모집 재공고(정자동)",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0062&pjtCd=4103&stateChk=N",
+      "apply_raw": "~ 2026.03.20",
+      "apply_start": null,
+      "apply_end": "2026-03-20",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-03-10",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0061-4115",
+      "title": "2026 시장검증 지원 참여기업 모집 공고",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0061&pjtCd=4115&stateChk=N",
+      "apply_raw": "~ 2026.03.25",
+      "apply_start": null,
+      "apply_end": "2026-03-25",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-03-09",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0060-4114",
+      "title": "[성남중장년기술창업센터] (중장년) 성남시민 1인 1특허 갖기 운동 교육 3기 교육생 모집",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0060&pjtCd=4114&stateChk=N",
+      "apply_raw": "~ 2026.03.27",
+      "apply_start": null,
+      "apply_end": "2026-03-27",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-03-09",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0059-4079",
+      "title": "2026「C&D 기관협력사업(바이오헬스 기업 전주기 지원)」 참가기업 모집안내",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0059&pjtCd=4079&stateChk=N",
+      "apply_raw": "~ 2026.03.27",
+      "apply_start": null,
+      "apply_end": "2026-03-27",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-03-09",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0058-4080",
+      "title": "2026 C&D 실증지원 사업 기업 모집공고",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0058&pjtCd=4080&stateChk=N",
+      "apply_raw": "~ 2026.03.27",
+      "apply_start": null,
+      "apply_end": "2026-03-27",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-03-09",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0057-4113",
+      "title": "[성남특허센터] (청년) 성남시민 1인 1특허 갖기 운동 교육 3기 교육생 모집",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0057&pjtCd=4113&stateChk=N",
+      "apply_raw": "~ 2026.03.27",
+      "apply_start": null,
+      "apply_end": "2026-03-27",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-03-06",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0056-4112",
+      "title": "[성남특허센터] (통합공고) 성남시민 1인 1특허 갖기 운동 3기 교육생 모집",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0056&pjtCd=4112&stateChk=N",
+      "apply_raw": "~ 2026.03.27",
+      "apply_start": null,
+      "apply_end": "2026-03-27",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-03-06",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0055-4110",
+      "title": "2026 성남 오픈이노베이션 창업기업 모집공고(대중견사 수요과제 기반)",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0055&pjtCd=4110&stateChk=N",
+      "apply_raw": "~ 2026.03.20",
+      "apply_start": null,
+      "apply_end": "2026-03-20",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-03-06",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0054-4109",
+      "title": "2026 사업화 패키지 지원 협력기관(투자사) 모집공고",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0054&pjtCd=4109&stateChk=N",
+      "apply_raw": "~ 2026.03.20",
+      "apply_start": null,
+      "apply_end": "2026-03-20",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-03-05",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0053-4109",
+      "title": "2026 사업화 패키지 지원 협력기관(대기업) 모집공고",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0053&pjtCd=4109&stateChk=N",
+      "apply_raw": "~ 2026.03.20",
+      "apply_start": null,
+      "apply_end": "2026-03-20",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-03-05",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0052-4107",
+      "title": "2026년 2차 성남글로벌융합센터 신규 입주기업 모집",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0052&pjtCd=4107&stateChk=N",
+      "apply_raw": "~ 2026.03.20",
+      "apply_start": null,
+      "apply_end": "2026-03-20",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-03-05",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0051-4108",
+      "title": "2026년 국내 유망전시회 개별참가 지원기업 모집",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0051&pjtCd=4108&stateChk=N",
+      "apply_raw": "~ 2026.03.20",
+      "apply_start": null,
+      "apply_end": "2026-03-20",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-03-05",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0050-4043",
+      "title": "[성남시니어산업혁신센터] 2026년 고령친화 우수제품 전시 지원사업(1차) 참여기업 모집",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0050&pjtCd=4043&stateChk=N",
+      "apply_raw": "~ 2026.03.20",
+      "apply_start": null,
+      "apply_end": "2026-03-20",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-03-04",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0048-4106",
+      "title": "2026년 유관기관 협력(미디어마케팅-TV홈쇼핑) 지원사업 참가기업 모집(홈앤쇼핑)",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0048&pjtCd=4106&stateChk=N",
+      "apply_raw": "~ 2026.03.17",
+      "apply_start": null,
+      "apply_end": "2026-03-17",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-03-03",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0044-4043",
+      "title": "[성남 시니어산업혁신센터] 2026년 친고령혁신제품 인증지원 참여기업 모집(상반기)",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0044&pjtCd=4043&stateChk=N",
+      "apply_raw": "~ 2026.03.24",
+      "apply_start": null,
+      "apply_end": "2026-03-24",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-03-03",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0043-4034",
+      "title": "2026년「성남산업진흥원 전문위원 풀(Pool)」 신규 전문가 모집 공고",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0043&pjtCd=4034&stateChk=N",
+      "apply_raw": "~ 2026.03.17",
+      "apply_start": null,
+      "apply_end": "2026-03-17",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-02-27",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0042-4105",
+      "title": "제1비즈니스센터(310호) 신규입주기업 모집공고",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0042&pjtCd=4105&stateChk=N",
+      "apply_raw": "~ 2026.03.23",
+      "apply_start": null,
+      "apply_end": "2026-03-23",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-02-27",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0041-4104",
+      "title": "킨스타워(2200호) 신규입주 재공고 모집",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0041&pjtCd=4104&stateChk=N",
+      "apply_raw": "~ 2026.03.09",
+      "apply_start": null,
+      "apply_end": "2026-03-09",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-02-26",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0040-4103",
+      "title": "성남창업센터(킨스타워) 개방형 추가모집 재공고(정자동)",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0040&pjtCd=4103&stateChk=N",
+      "apply_raw": "~ 2026.03.10",
+      "apply_start": null,
+      "apply_end": "2026-03-10",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-02-26",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0039-4078",
+      "title": "C&D 기관협력사업 프로그램 설명회 참가 기업 모집",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0039&pjtCd=4078&stateChk=N",
+      "apply_raw": "~ 2026.03.11",
+      "apply_start": null,
+      "apply_end": "2026-03-11",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-02-26",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0038-4102",
+      "title": "2026년 IT기술기반 청년인재 기업 매칭 지원 사업 협력기관 모집 공고",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0038&pjtCd=4102&stateChk=N",
+      "apply_raw": "~ 2026.03.10",
+      "apply_start": null,
+      "apply_end": "2026-03-10",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-02-25",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0037-4101",
+      "title": "2026 성남 챔프(CHAMP, 성남창업경연대회) 참가기업 모집 공고",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0037&pjtCd=4101&stateChk=N",
+      "apply_raw": "~ 2026.03.13",
+      "apply_start": null,
+      "apply_end": "2026-03-13",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-02-24",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0036-4095",
+      "title": "2026년「ICT융합 협의회 운영」사업 참여 기관·기업 모집",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0036&pjtCd=4095&stateChk=N",
+      "apply_raw": "~ 2026.03.10",
+      "apply_start": null,
+      "apply_end": "2026-03-10",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-02-24",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0035-4099",
+      "title": "2026 「K방산 지원사업 설명회」 참가자 모집",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0035&pjtCd=4099&stateChk=N",
+      "apply_raw": "~ 2026.03.11",
+      "apply_start": null,
+      "apply_end": "2026-03-11",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-02-23",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0034-4100",
+      "title": "성남 중장년 기술창업센터 신규 입주기업 모집",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0034&pjtCd=4100&stateChk=N",
+      "apply_raw": "~ 2026.03.20",
+      "apply_start": null,
+      "apply_end": "2026-03-20",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-02-23",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0033-4094",
+      "title": "[성남식품연구개발지원센터]2026년 식품분석지원 참여기업 모집안내(3월)",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0033&pjtCd=4094&stateChk=N",
+      "apply_raw": "~ 2026.02.24",
+      "apply_start": null,
+      "apply_end": "2026-02-24",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-02-23",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0032-4091",
+      "title": "2026년 성남 기후테크 스타트업 사업화 자금 지원 기업 모집 공고",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0032&pjtCd=4091&stateChk=N",
+      "apply_raw": "~ 2026.03.12",
+      "apply_start": null,
+      "apply_end": "2026-03-12",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-02-20",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0031-4093",
+      "title": "2026년 성남 기후테크 스케일업 사업화 자금 지원 기업 모집 공고",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0031&pjtCd=4093&stateChk=N",
+      "apply_raw": "~ 2026.03.12",
+      "apply_start": null,
+      "apply_end": "2026-03-12",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-02-20",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0030-4092",
+      "title": "성남 융복합 로컬크리에이터, 참가기업 모집",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0030&pjtCd=4092&stateChk=N",
+      "apply_raw": "~ 2026.03.16",
+      "apply_start": null,
+      "apply_end": "2026-03-16",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-02-12",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0029-4088",
+      "title": "2026년「성남 스타트업 지원사업 설명회」참가자 모집",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0029&pjtCd=4088&stateChk=N",
+      "apply_raw": "~ 2026.02.25",
+      "apply_start": null,
+      "apply_end": "2026-02-25",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-02-10",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0028-4087",
+      "title": "2026년 유관기관 협력(미디어마케팅-유튜브) 지원사업 협력기관(크리에이터) 모집",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0028&pjtCd=4087&stateChk=N",
+      "apply_raw": "~ 2026.03.06",
+      "apply_start": null,
+      "apply_end": "2026-03-06",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-02-09",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0027-4086",
+      "title": "2026년 성남 오픈이노베이션 대중견기업 수요과제 모집 공고",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0027&pjtCd=4086&stateChk=N",
+      "apply_raw": "~ 2026.02.25",
+      "apply_start": null,
+      "apply_end": "2026-02-25",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-02-09",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0024-4076",
+      "title": "사업화 패키지 지원(기업단독형, 컨소시엄) 모집 공고",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0024&pjtCd=4076&stateChk=N",
+      "apply_raw": "~ 2026.02.27",
+      "apply_start": null,
+      "apply_end": "2026-02-27",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-02-05",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0023-4075",
+      "title": "킨스타워(2200호) 신규 입주기업 모집공고",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0023&pjtCd=4075&stateChk=N",
+      "apply_raw": "~ 2026.02.25",
+      "apply_start": null,
+      "apply_end": "2026-02-25",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-02-05",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0022-4073",
+      "title": "2026 생산공정 개선 지원사업 참여기업 모집",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0022&pjtCd=4073&stateChk=N",
+      "apply_raw": "~ 2026.02.27",
+      "apply_start": null,
+      "apply_end": "2026-02-27",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-02-04",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0021-4034",
+      "title": "「2026년 성남산업진흥원 지원사업비 정산」 수행기관(회계법인) 모집 공고",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0021&pjtCd=4034&stateChk=N",
+      "apply_raw": "~ 2026.02.23",
+      "apply_start": null,
+      "apply_end": "2026-02-23",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-02-04",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0020-4072",
+      "title": "2026년 투자활성화 지원 협력기관 모집 공고",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0020&pjtCd=4072&stateChk=N",
+      "apply_raw": "~ 2026.02.20",
+      "apply_start": null,
+      "apply_end": "2026-02-20",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-02-04",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0019-4069",
+      "title": "2026년 창업기업 상시 멘토링 참여자(멘티) 모집",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0019&pjtCd=4069&stateChk=N",
+      "apply_raw": "~ 2026.06.11",
+      "apply_start": null,
+      "apply_end": "2026-06-11",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-02-03",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0017-4067",
+      "title": "2026년 유관기관 협력(미디어마케팅-TV홈쇼핑) 지원사업 참가기업 모집 / 공영홈쇼핑",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0017&pjtCd=4067&stateChk=N",
+      "apply_raw": "~ 2026.02.20",
+      "apply_start": null,
+      "apply_end": "2026-02-20",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-02-02",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0016-4065",
+      "title": "2026년도 마케팅 패키지 지원사업 참여기업 모집 안내공고",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0016&pjtCd=4065&stateChk=N",
+      "apply_raw": "~ 2026.02.13",
+      "apply_start": null,
+      "apply_end": "2026-02-13",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-01-29",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0014-4056",
+      "title": "[하이 메이커스페이스] 제품촬영, 인물 촬영, 가족사진, 오르빗뷰 장비활용교육 참가자 모집",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0014&pjtCd=4056&stateChk=N",
+      "apply_raw": "~ 2026.02.03",
+      "apply_start": null,
+      "apply_end": "2026-02-03",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-01-26",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0013-4061",
+      "title": "[성남식품연구개발지원센터]2026년 식품분석지원 참여기업 모집안내(2월)",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0013&pjtCd=4061&stateChk=N",
+      "apply_raw": "~ 2026.01.27",
+      "apply_start": null,
+      "apply_end": "2026-01-27",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-01-26",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0012-4058",
+      "title": "『2026년 스타트업 점프업 스쿨』교육 협력기관 모집공고",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0012&pjtCd=4058&stateChk=N",
+      "apply_raw": "~ 2026.02.06",
+      "apply_start": null,
+      "apply_end": "2026-02-06",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-01-23",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0011-4056",
+      "title": "[하이 메이커스페이스] 3D설계/프린팅 장비활용교육 참가자 모집",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0011&pjtCd=4056&stateChk=N",
+      "apply_raw": "~ 2026.01.27",
+      "apply_start": null,
+      "apply_end": "2026-01-27",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-01-22",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0010-4045",
+      "title": "킨스타워 26년 개방형 추가 모집 재공고",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0010&pjtCd=4045&stateChk=N",
+      "apply_raw": "~ 2026.01.28",
+      "apply_start": null,
+      "apply_end": "2026-01-28",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-01-20",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "kstartup",
+      "source_id": "178762",
+      "title": "2026 강원권 LIPS 민간운영사 연합 INVESTOR DAY 8월 참여기업 모집",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178762",
+      "apply_raw": "2026-08-04 ~ 2026-08-24",
+      "apply_start": "2026-08-04",
+      "apply_end": "2026-08-24",
+      "agency": "2026 강원권 LIPS 민간운영사 연합 INVESTOR DAY 8월",
+      "exec_agency": "2026 강원권 LIPS 민간운영사 연합 INVESTOR DAY 8월",
+      "category": "행사ㆍ네트워크",
+      "posted_at": "2026-08-05",
+      "status": "",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "kstartup",
+      "source_id": "178761",
+      "title": "하반「스타트업 점프업 스쿨」 기술창업교육 참여기업 모집",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178761",
+      "apply_raw": "2026-07-31 ~ 2026-08-14",
+      "apply_start": "2026-07-31",
+      "apply_end": "2026-08-14",
+      "agency": "스타트업 점프업스쿨",
+      "exec_agency": "스타트업 점프업스쿨",
+      "category": "멘토링ㆍ컨설팅ㆍ교육",
+      "posted_at": "2026-08-05",
+      "status": "",
+      "location": "",
+      "founding": "전체",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "kstartup",
+      "source_id": "178778",
+      "title": "[한국수자원공사] CES 2027 K-water관 참여기관 모집 공고(2차)",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178778",
+      "apply_raw": "2026-08-03 ~ 2026-08-11",
+      "apply_start": "2026-08-03",
+      "apply_end": "2026-08-11",
+      "agency": "한국수자원공사",
+      "exec_agency": "한국수자원공사",
+      "category": "글로벌",
+      "posted_at": "2026-08-05",
+      "status": "",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "kstartup",
+      "source_id": "178812",
+      "title": "2026년 성남시 폴란드 방산 시장개척단 참가기업 모집",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178812",
+      "apply_raw": "2026-08-05 ~ 2026-08-18",
+      "apply_start": "2026-08-05",
+      "apply_end": "2026-08-18",
+      "agency": "성남산업진흥원",
+      "exec_agency": "성남산업진흥원",
+      "category": "판로ㆍ해외진출",
+      "posted_at": "2026-08-05",
+      "status": "",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
       "source": "kstartup",
       "source_id": "178764",
       "title": "연구개발특구진흥재단 X HS효성/효성  2026년 오픈이노베이션 배치프로그램 참가기업 모집공고",
@@ -9844,23 +10681,6 @@
     },
     {
       "source": "kstartup",
-      "source_id": "178681",
-      "title": "2026 빅웨이브 글로벌(일본4차) - 글로벌 오픈이노베이션 세미나 및 밋업(일본 츄가이제약) 참여기업 모집",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178681",
-      "apply_raw": "2026-07-20 ~ 2026-08-05",
-      "apply_start": "2026-07-20",
-      "apply_end": "2026-08-05",
-      "agency": "인천창조경제혁신센터",
-      "exec_agency": "인천창조경제혁신센터",
-      "category": "글로벌",
-      "posted_at": "2026-07-29",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-05"
-    },
-    {
-      "source": "kstartup",
       "source_id": "178693",
       "title": "(기간연장)[창업점검] 2026년 체육인 직업안정사업(창업열매) 참여자 추가 모집_(~8.31마감시)",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178693",
@@ -10286,23 +11106,6 @@
     },
     {
       "source": "kstartup",
-      "source_id": "178642",
-      "title": "2026년 성남시 북유럽 시장개척단 참여기업 모집",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178642",
-      "apply_raw": "2026-07-21 ~ 2026-08-05",
-      "apply_start": "2026-07-21",
-      "apply_end": "2026-08-05",
-      "agency": "성남산업진흥원",
-      "exec_agency": "성남산업진흥원",
-      "category": "판로ㆍ해외진출",
-      "posted_at": "2026-07-23",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-05"
-    },
-    {
-      "source": "kstartup",
       "source_id": "178643",
       "title": "여성 1인 창조기업 지원센터 신규 입주기업 모집",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178643",
@@ -10333,23 +11136,6 @@
       "status": "",
       "location": "",
       "founding": "7년미만, 10년미만",
-      "collected_at": "2026-08-05"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "178648",
-      "title": "성북구 한성대 벤처창업지원센터 하반기 입주기업 모집공고",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178648",
-      "apply_raw": "2026-07-22 ~ 2026-08-05",
-      "apply_start": "2026-07-22",
-      "apply_end": "2026-08-05",
-      "agency": "벤처창업지원센터",
-      "exec_agency": "벤처창업지원센터",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-07-23",
-      "status": "",
-      "location": "서울특별시 성북구 화랑로 211 라. 계약 기간 가. 2026년 09월 01일 ~ 2027년 08월 31일(1년) 나. 매년 재입주 평가를 통해",
-      "founding": "",
       "collected_at": "2026-08-05"
     },
     {
@@ -10482,40 +11268,6 @@
       "agency": "마포청년창업취업지원센터 나루 2026",
       "exec_agency": "마포청년창업취업지원센터 나루 2026",
       "category": "창업교육",
-      "posted_at": "2026-07-21",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-05"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "178596",
-      "title": "2026년 지역창업특화지원사업(1인)  제3차 신규 입주기업 모집",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178596",
-      "apply_raw": "2026-07-16 ~ 2026-08-05",
-      "apply_start": "2026-07-16",
-      "apply_end": "2026-08-05",
-      "agency": "지역창업특화지원",
-      "exec_agency": "지역창업특화지원",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-07-21",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-05"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "178583",
-      "title": "2026 연구 아이디어 기술사업화 챌린지 참가자 모집 공고 연장",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178583",
-      "apply_raw": "2026-07-15 ~ 2026-08-05",
-      "apply_start": "2026-07-15",
-      "apply_end": "2026-08-05",
-      "agency": "2026 연구 아이디어 기술사업화 챌린지",
-      "exec_agency": "2026 연구 아이디어 기술사업화 챌린지",
-      "category": "행사ㆍ네트워크",
       "posted_at": "2026-07-21",
       "status": "",
       "location": "",
@@ -10830,23 +11582,6 @@
     },
     {
       "source": "kstartup",
-      "source_id": "178580",
-      "title": "[창업] 스타트업 제안 및 영업 전략",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178580",
-      "apply_raw": "2026-07-15 ~ 2026-08-05",
-      "apply_start": "2026-07-15",
-      "apply_end": "2026-08-05",
-      "agency": "마포청년창업취업지원센터 나루 2026",
-      "exec_agency": "마포청년창업취업지원센터 나루 2026",
-      "category": "창업교육",
-      "posted_at": "2026-07-20",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-05"
-    },
-    {
-      "source": "kstartup",
       "source_id": "178408",
       "title": "2026 경기도 ESG 인식확산 교육",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178408",
@@ -10975,6 +11710,23 @@
       "agency": "국가보훈부",
       "exec_agency": "국가보훈부",
       "category": "창업교육",
+      "posted_at": "2026-07-16",
+      "status": "",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-05"
+    },
+    {
+      "source": "kstartup",
+      "source_id": "178514",
+      "title": "2026 LG생활건강 Beauty Tech Greennovation 스타트업 추가모집공고",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178514",
+      "apply_raw": "2026-08-04 ~ 2026-08-10",
+      "apply_start": "2026-08-04",
+      "apply_end": "2026-08-10",
+      "agency": "2026 LG생활건강 Beauty Tech Greennovation 스타트업 모집공고",
+      "exec_agency": "2026 LG생활건강 Beauty Tech Greennovation 스타트업 모집공고",
+      "category": "사업화",
       "posted_at": "2026-07-16",
       "status": "",
       "location": "",
@@ -11369,23 +12121,6 @@
       "posted_at": "2026-07-02",
       "status": "",
       "location": "인천 광역시 남동구 앵고개로 928, DA프라자 3층 상기 일정은 사업운영기관의 내부사정으로 변경될 수 있습니다. 지원내용 인프라 지원 - 입주",
-      "founding": "",
-      "collected_at": "2026-08-05"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "178292",
-      "title": "2026 글로벌 공공조달 DX·AX 혁신 리더 과정(2기) 세미나 모집",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178292",
-      "apply_raw": "2026-06-25 ~ 2026-08-05",
-      "apply_start": "2026-06-25",
-      "apply_end": "2026-08-05",
-      "agency": "2026 산업전문인력 AI역량강화 지원사업",
-      "exec_agency": "2026 산업전문인력 AI역량강화 지원사업",
-      "category": "멘토링ㆍ컨설팅ㆍ교육",
-      "posted_at": "2026-06-26",
-      "status": "",
-      "location": "",
       "founding": "",
       "collected_at": "2026-08-05"
     },
@@ -12663,6 +13398,119 @@
       "location": "",
       "founding": "",
       "collected_at": "2026-08-05"
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000124553",
+      "title": "2026년 협업지능 피지컬AI 기반 SW플랫폼 연구개발 생태계 조성 사업 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124553",
+      "apply_raw": "2026-06-26 ~ 2026-07-28",
+      "apply_start": "2026-06-26",
+      "apply_end": "2026-07-28",
+      "agency": "과학기술정보통신부",
+      "exec_agency": "정보통신산업진흥원",
+      "category": "기술",
+      "posted_at": "2026-07-21",
+      "status": "",
+      "collected_at": "2026-07-22"
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000123881",
+      "title": "2026년 4차 제조공정 로봇도입 엔지니어링 컨설팅 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123881",
+      "apply_raw": "2026-07-01 ~ 2026-07-31",
+      "apply_start": "2026-07-01",
+      "apply_end": "2026-07-31",
+      "agency": "산업통상부",
+      "exec_agency": "한국생산기술연구원",
+      "category": "기술",
+      "posted_at": "2026-07-02",
+      "status": "",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-07-31"
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000124444",
+      "title": "[인천] 2026년 로봇 액셀러레이팅 프로그램 참여기업 모집 공고(로봇산업 혁신성장 지원사업)",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124444",
+      "apply_raw": "2026-07-15 ~ 2026-08-04",
+      "apply_start": "2026-07-15",
+      "apply_end": "2026-08-04",
+      "agency": "인천광역시",
+      "exec_agency": "인천테크노파크",
+      "category": "기술",
+      "posted_at": "2026-07-16",
+      "status": "",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-04"
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000124187",
+      "title": "[전남광주] 2026년 탄소중립 제조혁신 고도화 2단계 사업 참여기업 추가모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124187",
+      "apply_raw": "2026-07-08 ~ 2026-07-23",
+      "apply_start": "2026-07-08",
+      "apply_end": "2026-07-23",
+      "agency": "전남광주통합특별시",
+      "exec_agency": "전남테크노파크",
+      "category": "경영",
+      "posted_at": "2026-07-09",
+      "status": "",
+      "location": "",
+      "collected_at": "2026-07-23"
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000123543",
+      "title": "[경북] 포항시 2026년 경북형(포항) 스마트공장(기초단계) 구축지원사업 추가모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123543",
+      "apply_raw": "2026-06-30 ~ 2026-07-24",
+      "apply_start": "2026-06-30",
+      "apply_end": "2026-07-24",
+      "agency": "경상북도",
+      "exec_agency": "포항테크노파크",
+      "category": "경영",
+      "posted_at": "2026-06-24",
+      "status": "",
+      "location": "",
+      "collected_at": "2026-07-24"
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000123179",
+      "title": "[경기] 2026년 2차 제조로봇 도입ㆍ실증 및 고도화지원 사업 공고(제조로봇 도입지원)",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123179",
+      "apply_raw": "2026-06-15 ~ 2026-07-22",
+      "apply_start": "2026-06-15",
+      "apply_end": "2026-07-22",
+      "agency": "경기도",
+      "exec_agency": "경기테크노파크",
+      "category": "기술",
+      "posted_at": "2026-06-15",
+      "status": "",
+      "collected_at": "2026-07-22"
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000124138",
+      "title": "2026년 충북청주 강소특구 X 심텍 AI 제조혁신 오픈이노베이션 지원사업 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124138",
+      "apply_raw": "2026-07-07 ~ 2026-07-30",
+      "apply_start": "2026-07-07",
+      "apply_end": "2026-07-30",
+      "agency": "충청북도",
+      "exec_agency": "충북대학교 산학협력단",
+      "category": "기술",
+      "posted_at": "2026-07-09",
+      "status": "",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-07-30"
     }
   ]
 }
