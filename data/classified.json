@@ -3,6 +3,33 @@
   "cards": [
     {
       "source": "kstartup",
+      "source_id": "178771",
+      "title": "2026 협성대학교 창업보육센터 하반기 신규 입주기업 모집 공고",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178771",
+      "apply_raw": "2026-08-04 ~ 2026-08-31",
+      "apply_start": "2026-08-04",
+      "apply_end": "2026-08-31",
+      "agency": "창업보육센터 지원",
+      "exec_agency": "창업보육센터 지원",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-08-06",
+      "status": "접수중",
+      "location": "경기도 화성시 봉담읍 최루백로 72 협성대학교 창업보육센터 ○ 모집기간 : 상시모집 ○ 입주기간 : 입주일 ~ 최대 3년(연장 심사를 통해 최대",
+      "founding": "",
+      "collected_at": "2026-08-06",
+      "key": "kstartup:178771",
+      "track": "C",
+      "score": 9,
+      "region": "경기",
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업, 창업보육, 보육센터",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
+      "source": "kstartup",
       "source_id": "178706",
       "title": "남서울대학교 창업보육센터 입주기업 모집 (천안소재)",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178706",
@@ -617,6 +644,33 @@
     },
     {
       "source": "kstartup",
+      "source_id": "178780",
+      "title": "2026년 블록체인 기업성장허브 입주기업 모집",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178780",
+      "apply_raw": "2026-07-30 ~ 2026-08-27",
+      "apply_start": "2026-07-30",
+      "apply_end": "2026-08-27",
+      "agency": "한국인터넷진흥원",
+      "exec_agency": "한국인터넷진흥원",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-08-06",
+      "status": "접수중",
+      "location": "서울시 송파구 중대로 135 IT벤처타워 서관 10층 2. 공간구성 : 독립공간 11개실(4~12인) ※ 12인 1개실, 8인 5개실, 6인 1",
+      "founding": "",
+      "collected_at": "2026-08-06",
+      "key": "kstartup:178780",
+      "track": "C",
+      "score": 3,
+      "region": "서울",
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
+      "source": "kstartup",
       "source_id": "178686",
       "title": "2026년 2차 28청춘창업소 신규 입주기업 모집",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178686",
@@ -690,6 +744,33 @@
       "conditional": null,
       "reasons": [
         "핵심 키워드: AI",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
+      "source": "kstartup",
+      "source_id": "178785",
+      "title": "[LH한국토지주택공사] 판교 제2테크노밸리 기업성장센터(F2블록) 산업시설 입주기업 추가 모집 공고",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178785",
+      "apply_raw": "2026-08-07 ~ 2026-09-02",
+      "apply_start": "2026-08-07",
+      "apply_end": "2026-09-02",
+      "agency": "한국토지주택공사 경기남부지역본부",
+      "exec_agency": "한국토지주택공사 경기남부지역본부",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-08-06",
+      "status": "접수중",
+      "location": "",
+      "founding": "전체",
+      "collected_at": "2026-08-06",
+      "key": "kstartup:178785",
+      "track": "C",
+      "score": 3,
+      "region": "경기",
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업",
         "자동 분류"
       ],
       "auto": true
@@ -1806,6 +1887,31 @@
       ]
     },
     {
+      "source": "kstartup",
+      "source_id": "178791",
+      "title": "제 2회 판다밋업 :  AI 반도체 글로벌 파트너십  Innovation Bridge",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178791",
+      "apply_raw": "2026-08-04 ~ 2026-08-20",
+      "apply_start": "2026-08-04",
+      "apply_end": "2026-08-20",
+      "agency": "제2회 판다밋업 : AI 반도체 글로벌 파트너십 Innovation Bridge",
+      "exec_agency": "제2회 판다밋업 : AI 반도체 글로벌 파트너십 Innovation Bridge",
+      "category": "행사ㆍ네트워크",
+      "posted_at": "2026-08-06",
+      "status": "마감임박",
+      "location": "",
+      "founding": "전체",
+      "collected_at": "2026-08-06",
+      "key": "kstartup:178791",
+      "track": "A",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: AI"
+      ]
+    },
+    {
       "source": "bizinfo",
       "source_id": "PBLN_000000000124870",
       "title": "[전남광주] 2026년 스마트공장(기초단계) 보급ㆍ확산사업 지원 공고",
@@ -2267,13 +2373,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-08-06T09:42:28",
+  "collected_at": "2026-08-06T13:14:46",
   "stats": {
-    "collected": 740,
-    "cards": 35,
+    "collected": 778,
+    "cards": 38,
     "expired": 13,
-    "candidates": 40,
+    "candidates": 41,
     "excluded": 0,
-    "dropped": 652
+    "dropped": 686
   }
 }
