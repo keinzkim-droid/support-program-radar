@@ -1007,6 +1007,32 @@
   ],
   "expired": [
     {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000124444",
+      "title": "[인천] 2026년 로봇 액셀러레이팅 프로그램 참여기업 모집 공고(로봇산업 혁신성장 지원사업)",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124444",
+      "apply_raw": "2026-07-15 ~ 2026-08-04",
+      "apply_start": "2026-07-15",
+      "apply_end": "2026-08-04",
+      "agency": "인천광역시",
+      "exec_agency": "인천테크노파크",
+      "category": "기술",
+      "posted_at": "2026-07-16",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-04",
+      "key": "bizinfo:PBLN_000000000124444",
+      "track": "A",
+      "score": 3,
+      "region": "인천",
+      "conditional": "조건부 지역",
+      "reasons": [
+        "핵심 키워드: 로봇",
+        "조건부: 조건부 지역"
+      ]
+    },
+    {
       "source": "kiria",
       "source_id": "IBUS_000000000001259",
       "title": "2026년 「규제혁신 로봇 실증사업」지원과제 2차 모집 공고",
@@ -1054,32 +1080,6 @@
       "conditional": null,
       "reasons": [
         "핵심 키워드: 로봇, 서비스로봇, 실증"
-      ]
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000124444",
-      "title": "[인천] 2026년 로봇 액셀러레이팅 프로그램 참여기업 모집 공고(로봇산업 혁신성장 지원사업)",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124444",
-      "apply_raw": "2026-07-15 ~ 2026-08-04",
-      "apply_start": "2026-07-15",
-      "apply_end": "2026-08-04",
-      "agency": "인천광역시",
-      "exec_agency": "인천테크노파크",
-      "category": "기술",
-      "posted_at": "2026-07-16",
-      "status": "마감",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-04",
-      "key": "bizinfo:PBLN_000000000124444",
-      "track": "A",
-      "score": 3,
-      "region": "인천",
-      "conditional": "조건부 지역",
-      "reasons": [
-        "핵심 키워드: 로봇",
-        "조건부: 조건부 지역"
       ]
     },
     {
@@ -1232,6 +1232,30 @@
       ]
     },
     {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000123543",
+      "title": "[경북] 포항시 2026년 경북형(포항) 스마트공장(기초단계) 구축지원사업 추가모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123543",
+      "apply_raw": "2026-06-30 ~ 2026-07-24",
+      "apply_start": "2026-06-30",
+      "apply_end": "2026-07-24",
+      "agency": "경상북도",
+      "exec_agency": "포항테크노파크",
+      "category": "경영",
+      "posted_at": "2026-06-24",
+      "status": "마감",
+      "location": "",
+      "collected_at": "2026-07-24",
+      "key": "bizinfo:PBLN_000000000123543",
+      "track": "B",
+      "score": 3,
+      "region": "경북",
+      "conditional": null,
+      "reasons": [
+        "고객사향 키워드: 스마트공장"
+      ]
+    },
+    {
       "source": "snip",
       "source_id": "2026-0182-4182",
       "title": "2026년 4차 성남글로벌융합센터 신규 입주기업 모집",
@@ -1254,30 +1278,6 @@
       "conditional": null,
       "reasons": [
         "사무실·공간 키워드: 입주기업"
-      ]
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000123543",
-      "title": "[경북] 포항시 2026년 경북형(포항) 스마트공장(기초단계) 구축지원사업 추가모집 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123543",
-      "apply_raw": "2026-06-30 ~ 2026-07-24",
-      "apply_start": "2026-06-30",
-      "apply_end": "2026-07-24",
-      "agency": "경상북도",
-      "exec_agency": "포항테크노파크",
-      "category": "경영",
-      "posted_at": "2026-06-24",
-      "status": "마감",
-      "location": "",
-      "collected_at": "2026-07-24",
-      "key": "bizinfo:PBLN_000000000123543",
-      "track": "B",
-      "score": 3,
-      "region": "경북",
-      "conditional": null,
-      "reasons": [
-        "고객사향 키워드: 스마트공장"
       ]
     },
     {
@@ -2373,7 +2373,7 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-08-06T13:14:46",
+  "collected_at": "2026-08-06T18:45:26",
   "stats": {
     "collected": 778,
     "cards": 38,
