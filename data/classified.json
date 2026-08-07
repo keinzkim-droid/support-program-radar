@@ -2348,13 +2348,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-08-07T11:10:07",
+  "collected_at": "2026-08-07T14:44:49",
   "stats": {
-    "collected": 790,
+    "collected": 786,
     "cards": 38,
     "expired": 13,
     "candidates": 40,
     "excluded": 0,
-    "dropped": 699
+    "dropped": 695
   }
 }
