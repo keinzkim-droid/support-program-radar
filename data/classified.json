@@ -1377,6 +1377,32 @@
     },
     {
       "source": "bizinfo",
+      "source_id": "PBLN_000000000125294",
+      "title": "2026년 4차 국민생활안전 긴급대응연구(2단계) 기술개발 및 실증 신규과제 공모",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125294",
+      "apply_raw": "2026-08-24 ~ 2026-09-07",
+      "apply_start": "2026-08-24",
+      "apply_end": "2026-09-07",
+      "agency": "과학기술정보통신부",
+      "exec_agency": "한국연구재단",
+      "category": "기술",
+      "posted_at": "2026-08-10",
+      "status": "접수중",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-10",
+      "key": "bizinfo:PBLN_000000000125294",
+      "track": "A",
+      "score": 4,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: 실증",
+        "관련 키워드: 기술개발"
+      ]
+    },
+    {
+      "source": "bizinfo",
       "source_id": "PBLN_000000000124792",
       "title": "2026년 인증획득제품 해외 실증 지원사업(추경 포함) 추가 모집 공고",
       "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124792",
@@ -1726,6 +1752,31 @@
       "conditional": null,
       "reasons": [
         "사무실·공간 키워드: 입주기업"
+      ]
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000125295",
+      "title": "2026년 K-AI 글로벌 밸류체인 진출 지원 참가기업 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125295",
+      "apply_raw": "2026-08-05 ~ 2026-08-20",
+      "apply_start": "2026-08-05",
+      "apply_end": "2026-08-20",
+      "agency": "중소벤처기업부",
+      "exec_agency": "중소벤처기업진흥공단",
+      "category": "수출",
+      "posted_at": "2026-08-10",
+      "status": "마감임박",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-10",
+      "key": "bizinfo:PBLN_000000000125295",
+      "track": "A",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: AI"
       ]
     },
     {
@@ -2240,12 +2291,12 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-08-10T12:38:42",
+  "collected_at": "2026-08-10T17:34:47",
   "stats": {
-    "collected": 762,
+    "collected": 764,
     "cards": 34,
     "expired": 13,
-    "candidates": 40,
+    "candidates": 42,
     "excluded": 0,
     "dropped": 675
   }
