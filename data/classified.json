@@ -2054,6 +2054,31 @@
       ]
     },
     {
+      "source": "kiria",
+      "source_id": "IBUS_000000000001262",
+      "title": "2027년 「국제로봇콘테스트(IRC)」 유치 희망 지자체 수요조사 공고",
+      "url": "https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&ibusCode=IBUS_000000000001262",
+      "apply_raw": "2026-08-11 ~ 2026-08-28",
+      "apply_start": "2026-08-11",
+      "apply_end": "2026-08-28",
+      "agency": "한국로봇산업진흥원",
+      "exec_agency": "한국로봇산업진흥원",
+      "category": "로봇",
+      "posted_at": "2026-08-11",
+      "status": "접수중",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-11",
+      "key": "kiria:IBUS_000000000001262",
+      "track": "A",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: 로봇"
+      ]
+    },
+    {
       "source": "kstartup",
       "source_id": "178841",
       "title": "제3회 K-ROBOTICS Startup CUP 참가팀 모집(~8/31 마감)",
@@ -2340,13 +2365,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-08-11T12:40:25",
+  "collected_at": "2026-08-11T17:12:47",
   "stats": {
-    "collected": 768,
+    "collected": 767,
     "cards": 33,
     "expired": 13,
-    "candidates": 45,
+    "candidates": 46,
     "excluded": 0,
-    "dropped": 677
+    "dropped": 675
   }
 }
