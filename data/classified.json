@@ -535,6 +535,33 @@
       "auto": true
     },
     {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000125457",
+      "title": "[서울] 2026년 서울창업허브 공덕 웹서밋(Web Summit 2026) 참가기업 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125457",
+      "apply_raw": "2026-08-13 ~ 2026-08-27",
+      "apply_start": "2026-08-13",
+      "apply_end": "2026-08-27",
+      "agency": "서울특별시",
+      "exec_agency": "서울경제진흥원",
+      "category": "수출",
+      "posted_at": "2026-08-14",
+      "status": "마감임박",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-14",
+      "key": "bizinfo:PBLN_000000000125457",
+      "track": "C",
+      "score": 3,
+      "region": "서울",
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 창업허브",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
       "source": "kstartup",
       "source_id": "178780",
       "title": "2026년 블록체인 기업성장허브 입주기업 모집",
@@ -690,6 +717,33 @@
       "conditional": null,
       "reasons": [
         "사무실·공간 키워드: 입주기업",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000125460",
+      "title": "[서울] 2026년 서울창업허브M+ 글로벌 오픈 이노베이션 참여기업 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125460",
+      "apply_raw": "2026-08-13 ~ 2026-09-11",
+      "apply_start": "2026-08-13",
+      "apply_end": "2026-09-11",
+      "agency": "서울특별시",
+      "exec_agency": "서울경제진흥원",
+      "category": "창업",
+      "posted_at": "2026-08-14",
+      "status": "접수중",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-14",
+      "key": "bizinfo:PBLN_000000000125460",
+      "track": "C",
+      "score": 3,
+      "region": "서울",
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 창업허브",
         "자동 분류"
       ],
       "auto": true
@@ -1583,6 +1637,32 @@
     },
     {
       "source": "bizinfo",
+      "source_id": "PBLN_000000000125461",
+      "title": "2026년 2차 로봇산업기술개발사업 신규지원 대상과제 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125461",
+      "apply_raw": "2026-08-21 ~ 2026-09-11",
+      "apply_start": "2026-08-21",
+      "apply_end": "2026-09-11",
+      "agency": "산업통상부",
+      "exec_agency": "한국산업기술기획평가원",
+      "category": "기술",
+      "posted_at": "2026-08-14",
+      "status": "접수중",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-14",
+      "key": "bizinfo:PBLN_000000000125461",
+      "track": "A",
+      "score": 4,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: 로봇",
+        "관련 키워드: 기술개발"
+      ]
+    },
+    {
+      "source": "bizinfo",
       "source_id": "PBLN_000000000124792",
       "title": "2026년 인증획득제품 해외 실증 지원사업(추경 포함) 추가 모집 공고",
       "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124792",
@@ -1680,31 +1760,6 @@
       "conditional": null,
       "reasons": [
         "핵심 키워드: 실증"
-      ]
-    },
-    {
-      "source": "kstartup",
-      "source_id": "178683",
-      "title": "2026년 제1회 테크플러스 스테이지 입주기업 모집 공고",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178683",
-      "apply_raw": "2026-07-22 ~ 2026-08-14",
-      "apply_start": "2026-07-22",
-      "apply_end": "2026-08-14",
-      "agency": "테크플러스 스테이지 입주기업 모집 공고",
-      "exec_agency": "테크플러스 스테이지 입주기업 모집 공고",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-07-29",
-      "status": "마감임박",
-      "location": "",
-      "founding": "1년미만, 2년미만, 3년미만, 5년미만, 7년미만, 10년미만",
-      "collected_at": "2026-08-14",
-      "key": "kstartup:178683",
-      "track": "C",
-      "score": 3,
-      "region": null,
-      "conditional": null,
-      "reasons": [
-        "사무실·공간 키워드: 입주기업"
       ]
     },
     {
@@ -2495,13 +2550,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-08-14T12:58:37",
+  "collected_at": "2026-08-14T17:30:10",
   "stats": {
-    "collected": 806,
-    "cards": 35,
+    "collected": 807,
+    "cards": 37,
     "expired": 13,
     "candidates": 49,
     "excluded": 0,
-    "dropped": 709
+    "dropped": 708
   }
 }
