@@ -2419,13 +2419,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-08-19T09:09:17",
+  "collected_at": "2026-08-19T13:33:49",
   "stats": {
-    "collected": 792,
+    "collected": 791,
     "cards": 35,
     "expired": 13,
     "candidates": 46,
     "excluded": 0,
-    "dropped": 698
+    "dropped": 697
   }
 }

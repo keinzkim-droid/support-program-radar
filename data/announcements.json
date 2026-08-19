@@ -1,9 +1,9 @@
 {
-  "collected_at": "2026-08-19T09:09:17",
+  "collected_at": "2026-08-19T13:33:49",
   "failures": [
     "bizinfo"
   ],
-  "count": 792,
+  "count": 791,
   "items": [
     {
       "source": "bizinfo",
@@ -7141,23 +7141,6 @@
     },
     {
       "source": "snip",
-      "source_id": "2026-0216-4058",
-      "title": "★접수 마감 안내★「스타트업 점프업 스쿨」기술창업교육 참여기업 모집",
-      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0216&pjtCd=4058&stateChk=N",
-      "apply_raw": "~ 2026.08.19",
-      "apply_start": null,
-      "apply_end": "2026-08-19",
-      "agency": "성남시",
-      "exec_agency": "성남산업진흥원",
-      "category": "지역",
-      "posted_at": "2026-07-31",
-      "status": "진행중",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-19"
-    },
-    {
-      "source": "snip",
       "source_id": "2026-0207-4193",
       "title": "[성남특허센터] 지식재산 거래 지원사업 신청 안내 (기술이전, 기술거래)",
       "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0207&pjtCd=4193&stateChk=N",
@@ -7589,6 +7572,23 @@
       "apply_raw": "~ 2026.08.14",
       "apply_start": null,
       "apply_end": "2026-08-14",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-07-31",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-19"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0216-4058",
+      "title": "★접수 마감 안내★「스타트업 점프업 스쿨」기술창업교육 참여기업 모집",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0216&pjtCd=4058&stateChk=N",
+      "apply_raw": "~ 2026.08.19",
+      "apply_start": null,
+      "apply_end": "2026-08-19",
       "agency": "성남시",
       "exec_agency": "성남산업진흥원",
       "category": "지역",
@@ -11063,23 +11063,6 @@
       "posted_at": "2026-08-06",
       "status": "",
       "location": "를 둔 예비창업자로, 타 직장에 재직 중이지 않은 1인 창조기업 창업예정자 - 기창업자 : 공고일 현재 경기도 내에 주된 사무소를 둔 창업 7년",
-      "founding": "",
-      "collected_at": "2026-08-19"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "178751",
-      "title": "2026년 창업기업 오프라인 팝업스토어 및 기획전 입점기업 모집공고",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178751",
-      "apply_raw": "2026-07-20 ~ 2026-08-19",
-      "apply_start": "2026-07-20",
-      "apply_end": "2026-08-19",
-      "agency": "한국중소벤처기업유통원",
-      "exec_agency": "한국중소벤처기업유통원",
-      "category": "판로ㆍ해외진출",
-      "posted_at": "2026-08-06",
-      "status": "",
-      "location": "",
       "founding": "",
       "collected_at": "2026-08-19"
     },
