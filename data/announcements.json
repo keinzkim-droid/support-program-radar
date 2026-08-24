@@ -1,7 +1,7 @@
 {
-  "collected_at": "2026-08-24T08:52:11",
+  "collected_at": "2026-08-24T13:43:29",
   "failures": [],
-  "count": 738,
+  "count": 737,
   "items": [
     {
       "source": "bizinfo",
@@ -6193,6 +6193,23 @@
     },
     {
       "source": "snip",
+      "source_id": "2026-0238-4205",
+      "title": "[성남식품연구개발지원센터]2026년 식품분석지원 참여기업 모집안내(9월)",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0238&pjtCd=4205&stateChk=N",
+      "apply_raw": "~ 2026.08.31",
+      "apply_start": null,
+      "apply_end": "2026-08-31",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-08-24",
+      "status": "진행중",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-24"
+    },
+    {
+      "source": "snip",
       "source_id": "2026-0237-4204",
       "title": "[평가위원 모집] 2026 성남 기후테크 행사 운영 용역 제안서 평가",
       "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0237&pjtCd=4204&stateChk=N",
@@ -8725,23 +8742,6 @@
       "collected_at": "2026-08-24"
     },
     {
-      "source": "snip",
-      "source_id": "2026-0086-4117",
-      "title": "2026년 베트남 국제 프리미엄 소비재전(VIPREMIUM) 참가기업 추가 모집﻿",
-      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0086&pjtCd=4117&stateChk=N",
-      "apply_raw": "~ 2026.04.03",
-      "apply_start": null,
-      "apply_end": "2026-04-03",
-      "agency": "성남시",
-      "exec_agency": "성남산업진흥원",
-      "category": "지역",
-      "posted_at": "2026-03-30",
-      "status": "마감",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-24"
-    },
-    {
       "source": "kstartup",
       "source_id": "178983",
       "title": "2026년 크리에이터미디어 콤플렉스 하반기 입주 모집공고(~9/15, 16:00)",
@@ -9011,23 +9011,6 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-08-24"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "178945",
-      "title": "2026년 부산 핀테크허브 입주기업 모집공고",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178945",
-      "apply_raw": "2026-08-19 ~ 2026-09-13",
-      "apply_start": "2026-08-19",
-      "apply_end": "2026-09-13",
-      "agency": "(사)글로벌핀테크산업진흥센터",
-      "exec_agency": "(사)글로벌핀테크산업진흥센터",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-08-20",
-      "status": "",
-      "location": "",
-      "founding": "7년미만",
       "collected_at": "2026-08-24"
     },
     {
@@ -12497,23 +12480,6 @@
       "collected_at": "2026-07-22"
     },
     {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000124444",
-      "title": "[인천] 2026년 로봇 액셀러레이팅 프로그램 참여기업 모집 공고(로봇산업 혁신성장 지원사업)",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124444",
-      "apply_raw": "2026-07-15 ~ 2026-08-04",
-      "apply_start": "2026-07-15",
-      "apply_end": "2026-08-04",
-      "agency": "인천광역시",
-      "exec_agency": "인천테크노파크",
-      "category": "기술",
-      "posted_at": "2026-07-16",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-04"
-    },
-    {
       "source": "kiria",
       "source_id": "IBUS_000000000001251",
       "title": "「2026년 모빌리티 혁신제품 시험평가 지원」지원 대상 기업 상시모집 공고",
@@ -12529,6 +12495,23 @@
       "location": "",
       "founding": "",
       "collected_at": "2026-08-11"
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000124444",
+      "title": "[인천] 2026년 로봇 액셀러레이팅 프로그램 참여기업 모집 공고(로봇산업 혁신성장 지원사업)",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124444",
+      "apply_raw": "2026-07-15 ~ 2026-08-04",
+      "apply_start": "2026-07-15",
+      "apply_end": "2026-08-04",
+      "agency": "인천광역시",
+      "exec_agency": "인천테크노파크",
+      "category": "기술",
+      "posted_at": "2026-07-16",
+      "status": "",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-04"
     },
     {
       "source": "bizinfo",
