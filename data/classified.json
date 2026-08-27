@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27",
+  "generated_at": "2026-08-28",
   "cards": [
     {
       "source": "kstartup",
@@ -202,7 +202,7 @@
       "exec_agency": "차세대융합기술연구원",
       "category": "멘토링ㆍ컨설팅ㆍ교육",
       "posted_at": "2026-08-26",
-      "status": "접수중",
+      "status": "마감임박",
       "location": "",
       "founding": "",
       "collected_at": "2026-08-27",
@@ -400,33 +400,6 @@
         "핵심 키워드: 자율주행",
         "관련 키워드: 자율"
       ]
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000125457",
-      "title": "[서울] 2026년 서울창업허브 공덕 웹서밋(Web Summit 2026) 참가기업 모집 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125457",
-      "apply_raw": "2026-08-13 ~ 2026-08-27",
-      "apply_start": "2026-08-13",
-      "apply_end": "2026-08-27",
-      "agency": "서울특별시",
-      "exec_agency": "서울경제진흥원",
-      "category": "창업",
-      "posted_at": "2026-08-14",
-      "status": "마감임박",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-27",
-      "key": "bizinfo:PBLN_000000000125457",
-      "track": "C",
-      "score": 3,
-      "region": "서울",
-      "conditional": null,
-      "reasons": [
-        "사무실·공간 키워드: 창업허브",
-        "자동 분류"
-      ],
-      "auto": true
     },
     {
       "source": "bizinfo",
@@ -789,7 +762,7 @@
       "exec_agency": "서울경제진흥원",
       "category": "창업",
       "posted_at": "2026-08-14",
-      "status": "접수중",
+      "status": "마감임박",
       "location": "",
       "founding": "",
       "collected_at": "2026-08-27",
@@ -816,7 +789,7 @@
       "exec_agency": "한국수력원자력",
       "category": "시설ㆍ공간ㆍ보육",
       "posted_at": "2026-08-26",
-      "status": "접수중",
+      "status": "마감임박",
       "location": "서울 중구 서소문로 38, 센트럴타워 9층 □ 구성 : 사무공간 28석, 회의실 2개, OA 존 등 □ 형태 /면적 : 개방형 / 200.97",
       "founding": "1년미만, 2년미만, 3년미만, 5년미만, 7년미만",
       "collected_at": "2026-08-27",
@@ -843,7 +816,7 @@
       "exec_agency": "서울창업허브 M+ 운영",
       "category": "시설ㆍ공간ㆍ보육",
       "posted_at": "2026-08-19",
-      "status": "접수중",
+      "status": "마감임박",
       "location": "",
       "founding": "",
       "collected_at": "2026-08-27",
@@ -1316,29 +1289,6 @@
       "reasons": [
         "사무실·공간 키워드: 입주기업"
       ]
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000124553",
-      "title": "2026년 협업지능 피지컬AI 기반 SW플랫폼 연구개발 생태계 조성 사업 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124553",
-      "apply_raw": "2026-06-26 ~ 2026-07-28",
-      "apply_start": "2026-06-26",
-      "apply_end": "2026-07-28",
-      "agency": "과학기술정보통신부",
-      "exec_agency": "정보통신산업진흥원",
-      "category": "기술",
-      "posted_at": "2026-07-21",
-      "status": "마감",
-      "collected_at": "2026-07-22",
-      "key": "bizinfo:PBLN_000000000124553",
-      "track": "A",
-      "score": 3,
-      "region": null,
-      "conditional": null,
-      "reasons": [
-        "핵심 키워드: AI"
-      ]
     }
   ],
   "candidates": [
@@ -1508,7 +1458,7 @@
       "exec_agency": "한국산업기술기획평가원",
       "category": "기술",
       "posted_at": "2026-08-14",
-      "status": "접수중",
+      "status": "마감임박",
       "location": "",
       "founding": "",
       "collected_at": "2026-08-27",
@@ -1810,7 +1760,7 @@
       "exec_agency": "지역창업특화지원",
       "category": "시설ㆍ공간ㆍ보육",
       "posted_at": "2026-08-24",
-      "status": "접수중",
+      "status": "마감임박",
       "location": "",
       "founding": "3년미만",
       "collected_at": "2026-08-27",
@@ -1835,7 +1785,7 @@
       "exec_agency": "충북테크노파크",
       "category": "시설ㆍ공간ㆍ보육",
       "posted_at": "2026-08-24",
-      "status": "접수중",
+      "status": "마감임박",
       "location": "",
       "founding": "전체",
       "collected_at": "2026-08-27",
@@ -2138,10 +2088,10 @@
   "collected_at": "2026-08-27T23:55:38",
   "stats": {
     "collected": 756,
-    "cards": 42,
-    "expired": 9,
+    "cards": 41,
+    "expired": 8,
     "candidates": 31,
     "excluded": 0,
-    "dropped": 674
+    "dropped": 676
   }
 }
