@@ -192,6 +192,34 @@
     },
     {
       "source": "kstartup",
+      "source_id": "179063",
+      "title": "2026년 온디바이스AI 제품개발·제조 및 기술지원 기업모집공고",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179063",
+      "apply_raw": "2026-08-26 ~ 2026-09-14",
+      "apply_start": "2026-08-26",
+      "apply_end": "2026-09-14",
+      "agency": "한국전자정보통신산업진흥회",
+      "exec_agency": "한국전자정보통신산업진흥회",
+      "category": "기술개발(R&D)",
+      "posted_at": "2026-08-28",
+      "status": "접수중",
+      "location": "",
+      "founding": "10년미만",
+      "collected_at": "2026-08-28",
+      "key": "kstartup:179063",
+      "track": "A",
+      "score": 8,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: AI, 온디바이스",
+        "관련 키워드: R&D, 기술개발",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
+      "source": "kstartup",
       "source_id": "179010",
       "title": "2026 오픈소스 로봇 손(Amazing Hand)으로 배우는 Physical AI 실습 교육",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179010",
@@ -424,33 +452,6 @@
       "conditional": null,
       "reasons": [
         "핵심 키워드: AI",
-        "자동 분류"
-      ],
-      "auto": true
-    },
-    {
-      "source": "kstartup",
-      "source_id": "178686",
-      "title": "2026년 2차 28청춘창업소 신규 입주기업 모집",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178686",
-      "apply_raw": "2026-07-27 ~ 2026-08-28",
-      "apply_start": "2026-07-27",
-      "apply_end": "2026-08-28",
-      "agency": "28청춘창업소 운영",
-      "exec_agency": "28청춘창업소 운영",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-07-29",
-      "status": "마감임박",
-      "location": "경기도 고양시 덕양구 화중로104번길 33 (3호선 화정역 도보 10분 거리 이내) (덕양구청, 동고양세무서, 덕양구우체국 인접) *사업안내UR",
-      "founding": "",
-      "collected_at": "2026-08-28",
-      "key": "kstartup:178686",
-      "track": "C",
-      "score": 3,
-      "region": "경기",
-      "conditional": null,
-      "reasons": [
-        "사무실·공간 키워드: 입주기업",
         "자동 분류"
       ],
       "auto": true
@@ -1727,6 +1728,31 @@
     },
     {
       "source": "kstartup",
+      "source_id": "179051",
+      "title": "BOUNCE 2026 글로벌 오피스아워 참여 스타트업 모집 공고",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179051",
+      "apply_raw": "2026-08-20 ~ 2026-09-04",
+      "apply_start": "2026-08-20",
+      "apply_end": "2026-09-04",
+      "agency": "부산창조경제혁신센터",
+      "exec_agency": "부산창조경제혁신센터",
+      "category": "글로벌",
+      "posted_at": "2026-08-28",
+      "status": "마감임박",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-28",
+      "key": "kstartup:179051",
+      "track": "C",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 오피스"
+      ]
+    },
+    {
+      "source": "kstartup",
       "source_id": "178944",
       "title": "2026 AI 기반 소셜임팩트 기업 활성화 지원사업",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178944",
@@ -2162,13 +2188,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-08-28T16:09:23",
+  "collected_at": "2026-08-28T20:46:18",
   "stats": {
-    "collected": 763,
+    "collected": 768,
     "cards": 42,
     "expired": 8,
-    "candidates": 33,
+    "candidates": 34,
     "excluded": 0,
-    "dropped": 680
+    "dropped": 684
   }
 }
