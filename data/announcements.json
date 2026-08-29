@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-29T13:26:55",
+  "collected_at": "2026-08-29T17:13:00",
   "failures": [],
   "count": 753,
   "items": [
@@ -12737,6 +12737,40 @@
       "collected_at": "2026-08-29"
     },
     {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000124444",
+      "title": "[인천] 2026년 로봇 액셀러레이팅 프로그램 참여기업 모집 공고(로봇산업 혁신성장 지원사업)",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124444",
+      "apply_raw": "2026-07-15 ~ 2026-08-04",
+      "apply_start": "2026-07-15",
+      "apply_end": "2026-08-04",
+      "agency": "인천광역시",
+      "exec_agency": "인천테크노파크",
+      "category": "기술",
+      "posted_at": "2026-07-16",
+      "status": "",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-04"
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000123881",
+      "title": "2026년 4차 제조공정 로봇도입 엔지니어링 컨설팅 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123881",
+      "apply_raw": "2026-07-01 ~ 2026-07-31",
+      "apply_start": "2026-07-01",
+      "apply_end": "2026-07-31",
+      "agency": "산업통상부",
+      "exec_agency": "한국생산기술연구원",
+      "category": "기술",
+      "posted_at": "2026-07-02",
+      "status": "",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-07-31"
+    },
+    {
       "source": "kiria",
       "source_id": "IBUS_000000000001251",
       "title": "「2026년 모빌리티 혁신제품 시험평가 지원」지원 대상 기업 상시모집 공고",
@@ -12769,40 +12803,6 @@
       "location": "",
       "founding": "",
       "collected_at": "2026-07-30"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000123881",
-      "title": "2026년 4차 제조공정 로봇도입 엔지니어링 컨설팅 모집 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123881",
-      "apply_raw": "2026-07-01 ~ 2026-07-31",
-      "apply_start": "2026-07-01",
-      "apply_end": "2026-07-31",
-      "agency": "산업통상부",
-      "exec_agency": "한국생산기술연구원",
-      "category": "기술",
-      "posted_at": "2026-07-02",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-07-31"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000124444",
-      "title": "[인천] 2026년 로봇 액셀러레이팅 프로그램 참여기업 모집 공고(로봇산업 혁신성장 지원사업)",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124444",
-      "apply_raw": "2026-07-15 ~ 2026-08-04",
-      "apply_start": "2026-07-15",
-      "apply_end": "2026-08-04",
-      "agency": "인천광역시",
-      "exec_agency": "인천테크노파크",
-      "category": "기술",
-      "posted_at": "2026-07-16",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-04"
     }
   ]
 }
