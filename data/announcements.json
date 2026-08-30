@@ -1,7 +1,9 @@
 {
-  "collected_at": "2026-08-30T14:47:46",
-  "failures": [],
-  "count": 752,
+  "collected_at": "2026-08-30T18:54:57",
+  "failures": [
+    "bizinfo"
+  ],
+  "count": 751,
   "items": [
     {
       "source": "bizinfo",
@@ -5682,6 +5684,40 @@
       "collected_at": "2026-08-30"
     },
     {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000124444",
+      "title": "[인천] 2026년 로봇 액셀러레이팅 프로그램 참여기업 모집 공고(로봇산업 혁신성장 지원사업)",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124444",
+      "apply_raw": "2026-07-15 ~ 2026-08-04",
+      "apply_start": "2026-07-15",
+      "apply_end": "2026-08-04",
+      "agency": "인천광역시",
+      "exec_agency": "인천테크노파크",
+      "category": "기술",
+      "posted_at": "2026-07-16",
+      "status": "",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-04"
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000123881",
+      "title": "2026년 4차 제조공정 로봇도입 엔지니어링 컨설팅 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123881",
+      "apply_raw": "2026-07-01 ~ 2026-07-31",
+      "apply_start": "2026-07-01",
+      "apply_end": "2026-07-31",
+      "agency": "산업통상부",
+      "exec_agency": "한국생산기술연구원",
+      "category": "기술",
+      "posted_at": "2026-07-02",
+      "status": "",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-07-31"
+    },
+    {
       "source": "kiria",
       "source_id": "IBUS_000000000001262",
       "title": "2027년 「국제로봇콘테스트(IRC)」 유치 희망 지자체 수요조사 공고",
@@ -10630,23 +10666,6 @@
     },
     {
       "source": "kstartup",
-      "source_id": "178892",
-      "title": "2026 대전 팁스타운 팁스 링크 일본 파트너 초청 상담회",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178892",
-      "apply_raw": "2026-08-12 ~ 2026-08-30",
-      "apply_start": "2026-08-12",
-      "apply_end": "2026-08-30",
-      "agency": "창업진흥원",
-      "exec_agency": "창업진흥원",
-      "category": "행사ㆍ네트워크",
-      "posted_at": "2026-08-13",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-30"
-    },
-    {
-      "source": "kstartup",
       "source_id": "178894",
       "title": "2026년 여성CEO 비즈니스 아카데미 호남권역 시즌 2",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178894",
@@ -12735,40 +12754,6 @@
       "location": "",
       "founding": "",
       "collected_at": "2026-08-30"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000124444",
-      "title": "[인천] 2026년 로봇 액셀러레이팅 프로그램 참여기업 모집 공고(로봇산업 혁신성장 지원사업)",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124444",
-      "apply_raw": "2026-07-15 ~ 2026-08-04",
-      "apply_start": "2026-07-15",
-      "apply_end": "2026-08-04",
-      "agency": "인천광역시",
-      "exec_agency": "인천테크노파크",
-      "category": "기술",
-      "posted_at": "2026-07-16",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-04"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000123881",
-      "title": "2026년 4차 제조공정 로봇도입 엔지니어링 컨설팅 모집 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123881",
-      "apply_raw": "2026-07-01 ~ 2026-07-31",
-      "apply_start": "2026-07-01",
-      "apply_end": "2026-07-31",
-      "agency": "산업통상부",
-      "exec_agency": "한국생산기술연구원",
-      "category": "기술",
-      "posted_at": "2026-07-02",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-07-31"
     },
     {
       "source": "kiria",
