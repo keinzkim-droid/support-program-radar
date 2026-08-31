@@ -1,7 +1,7 @@
 {
-  "collected_at": "2026-08-31T19:24:36",
+  "collected_at": "2026-09-01T00:05:42",
   "failures": [],
-  "count": 848,
+  "count": 847,
   "items": [
     {
       "source": "bizinfo",
@@ -12800,7 +12800,7 @@
       "category": "시설ㆍ공간ㆍ보육",
       "posted_at": "2026-08-06",
       "status": "",
-      "location": "경기도 화성시 봉담읍 최루백로 72 협성대학교 창업보육센터 ○ 모집기간 : 상시모집 ○ 입주기간 : 입주일 ~ 최대 3년(연장 심사를 통해 최대",
+      "location": "",
       "founding": "",
       "collected_at": "2026-08-31"
     },
@@ -13277,23 +13277,6 @@
       "posted_at": "2026-07-02",
       "status": "",
       "location": "인천 광역시 남동구 앵고개로 928, DA프라자 3층 상기 일정은 사업운영기관의 내부사정으로 변경될 수 있습니다. 지원내용 인프라 지원 - 입주",
-      "founding": "",
-      "collected_at": "2026-08-31"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "178295",
-      "title": "(소방청 공고 제2026-92호) 2026년 소방장비·용품 공공조달 컨설팅 지원사업 참여업체 모집 공고",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178295",
-      "apply_raw": "2026-06-26 ~ 2026-08-31",
-      "apply_start": "2026-06-26",
-      "apply_end": "2026-08-31",
-      "agency": "선영파트너스",
-      "exec_agency": "선영파트너스",
-      "category": "사업화",
-      "posted_at": "2026-06-26",
-      "status": "",
-      "location": "",
       "founding": "",
       "collected_at": "2026-08-31"
     },
@@ -14386,23 +14369,6 @@
       "collected_at": "2026-08-31"
     },
     {
-      "source": "kiria",
-      "source_id": "IBUS_000000000001251",
-      "title": "「2026년 모빌리티 혁신제품 시험평가 지원」지원 대상 기업 상시모집 공고",
-      "url": "https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&ibusCode=IBUS_000000000001251",
-      "apply_raw": "2026-05-28 ~ 2026-11-15",
-      "apply_start": "2026-05-28",
-      "apply_end": "2026-11-15",
-      "agency": "한국로봇산업진흥원",
-      "exec_agency": "한국로봇산업진흥원",
-      "category": "로봇",
-      "posted_at": "2026-05-28",
-      "status": "진행중",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-11"
-    },
-    {
       "source": "bizinfo",
       "source_id": "PBLN_000000000124444",
       "title": "[인천] 2026년 로봇 액셀러레이팅 프로그램 참여기업 모집 공고(로봇산업 혁신성장 지원사업)",
@@ -14418,6 +14384,23 @@
       "location": "",
       "founding": "",
       "collected_at": "2026-08-04"
+    },
+    {
+      "source": "kiria",
+      "source_id": "IBUS_000000000001251",
+      "title": "「2026년 모빌리티 혁신제품 시험평가 지원」지원 대상 기업 상시모집 공고",
+      "url": "https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&ibusCode=IBUS_000000000001251",
+      "apply_raw": "2026-05-28 ~ 2026-11-15",
+      "apply_start": "2026-05-28",
+      "apply_end": "2026-11-15",
+      "agency": "한국로봇산업진흥원",
+      "exec_agency": "한국로봇산업진흥원",
+      "category": "로봇",
+      "posted_at": "2026-05-28",
+      "status": "진행중",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-11"
     }
   ]
 }
