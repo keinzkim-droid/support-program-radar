@@ -1551,31 +1551,6 @@
     },
     {
       "source": "kstartup",
-      "source_id": "178672",
-      "title": "[무료 AI 역량강화 교육] 생성형 AI기반, 글로벌 마케팅 자동화 및 현지화 에이전트 구축과",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178672",
-      "apply_raw": "2026-07-24 ~ 2026-08-31",
-      "apply_start": "2026-07-24",
-      "apply_end": "2026-08-31",
-      "agency": "2026 산업전문인력 AI역량강화 지원사업",
-      "exec_agency": "2026 산업전문인력 AI역량강화 지원사업",
-      "category": "멘토링ㆍ컨설팅ㆍ교육",
-      "posted_at": "2026-07-28",
-      "status": "마감임박",
-      "location": "",
-      "founding": "1년미만, 2년미만, 3년미만, 5년미만, 7년미만, 10년미만",
-      "collected_at": "2026-08-31",
-      "key": "kstartup:178672",
-      "track": "A",
-      "score": 3,
-      "region": null,
-      "conditional": null,
-      "reasons": [
-        "핵심 키워드: AI"
-      ]
-    },
-    {
-      "source": "kstartup",
       "source_id": "178961",
       "title": "2026 관악S밸리 성장 지원 세미나 3회",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178961",
@@ -2061,13 +2036,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-08-31T10:38:38",
+  "collected_at": "2026-08-31T15:10:01",
   "stats": {
-    "collected": 746,
+    "collected": 793,
     "cards": 41,
     "expired": 5,
-    "candidates": 33,
+    "candidates": 32,
     "excluded": 0,
-    "dropped": 667
+    "dropped": 715
   }
 }
