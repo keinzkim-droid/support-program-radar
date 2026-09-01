@@ -1,9 +1,9 @@
 {
-  "collected_at": "2026-09-01T11:15:38",
+  "collected_at": "2026-09-01T14:40:18",
   "failures": [
     "bizinfo"
   ],
-  "count": 743,
+  "count": 742,
   "items": [
     {
       "source": "bizinfo",
@@ -10726,23 +10726,6 @@
       "agency": "국가보훈부",
       "exec_agency": "국가보훈부",
       "category": "행사ㆍ네트워크",
-      "posted_at": "2026-08-18",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-09-01"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "178935",
-      "title": "[창업] 창업가를 위한 온라인 판매 실전",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178935",
-      "apply_raw": "2026-08-18 ~ 2026-09-01",
-      "apply_start": "2026-08-18",
-      "apply_end": "2026-09-01",
-      "agency": "마포청년창업취업지원센터 나루 2026",
-      "exec_agency": "마포청년창업취업지원센터 나루 2026",
-      "category": "창업교육",
       "posted_at": "2026-08-18",
       "status": "",
       "location": "",
