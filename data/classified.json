@@ -1534,31 +1534,6 @@
       ]
     },
     {
-      "source": "kstartup",
-      "source_id": "178944",
-      "title": "2026 AI 기반 소셜임팩트 기업 활성화 지원사업",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178944",
-      "apply_raw": "2026-08-18 ~ 2026-09-04",
-      "apply_start": "2026-08-18",
-      "apply_end": "2026-09-04",
-      "agency": "『2026 AI 기반 소셜임팩트 기업 활성화 지원사업』",
-      "exec_agency": "『2026 AI 기반 소셜임팩트 기업 활성화 지원사업』",
-      "category": "사업화",
-      "posted_at": "2026-08-21",
-      "status": "마감임박",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-09-04",
-      "key": "kstartup:178944",
-      "track": "A",
-      "score": 3,
-      "region": null,
-      "conditional": null,
-      "reasons": [
-        "핵심 키워드: AI"
-      ]
-    },
-    {
       "source": "bizinfo",
       "source_id": "PBLN_000000000125732",
       "title": "2026년 피지컬 AI 기반 휴머노이드 제조혁신센터 구축사업 수혜기업 통합 모집 공고",
@@ -2121,13 +2096,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-09-04T17:34:00",
+  "collected_at": "2026-09-04T21:03:59",
   "stats": {
-    "collected": 738,
+    "collected": 735,
     "cards": 44,
     "expired": 2,
-    "candidates": 35,
+    "candidates": 34,
     "excluded": 0,
-    "dropped": 657
+    "dropped": 655
   }
 }
