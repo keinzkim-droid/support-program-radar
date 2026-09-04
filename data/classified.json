@@ -1711,6 +1711,31 @@
       ]
     },
     {
+      "source": "nipa",
+      "source_id": "16922",
+      "title": "2026년도 한-베트남 AI·디지털 포럼 운영 대행 용역 입찰공고",
+      "url": "https://www.nipa.kr/home/2-2/16922",
+      "apply_raw": "D-11",
+      "apply_start": null,
+      "apply_end": "2026-09-15",
+      "agency": "정보통신산업진흥원",
+      "exec_agency": "정보통신산업진흥원",
+      "category": "ICT",
+      "posted_at": "2026-09-04",
+      "status": "마감임박",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-09-04",
+      "key": "nipa:16922",
+      "track": "A",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: AI"
+      ]
+    },
+    {
       "source": "bizinfo",
       "source_id": "PBLN_000000000125913",
       "title": "[전북] 부안군ㆍ김제시 2026년 4차 지역특화형(농ㆍ식품기업) 스마트공장 구축지원사업 공고",
@@ -2112,31 +2137,6 @@
       "reasons": [
         "핵심 키워드: AI"
       ]
-    },
-    {
-      "source": "nipa",
-      "source_id": "16691",
-      "title": "2026년 산업전문인력 AI역량강화 지원사업 서류평가 결과 및 발표평가 대상자 선정 공고",
-      "url": "https://www.nipa.kr/home/2-2/16691",
-      "apply_raw": "상시 모집",
-      "apply_start": null,
-      "apply_end": null,
-      "agency": "정보통신산업진흥원",
-      "exec_agency": "정보통신산업진흥원",
-      "category": "ICT",
-      "posted_at": "2026-04-08",
-      "status": "상시",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-09-04",
-      "key": "nipa:16691",
-      "track": "A",
-      "score": 3,
-      "region": null,
-      "conditional": null,
-      "reasons": [
-        "핵심 키워드: AI"
-      ]
     }
   ],
   "excluded": [],
@@ -2148,13 +2148,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-09-04T10:21:06",
+  "collected_at": "2026-09-04T14:07:09",
   "stats": {
-    "collected": 725,
+    "collected": 723,
     "cards": 45,
     "expired": 2,
     "candidates": 35,
     "excluded": 0,
-    "dropped": 643
+    "dropped": 641
   }
 }

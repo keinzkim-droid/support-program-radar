@@ -1,7 +1,9 @@
 {
-  "collected_at": "2026-09-04T10:21:06",
-  "failures": [],
-  "count": 725,
+  "collected_at": "2026-09-04T14:07:09",
+  "failures": [
+    "bizinfo"
+  ],
+  "count": 723,
   "items": [
     {
       "source": "bizinfo",
@@ -5512,6 +5514,23 @@
       "collected_at": "2026-09-04"
     },
     {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000123766",
+      "title": "[충북] 2026년 스마트공장 구축 자부담금 지원사업 수혜기업 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123766",
+      "apply_raw": "2026-07-01 ~ 2026-08-31",
+      "apply_start": "2026-07-01",
+      "apply_end": "2026-08-31",
+      "agency": "충청북도",
+      "exec_agency": "충북테크노파크",
+      "category": "경영",
+      "posted_at": "2026-06-30",
+      "status": "",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-31"
+    },
+    {
       "source": "kiria",
       "source_id": "IBUS_000000000001264",
       "title": "2026년 한국로봇산업진흥원 연구장비 임대 운영 기업 모집 공고",
@@ -5677,6 +5696,23 @@
       "category": "로봇",
       "posted_at": "2026-06-01",
       "status": "완료",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-09-04"
+    },
+    {
+      "source": "nipa",
+      "source_id": "16922",
+      "title": "2026년도 한-베트남 AI·디지털 포럼 운영 대행 용역 입찰공고",
+      "url": "https://www.nipa.kr/home/2-2/16922",
+      "apply_raw": "D-11",
+      "apply_start": null,
+      "apply_end": "2026-09-15",
+      "agency": "정보통신산업진흥원",
+      "exec_agency": "정보통신산업진흥원",
+      "category": "ICT",
+      "posted_at": "2026-09-04",
+      "status": "",
       "location": "",
       "founding": "",
       "collected_at": "2026-09-04"
@@ -6169,23 +6205,6 @@
       "exec_agency": "정보통신산업진흥원",
       "category": "ICT",
       "posted_at": "2026-04-13",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-09-04"
-    },
-    {
-      "source": "nipa",
-      "source_id": "16691",
-      "title": "2026년 산업전문인력 AI역량강화 지원사업 서류평가 결과 및 발표평가 대상자 선정 공고",
-      "url": "https://www.nipa.kr/home/2-2/16691",
-      "apply_raw": "상시 모집",
-      "apply_start": null,
-      "apply_end": null,
-      "agency": "정보통신산업진흥원",
-      "exec_agency": "정보통신산업진흥원",
-      "category": "ICT",
-      "posted_at": "2026-04-08",
       "status": "",
       "location": "",
       "founding": "",
@@ -9593,23 +9612,6 @@
     },
     {
       "source": "kstartup",
-      "source_id": "179053",
-      "title": "[인천대학교] 모두의창업 프로젝트(2차) 모집홍보 교육 『AI와 함께하는 BM 스쿨』",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179053",
-      "apply_raw": "2026-08-27 ~ 2026-09-04",
-      "apply_start": "2026-08-27",
-      "apply_end": "2026-09-04",
-      "agency": "국립대학법인 인천대학교",
-      "exec_agency": "국립대학법인 인천대학교",
-      "category": "창업교육",
-      "posted_at": "2026-08-28",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-09-04"
-    },
-    {
-      "source": "kstartup",
       "source_id": "179045",
       "title": "2026년 민간 산림복지 창업 아카데미[1차] 참가자 모집",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179045",
@@ -9844,23 +9846,6 @@
       "status": "",
       "location": "서울특별시 노원구 화랑로 621 고명우기념관 3층 창업보육센터 3. 입주기간: 2026.10.01 ~ 2027.09.30. 4. 입주비용: 보증",
       "founding": "",
-      "collected_at": "2026-09-04"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "179057",
-      "title": "2026 대덕특구 딥테크 혁신성장 플랫폼(전략기술 발굴 및 매칭) (9/1 ~ 9/30)",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179057",
-      "apply_raw": "2026-09-01 ~ 2026-09-30",
-      "apply_start": "2026-09-01",
-      "apply_end": "2026-09-30",
-      "agency": "2026 대덕특구 딥테크 혁신성장 플랫폼(전략기술 발굴 및 매칭)",
-      "exec_agency": "2026 대덕특구 딥테크 혁신성장 플랫폼(전략기술 발굴 및 매칭)",
-      "category": "사업화",
-      "posted_at": "2026-08-27",
-      "status": "",
-      "location": "",
-      "founding": "전체",
       "collected_at": "2026-09-04"
     },
     {
@@ -12276,23 +12261,6 @@
       "location": "",
       "founding": "",
       "collected_at": "2026-09-04"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000123766",
-      "title": "[충북] 2026년 스마트공장 구축 자부담금 지원사업 수혜기업 모집 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123766",
-      "apply_raw": "2026-07-01 ~ 2026-08-31",
-      "apply_start": "2026-07-01",
-      "apply_end": "2026-08-31",
-      "agency": "충청북도",
-      "exec_agency": "충북테크노파크",
-      "category": "경영",
-      "posted_at": "2026-06-30",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-31"
     },
     {
       "source": "kiria",
