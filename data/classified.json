@@ -486,33 +486,6 @@
     },
     {
       "source": "kstartup",
-      "source_id": "178965",
-      "title": "2026년 서울창업허브 창동 투자 특화 프로그램 - IR 라운드(2회차)",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178965",
-      "apply_raw": "2026-08-19 ~ 2026-09-04",
-      "apply_start": "2026-08-19",
-      "apply_end": "2026-09-04",
-      "agency": "서울창업허브 창동 운영",
-      "exec_agency": "서울창업허브 창동 운영",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-08-24",
-      "status": "마감임박",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-09-04",
-      "key": "kstartup:178965",
-      "track": "C",
-      "score": 3,
-      "region": "서울",
-      "conditional": null,
-      "reasons": [
-        "사무실·공간 키워드: 창업허브",
-        "자동 분류"
-      ],
-      "auto": true
-    },
-    {
-      "source": "kstartup",
       "source_id": "178941",
       "title": "2026년「강남 취‧창업허브센터」7차 입주 기업 신규 모집",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178941",
@@ -2148,13 +2121,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-09-04T14:07:09",
+  "collected_at": "2026-09-04T17:34:00",
   "stats": {
-    "collected": 723,
-    "cards": 45,
+    "collected": 738,
+    "cards": 44,
     "expired": 2,
     "candidates": 35,
     "excluded": 0,
-    "dropped": 641
+    "dropped": 657
   }
 }
