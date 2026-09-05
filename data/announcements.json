@@ -1,7 +1,7 @@
 {
-  "collected_at": "2026-09-05T10:25:52",
+  "collected_at": "2026-09-05T13:52:44",
   "failures": [],
-  "count": 716,
+  "count": 715,
   "items": [
     {
       "source": "bizinfo",
@@ -10885,23 +10885,6 @@
     },
     {
       "source": "kstartup",
-      "source_id": "178575",
-      "title": "2026년「BTS」(Blueprint To Success) - 마인드 마이너 송길영 작가",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178575",
-      "apply_raw": "2026-07-23 ~ 2026-09-05",
-      "apply_start": "2026-07-23",
-      "apply_end": "2026-09-05",
-      "agency": "예비창업패키지",
-      "exec_agency": "예비창업패키지",
-      "category": "사업화",
-      "posted_at": "2026-07-28",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-09-05"
-    },
-    {
-      "source": "kstartup",
       "source_id": "178597",
       "title": "2026 의왕시 ESG 인식확산 교육",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178597",
@@ -12125,23 +12108,6 @@
       "collected_at": "2026-09-05"
     },
     {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000123766",
-      "title": "[충북] 2026년 스마트공장 구축 자부담금 지원사업 수혜기업 모집 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123766",
-      "apply_raw": "2026-07-01 ~ 2026-08-31",
-      "apply_start": "2026-07-01",
-      "apply_end": "2026-08-31",
-      "agency": "충청북도",
-      "exec_agency": "충북테크노파크",
-      "category": "경영",
-      "posted_at": "2026-06-30",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-31"
-    },
-    {
       "source": "kiria",
       "source_id": "IBUS_000000000001251",
       "title": "「2026년 모빌리티 혁신제품 시험평가 지원」지원 대상 기업 상시모집 공고",
@@ -12157,6 +12123,23 @@
       "location": "",
       "founding": "",
       "collected_at": "2026-08-11"
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000123766",
+      "title": "[충북] 2026년 스마트공장 구축 자부담금 지원사업 수혜기업 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123766",
+      "apply_raw": "2026-07-01 ~ 2026-08-31",
+      "apply_start": "2026-07-01",
+      "apply_end": "2026-08-31",
+      "agency": "충청북도",
+      "exec_agency": "충북테크노파크",
+      "category": "경영",
+      "posted_at": "2026-06-30",
+      "status": "",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-31"
     },
     {
       "source": "kiria",
