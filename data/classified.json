@@ -1507,6 +1507,31 @@
       ]
     },
     {
+      "source": "kiria",
+      "source_id": "IBUS_000000000001265",
+      "title": "한국로봇산업진흥원 2026 로보월드 K-로봇 공공프리마켓(가칭) 참여기업 모집 수요조사",
+      "url": "https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&ibusCode=IBUS_000000000001265",
+      "apply_raw": "2026-09-07 ~ 2026-09-10",
+      "apply_start": "2026-09-07",
+      "apply_end": "2026-09-10",
+      "agency": "한국로봇산업진흥원",
+      "exec_agency": "한국로봇산업진흥원",
+      "category": "로봇",
+      "posted_at": "2026-09-07",
+      "status": "마감임박",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-09-07",
+      "key": "kiria:IBUS_000000000001265",
+      "track": "A",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: 로봇"
+      ]
+    },
+    {
       "source": "kstartup",
       "source_id": "178996",
       "title": "달서구 중장년 기술창업센터  입주기업 모집",
@@ -1758,6 +1783,31 @@
     },
     {
       "source": "bizinfo",
+      "source_id": "PBLN_000000000126198",
+      "title": "2026년 스마트제조혁신 유공 포상 후보자 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126198",
+      "apply_raw": "2026-09-04 ~ 2026-09-25",
+      "apply_start": "2026-09-04",
+      "apply_end": "2026-09-25",
+      "agency": "중소벤처기업부",
+      "exec_agency": "중소기업기술정보진흥원",
+      "category": "기술",
+      "posted_at": "2026-09-07",
+      "status": "접수중",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-09-07",
+      "key": "bizinfo:PBLN_000000000126198",
+      "track": "B",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "고객사향 키워드: 제조혁신"
+      ]
+    },
+    {
+      "source": "bizinfo",
       "source_id": "PBLN_000000000125950",
       "title": "2026년 2차 스마트공장 공급기업 역량진단 참여기업 모집 공고",
       "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125950",
@@ -1935,6 +1985,31 @@
     },
     {
       "source": "bizinfo",
+      "source_id": "PBLN_000000000126213",
+      "title": "2026년 의료기기 반도체 실증플랫폼 구축사업 실증지원 통합 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126213",
+      "apply_raw": "예산 소진시까지",
+      "apply_start": null,
+      "apply_end": null,
+      "agency": "산업통상부",
+      "exec_agency": "강원테크노파크",
+      "category": "기술",
+      "posted_at": "2026-09-07",
+      "status": "상시",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-09-07",
+      "key": "bizinfo:PBLN_000000000126213",
+      "track": "A",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: 실증"
+      ]
+    },
+    {
+      "source": "bizinfo",
       "source_id": "PBLN_000000000126041",
       "title": "2026년 3차 고강도 고방열 경량금속소재 부품화 실증 기반구축사업 수요기업 대응형 기술전환 지원 컨설팅 수요기업 추가모집 공고",
       "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126041",
@@ -2044,13 +2119,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-09-07T14:15:20",
+  "collected_at": "2026-09-07T17:59:52",
   "stats": {
-    "collected": 707,
+    "collected": 712,
     "cards": 43,
     "expired": 2,
-    "candidates": 33,
+    "candidates": 36,
     "excluded": 0,
-    "dropped": 629
+    "dropped": 631
   }
 }
