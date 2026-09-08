@@ -57,6 +57,33 @@
     },
     {
       "source": "kstartup",
+      "source_id": "179178",
+      "title": "2026 협성대학교 창업보육센터 하반기 신규 입주기업 모집 공고",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179178",
+      "apply_raw": "2026-09-07 ~ 2026-09-30",
+      "apply_start": "2026-09-07",
+      "apply_end": "2026-09-30",
+      "agency": "창업보육센터 지원",
+      "exec_agency": "창업보육센터 지원",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-09-08",
+      "status": "접수중",
+      "location": "경기도 화성시 봉담읍 최루백로 72 협성대학교 창업보육센터 ○ 모집기간 : 상시모집 ○ 입주기간 : 입주일 ~ 최대 3년(연장 심사를 통해 최대",
+      "founding": "",
+      "collected_at": "2026-09-08",
+      "key": "kstartup:179178",
+      "track": "C",
+      "score": 9,
+      "region": "경기",
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업, 창업보육, 보육센터",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
+      "source": "kstartup",
       "source_id": "179002",
       "title": "2026년 한국외대 창업보육센터 입주기업 모집 공고",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179002",
@@ -296,6 +323,87 @@
       "conditional": null,
       "reasons": [
         "핵심 키워드: 로봇, AI",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
+      "source": "kstartup",
+      "source_id": "179172",
+      "title": "2026년 안산정보산업진흥센터(경기TP안산창업보육센터) 제3차 신규 입주자 모집 공고",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179172",
+      "apply_raw": "2026-09-04 ~ 2026-09-18",
+      "apply_start": "2026-09-04",
+      "apply_end": "2026-09-18",
+      "agency": "창업보육센터 지원",
+      "exec_agency": "창업보육센터 지원",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-09-08",
+      "status": "마감임박",
+      "location": "경기 안산시 단원구 연수원로 104-14 ○ 공간구성 : 17.6평(58.18㎡) 4개소/ 47.0평(155.26㎡) 1개소 ○ 입주기간 : 최",
+      "founding": "",
+      "collected_at": "2026-09-08",
+      "key": "kstartup:179172",
+      "track": "C",
+      "score": 6,
+      "region": "경기",
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 창업보육, 보육센터",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
+      "source": "kstartup",
+      "source_id": "179187",
+      "title": "2026년 하반기 서울창업허브 성수 입주기업 모집",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179187",
+      "apply_raw": "2026-09-03 ~ 2026-09-28",
+      "apply_start": "2026-09-03",
+      "apply_end": "2026-09-28",
+      "agency": "서울창업허브 성수 운영",
+      "exec_agency": "서울창업허브 성수 운영",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-09-08",
+      "status": "접수중",
+      "location": "서울시 성동구 성수이로 22길 37 아크밸리 지식산업센터 2~4층 ❑ 입주기간 입주 계약 기간은 기본 2년이며, 연장이용료는 연차별로 상승 적용",
+      "founding": "7년미만, 10년미만",
+      "collected_at": "2026-09-08",
+      "key": "kstartup:179187",
+      "track": "C",
+      "score": 6,
+      "region": "서울",
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업, 창업허브",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
+      "source": "kstartup",
+      "source_id": "179168",
+      "title": "호서대학교 서울창업보육센터 신규입주모집 공고",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179168",
+      "apply_raw": "2026-09-04 ~ 2026-09-30",
+      "apply_start": "2026-09-04",
+      "apply_end": "2026-09-30",
+      "agency": "창업보육센터 지원",
+      "exec_agency": "창업보육센터 지원",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-09-08",
+      "status": "접수중",
+      "location": ")을 호서대학교 서울창업보육센터로 이전(필수) - 기업부설연구소 및 연구개발전담부서 단독 입주 가능 신청 시 요청하는 정보(개인정보포함)는 사업",
+      "founding": "",
+      "collected_at": "2026-09-08",
+      "key": "kstartup:179168",
+      "track": "C",
+      "score": 6,
+      "region": "서울",
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 창업보육, 보육센터",
         "자동 분류"
       ],
       "auto": true
@@ -2143,13 +2251,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-09-08T14:17:01",
+  "collected_at": "2026-09-08T17:40:24",
   "stats": {
-    "collected": 718,
-    "cards": 43,
+    "collected": 735,
+    "cards": 47,
     "expired": 2,
     "candidates": 37,
     "excluded": 0,
-    "dropped": 636
+    "dropped": 649
   }
 }
