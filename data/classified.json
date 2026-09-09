@@ -2,6 +2,34 @@
   "generated_at": "2026-09-09",
   "cards": [
     {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000126326",
+      "title": "2026년 산업혁신기반구축사업 제조 특화 온디바이스 AI 기반 자율제조 실증 기반 구축사업 기업지원(시제품 제작) 프로그램 수혜기업 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126326",
+      "apply_raw": "2026-09-07 ~ 2026-09-18",
+      "apply_start": "2026-09-07",
+      "apply_end": "2026-09-18",
+      "agency": "산업통상부",
+      "exec_agency": "구미전자정보기술원",
+      "category": "기술",
+      "posted_at": "2026-09-09",
+      "status": "마감임박",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-09-09",
+      "key": "bizinfo:PBLN_000000000126326",
+      "track": "A",
+      "score": 10,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: 실증, AI, 온디바이스",
+        "관련 키워드: 자율",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
       "source": "kstartup",
       "source_id": "179011",
       "title": "2026년 하반기 경기도여성창업보육센터 입주기업 모집공고",
@@ -1788,6 +1816,31 @@
     },
     {
       "source": "bizinfo",
+      "source_id": "PBLN_000000000126323",
+      "title": "[경북] 2026년 지역특화형 스마트공장 보급ㆍ확산사업 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126323",
+      "apply_raw": "2026-09-09 ~ 2026-09-17",
+      "apply_start": "2026-09-09",
+      "apply_end": "2026-09-17",
+      "agency": "중소벤처기업부",
+      "exec_agency": "구미전자정보기술원",
+      "category": "경영",
+      "posted_at": "2026-09-09",
+      "status": "마감임박",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-09-09",
+      "key": "bizinfo:PBLN_000000000126323",
+      "track": "B",
+      "score": 3,
+      "region": "경북",
+      "conditional": null,
+      "reasons": [
+        "고객사향 키워드: 스마트공장"
+      ]
+    },
+    {
+      "source": "bizinfo",
       "source_id": "PBLN_000000000125945",
       "title": "2026년 2차 베트남 ODA 스마트공장 공정개선 컨설팅 지원사업 공고",
       "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125945",
@@ -1859,6 +1912,31 @@
       "conditional": null,
       "reasons": [
         "사무실·공간 키워드: 창업허브"
+      ]
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000126331",
+      "title": "2026년 AI 융합 에스테틱 의료기기 글로벌 사업화  기반구축 사업(1차년도) 참여기업 통합모집 재공고 (바이오산업 개방형 생태계 조성 촉진)",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126331",
+      "apply_raw": "2026-09-07 ~ 2026-09-22",
+      "apply_start": "2026-09-07",
+      "apply_end": "2026-09-22",
+      "agency": "산업통상부",
+      "exec_agency": "원주의료기기산업진흥원",
+      "category": "기술",
+      "posted_at": "2026-09-09",
+      "status": "마감임박",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-09-09",
+      "key": "bizinfo:PBLN_000000000126331",
+      "track": "A",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: AI"
       ]
     },
     {
@@ -2249,12 +2327,12 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-09-09T15:24:05",
+  "collected_at": "2026-09-09T21:19:56",
   "stats": {
-    "collected": 745,
-    "cards": 46,
+    "collected": 748,
+    "cards": 47,
     "expired": 2,
-    "candidates": 38,
+    "candidates": 40,
     "excluded": 0,
     "dropped": 659
   }
