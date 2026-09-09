@@ -3,33 +3,6 @@
   "cards": [
     {
       "source": "kstartup",
-      "source_id": "179056",
-      "title": "[서울여자대학교 창업보육센터] 신규 입주기업 모집 공고",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179056",
-      "apply_raw": "2026-08-26 ~ 2026-09-09",
-      "apply_start": "2026-08-26",
-      "apply_end": "2026-09-09",
-      "agency": "창업보육센터 지원사업",
-      "exec_agency": "창업보육센터 지원사업",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-08-27",
-      "status": "마감임박",
-      "location": "서울특별시 노원구 화랑로 621 고명우기념관 3층 창업보육센터 3. 입주기간: 2026.10.01 ~ 2027.09.30. 4. 입주비용: 보증",
-      "founding": "",
-      "collected_at": "2026-09-09",
-      "key": "kstartup:179056",
-      "track": "C",
-      "score": 9,
-      "region": "서울",
-      "conditional": null,
-      "reasons": [
-        "사무실·공간 키워드: 입주기업, 창업보육, 보육센터",
-        "자동 분류"
-      ],
-      "auto": true
-    },
-    {
-      "source": "kstartup",
       "source_id": "179011",
       "title": "2026년 하반기 경기도여성창업보육센터 입주기업 모집공고",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179011",
@@ -45,6 +18,33 @@
       "founding": "3년미만",
       "collected_at": "2026-09-09",
       "key": "kstartup:179011",
+      "track": "C",
+      "score": 9,
+      "region": "경기",
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업, 창업보육, 보육센터",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
+      "source": "kstartup",
+      "source_id": "179194",
+      "title": "한국공학대학교 창업보육센터 입주기업 모집공고",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179194",
+      "apply_raw": "2026-09-08 ~ 2026-09-30",
+      "apply_start": "2026-09-08",
+      "apply_end": "2026-09-30",
+      "agency": "창업보육센터 지원",
+      "exec_agency": "창업보육센터 지원",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-09-09",
+      "status": "접수중",
+      "location": "ㅇ 경기도 시흥시 산기대학로 237(한국공학대학교), 공학관 P동 303호 입주기간 ㅇ 기본 1년, 최대 5년(매년 연장심의를 통해 재계약) 입",
+      "founding": "",
+      "collected_at": "2026-09-09",
+      "key": "kstartup:179194",
       "track": "C",
       "score": 9,
       "region": "경기",
@@ -149,7 +149,7 @@
       "category": "시설ㆍ공간ㆍ보육",
       "posted_at": "2026-07-16",
       "status": "접수중",
-      "location": "경기도 안양시 만안구 안양로 311 프로젝트500타워 15층(롯데시네마 안양일번가 건물) ￭ 모집 규모 : 2개실 - 1509호(32.2㎡/10",
+      "location": "경기도 안양시 만안구 안양로 311 프로젝트500타워 15층(롯데시네마 안양일번가 건물) ￭ 모집 규모 : 1개실 - 1510호 (50.4㎡/1",
       "founding": "",
       "collected_at": "2026-09-09",
       "key": "kstartup:178527",
@@ -1837,6 +1837,31 @@
       ]
     },
     {
+      "source": "kstartup",
+      "source_id": "179200",
+      "title": "2026년 SVC Seoul 인턴십 프로그램 학생인턴 모집공고",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179200",
+      "apply_raw": "2026-09-09 ~ 2026-09-17",
+      "apply_start": "2026-09-09",
+      "apply_end": "2026-09-17",
+      "agency": "글로벌 창업허브 사업",
+      "exec_agency": "글로벌 창업허브 사업",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-09-09",
+      "status": "마감임박",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-09-09",
+      "key": "kstartup:179200",
+      "track": "C",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 창업허브"
+      ]
+    },
+    {
       "source": "nipa",
       "source_id": "16921",
       "title": "2026년 아태 AI 특화지구(AHAP) 조성 사업 공고",
@@ -2224,13 +2249,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-09-09T10:51:18",
+  "collected_at": "2026-09-09T15:24:05",
   "stats": {
-    "collected": 739,
+    "collected": 745,
     "cards": 46,
     "expired": 2,
-    "candidates": 37,
+    "candidates": 38,
     "excluded": 0,
-    "dropped": 654
+    "dropped": 659
   }
 }
