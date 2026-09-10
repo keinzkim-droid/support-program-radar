@@ -1,9 +1,9 @@
 {
-  "collected_at": "2026-09-10T10:27:25",
+  "collected_at": "2026-09-10T14:16:44",
   "failures": [
     "bizinfo"
   ],
-  "count": 747,
+  "count": 745,
   "items": [
     {
       "source": "bizinfo",
@@ -6518,6 +6518,40 @@
     },
     {
       "source": "snip",
+      "source_id": "2026-0252-4056",
+      "title": "하이메이커스페이스 3D프린터 운용기능사 교육(~9/15)",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0252&pjtCd=4056&stateChk=N",
+      "apply_raw": "~ 2026.09.15",
+      "apply_start": null,
+      "apply_end": "2026-09-15",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-09-10",
+      "status": "진행중",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-09-10"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0251-4211",
+      "title": "2026년 5차 성남글로벌융합센터 신규 입주기업 모집",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0251&pjtCd=4211&stateChk=N",
+      "apply_raw": "~ 2026.09.28",
+      "apply_start": null,
+      "apply_end": "2026-09-28",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-09-10",
+      "status": "진행중",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-09-10"
+    },
+    {
+      "source": "snip",
       "source_id": "2026-0250-4083",
       "title": "2026년 성남 국제 바이오헬스케어 컨벤션(SBIC) 참가기업 모집",
       "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0250&pjtCd=4083&stateChk=N",
@@ -9033,40 +9067,6 @@
       "collected_at": "2026-09-10"
     },
     {
-      "source": "snip",
-      "source_id": "2026-0101-4109",
-      "title": "2026 사업화 패키지 지원 협력기관(대기업) 추가모집 공고",
-      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0101&pjtCd=4109&stateChk=N",
-      "apply_raw": "~ 2026.04.20",
-      "apply_start": null,
-      "apply_end": "2026-04-20",
-      "agency": "성남시",
-      "exec_agency": "성남산업진흥원",
-      "category": "지역",
-      "posted_at": "2026-04-10",
-      "status": "마감",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-09-10"
-    },
-    {
-      "source": "snip",
-      "source_id": "2026-0100-4063",
-      "title": "[소공인특화지원센터] 소공인 사업화 패키지 참가지원",
-      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0100&pjtCd=4063&stateChk=N",
-      "apply_raw": "~ 2026.04.24",
-      "apply_start": null,
-      "apply_end": "2026-04-24",
-      "agency": "성남시",
-      "exec_agency": "성남산업진흥원",
-      "category": "지역",
-      "posted_at": "2026-04-10",
-      "status": "마감",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-09-10"
-    },
-    {
       "source": "kstartup",
       "source_id": "179192",
       "title": "베트남 테크페스트(TECHFEST 2026) K-스타트업 통합관 참가기업 모집공고",
@@ -9298,23 +9298,6 @@
       "agency": "28청춘창업소 운영",
       "exec_agency": "28청춘창업소 운영",
       "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-09-08",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-09-10"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "179133",
-      "title": "[모두의창업 2기] 서울시립대학교 운영기관 설명회",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179133",
-      "apply_raw": "2026-09-03 ~ 2026-09-10",
-      "apply_start": "2026-09-03",
-      "apply_end": "2026-09-10",
-      "agency": "모두의 창업",
-      "exec_agency": "모두의 창업",
-      "category": "행사ㆍ네트워크",
       "posted_at": "2026-09-08",
       "status": "",
       "location": "",
@@ -9655,23 +9638,6 @@
       "agency": "글로벌 교류·투자유치 지원사업",
       "exec_agency": "글로벌 교류·투자유치 지원사업",
       "category": "글로벌",
-      "posted_at": "2026-09-08",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-09-10"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "179154",
-      "title": "2026 서울 오픈이노베이션 글로벌 데이",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179154",
-      "apply_raw": "2026-09-03 ~ 2026-09-10",
-      "apply_start": "2026-09-03",
-      "apply_end": "2026-09-10",
-      "agency": "서울경제진흥원",
-      "exec_agency": "서울경제진흥원",
-      "category": "행사ㆍ네트워크",
       "posted_at": "2026-09-08",
       "status": "",
       "location": "",
@@ -10678,7 +10644,7 @@
       "posted_at": "2026-08-27",
       "status": "",
       "location": "",
-      "founding": "7년미만",
+      "founding": "",
       "collected_at": "2026-09-10"
     },
     {
@@ -12672,23 +12638,6 @@
     },
     {
       "source": "kiria",
-      "source_id": "IBUS_000000000001251",
-      "title": "「2026년 모빌리티 혁신제품 시험평가 지원」지원 대상 기업 상시모집 공고",
-      "url": "https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&ibusCode=IBUS_000000000001251",
-      "apply_raw": "2026-05-28 ~ 2026-11-15",
-      "apply_start": "2026-05-28",
-      "apply_end": "2026-11-15",
-      "agency": "한국로봇산업진흥원",
-      "exec_agency": "한국로봇산업진흥원",
-      "category": "로봇",
-      "posted_at": "2026-05-28",
-      "status": "진행중",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-11"
-    },
-    {
-      "source": "kiria",
       "source_id": "IBUS_000000000001252",
       "title": "2026년 실외이동로봇 기술지원사업 참여기업 모집 공고",
       "url": "https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&ibusCode=IBUS_000000000001252",
@@ -12703,6 +12652,23 @@
       "location": "",
       "founding": "",
       "collected_at": "2026-08-31"
+    },
+    {
+      "source": "kiria",
+      "source_id": "IBUS_000000000001251",
+      "title": "「2026년 모빌리티 혁신제품 시험평가 지원」지원 대상 기업 상시모집 공고",
+      "url": "https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&ibusCode=IBUS_000000000001251",
+      "apply_raw": "2026-05-28 ~ 2026-11-15",
+      "apply_start": "2026-05-28",
+      "apply_end": "2026-11-15",
+      "agency": "한국로봇산업진흥원",
+      "exec_agency": "한국로봇산업진흥원",
+      "category": "로봇",
+      "posted_at": "2026-05-28",
+      "status": "진행중",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-11"
     }
   ]
 }
