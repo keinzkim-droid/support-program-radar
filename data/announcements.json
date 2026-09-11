@@ -1,7 +1,9 @@
 {
-  "collected_at": "2026-09-11T10:16:14",
-  "failures": [],
-  "count": 734,
+  "collected_at": "2026-09-11T14:09:14",
+  "failures": [
+    "bizinfo"
+  ],
+  "count": 733,
   "items": [
     {
       "source": "bizinfo",
@@ -5750,6 +5752,23 @@
       "collected_at": "2026-09-11"
     },
     {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000123766",
+      "title": "[충북] 2026년 스마트공장 구축 자부담금 지원사업 수혜기업 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123766",
+      "apply_raw": "2026-07-01 ~ 2026-08-31",
+      "apply_start": "2026-07-01",
+      "apply_end": "2026-08-31",
+      "agency": "충청북도",
+      "exec_agency": "충북테크노파크",
+      "category": "경영",
+      "posted_at": "2026-06-30",
+      "status": "",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-31"
+    },
+    {
       "source": "kiria",
       "source_id": "IBUS_000000000001265",
       "title": "한국로봇산업진흥원 2026 로보월드 K-로봇 공공프리마켓(가칭) 참여기업 모집 수요조사",
@@ -6425,6 +6444,23 @@
       "category": "ICT",
       "posted_at": "2026-04-13",
       "status": "",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-09-11"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0253-4167",
+      "title": "해외 전시회 개별 참가 지원 모집공고",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0253&pjtCd=4167&stateChk=N",
+      "apply_raw": "~ 2026.10.23",
+      "apply_start": null,
+      "apply_end": "2026-10-23",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-09-11",
+      "status": "진행중",
       "location": "",
       "founding": "",
       "collected_at": "2026-09-11"
@@ -8963,23 +8999,6 @@
       "collected_at": "2026-09-11"
     },
     {
-      "source": "snip",
-      "source_id": "2026-0102-4121",
-      "title": "2026년 ｢창업기업 민간투자연계 지원사업｣ 창업기업 모집 공고",
-      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0102&pjtCd=4121&stateChk=N",
-      "apply_raw": "~ 2026.04.27",
-      "apply_start": null,
-      "apply_end": "2026-04-27",
-      "agency": "성남시",
-      "exec_agency": "성남산업진흥원",
-      "category": "지역",
-      "posted_at": "2026-04-14",
-      "status": "마감",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-09-11"
-    },
-    {
       "source": "kstartup",
       "source_id": "179192",
       "title": "베트남 테크페스트(TECHFEST 2026) K-스타트업 통합관 참가기업 모집공고",
@@ -9929,23 +9948,6 @@
       "status": "",
       "location": "강북청년창업마루 강북창업지원센터 4층 (서울 강북구 노해로 23길 123) 3. 입주기간 : 입주일로부터 ~ 2026년 12월 31일까지 4.",
       "founding": "",
-      "collected_at": "2026-09-11"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "179113",
-      "title": "2026년 제3차 관악S밸리 창업 공간 신규 입주기업 모집 공고",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179113",
-      "apply_raw": "2026-08-26 ~ 2026-09-11",
-      "apply_start": "2026-08-26",
-      "apply_end": "2026-09-11",
-      "agency": "관악S밸리 창업공간 운영",
-      "exec_agency": "관악S밸리 창업공간 운영",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-09-02",
-      "status": "",
-      "location": "",
-      "founding": "전체",
       "collected_at": "2026-09-11"
     },
     {
@@ -12446,23 +12448,6 @@
       "location": "",
       "founding": "",
       "collected_at": "2026-08-11"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000123766",
-      "title": "[충북] 2026년 스마트공장 구축 자부담금 지원사업 수혜기업 모집 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123766",
-      "apply_raw": "2026-07-01 ~ 2026-08-31",
-      "apply_start": "2026-07-01",
-      "apply_end": "2026-08-31",
-      "agency": "충청북도",
-      "exec_agency": "충북테크노파크",
-      "category": "경영",
-      "posted_at": "2026-06-30",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-31"
     },
     {
       "source": "kiria",
