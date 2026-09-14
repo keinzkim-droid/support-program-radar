@@ -1,9 +1,9 @@
 {
-  "collected_at": "2026-09-14T10:23:04",
+  "collected_at": "2026-09-14T14:46:21",
   "failures": [
     "bizinfo"
   ],
-  "count": 706,
+  "count": 705,
   "items": [
     {
       "source": "bizinfo",
@@ -9442,6 +9442,23 @@
     },
     {
       "source": "kstartup",
+      "source_id": "179197",
+      "title": "「2026년 스타트업 법률지원사업 대구광역시 법률상담회」 참여기업 모집 안내",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179197",
+      "apply_raw": "2026-09-08 ~ 2026-09-15",
+      "apply_start": "2026-09-08",
+      "apply_end": "2026-09-15",
+      "agency": "스타트업법률지원",
+      "exec_agency": "스타트업법률지원",
+      "category": "멘토링ㆍ컨설팅ㆍ교육",
+      "posted_at": "2026-09-08",
+      "status": "",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-09-14"
+    },
+    {
+      "source": "kstartup",
       "source_id": "179163",
       "title": "2026 천안 C-STAR Awards 기술/투자 상담회 참여기업 모집",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179163",
@@ -10445,23 +10462,6 @@
     },
     {
       "source": "kstartup",
-      "source_id": "178980",
-      "title": "제2회 도봉 창업 포럼 (NCI 민.관.학 창업 포럼) : 대전환의 시대, 기술과 사회적 가치가 여는 창업의 새로운 기회(기조강연 : 과학크리에이터 궤도)",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178980",
-      "apply_raw": "2026-08-20 ~ 2026-09-14",
-      "apply_start": "2026-08-20",
-      "apply_end": "2026-09-14",
-      "agency": "제2회 도봉 창업 포럼(NCI 민.관.학 창업포럼)",
-      "exec_agency": "제2회 도봉 창업 포럼(NCI 민.관.학 창업포럼)",
-      "category": "행사ㆍ네트워크",
-      "posted_at": "2026-08-21",
-      "status": "",
-      "location": "",
-      "founding": "전체",
-      "collected_at": "2026-09-14"
-    },
-    {
-      "source": "kstartup",
       "source_id": "178976",
       "title": "2026년 대한민국 물산업 혁신 창업대전(Startup Water 2026) 참가자(팀) 모집",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178976",
@@ -10645,23 +10645,6 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "178798",
-      "title": "[무료 AI 역량강화 교육] 생성형 AI 기반 무역 컴플라이언스 및 관세·ESG 리스크 최적화",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178798",
-      "apply_raw": "2026-08-04 ~ 2026-09-14",
-      "apply_start": "2026-08-04",
-      "apply_end": "2026-09-14",
-      "agency": "2026 산업전문인력 AI역량강화 지원사업",
-      "exec_agency": "2026 산업전문인력 AI역량강화 지원사업",
-      "category": "멘토링ㆍ컨설팅ㆍ교육",
-      "posted_at": "2026-08-10",
-      "status": "",
-      "location": "",
-      "founding": "1년미만, 2년미만, 3년미만, 5년미만, 7년미만, 10년미만",
       "collected_at": "2026-09-14"
     },
     {

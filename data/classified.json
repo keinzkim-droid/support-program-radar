@@ -1402,31 +1402,6 @@
       ]
     },
     {
-      "source": "kstartup",
-      "source_id": "178798",
-      "title": "[무료 AI 역량강화 교육] 생성형 AI 기반 무역 컴플라이언스 및 관세·ESG 리스크 최적화",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178798",
-      "apply_raw": "2026-08-04 ~ 2026-09-14",
-      "apply_start": "2026-08-04",
-      "apply_end": "2026-09-14",
-      "agency": "2026 산업전문인력 AI역량강화 지원사업",
-      "exec_agency": "2026 산업전문인력 AI역량강화 지원사업",
-      "category": "멘토링ㆍ컨설팅ㆍ교육",
-      "posted_at": "2026-08-10",
-      "status": "마감임박",
-      "location": "",
-      "founding": "1년미만, 2년미만, 3년미만, 5년미만, 7년미만, 10년미만",
-      "collected_at": "2026-09-14",
-      "key": "kstartup:178798",
-      "track": "A",
-      "score": 3,
-      "region": null,
-      "conditional": null,
-      "reasons": [
-        "핵심 키워드: AI"
-      ]
-    },
-    {
       "source": "nipa",
       "source_id": "16922",
       "title": "2026년도 한-베트남 AI·디지털 포럼 운영 대행 용역 입찰공고",
@@ -2014,12 +1989,12 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-09-14T10:23:04",
+  "collected_at": "2026-09-14T14:46:21",
   "stats": {
-    "collected": 706,
+    "collected": 705,
     "cards": 41,
     "expired": 2,
-    "candidates": 34,
+    "candidates": 33,
     "excluded": 0,
     "dropped": 629
   }
