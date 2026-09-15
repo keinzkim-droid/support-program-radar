@@ -1,7 +1,10 @@
 {
-  "collected_at": "2026-09-14T22:38:01",
-  "failures": [],
-  "count": 702,
+  "collected_at": "2026-09-15T10:51:36",
+  "failures": [
+    "bizinfo",
+    "snip"
+  ],
+  "count": 701,
   "items": [
     {
       "source": "bizinfo",
@@ -5614,6 +5617,23 @@
       "collected_at": "2026-09-14"
     },
     {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000123766",
+      "title": "[충북] 2026년 스마트공장 구축 자부담금 지원사업 수혜기업 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123766",
+      "apply_raw": "2026-07-01 ~ 2026-08-31",
+      "apply_start": "2026-07-01",
+      "apply_end": "2026-08-31",
+      "agency": "충청북도",
+      "exec_agency": "충북테크노파크",
+      "category": "경영",
+      "posted_at": "2026-06-30",
+      "status": "",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-31"
+    },
+    {
       "source": "kiria",
       "source_id": "IBUS_000000000001265",
       "title": "한국로봇산업진흥원 2026 로보월드 K-로봇 공공프리마켓(가칭) 참여기업 모집 수요조사",
@@ -5628,7 +5648,7 @@
       "status": "완료",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kiria",
@@ -5645,7 +5665,7 @@
       "status": "진행중",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kiria",
@@ -5662,7 +5682,7 @@
       "status": "진행중",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kiria",
@@ -5679,7 +5699,7 @@
       "status": "완료",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kiria",
@@ -5696,7 +5716,7 @@
       "status": "완료",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kiria",
@@ -5713,7 +5733,7 @@
       "status": "완료",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kiria",
@@ -5730,7 +5750,7 @@
       "status": "완료",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kiria",
@@ -5747,7 +5767,7 @@
       "status": "완료",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kiria",
@@ -5764,7 +5784,7 @@
       "status": "완료",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kiria",
@@ -5781,14 +5801,14 @@
       "status": "완료",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "nipa",
       "source_id": "16931",
       "title": "2026 인도 BTS(Bengaluru Tech Summit) 전시회 참가 기업 모집",
       "url": "https://www.nipa.kr/home/2-2/16931",
-      "apply_raw": "D-16",
+      "apply_raw": "D-15",
       "apply_start": null,
       "apply_end": "2026-09-30",
       "agency": "정보통신산업진흥원",
@@ -5798,16 +5818,16 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "nipa",
       "source_id": "16922",
       "title": "2026년도 한-베트남 AI·디지털 포럼 운영 대행 용역 입찰공고",
       "url": "https://www.nipa.kr/home/2-2/16922",
-      "apply_raw": "D-1",
+      "apply_raw": "오늘 마감",
       "apply_start": null,
-      "apply_end": "2026-09-15",
+      "apply_end": null,
       "agency": "정보통신산업진흥원",
       "exec_agency": "정보통신산업진흥원",
       "category": "ICT",
@@ -5815,14 +5835,14 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "nipa",
       "source_id": "16921",
       "title": "2026년 아태 AI 특화지구(AHAP) 조성 사업 공고",
       "url": "https://www.nipa.kr/home/2-2/16921",
-      "apply_raw": "D-9",
+      "apply_raw": "D-8",
       "apply_start": null,
       "apply_end": "2026-09-23",
       "agency": "정보통신산업진흥원",
@@ -5832,14 +5852,14 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "nipa",
       "source_id": "16900",
       "title": "2026년 KoVAC XR 쇼룸 입주기업 2차 모집",
       "url": "https://www.nipa.kr/home/2-2/16900",
-      "apply_raw": "D-3",
+      "apply_raw": "D-2",
       "apply_start": null,
       "apply_end": "2026-09-17",
       "agency": "정보통신산업진흥원",
@@ -5849,7 +5869,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "nipa",
@@ -5858,7 +5878,7 @@
       "url": "https://www.nipa.kr/home/2-2/16899",
       "apply_raw": "종료",
       "apply_start": null,
-      "apply_end": "2026-09-13",
+      "apply_end": "2026-09-14",
       "agency": "정보통신산업진흥원",
       "exec_agency": "정보통신산업진흥원",
       "category": "ICT",
@@ -5866,7 +5886,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "nipa",
@@ -5875,7 +5895,7 @@
       "url": "https://www.nipa.kr/home/2-2/16897",
       "apply_raw": "종료",
       "apply_start": null,
-      "apply_end": "2026-09-13",
+      "apply_end": "2026-09-14",
       "agency": "정보통신산업진흥원",
       "exec_agency": "정보통신산업진흥원",
       "category": "ICT",
@@ -5883,7 +5903,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "nipa",
@@ -5892,7 +5912,7 @@
       "url": "https://www.nipa.kr/home/2-2/16887",
       "apply_raw": "종료",
       "apply_start": null,
-      "apply_end": "2026-09-13",
+      "apply_end": "2026-09-14",
       "agency": "정보통신산업진흥원",
       "exec_agency": "정보통신산업진흥원",
       "category": "ICT",
@@ -5900,7 +5920,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "nipa",
@@ -5909,7 +5929,7 @@
       "url": "https://www.nipa.kr/home/2-2/16883",
       "apply_raw": "종료",
       "apply_start": null,
-      "apply_end": "2026-09-13",
+      "apply_end": "2026-09-14",
       "agency": "정보통신산업진흥원",
       "exec_agency": "정보통신산업진흥원",
       "category": "ICT",
@@ -5917,7 +5937,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "nipa",
@@ -5926,7 +5946,7 @@
       "url": "https://www.nipa.kr/home/2-2/16882",
       "apply_raw": "종료",
       "apply_start": null,
-      "apply_end": "2026-09-13",
+      "apply_end": "2026-09-14",
       "agency": "정보통신산업진흥원",
       "exec_agency": "정보통신산업진흥원",
       "category": "ICT",
@@ -5934,7 +5954,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "nipa",
@@ -5943,7 +5963,7 @@
       "url": "https://www.nipa.kr/home/2-2/16874",
       "apply_raw": "종료",
       "apply_start": null,
-      "apply_end": "2026-09-13",
+      "apply_end": "2026-09-14",
       "agency": "정보통신산업진흥원",
       "exec_agency": "정보통신산업진흥원",
       "category": "ICT",
@@ -5951,7 +5971,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "nipa",
@@ -5960,7 +5980,7 @@
       "url": "https://www.nipa.kr/home/2-2/16846",
       "apply_raw": "종료",
       "apply_start": null,
-      "apply_end": "2026-09-13",
+      "apply_end": "2026-09-14",
       "agency": "정보통신산업진흥원",
       "exec_agency": "정보통신산업진흥원",
       "category": "ICT",
@@ -5968,7 +5988,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "nipa",
@@ -5977,7 +5997,7 @@
       "url": "https://www.nipa.kr/home/2-2/16872",
       "apply_raw": "종료",
       "apply_start": null,
-      "apply_end": "2026-09-13",
+      "apply_end": "2026-09-14",
       "agency": "정보통신산업진흥원",
       "exec_agency": "정보통신산업진흥원",
       "category": "ICT",
@@ -5985,7 +6005,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "nipa",
@@ -5994,7 +6014,7 @@
       "url": "https://www.nipa.kr/home/2-2/16866",
       "apply_raw": "종료",
       "apply_start": null,
-      "apply_end": "2026-09-13",
+      "apply_end": "2026-09-14",
       "agency": "정보통신산업진흥원",
       "exec_agency": "정보통신산업진흥원",
       "category": "ICT",
@@ -6002,7 +6022,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "nipa",
@@ -6011,7 +6031,7 @@
       "url": "https://www.nipa.kr/home/2-2/16852",
       "apply_raw": "종료",
       "apply_start": null,
-      "apply_end": "2026-09-13",
+      "apply_end": "2026-09-14",
       "agency": "정보통신산업진흥원",
       "exec_agency": "정보통신산업진흥원",
       "category": "ICT",
@@ -6019,7 +6039,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "nipa",
@@ -6028,7 +6048,7 @@
       "url": "https://www.nipa.kr/home/2-2/16827",
       "apply_raw": "종료",
       "apply_start": null,
-      "apply_end": "2026-09-13",
+      "apply_end": "2026-09-14",
       "agency": "정보통신산업진흥원",
       "exec_agency": "정보통신산업진흥원",
       "category": "ICT",
@@ -6036,7 +6056,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "nipa",
@@ -6045,7 +6065,7 @@
       "url": "https://www.nipa.kr/home/2-2/16820",
       "apply_raw": "종료",
       "apply_start": null,
-      "apply_end": "2026-09-13",
+      "apply_end": "2026-09-14",
       "agency": "정보통신산업진흥원",
       "exec_agency": "정보통신산업진흥원",
       "category": "ICT",
@@ -6053,7 +6073,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "nipa",
@@ -6062,7 +6082,7 @@
       "url": "https://www.nipa.kr/home/2-2/16817",
       "apply_raw": "종료",
       "apply_start": null,
-      "apply_end": "2026-09-13",
+      "apply_end": "2026-09-14",
       "agency": "정보통신산업진흥원",
       "exec_agency": "정보통신산업진흥원",
       "category": "ICT",
@@ -6070,7 +6090,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "nipa",
@@ -6079,7 +6099,7 @@
       "url": "https://www.nipa.kr/home/2-2/16815",
       "apply_raw": "종료",
       "apply_start": null,
-      "apply_end": "2026-09-13",
+      "apply_end": "2026-09-14",
       "agency": "정보통신산업진흥원",
       "exec_agency": "정보통신산업진흥원",
       "category": "ICT",
@@ -6087,7 +6107,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "nipa",
@@ -6096,7 +6116,7 @@
       "url": "https://www.nipa.kr/home/2-2/16797",
       "apply_raw": "종료",
       "apply_start": null,
-      "apply_end": "2026-09-13",
+      "apply_end": "2026-09-14",
       "agency": "정보통신산업진흥원",
       "exec_agency": "정보통신산업진흥원",
       "category": "ICT",
@@ -6104,7 +6124,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "nipa",
@@ -6113,7 +6133,7 @@
       "url": "https://www.nipa.kr/home/2-2/16795",
       "apply_raw": "종료",
       "apply_start": null,
-      "apply_end": "2026-09-13",
+      "apply_end": "2026-09-14",
       "agency": "정보통신산업진흥원",
       "exec_agency": "정보통신산업진흥원",
       "category": "ICT",
@@ -6121,7 +6141,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "nipa",
@@ -6130,7 +6150,7 @@
       "url": "https://www.nipa.kr/home/2-2/16774",
       "apply_raw": "종료",
       "apply_start": null,
-      "apply_end": "2026-09-13",
+      "apply_end": "2026-09-14",
       "agency": "정보통신산업진흥원",
       "exec_agency": "정보통신산업진흥원",
       "category": "ICT",
@@ -6138,7 +6158,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "nipa",
@@ -6147,7 +6167,7 @@
       "url": "https://www.nipa.kr/home/2-2/16764",
       "apply_raw": "종료",
       "apply_start": null,
-      "apply_end": "2026-09-13",
+      "apply_end": "2026-09-14",
       "agency": "정보통신산업진흥원",
       "exec_agency": "정보통신산업진흥원",
       "category": "ICT",
@@ -6155,7 +6175,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "nipa",
@@ -6164,7 +6184,7 @@
       "url": "https://www.nipa.kr/home/2-2/16756",
       "apply_raw": "종료",
       "apply_start": null,
-      "apply_end": "2026-09-13",
+      "apply_end": "2026-09-14",
       "agency": "정보통신산업진흥원",
       "exec_agency": "정보통신산업진흥원",
       "category": "ICT",
@@ -6172,7 +6192,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "nipa",
@@ -6181,7 +6201,7 @@
       "url": "https://www.nipa.kr/home/2-2/16752",
       "apply_raw": "종료",
       "apply_start": null,
-      "apply_end": "2026-09-13",
+      "apply_end": "2026-09-14",
       "agency": "정보통신산업진흥원",
       "exec_agency": "정보통신산업진흥원",
       "category": "ICT",
@@ -6189,7 +6209,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "nipa",
@@ -6198,7 +6218,7 @@
       "url": "https://www.nipa.kr/home/2-2/16731",
       "apply_raw": "종료",
       "apply_start": null,
-      "apply_end": "2026-09-13",
+      "apply_end": "2026-09-14",
       "agency": "정보통신산업진흥원",
       "exec_agency": "정보통신산업진흥원",
       "category": "ICT",
@@ -6206,7 +6226,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "nipa",
@@ -6215,7 +6235,7 @@
       "url": "https://www.nipa.kr/home/2-2/16730",
       "apply_raw": "종료",
       "apply_start": null,
-      "apply_end": "2026-09-13",
+      "apply_end": "2026-09-14",
       "agency": "정보통신산업진흥원",
       "exec_agency": "정보통신산업진흥원",
       "category": "ICT",
@@ -6223,7 +6243,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "nipa",
@@ -6232,7 +6252,7 @@
       "url": "https://www.nipa.kr/home/2-2/16728",
       "apply_raw": "종료",
       "apply_start": null,
-      "apply_end": "2026-09-13",
+      "apply_end": "2026-09-14",
       "agency": "정보통신산업진흥원",
       "exec_agency": "정보통신산업진흥원",
       "category": "ICT",
@@ -6240,7 +6260,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "nipa",
@@ -6257,7 +6277,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "nipa",
@@ -6266,7 +6286,7 @@
       "url": "https://www.nipa.kr/home/2-2/16725",
       "apply_raw": "종료",
       "apply_start": null,
-      "apply_end": "2026-09-13",
+      "apply_end": "2026-09-14",
       "agency": "정보통신산업진흥원",
       "exec_agency": "정보통신산업진흥원",
       "category": "ICT",
@@ -6274,7 +6294,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "nipa",
@@ -6283,7 +6303,7 @@
       "url": "https://www.nipa.kr/home/2-2/16720",
       "apply_raw": "종료",
       "apply_start": null,
-      "apply_end": "2026-09-13",
+      "apply_end": "2026-09-14",
       "agency": "정보통신산업진흥원",
       "exec_agency": "정보통신산업진흥원",
       "category": "ICT",
@@ -6291,7 +6311,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8858,7 +8878,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -8875,7 +8895,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -8892,7 +8912,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -8909,7 +8929,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -8926,7 +8946,7 @@
       "status": "",
       "location": "",
       "founding": "1년미만, 2년미만, 3년미만, 5년미만, 7년미만, 10년미만",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -8943,7 +8963,7 @@
       "status": "",
       "location": "서울시 성북구 서경로 124 서경대학교 유담관 16층 ㅇ 입주기간 : 1년 단위 계약, 최대 3년 입주 가능 공실현황 ㅇ 총 12개실(개별실)",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -8960,7 +8980,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -8977,7 +8997,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -8994,7 +9014,7 @@
       "status": "",
       "location": "",
       "founding": "7년미만",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9011,7 +9031,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9028,7 +9048,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9045,7 +9065,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9062,7 +9082,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9079,7 +9099,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9096,7 +9116,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9113,7 +9133,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9130,7 +9150,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9147,7 +9167,7 @@
       "status": "",
       "location": "ㅇ 경기도 시흥시 산기대학로 237(한국공학대학교), 공학관 P동 303호 입주기간 ㅇ 기본 1년, 최대 5년(매년 연장심의를 통해 재계약) 입",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9164,7 +9184,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9181,7 +9201,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9198,7 +9218,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9215,7 +9235,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9232,7 +9252,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9249,7 +9269,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9266,7 +9286,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9283,7 +9303,7 @@
       "status": "",
       "location": "",
       "founding": "전체",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9300,7 +9320,7 @@
       "status": "",
       "location": "경기 안산시 단원구 연수원로 104-14 ○ 공간구성 : 17.6평(58.18㎡) 4개소/ 47.0평(155.26㎡) 1개소 ○ 입주기간 : 최",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9317,7 +9337,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9334,7 +9354,7 @@
       "status": "",
       "location": "경기도 화성시 봉담읍 최루백로 72 협성대학교 창업보육센터 ○ 모집기간 : 상시모집 ○ 입주기간 : 입주일 ~ 최대 3년(연장 심사를 통해 최대",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9351,7 +9371,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9368,7 +9388,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9385,7 +9405,7 @@
       "status": "",
       "location": "서울시 성동구 성수이로 22길 37 아크밸리 지식산업센터 2~4층 ❑ 입주기간 입주 계약 기간은 기본 2년이며, 연장이용료는 연차별로 상승 적용",
       "founding": "7년미만, 10년미만",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9402,7 +9422,7 @@
       "status": "",
       "location": "",
       "founding": "1년미만, 2년미만, 3년미만, 5년미만, 7년미만, 10년미만",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9419,7 +9439,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9436,7 +9456,7 @@
       "status": "",
       "location": "",
       "founding": "전체",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9453,7 +9473,7 @@
       "status": "",
       "location": "",
       "founding": "전체",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9470,7 +9490,7 @@
       "status": "",
       "location": ")을 호서대학교 서울창업보육센터로 이전(필수) - 기업부설연구소 및 연구개발전담부서 단독 입주 가능 신청 시 요청하는 정보(개인정보포함)는 사업",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9487,7 +9507,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9504,7 +9524,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9521,7 +9541,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9538,7 +9558,7 @@
       "status": "",
       "location": "",
       "founding": "전체",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9555,7 +9575,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9572,7 +9592,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9589,7 +9609,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9606,7 +9626,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9623,7 +9643,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9640,7 +9660,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9657,7 +9677,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9674,7 +9694,7 @@
       "status": "",
       "location": "",
       "founding": "1년미만, 2년미만, 3년미만, 5년미만, 7년미만, 10년미만",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9691,7 +9711,7 @@
       "status": "",
       "location": ") 경기도 성남시 중원구 갈마치로245, 4층 (성남아이파크디어반) - (면적) 총면적 904.91㎡ 중 입주공간 386.74㎡ - (구성) 회",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9708,7 +9728,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9725,7 +9745,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9742,7 +9762,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9759,7 +9779,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9776,7 +9796,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9793,7 +9813,7 @@
       "status": "",
       "location": "",
       "founding": "7년미만",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9810,7 +9830,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9827,7 +9847,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9844,7 +9864,7 @@
       "status": "",
       "location": "",
       "founding": "전체",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9861,7 +9881,7 @@
       "status": "",
       "location": "",
       "founding": "전체",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9878,7 +9898,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9895,7 +9915,7 @@
       "status": "",
       "location": "",
       "founding": "2년미만, 3년미만, 5년미만, 7년미만, 10년미만",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9912,7 +9932,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9929,7 +9949,7 @@
       "status": "",
       "location": "강북청년창업마루 강북창업지원센터 4층 (서울 강북구 노해로 23길 123) 3. 입주기간 : 입주일로부터 ~ 2026년 12월 31일까지 4.",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9946,7 +9966,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9963,7 +9983,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9980,7 +10000,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -9997,7 +10017,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10014,7 +10034,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10031,7 +10051,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10048,7 +10068,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10065,7 +10085,7 @@
       "status": "",
       "location": "",
       "founding": "3년미만, 5년미만, 7년미만, 10년미만",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10082,7 +10102,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10099,7 +10119,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10116,7 +10136,7 @@
       "status": "",
       "location": "안양산업진흥원 본원 : 경기도 안양시 동안구 시민대로 248번길 25 - 동안벤처센터 : 경기도 안양시 동안구 학의로 250 3. 공간구성 (입",
       "founding": "1년미만, 2년미만, 3년미만, 5년미만, 7년미만, 10년미만",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10133,7 +10153,7 @@
       "status": "",
       "location": "",
       "founding": "전체",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10150,7 +10170,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10167,7 +10187,7 @@
       "status": "",
       "location": "",
       "founding": "전체",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10184,7 +10204,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10201,7 +10221,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10218,7 +10238,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10235,7 +10255,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10252,7 +10272,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10269,24 +10289,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "179050",
-      "title": "2026년 9월 동네창업학교 교육생 모집 공고",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179050",
-      "apply_raw": "2026-08-14 ~ 2026-09-14",
-      "apply_start": "2026-08-14",
-      "apply_end": "2026-09-14",
-      "agency": "충남신용보증재단",
-      "exec_agency": "충남신용보증재단",
-      "category": "창업교육",
-      "posted_at": "2026-08-27",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10303,7 +10306,7 @@
       "status": "",
       "location": "를 둔 여성 예비창업자 ○입주모집 공고일 현재 경기도 내에 주된 사무소를 둔 창업 후 3년 이내의 여성기업 ※ 센터 입주 후에는 반드시 주 사업",
       "founding": "3년미만",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10320,7 +10323,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10337,7 +10340,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10354,7 +10357,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10371,7 +10374,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10388,7 +10391,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10405,7 +10408,7 @@
       "status": "",
       "location": "경기도 용인시 처인구 모현읍 외대로81, 한국외대 글로벌캠퍼스 창업보육센터 3) 공간구성 : 15평*3개 4) 입주기간 : 최대 5년 5) 입주",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10422,7 +10425,7 @@
       "status": "",
       "location": "서울 강서구 마곡중앙로 105-7 케이스퀘어마곡 빌딩 Tower 1 2,3층 4. 입주기간 : '26. 11월 ~ '27. 10월 ※ 연장평가",
       "founding": "5년미만",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10439,7 +10442,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10456,7 +10459,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10473,7 +10476,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10490,7 +10493,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10507,7 +10510,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10524,7 +10527,7 @@
       "status": "",
       "location": "",
       "founding": "1년미만, 2년미만, 3년미만, 5년미만, 7년미만, 10년미만",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10541,7 +10544,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10558,7 +10561,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10575,7 +10578,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10592,7 +10595,7 @@
       "status": "",
       "location": "서울 마포구 양화로 136 □ 면적 : 연면적 13,275㎡ (4,016평) / 대지면적 1,393㎡ (421평) □ 공간구성 : 공유좌석 90",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10609,7 +10612,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10626,7 +10629,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10643,7 +10646,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10660,7 +10663,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10677,7 +10680,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10694,7 +10697,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10711,7 +10714,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10728,7 +10731,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10745,7 +10748,7 @@
       "status": "",
       "location": "경기도 안양시 만안구 안양로 311 프로젝트500타워 15층(롯데시네마 안양일번가 건물) ￭ 모집 규모 : 1개실 - 1510호 (50.4㎡/1",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10762,7 +10765,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10779,7 +10782,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10796,7 +10799,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10813,7 +10816,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10830,7 +10833,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10847,7 +10850,7 @@
       "status": "",
       "location": "인천 광역시 남동구 앵고개로 928, DA프라자 3층 상기 일정은 사업운영기관의 내부사정으로 변경될 수 있습니다. 지원내용 인프라 지원 - 입주",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10864,7 +10867,7 @@
       "status": "",
       "location": "",
       "founding": "10년미만",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10881,7 +10884,7 @@
       "status": "",
       "location": "인천광역시 부평구 무네미로448번길 56, 한국폴리텍Ⅱ대학 산학협력관, 역사관, 하이테크관 상기 일정은 사업운영기관의 내부사정으로 변경될 수 있",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10898,7 +10901,7 @@
       "status": "",
       "location": "경기도 화성시 동탄첨단산업1로 57 ※호별 상세임대조건은 첨부된 공고문 2페이지에서 확인 바랍니다. 월임대료의 부가세는 별도입니다. 4호: 전용",
       "founding": "전체",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10915,7 +10918,7 @@
       "status": "",
       "location": "한 인큐베이팅센터 업무시설 입점기업을 모집하오니 많은 관심과 참여 부탁드립니다. 2026년 05월 27일 한국토지주택공사 경기남부지역본부 신청방",
       "founding": "7년미만",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10932,7 +10935,7 @@
       "status": "",
       "location": "경기도 화성시 동탄첨단산업1로 57 ※월임대료의 부가세는 별도입니다. ※업종 중 슈퍼,편의점은 인큐베이팅센터 1호에만 입점 가능하며 다른 호실에",
       "founding": "전체",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10949,7 +10952,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10966,7 +10969,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -10983,7 +10986,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11000,7 +11003,7 @@
       "status": "",
       "location": "경기도 성남시 수정구 시흥동 285-2번지 기업지원허브 지상1층 혁신기술존 -165호: 전용면적 97.20㎡ / 임대보증금 13,320,000원",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11017,7 +11020,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11034,7 +11037,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11051,7 +11054,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11068,7 +11071,7 @@
       "status": "",
       "location": "",
       "founding": "1년미만, 2년미만, 3년미만, 5년미만, 7년미만, 10년미만",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11085,7 +11088,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11102,7 +11105,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11119,7 +11122,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11136,7 +11139,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11153,7 +11156,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11170,7 +11173,7 @@
       "status": "",
       "location": "",
       "founding": "1년미만, 2년미만, 3년미만, 5년미만, 7년미만, 10년미만",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11187,7 +11190,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11204,7 +11207,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11221,7 +11224,7 @@
       "status": "",
       "location": "",
       "founding": "전체",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11238,7 +11241,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11255,7 +11258,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11272,7 +11275,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11289,7 +11292,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11306,7 +11309,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11323,7 +11326,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11340,7 +11343,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11357,7 +11360,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11374,7 +11377,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11391,7 +11394,7 @@
       "status": "",
       "location": "",
       "founding": "전체",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11408,7 +11411,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11425,7 +11428,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11442,7 +11445,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11459,7 +11462,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11476,7 +11479,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11493,7 +11496,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11510,7 +11513,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11527,7 +11530,7 @@
       "status": "",
       "location": "",
       "founding": "전체",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11544,7 +11547,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11561,7 +11564,7 @@
       "status": "",
       "location": "",
       "founding": "1년미만, 2년미만, 3년미만, 5년미만, 7년미만, 10년미만",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11578,7 +11581,7 @@
       "status": "",
       "location": "",
       "founding": "전체",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11595,7 +11598,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11612,7 +11615,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11629,7 +11632,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11646,7 +11649,7 @@
       "status": "",
       "location": "인천 서구 정서진로 410 창업·벤처 녹색융합클러스터 본부동 2층 3. 공간구성 : 창업·벤처 녹색융합클러스터 본부동 2층 공유라운지(전용면적",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11663,7 +11666,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11680,7 +11683,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11697,7 +11700,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11714,7 +11717,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11731,7 +11734,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11748,7 +11751,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11765,7 +11768,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11782,7 +11785,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11799,7 +11802,7 @@
       "status": "",
       "location": "",
       "founding": "전체",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11816,7 +11819,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11833,7 +11836,7 @@
       "status": "",
       "location": "",
       "founding": "전체",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11850,7 +11853,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11867,7 +11870,7 @@
       "status": "",
       "location": "",
       "founding": "전체",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -11884,7 +11887,7 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kiria",
@@ -11902,23 +11905,6 @@
       "location": "",
       "founding": "",
       "collected_at": "2026-08-11"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000123766",
-      "title": "[충북] 2026년 스마트공장 구축 자부담금 지원사업 수혜기업 모집 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123766",
-      "apply_raw": "2026-07-01 ~ 2026-08-31",
-      "apply_start": "2026-07-01",
-      "apply_end": "2026-08-31",
-      "agency": "충청북도",
-      "exec_agency": "충북테크노파크",
-      "category": "경영",
-      "posted_at": "2026-06-30",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-31"
     },
     {
       "source": "kiria",
