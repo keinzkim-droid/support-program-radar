@@ -1,10 +1,9 @@
 {
-  "collected_at": "2026-09-15T10:51:36",
+  "collected_at": "2026-09-15T14:46:17",
   "failures": [
-    "bizinfo",
-    "snip"
+    "bizinfo"
   ],
-  "count": 701,
+  "count": 698,
   "items": [
     {
       "source": "bizinfo",
@@ -5805,6 +5804,23 @@
     },
     {
       "source": "nipa",
+      "source_id": "16934",
+      "title": "2026년 3차 ICT 비즈니스 파트너십(중동) 모집 안내",
+      "url": "https://www.nipa.kr/home/2-2/16934",
+      "apply_raw": "D-27",
+      "apply_start": null,
+      "apply_end": "2026-10-12",
+      "agency": "정보통신산업진흥원",
+      "exec_agency": "정보통신산업진흥원",
+      "category": "ICT",
+      "posted_at": "2026-09-15",
+      "status": "",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-09-15"
+    },
+    {
+      "source": "nipa",
       "source_id": "16931",
       "title": "2026 인도 BTS(Bengaluru Tech Summit) 전시회 참가 기업 모집",
       "url": "https://www.nipa.kr/home/2-2/16931",
@@ -5825,9 +5841,9 @@
       "source_id": "16922",
       "title": "2026년도 한-베트남 AI·디지털 포럼 운영 대행 용역 입찰공고",
       "url": "https://www.nipa.kr/home/2-2/16922",
-      "apply_raw": "오늘 마감",
+      "apply_raw": "종료",
       "apply_start": null,
-      "apply_end": null,
+      "apply_end": "2026-09-14",
       "agency": "정보통신산업진흥원",
       "exec_agency": "정보통신산업진흥원",
       "category": "ICT",
@@ -6297,23 +6313,6 @@
       "collected_at": "2026-09-15"
     },
     {
-      "source": "nipa",
-      "source_id": "16720",
-      "title": "싱가포르IT지원센터 2026년 상반기 입주기업 모집 공고",
-      "url": "https://www.nipa.kr/home/2-2/16720",
-      "apply_raw": "종료",
-      "apply_start": null,
-      "apply_end": "2026-09-14",
-      "agency": "정보통신산업진흥원",
-      "exec_agency": "정보통신산업진흥원",
-      "category": "ICT",
-      "posted_at": "2026-04-15",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-09-15"
-    },
-    {
       "source": "snip",
       "source_id": "2026-0253-4167",
       "title": "해외 전시회 개별 참가 지원 모집공고",
@@ -6328,7 +6327,7 @@
       "status": "진행중",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -6345,7 +6344,7 @@
       "status": "진행중",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -6362,7 +6361,7 @@
       "status": "진행중",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -6379,7 +6378,7 @@
       "status": "진행중",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -6396,7 +6395,7 @@
       "status": "진행중",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -6413,7 +6412,7 @@
       "status": "진행중",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -6430,7 +6429,7 @@
       "status": "진행중",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -6447,7 +6446,7 @@
       "status": "진행중",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -6464,7 +6463,7 @@
       "status": "진행중",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -6481,7 +6480,7 @@
       "status": "진행중",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -6498,7 +6497,7 @@
       "status": "진행중",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -6515,7 +6514,7 @@
       "status": "진행중",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -6532,7 +6531,7 @@
       "status": "진행중",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -6549,7 +6548,7 @@
       "status": "진행중",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -6566,7 +6565,7 @@
       "status": "진행중",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -6583,7 +6582,7 @@
       "status": "진행중",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -6600,7 +6599,7 @@
       "status": "진행중",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -6617,7 +6616,7 @@
       "status": "진행중",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -6634,7 +6633,7 @@
       "status": "진행중",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -6651,7 +6650,7 @@
       "status": "진행중",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -6668,7 +6667,7 @@
       "status": "진행중",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -6685,7 +6684,7 @@
       "status": "진행중",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -6702,7 +6701,7 @@
       "status": "진행중",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -6719,7 +6718,7 @@
       "status": "진행중",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -6736,7 +6735,7 @@
       "status": "진행중",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -6753,7 +6752,7 @@
       "status": "진행중",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -6770,7 +6769,7 @@
       "status": "진행중",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -6787,7 +6786,7 @@
       "status": "진행중",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -6804,7 +6803,7 @@
       "status": "진행중",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -6821,7 +6820,7 @@
       "status": "진행중",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -6838,7 +6837,7 @@
       "status": "진행중",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -6855,7 +6854,7 @@
       "status": "진행중",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -6872,7 +6871,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -6889,7 +6888,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -6906,7 +6905,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -6923,7 +6922,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -6940,7 +6939,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -6957,7 +6956,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -6974,7 +6973,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -6991,7 +6990,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7008,7 +7007,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7025,7 +7024,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7042,7 +7041,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7059,7 +7058,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7076,7 +7075,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7093,7 +7092,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7110,7 +7109,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7127,7 +7126,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7144,7 +7143,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7161,7 +7160,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7178,7 +7177,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7195,7 +7194,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7212,7 +7211,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7229,7 +7228,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7246,7 +7245,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7263,7 +7262,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7280,7 +7279,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7297,7 +7296,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7314,7 +7313,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7331,7 +7330,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7348,7 +7347,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7365,7 +7364,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7382,7 +7381,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7399,7 +7398,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7416,7 +7415,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7433,7 +7432,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7450,7 +7449,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7467,7 +7466,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7484,7 +7483,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7501,7 +7500,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7518,7 +7517,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7535,7 +7534,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7552,7 +7551,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7569,7 +7568,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7586,7 +7585,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7603,7 +7602,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7620,7 +7619,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7637,7 +7636,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7654,7 +7653,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7671,7 +7670,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7688,7 +7687,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7705,7 +7704,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7722,7 +7721,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7739,7 +7738,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7756,7 +7755,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7773,7 +7772,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7790,7 +7789,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7807,7 +7806,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7824,7 +7823,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7841,7 +7840,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7858,7 +7857,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7875,7 +7874,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7892,7 +7891,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7909,7 +7908,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7926,7 +7925,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7943,7 +7942,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7960,7 +7959,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7977,7 +7976,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -7994,7 +7993,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8011,7 +8010,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8028,7 +8027,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8045,7 +8044,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8062,7 +8061,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8079,7 +8078,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8096,7 +8095,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8113,7 +8112,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8130,7 +8129,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8147,7 +8146,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8164,7 +8163,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8181,7 +8180,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8198,7 +8197,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8215,7 +8214,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8232,7 +8231,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8249,7 +8248,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8266,7 +8265,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8283,7 +8282,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8300,7 +8299,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8317,7 +8316,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8334,7 +8333,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8351,7 +8350,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8368,7 +8367,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8385,7 +8384,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8402,7 +8401,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8419,7 +8418,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8436,7 +8435,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8453,7 +8452,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8470,7 +8469,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8487,7 +8486,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8504,7 +8503,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8521,7 +8520,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8538,7 +8537,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8555,7 +8554,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8572,7 +8571,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8589,7 +8588,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8606,7 +8605,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8623,7 +8622,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8640,7 +8639,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8657,7 +8656,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8674,7 +8673,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8691,7 +8690,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8708,7 +8707,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8725,7 +8724,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8742,7 +8741,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8759,7 +8758,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8776,7 +8775,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8793,7 +8792,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8810,7 +8809,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8827,7 +8826,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8844,7 +8843,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "snip",
@@ -8861,7 +8860,7 @@
       "status": "마감",
       "location": "",
       "founding": "",
-      "collected_at": "2026-09-14"
+      "collected_at": "2026-09-15"
     },
     {
       "source": "kstartup",
@@ -8967,23 +8966,6 @@
     },
     {
       "source": "kstartup",
-      "source_id": "179219",
-      "title": "경기도경제과학진흥원과 함께하는 모두의 창업(2차) 사업 설명회",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179219",
-      "apply_raw": "2026-09-09 ~ 2026-09-15",
-      "apply_start": "2026-09-09",
-      "apply_end": "2026-09-15",
-      "agency": "모두의창업 프로젝트(2차)",
-      "exec_agency": "모두의창업 프로젝트(2차)",
-      "category": "행사ㆍ네트워크",
-      "posted_at": "2026-09-11",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-09-15"
-    },
-    {
-      "source": "kstartup",
       "source_id": "179184",
       "title": "2026년 서대문구 청년창업기업 및 사회연대경제기업 수시 전문상담 경영컨설팅 신청 기업 모집 공고",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179184",
@@ -9014,23 +8996,6 @@
       "status": "",
       "location": "",
       "founding": "7년미만",
-      "collected_at": "2026-09-15"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "179212",
-      "title": "모두의 창업 로컬기업 육성사업 교육(동남권)",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179212",
-      "apply_raw": "2026-09-09 ~ 2026-09-15",
-      "apply_start": "2026-09-09",
-      "apply_end": "2026-09-15",
-      "agency": "알에이치테크",
-      "exec_agency": "알에이치테크",
-      "category": "창업교육",
-      "posted_at": "2026-09-11",
-      "status": "",
-      "location": "",
-      "founding": "",
       "collected_at": "2026-09-15"
     },
     {
@@ -10029,23 +9994,6 @@
       "apply_end": "2026-09-22",
       "agency": "부산기술창업투자원",
       "exec_agency": "부산기술창업투자원",
-      "category": "멘토링ㆍ컨설팅ㆍ교육",
-      "posted_at": "2026-09-01",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-09-15"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "179086",
-      "title": "2026년 대구콘텐츠코리아랩 콘텐츠 스타트업 글로벌 챌린지 참가기업 모집 공고",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179086",
-      "apply_raw": "2026-08-31 ~ 2026-09-15",
-      "apply_start": "2026-08-31",
-      "apply_end": "2026-09-15",
-      "agency": "대구디지털혁신진흥원",
-      "exec_agency": "대구디지털혁신진흥원",
       "category": "멘토링ㆍ컨설팅ㆍ교육",
       "posted_at": "2026-09-01",
       "status": "",
@@ -11891,23 +11839,6 @@
     },
     {
       "source": "kiria",
-      "source_id": "IBUS_000000000001251",
-      "title": "「2026년 모빌리티 혁신제품 시험평가 지원」지원 대상 기업 상시모집 공고",
-      "url": "https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&ibusCode=IBUS_000000000001251",
-      "apply_raw": "2026-05-28 ~ 2026-11-15",
-      "apply_start": "2026-05-28",
-      "apply_end": "2026-11-15",
-      "agency": "한국로봇산업진흥원",
-      "exec_agency": "한국로봇산업진흥원",
-      "category": "로봇",
-      "posted_at": "2026-05-28",
-      "status": "진행중",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-11"
-    },
-    {
-      "source": "kiria",
       "source_id": "IBUS_000000000001252",
       "title": "2026년 실외이동로봇 기술지원사업 참여기업 모집 공고",
       "url": "https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&ibusCode=IBUS_000000000001252",
@@ -11922,6 +11853,23 @@
       "location": "",
       "founding": "",
       "collected_at": "2026-08-31"
+    },
+    {
+      "source": "kiria",
+      "source_id": "IBUS_000000000001251",
+      "title": "「2026년 모빌리티 혁신제품 시험평가 지원」지원 대상 기업 상시모집 공고",
+      "url": "https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&ibusCode=IBUS_000000000001251",
+      "apply_raw": "2026-05-28 ~ 2026-11-15",
+      "apply_start": "2026-05-28",
+      "apply_end": "2026-11-15",
+      "agency": "한국로봇산업진흥원",
+      "exec_agency": "한국로봇산업진흥원",
+      "category": "로봇",
+      "posted_at": "2026-05-28",
+      "status": "진행중",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-11"
     }
   ]
 }
