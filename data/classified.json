@@ -540,6 +540,34 @@
       ]
     },
     {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000126503",
+      "title": "[경기] 화성시 2026년 2차 미래 모빌리티 테스트베드 실증지원 사업 참여기업 추가모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126503",
+      "apply_raw": "2026-09-15 ~ 2026-10-19",
+      "apply_start": "2026-09-15",
+      "apply_end": "2026-10-19",
+      "agency": "경기도",
+      "exec_agency": "화성산업진흥원",
+      "category": "기술",
+      "posted_at": "2026-09-16",
+      "status": "접수중",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-09-16",
+      "key": "bizinfo:PBLN_000000000126503",
+      "track": "A",
+      "score": 4,
+      "region": "경기",
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: 실증",
+        "관련 키워드: 모빌리티",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
       "source": "snip",
       "source_id": "2026-0002-4047",
       "title": "2026 성남 자율주행 기본시험장 이용 기업&기관 모집",
@@ -804,6 +832,33 @@
       "conditional": null,
       "reasons": [
         "사무실·공간 키워드: 창업허브",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000126514",
+      "title": "[경기] 성남시 2026년 산업혁신기반구축사업 피지컬AI기업 글로벌 진출 컨설팅 지원 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126514",
+      "apply_raw": "2026-09-15 ~ 2026-09-30",
+      "apply_start": "2026-09-15",
+      "apply_end": "2026-09-30",
+      "agency": "경기도",
+      "exec_agency": "성남산업진흥원",
+      "category": "수출",
+      "posted_at": "2026-09-16",
+      "status": "마감임박",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-09-16",
+      "key": "bizinfo:PBLN_000000000126514",
+      "track": "A",
+      "score": 3,
+      "region": "경기",
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: AI",
         "자동 분류"
       ],
       "auto": true
@@ -1381,6 +1436,32 @@
     },
     {
       "source": "bizinfo",
+      "source_id": "PBLN_000000000126504",
+      "title": "2026년 3차 메카노바이오활성소재 혁신의료기기 실증 기반구축 생물학적 시험평가인증 지원사업 공고(산업혁신기반구축사업)",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126504",
+      "apply_raw": "예산 소진시까지",
+      "apply_start": null,
+      "apply_end": null,
+      "agency": "산업통상부",
+      "exec_agency": "국가독성과학연구소",
+      "category": "기술",
+      "posted_at": "2026-09-16",
+      "status": "상시",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-09-16",
+      "key": "bizinfo:PBLN_000000000126504",
+      "track": "A",
+      "score": 5,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: 실증",
+        "관련 키워드: 시험평가, 인증"
+      ]
+    },
+    {
+      "source": "bizinfo",
       "source_id": "PBLN_000000000122268",
       "title": "2026년 2차 메카노바이오활성소재 혁신의료기기 실증 기반구축 생물학적 시험평가인증 지원사업 공고(산업혁신기반구축사업)",
       "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000122268",
@@ -1733,6 +1814,56 @@
     },
     {
       "source": "bizinfo",
+      "source_id": "PBLN_000000000126513",
+      "title": "[경남] 2026년 산업안전 AI 스마트공장 구축 지원사업 추가 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126513",
+      "apply_raw": "2026-09-03 ~ 2026-09-30",
+      "apply_start": "2026-09-03",
+      "apply_end": "2026-09-30",
+      "agency": "경상남도",
+      "exec_agency": "경남테크노파크",
+      "category": "기술",
+      "posted_at": "2026-09-16",
+      "status": "마감임박",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-09-16",
+      "key": "bizinfo:PBLN_000000000126513",
+      "track": "B",
+      "score": 3,
+      "region": "경남",
+      "conditional": null,
+      "reasons": [
+        "고객사향 키워드: 스마트공장"
+      ]
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000126512",
+      "title": "[경남] 2026년 스마트공장 기초구축 지원사업 추가모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126512",
+      "apply_raw": "2026-09-03 ~ 2026-09-30",
+      "apply_start": "2026-09-03",
+      "apply_end": "2026-09-30",
+      "agency": "경상남도",
+      "exec_agency": "경남테크노파크",
+      "category": "경영",
+      "posted_at": "2026-09-16",
+      "status": "마감임박",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-09-16",
+      "key": "bizinfo:PBLN_000000000126512",
+      "track": "B",
+      "score": 3,
+      "region": "경남",
+      "conditional": null,
+      "reasons": [
+        "고객사향 키워드: 스마트공장"
+      ]
+    },
+    {
+      "source": "bizinfo",
       "source_id": "PBLN_000000000125913",
       "title": "[전북] 부안군ㆍ김제시ㆍ순창군 2026년 4차 지역특화형(농ㆍ식품기업) 스마트공장 구축지원사업 수정 공고",
       "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125913",
@@ -1829,6 +1960,31 @@
       "conditional": null,
       "reasons": [
         "핵심 키워드: AI"
+      ]
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000126538",
+      "title": "2027년 스마트공장 구축지원사업 주관기관 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126538",
+      "apply_raw": "2026-09-16 ~ 2026-10-13",
+      "apply_start": "2026-09-16",
+      "apply_end": "2026-10-13",
+      "agency": "중소벤처기업부",
+      "exec_agency": "중소기업기술정보진흥원",
+      "category": "기술",
+      "posted_at": "2026-09-16",
+      "status": "접수중",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-09-16",
+      "key": "bizinfo:PBLN_000000000126538",
+      "track": "B",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "고객사향 키워드: 스마트공장"
       ]
     },
     {
@@ -2068,12 +2224,12 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-09-16T14:14:47",
+  "collected_at": "2026-09-16T18:15:07",
   "stats": {
-    "collected": 700,
-    "cards": 44,
+    "collected": 706,
+    "cards": 46,
     "expired": 2,
-    "candidates": 33,
+    "candidates": 37,
     "excluded": 0,
     "dropped": 621
   }
