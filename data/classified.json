@@ -1457,31 +1457,6 @@
       ]
     },
     {
-      "source": "kstartup",
-      "source_id": "179088",
-      "title": "「성남하이테크밸리 복합문화센터」 (예비)창업기업 입주 모집",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179088",
-      "apply_raw": "2026-08-28 ~ 2026-09-16",
-      "apply_start": "2026-08-28",
-      "apply_end": "2026-09-16",
-      "agency": "성남산업진흥원",
-      "exec_agency": "성남산업진흥원",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-09-08",
-      "status": "마감임박",
-      "location": ") 경기도 성남시 중원구 갈마치로245, 4층 (성남아이파크디어반) - (면적) 총면적 904.91㎡ 중 입주공간 386.74㎡ - (구성) 회",
-      "founding": "",
-      "collected_at": "2026-09-16",
-      "key": "kstartup:179088",
-      "track": "C",
-      "score": 3,
-      "region": "경기",
-      "conditional": null,
-      "reasons": [
-        "사무실·공간 키워드: 입주 모집"
-      ]
-    },
-    {
       "source": "bizinfo",
       "source_id": "PBLN_000000000126323",
       "title": "[경북] 2026년 지역특화형 스마트공장 보급ㆍ확산사업 공고",
@@ -2093,13 +2068,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-09-16T10:43:58",
+  "collected_at": "2026-09-16T14:14:47",
   "stats": {
-    "collected": 702,
+    "collected": 700,
     "cards": 44,
     "expired": 2,
-    "candidates": 34,
+    "candidates": 33,
     "excluded": 0,
-    "dropped": 622
+    "dropped": 621
   }
 }

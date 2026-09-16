@@ -1,7 +1,7 @@
 {
-  "collected_at": "2026-09-16T10:43:58",
+  "collected_at": "2026-09-16T14:14:47",
   "failures": [],
-  "count": 702,
+  "count": 700,
   "items": [
     {
       "source": "bizinfo",
@@ -6329,23 +6329,6 @@
     },
     {
       "source": "snip",
-      "source_id": "2026-0242-4207",
-      "title": "성남하이테크밸리 복합문화센터 (예비)창업기업 입주 모집",
-      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0242&pjtCd=4207&stateChk=N",
-      "apply_raw": "~ 2026.09.16",
-      "apply_start": null,
-      "apply_end": "2026-09-16",
-      "agency": "성남시",
-      "exec_agency": "성남산업진흥원",
-      "category": "지역",
-      "posted_at": "2026-08-26",
-      "status": "진행중",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-09-16"
-    },
-    {
-      "source": "snip",
       "source_id": "2026-0241-4206",
       "title": "2026년「모두의 창업 프로젝트」모집 공고(2차) (일반/기술 트랙)",
       "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0241&pjtCd=4206&stateChk=N",
@@ -6832,6 +6815,23 @@
       "exec_agency": "성남산업진흥원",
       "category": "지역",
       "posted_at": "2026-08-27",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-09-16"
+    },
+    {
+      "source": "snip",
+      "source_id": "2026-0242-4207",
+      "title": "성남하이테크밸리 복합문화센터 (예비)창업기업 입주 모집",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0242&pjtCd=4207&stateChk=N",
+      "apply_raw": "~ 2026.09.16",
+      "apply_start": null,
+      "apply_end": "2026-09-16",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-08-26",
       "status": "마감",
       "location": "",
       "founding": "",
@@ -9151,23 +9151,6 @@
     },
     {
       "source": "kstartup",
-      "source_id": "179203",
-      "title": "AI 기반 지역관광 문제해결 프로젝트 (역사문화형) AI 배리어프리 부문 모집",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179203",
-      "apply_raw": "2026-09-07 ~ 2026-09-16",
-      "apply_start": "2026-09-07",
-      "apply_end": "2026-09-16",
-      "agency": "AI 기반 지역관광 문제해결 프로젝트((역사문화형)) 「AAII 배리어프리 부문」공고문",
-      "exec_agency": "AI 기반 지역관광 문제해결 프로젝트((역사문화형)) 「AAII 배리어프리 부문」공고문",
-      "category": "사업화",
-      "posted_at": "2026-09-11",
-      "status": "",
-      "location": "",
-      "founding": "1년미만, 2년미만, 3년미만, 5년미만, 7년미만, 10년미만",
-      "collected_at": "2026-09-16"
-    },
-    {
-      "source": "kstartup",
       "source_id": "179220",
       "title": "2026년 서경대학교 창업보육센터 입주기업 모집(3차)",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179220",
@@ -9214,7 +9197,7 @@
       "posted_at": "2026-09-11",
       "status": "",
       "location": "",
-      "founding": "7년미만",
+      "founding": "",
       "collected_at": "2026-09-16"
     },
     {
@@ -9793,23 +9776,6 @@
       "status": "",
       "location": "",
       "founding": "1년미만, 2년미만, 3년미만, 5년미만, 7년미만, 10년미만",
-      "collected_at": "2026-09-16"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "179088",
-      "title": "「성남하이테크밸리 복합문화센터」 (예비)창업기업 입주 모집",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179088",
-      "apply_raw": "2026-08-28 ~ 2026-09-16",
-      "apply_start": "2026-08-28",
-      "apply_end": "2026-09-16",
-      "agency": "성남산업진흥원",
-      "exec_agency": "성남산업진흥원",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-09-08",
-      "status": "",
-      "location": ") 경기도 성남시 중원구 갈마치로245, 4층 (성남아이파크디어반) - (면적) 총면적 904.91㎡ 중 입주공간 386.74㎡ - (구성) 회",
-      "founding": "",
       "collected_at": "2026-09-16"
     },
     {
@@ -11888,23 +11854,6 @@
     },
     {
       "source": "kiria",
-      "source_id": "IBUS_000000000001251",
-      "title": "「2026년 모빌리티 혁신제품 시험평가 지원」지원 대상 기업 상시모집 공고",
-      "url": "https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&ibusCode=IBUS_000000000001251",
-      "apply_raw": "2026-05-28 ~ 2026-11-15",
-      "apply_start": "2026-05-28",
-      "apply_end": "2026-11-15",
-      "agency": "한국로봇산업진흥원",
-      "exec_agency": "한국로봇산업진흥원",
-      "category": "로봇",
-      "posted_at": "2026-05-28",
-      "status": "진행중",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-11"
-    },
-    {
-      "source": "kiria",
       "source_id": "IBUS_000000000001252",
       "title": "2026년 실외이동로봇 기술지원사업 참여기업 모집 공고",
       "url": "https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&ibusCode=IBUS_000000000001252",
@@ -11919,6 +11868,23 @@
       "location": "",
       "founding": "",
       "collected_at": "2026-08-31"
+    },
+    {
+      "source": "kiria",
+      "source_id": "IBUS_000000000001251",
+      "title": "「2026년 모빌리티 혁신제품 시험평가 지원」지원 대상 기업 상시모집 공고",
+      "url": "https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&ibusCode=IBUS_000000000001251",
+      "apply_raw": "2026-05-28 ~ 2026-11-15",
+      "apply_start": "2026-05-28",
+      "apply_end": "2026-11-15",
+      "agency": "한국로봇산업진흥원",
+      "exec_agency": "한국로봇산업진흥원",
+      "category": "로봇",
+      "posted_at": "2026-05-28",
+      "status": "진행중",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-11"
     },
     {
       "source": "bizinfo",
