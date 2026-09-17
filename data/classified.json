@@ -1613,31 +1613,6 @@
       ]
     },
     {
-      "source": "kstartup",
-      "source_id": "179200",
-      "title": "2026년 SVC Seoul 인턴십 프로그램 학생인턴 모집공고",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179200",
-      "apply_raw": "2026-09-09 ~ 2026-09-17",
-      "apply_start": "2026-09-09",
-      "apply_end": "2026-09-17",
-      "agency": "글로벌 창업허브 사업",
-      "exec_agency": "글로벌 창업허브 사업",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-09-09",
-      "status": "마감임박",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-09-17",
-      "key": "kstartup:179200",
-      "track": "C",
-      "score": 3,
-      "region": null,
-      "conditional": null,
-      "reasons": [
-        "사무실·공간 키워드: 창업허브"
-      ]
-    },
-    {
       "source": "bizinfo",
       "source_id": "PBLN_000000000126462",
       "title": "2026년 2차 충북청주 강소특구 X 심텍 AI 제조혁신 오픈이노베이션 지원사업 모집 공고",
@@ -2241,31 +2216,6 @@
     },
     {
       "source": "nipa",
-      "source_id": "16900",
-      "title": "2026년 KoVAC XR 쇼룸 입주기업 2차 모집",
-      "url": "https://www.nipa.kr/home/2-2/16900",
-      "apply_raw": "오늘 마감",
-      "apply_start": null,
-      "apply_end": null,
-      "agency": "정보통신산업진흥원",
-      "exec_agency": "정보통신산업진흥원",
-      "category": "ICT",
-      "posted_at": "2026-08-18",
-      "status": "상시",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-09-17",
-      "key": "nipa:16900",
-      "track": "C",
-      "score": 3,
-      "region": null,
-      "conditional": null,
-      "reasons": [
-        "사무실·공간 키워드: 입주기업"
-      ]
-    },
-    {
-      "source": "nipa",
       "source_id": "16726",
       "title": "2026년 산업전문인력 AI역량강화 지원사업 발표평가 결과 및 지원 대상과제 선정 공고",
       "url": "https://www.nipa.kr/home/2-2/16726",
@@ -2299,13 +2249,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-09-17T10:59:07",
+  "collected_at": "2026-09-17T15:34:11",
   "stats": {
-    "collected": 713,
+    "collected": 714,
     "cards": 46,
     "expired": 2,
-    "candidates": 40,
+    "candidates": 38,
     "excluded": 0,
-    "dropped": 625
+    "dropped": 628
   }
 }
