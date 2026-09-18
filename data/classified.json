@@ -329,33 +329,6 @@
       "auto": true
     },
     {
-      "source": "kstartup",
-      "source_id": "179172",
-      "title": "2026년 안산정보산업진흥센터(경기TP안산창업보육센터) 제3차 신규 입주자 모집 공고",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179172",
-      "apply_raw": "2026-09-04 ~ 2026-09-18",
-      "apply_start": "2026-09-04",
-      "apply_end": "2026-09-18",
-      "agency": "창업보육센터 지원",
-      "exec_agency": "창업보육센터 지원",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-09-08",
-      "status": "마감임박",
-      "location": "경기 안산시 단원구 연수원로 104-14 ○ 공간구성 : 17.6평(58.18㎡) 4개소/ 47.0평(155.26㎡) 1개소 ○ 입주기간 : 최",
-      "founding": "",
-      "collected_at": "2026-09-18",
-      "key": "kstartup:179172",
-      "track": "C",
-      "score": 6,
-      "region": "경기",
-      "conditional": null,
-      "reasons": [
-        "사무실·공간 키워드: 창업보육, 보육센터",
-        "자동 분류"
-      ],
-      "auto": true
-    },
-    {
       "source": "bizinfo",
       "source_id": "PBLN_000000000126466",
       "title": "2026년 AI기반 슬립테크 국제협력 실증 확산 지원사업 기업지원 공고(미국 FDA or 유럽 MDR 임상시험 지원)",
@@ -2250,13 +2223,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-09-18T14:16:51",
+  "collected_at": "2026-09-18T17:48:08",
   "stats": {
-    "collected": 719,
-    "cards": 46,
+    "collected": 723,
+    "cards": 45,
     "expired": 2,
     "candidates": 38,
     "excluded": 0,
-    "dropped": 633
+    "dropped": 638
   }
 }
