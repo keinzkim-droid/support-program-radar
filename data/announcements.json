@@ -1,6 +1,9 @@
 {
-  "collected_at": "2026-09-19T14:02:45",
-  "failures": [],
+  "collected_at": "2026-09-19T17:57:09",
+  "failures": [
+    "bizinfo",
+    "snip"
+  ],
   "count": 696,
   "items": [
     {
@@ -5374,6 +5377,23 @@
       "location": "",
       "founding": "",
       "collected_at": "2026-09-19"
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000123766",
+      "title": "[충북] 2026년 스마트공장 구축 자부담금 지원사업 수혜기업 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123766",
+      "apply_raw": "2026-07-01 ~ 2026-08-31",
+      "apply_start": "2026-07-01",
+      "apply_end": "2026-08-31",
+      "agency": "충청북도",
+      "exec_agency": "충북테크노파크",
+      "category": "경영",
+      "posted_at": "2026-06-30",
+      "status": "",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-31"
     },
     {
       "source": "kiria",
@@ -11814,23 +11834,6 @@
       "category": "로봇",
       "posted_at": "2026-05-28",
       "status": "진행중",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-31"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000123766",
-      "title": "[충북] 2026년 스마트공장 구축 자부담금 지원사업 수혜기업 모집 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123766",
-      "apply_raw": "2026-07-01 ~ 2026-08-31",
-      "apply_start": "2026-07-01",
-      "apply_end": "2026-08-31",
-      "agency": "충청북도",
-      "exec_agency": "충북테크노파크",
-      "category": "경영",
-      "posted_at": "2026-06-30",
-      "status": "",
       "location": "",
       "founding": "",
       "collected_at": "2026-08-31"
