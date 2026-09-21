@@ -220,6 +220,33 @@
     },
     {
       "source": "kstartup",
+      "source_id": "179296",
+      "title": "동국대학교 창업보육센터(서울) 신규 입주기업 모집 공고",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179296",
+      "apply_raw": "2026-09-17 ~ 2026-10-06",
+      "apply_start": "2026-09-17",
+      "apply_end": "2026-10-06",
+      "agency": "창업보육센터 지원",
+      "exec_agency": "창업보육센터 지원",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-09-21",
+      "status": "접수중",
+      "location": "(주소) : 동국대학교 충무로관 내(서울특별시 중구 퇴계로36길 2) - 입주예정일 : 2026.11.01. - 입주비용 1) 입주보증금 : 3",
+      "founding": "",
+      "collected_at": "2026-09-21",
+      "key": "kstartup:179296",
+      "track": "C",
+      "score": 9,
+      "region": "서울",
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업, 창업보육, 보육센터",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
+      "source": "kstartup",
       "source_id": "178527",
       "title": "[안양대학교 창업보육센터] 2026년 하반기 신규 입주기업 모집",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178527",
@@ -891,6 +918,33 @@
       "auto": true
     },
     {
+      "source": "kstartup",
+      "source_id": "179303",
+      "title": "2026년 블록체인 기업성장허브 입주기업 모집",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179303",
+      "apply_raw": "2026-09-17 ~ 2026-10-07",
+      "apply_start": "2026-09-17",
+      "apply_end": "2026-10-07",
+      "agency": "한국인터넷진흥원",
+      "exec_agency": "한국인터넷진흥원",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-09-21",
+      "status": "접수중",
+      "location": "서울시 송파구 중대로 135 IT벤처타워 서관 10층 2. 공간구성 : 독립공간 11개실(4~12인) ※ 12인 1개실, 8인 5개실, 6인 1",
+      "founding": "",
+      "collected_at": "2026-09-21",
+      "key": "kstartup:179303",
+      "track": "C",
+      "score": 3,
+      "region": "서울",
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
       "source": "snip",
       "source_id": "2026-0092-4131",
       "title": "KAIST 김재철AI대학원 성남연구센터 AI 기술자문 지원안내",
@@ -1530,6 +1584,31 @@
       ]
     },
     {
+      "source": "kstartup",
+      "source_id": "179291",
+      "title": "2026년 제2회 테크플러스 스테이지 입주기업 모집 공고",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179291",
+      "apply_raw": "2026-09-10 ~ 2026-09-29",
+      "apply_start": "2026-09-10",
+      "apply_end": "2026-09-29",
+      "agency": "테크플러스 스테이지 입주기업 모집 공고",
+      "exec_agency": "테크플러스 스테이지 입주기업 모집 공고",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-09-21",
+      "status": "마감임박",
+      "location": "",
+      "founding": "전체",
+      "collected_at": "2026-09-21",
+      "key": "kstartup:179291",
+      "track": "C",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업"
+      ]
+    },
+    {
       "source": "bizinfo",
       "source_id": "PBLN_000000000126513",
       "title": "[경남] 2026년 산업안전 AI 스마트공장 구축 지원사업 추가 공고",
@@ -1631,6 +1710,31 @@
     },
     {
       "source": "kstartup",
+      "source_id": "179299",
+      "title": "2026 제4회 SB 스타트업 네트워킹 페스티벌: AI 기반 지역문제 해결 해커톤 참가자 모집 (~9/30)",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179299",
+      "apply_raw": "2026-09-16 ~ 2026-09-30",
+      "apply_start": "2026-09-16",
+      "apply_end": "2026-09-30",
+      "agency": "2026 제4회 SB 스타트업 네트워킹 페스티벌: AI 기반 지역문제 해결 해커톤",
+      "exec_agency": "2026 제4회 SB 스타트업 네트워킹 페스티벌: AI 기반 지역문제 해결 해커톤",
+      "category": "사업화",
+      "posted_at": "2026-09-21",
+      "status": "마감임박",
+      "location": "",
+      "founding": "전체",
+      "collected_at": "2026-09-21",
+      "key": "kstartup:179299",
+      "track": "A",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: AI"
+      ]
+    },
+    {
+      "source": "kstartup",
       "source_id": "179206",
       "title": "2026 서울게임콘텐츠센터 게임스튜디오 신규 입주기업 모집 공고",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179206",
@@ -1702,6 +1806,31 @@
       "conditional": null,
       "reasons": [
         "핵심 키워드: AI"
+      ]
+    },
+    {
+      "source": "kstartup",
+      "source_id": "179304",
+      "title": "2026년 10월 크립톤 IR피칭 & 오피스아워 신청 접수",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179304",
+      "apply_raw": "2026-09-17 ~ 2026-10-05",
+      "apply_start": "2026-09-17",
+      "apply_end": "2026-10-05",
+      "agency": "2026년 10월 크립톤 IR피칭 & 오피스아워",
+      "exec_agency": "2026년 10월 크립톤 IR피칭 & 오피스아워",
+      "category": "멘토링ㆍ컨설팅ㆍ교육",
+      "posted_at": "2026-09-21",
+      "status": "마감임박",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-09-21",
+      "key": "kstartup:179304",
+      "track": "C",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 오피스"
       ]
     },
     {
@@ -1781,6 +1910,31 @@
     },
     {
       "source": "kstartup",
+      "source_id": "179284",
+      "title": "용인시산업진흥원 2026년 제4차 창업지원센터 입주기업 모집",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179284",
+      "apply_raw": "2026-09-16 ~ 2026-10-13",
+      "apply_start": "2026-09-16",
+      "apply_end": "2026-10-13",
+      "agency": "창업지원센터 통합운영",
+      "exec_agency": "창업지원센터 통합운영",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-09-21",
+      "status": "접수중",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-09-21",
+      "key": "kstartup:179284",
+      "track": "C",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업"
+      ]
+    },
+    {
+      "source": "kstartup",
       "source_id": "179236",
       "title": "제3회 AI 및 기술기반 창업 트렌드 세미나 참가자 모집 (AI 비즈니스 실전 전략 : 멀티모달·에이전트 AX·AI 거버넌스)",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179236",
@@ -1796,31 +1950,6 @@
       "founding": "전체",
       "collected_at": "2026-09-21",
       "key": "kstartup:179236",
-      "track": "A",
-      "score": 3,
-      "region": null,
-      "conditional": null,
-      "reasons": [
-        "핵심 키워드: AI"
-      ]
-    },
-    {
-      "source": "kstartup",
-      "source_id": "179267",
-      "title": "ICT 규제샌드박스 AI 기반 규제확인 서비스",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179267",
-      "apply_raw": "2026-09-15 ~ 2026-12-21",
-      "apply_start": "2026-09-15",
-      "apply_end": "2026-12-21",
-      "agency": "정보통신산업진흥원",
-      "exec_agency": "정보통신산업진흥원",
-      "category": "사업화",
-      "posted_at": "2026-09-17",
-      "status": "접수중",
-      "location": "",
-      "founding": "전체",
-      "collected_at": "2026-09-21",
-      "key": "kstartup:179267",
       "track": "A",
       "score": 3,
       "region": null,
@@ -2041,13 +2170,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-09-21T10:45:58",
+  "collected_at": "2026-09-21T14:53:30",
   "stats": {
-    "collected": 685,
-    "cards": 42,
+    "collected": 698,
+    "cards": 44,
     "expired": 1,
-    "candidates": 35,
+    "candidates": 38,
     "excluded": 0,
-    "dropped": 607
+    "dropped": 615
   }
 }
