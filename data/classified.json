@@ -1782,6 +1782,32 @@
       ]
     },
     {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000126725",
+      "title": "[인천] 2026년 TRYOUT 글로벌실증 사업 참여기업 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126725",
+      "apply_raw": "2026-09-15 ~ 2026-10-02",
+      "apply_start": "2026-09-15",
+      "apply_end": "2026-10-02",
+      "agency": "인천광역시",
+      "exec_agency": "인천테크노파크",
+      "category": "수출",
+      "posted_at": "2026-09-22",
+      "status": "마감임박",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-09-22",
+      "key": "bizinfo:PBLN_000000000126725",
+      "track": "A",
+      "score": 3,
+      "region": "인천",
+      "conditional": "조건부 지역",
+      "reasons": [
+        "핵심 키워드: 실증",
+        "조건부: 조건부 지역"
+      ]
+    },
+    {
       "source": "kstartup",
       "source_id": "179304",
       "title": "2026년 10월 크립톤 IR피칭 & 오피스아워 신청 접수",
@@ -2143,13 +2169,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-09-22T11:14:28",
+  "collected_at": "2026-09-22T16:11:37",
   "stats": {
-    "collected": 680,
+    "collected": 683,
     "cards": 43,
     "expired": 1,
-    "candidates": 38,
+    "candidates": 39,
     "excluded": 0,
-    "dropped": 598
+    "dropped": 600
   }
 }
