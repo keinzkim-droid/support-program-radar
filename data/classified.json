@@ -31,33 +31,6 @@
     },
     {
       "source": "kstartup",
-      "source_id": "179231",
-      "title": "경기과학기술대학교 창업보육센터 입주기업 모집 7차",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179231",
-      "apply_raw": "2026-09-10 ~ 2026-09-23",
-      "apply_start": "2026-09-10",
-      "apply_end": "2026-09-23",
-      "agency": "창업보육센터 지원",
-      "exec_agency": "창업보육센터 지원",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-09-15",
-      "status": "마감임박",
-      "location": "경기과학기술대학교 창업보육센터(경기도 시흥시 경기과기대로270(정왕동) 제2중소기업관) 다. 입주기간 - 기본 1년, 최대 8년 (단, 1년마다",
-      "founding": "",
-      "collected_at": "2026-09-23",
-      "key": "kstartup:179231",
-      "track": "C",
-      "score": 9,
-      "region": "경기",
-      "conditional": null,
-      "reasons": [
-        "사무실·공간 키워드: 입주기업, 창업보육, 보육센터",
-        "자동 분류"
-      ],
-      "auto": true
-    },
-    {
-      "source": "kstartup",
       "source_id": "179220",
       "title": "2026년 서경대학교 창업보육센터 입주기업 모집(3차)",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179220",
@@ -1706,6 +1679,31 @@
     },
     {
       "source": "bizinfo",
+      "source_id": "PBLN_000000000126757",
+      "title": "2026년 피지컬 AI 기반 휴머노이드 제조혁신센터 구축사업 수혜기업 통합 모집 재공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126757",
+      "apply_raw": "2026-09-22 ~ 2026-10-02",
+      "apply_start": "2026-09-22",
+      "apply_end": "2026-10-02",
+      "agency": "산업통상부",
+      "exec_agency": "인공지능산업융합사업단",
+      "category": "기술",
+      "posted_at": "2026-09-23",
+      "status": "마감임박",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-09-23",
+      "key": "bizinfo:PBLN_000000000126757",
+      "track": "B",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "고객사향 키워드: 제조혁신"
+      ]
+    },
+    {
+      "source": "bizinfo",
       "source_id": "PBLN_000000000126725",
       "title": "[인천] 2026년 TRYOUT 글로벌실증 사업 참여기업 모집 공고",
       "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126725",
@@ -2059,31 +2057,6 @@
     },
     {
       "source": "nipa",
-      "source_id": "16921",
-      "title": "2026년 아태 AI 특화지구(AHAP) 조성 사업 공고",
-      "url": "https://www.nipa.kr/home/2-2/16921",
-      "apply_raw": "오늘 마감",
-      "apply_start": null,
-      "apply_end": null,
-      "agency": "정보통신산업진흥원",
-      "exec_agency": "정보통신산업진흥원",
-      "category": "ICT",
-      "posted_at": "2026-09-03",
-      "status": "상시",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-09-23",
-      "key": "nipa:16921",
-      "track": "A",
-      "score": 3,
-      "region": null,
-      "conditional": null,
-      "reasons": [
-        "핵심 키워드: AI"
-      ]
-    },
-    {
-      "source": "nipa",
       "source_id": "16726",
       "title": "2026년 산업전문인력 AI역량강화 지원사업 발표평가 결과 및 지원 대상과제 선정 공고",
       "url": "https://www.nipa.kr/home/2-2/16726",
@@ -2117,13 +2090,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-09-23T11:18:20",
+  "collected_at": "2026-09-23T15:48:52",
   "stats": {
-    "collected": 675,
-    "cards": 42,
+    "collected": 683,
+    "cards": 41,
     "expired": 1,
     "candidates": 38,
     "excluded": 0,
-    "dropped": 594
+    "dropped": 603
   }
 }
