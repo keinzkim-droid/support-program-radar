@@ -193,6 +193,33 @@
     },
     {
       "source": "kstartup",
+      "source_id": "179345",
+      "title": "[경희창업보육센터(서울)] 2026년 하반기 신규 입주기업 모집",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179345",
+      "apply_raw": "2026-09-23 ~ 2026-10-06",
+      "apply_start": "2026-09-23",
+      "apply_end": "2026-10-06",
+      "agency": "창업보육센터 지원",
+      "exec_agency": "창업보육센터 지원",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-09-23",
+      "status": "마감임박",
+      "location": "홍릉창업센터 (홍릉바이오의료창업센터/ 서울 동대문구 회기로 111) 및 종로창업센터 (서울 종로구 율곡로 110) - 모집 보육실: 홍릉센터 개",
+      "founding": "",
+      "collected_at": "2026-09-23",
+      "key": "kstartup:179345",
+      "track": "C",
+      "score": 9,
+      "region": "서울",
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업, 창업보육, 보육센터",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
+      "source": "kstartup",
       "source_id": "179296",
       "title": "동국대학교 창업보육센터(서울) 신규 입주기업 모집 공고",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179296",
@@ -2090,13 +2117,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-09-23T15:48:52",
+  "collected_at": "2026-09-23T21:59:10",
   "stats": {
     "collected": 683,
-    "cards": 41,
+    "cards": 42,
     "expired": 1,
     "candidates": 38,
     "excluded": 0,
-    "dropped": 603
+    "dropped": 602
   }
 }
