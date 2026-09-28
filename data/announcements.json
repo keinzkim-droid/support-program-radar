@@ -1,9 +1,10 @@
 {
-  "collected_at": "2026-09-28T11:27:40",
+  "collected_at": "2026-09-28T15:26:14",
   "failures": [
+    "bizinfo",
     "snip"
   ],
-  "count": 666,
+  "count": 665,
   "items": [
     {
       "source": "bizinfo",
@@ -5225,6 +5226,23 @@
       "collected_at": "2026-09-28"
     },
     {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000123766",
+      "title": "[충북] 2026년 스마트공장 구축 자부담금 지원사업 수혜기업 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123766",
+      "apply_raw": "2026-07-01 ~ 2026-08-31",
+      "apply_start": "2026-07-01",
+      "apply_end": "2026-08-31",
+      "agency": "충청북도",
+      "exec_agency": "충북테크노파크",
+      "category": "경영",
+      "posted_at": "2026-06-30",
+      "status": "",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-31"
+    },
+    {
       "source": "kiria",
       "source_id": "IBUS_000000000001265",
       "title": "한국로봇산업진흥원 2026 로보월드 K-로봇 공공프리마켓(가칭) 참여기업 모집 수요조사",
@@ -9187,23 +9205,6 @@
     },
     {
       "source": "kstartup",
-      "source_id": "179223",
-      "title": "연구개발특구진흥재단 × 대구창조경제혁신센터 「2026 이노폴리스 오픈이노베이션 밋업데이」참여기업 모집 공고",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179223",
-      "apply_raw": "2026-09-10 ~ 2026-09-28",
-      "apply_start": "2026-09-10",
-      "apply_end": "2026-09-28",
-      "agency": "씨엔티테크(주)",
-      "exec_agency": "씨엔티테크(주)",
-      "category": "행사ㆍ네트워크",
-      "posted_at": "2026-09-15",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-09-28"
-    },
-    {
-      "source": "kstartup",
       "source_id": "179252",
       "title": "2026 마포 청년 창업 아이디어 경진대회(MAPO NEXT STAGE)",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179252",
@@ -11275,23 +11276,6 @@
       "location": "",
       "founding": "",
       "collected_at": "2026-09-28"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000123766",
-      "title": "[충북] 2026년 스마트공장 구축 자부담금 지원사업 수혜기업 모집 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123766",
-      "apply_raw": "2026-07-01 ~ 2026-08-31",
-      "apply_start": "2026-07-01",
-      "apply_end": "2026-08-31",
-      "agency": "충청북도",
-      "exec_agency": "충북테크노파크",
-      "category": "경영",
-      "posted_at": "2026-06-30",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-31"
     },
     {
       "source": "kiria",

@@ -1988,13 +1988,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-09-28T11:27:40",
+  "collected_at": "2026-09-28T15:26:14",
   "stats": {
-    "collected": 666,
+    "collected": 665,
     "cards": 40,
     "expired": 1,
     "candidates": 35,
     "excluded": 0,
-    "dropped": 590
+    "dropped": 589
   }
 }
