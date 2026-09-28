@@ -302,33 +302,6 @@
     },
     {
       "source": "kstartup",
-      "source_id": "179187",
-      "title": "2026년 하반기 서울창업허브 성수 입주기업 모집",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179187",
-      "apply_raw": "2026-09-03 ~ 2026-09-28",
-      "apply_start": "2026-09-03",
-      "apply_end": "2026-09-28",
-      "agency": "서울창업허브 성수 운영",
-      "exec_agency": "서울창업허브 성수 운영",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-09-08",
-      "status": "마감임박",
-      "location": "서울시 성동구 성수이로 22길 37 아크밸리 지식산업센터 2~4층 ❑ 입주기간 입주 계약 기간은 기본 2년이며, 연장이용료는 연차별로 상승 적용",
-      "founding": "7년미만, 10년미만",
-      "collected_at": "2026-09-28",
-      "key": "kstartup:179187",
-      "track": "C",
-      "score": 6,
-      "region": "서울",
-      "conditional": null,
-      "reasons": [
-        "사무실·공간 키워드: 입주기업, 창업허브",
-        "자동 분류"
-      ],
-      "auto": true
-    },
-    {
-      "source": "kstartup",
       "source_id": "179168",
       "title": "호서대학교 서울창업보육센터 신규입주모집 공고",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179168",
@@ -1677,6 +1650,31 @@
       ]
     },
     {
+      "source": "kstartup",
+      "source_id": "179328",
+      "title": "2026 서초AICT 데모데이 참가기업 모집 공고",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179328",
+      "apply_raw": "2026-09-21 ~ 2026-10-08",
+      "apply_start": "2026-09-21",
+      "apply_end": "2026-10-08",
+      "agency": "서초AICT운영센터",
+      "exec_agency": "서초AICT운영센터",
+      "category": "행사ㆍ네트워크",
+      "posted_at": "2026-09-28",
+      "status": "마감임박",
+      "location": "",
+      "founding": "전체",
+      "collected_at": "2026-09-28",
+      "key": "kstartup:179328",
+      "track": "A",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: AI"
+      ]
+    },
+    {
       "source": "bizinfo",
       "source_id": "PBLN_000000000126538",
       "title": "2027년 스마트공장 구축지원사업 주관기관 모집 공고",
@@ -1988,13 +1986,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-09-28T15:26:14",
+  "collected_at": "2026-09-28T19:45:44",
   "stats": {
-    "collected": 665,
-    "cards": 40,
+    "collected": 666,
+    "cards": 39,
     "expired": 1,
-    "candidates": 35,
+    "candidates": 36,
     "excluded": 0,
-    "dropped": 589
+    "dropped": 590
   }
 }
