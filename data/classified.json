@@ -540,33 +540,6 @@
       ]
     },
     {
-      "source": "kstartup",
-      "source_id": "179224",
-      "title": "2026 투자 유치 세미나 - 투자사 관점에서 보는 투자유치를 위한 실전 전략",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179224",
-      "apply_raw": "2026-09-10 ~ 2026-09-29",
-      "apply_start": "2026-09-10",
-      "apply_end": "2026-09-29",
-      "agency": "서울창업허브 창동 운영",
-      "exec_agency": "서울창업허브 창동 운영",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-09-15",
-      "status": "마감임박",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-09-29",
-      "key": "kstartup:179224",
-      "track": "C",
-      "score": 3,
-      "region": "서울",
-      "conditional": null,
-      "reasons": [
-        "사무실·공간 키워드: 창업허브",
-        "자동 분류"
-      ],
-      "auto": true
-    },
-    {
       "source": "bizinfo",
       "source_id": "PBLN_000000000126514",
       "title": "[경기] 성남시 2026년 산업혁신기반구축사업 피지컬AI기업 글로벌 진출 컨설팅 지원 모집 공고",
@@ -1376,31 +1349,6 @@
       ]
     },
     {
-      "source": "kstartup",
-      "source_id": "179291",
-      "title": "2026년 제2회 테크플러스 스테이지 입주기업 모집 공고",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179291",
-      "apply_raw": "2026-09-10 ~ 2026-09-29",
-      "apply_start": "2026-09-10",
-      "apply_end": "2026-09-29",
-      "agency": "테크플러스 스테이지 입주기업 모집 공고",
-      "exec_agency": "테크플러스 스테이지 입주기업 모집 공고",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-09-21",
-      "status": "마감임박",
-      "location": "",
-      "founding": "전체",
-      "collected_at": "2026-09-29",
-      "key": "kstartup:179291",
-      "track": "C",
-      "score": 3,
-      "region": null,
-      "conditional": null,
-      "reasons": [
-        "사무실·공간 키워드: 입주기업"
-      ]
-    },
-    {
       "source": "bizinfo",
       "source_id": "PBLN_000000000126513",
       "title": "[경남] 2026년 산업안전 AI 스마트공장 구축 지원사업 추가 공고",
@@ -2004,6 +1952,31 @@
     },
     {
       "source": "bizinfo",
+      "source_id": "PBLN_000000000126825",
+      "title": "[부산] 2026년 스마트공장 사전사후 컨설팅사업 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126825",
+      "apply_raw": "예산 소진시까지",
+      "apply_start": null,
+      "apply_end": null,
+      "agency": "부산광역시",
+      "exec_agency": "부산테크노파크",
+      "category": "경영",
+      "posted_at": "2026-09-29",
+      "status": "상시",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-09-29",
+      "key": "bizinfo:PBLN_000000000126825",
+      "track": "B",
+      "score": 3,
+      "region": "부산",
+      "conditional": null,
+      "reasons": [
+        "고객사향 키워드: 스마트공장"
+      ]
+    },
+    {
+      "source": "bizinfo",
       "source_id": "PBLN_000000000126213",
       "title": "2026년 의료기기 반도체 실증플랫폼 구축사업 실증지원 통합 공고",
       "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126213",
@@ -2138,13 +2111,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-09-29T16:42:38",
+  "collected_at": "2026-09-29T22:57:50",
   "stats": {
-    "collected": 699,
-    "cards": 40,
+    "collected": 700,
+    "cards": 39,
     "expired": 1,
     "candidates": 41,
     "excluded": 0,
-    "dropped": 617
+    "dropped": 619
   }
 }
