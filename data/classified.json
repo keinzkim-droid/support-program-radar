@@ -1142,32 +1142,6 @@
       ]
     },
     {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000123203",
-      "title": "AI기반 Age-Tech 산업 중심의 디지털의료제품 지원 바이오데이터 및 알고리즘 실증 기술서비스 모집 상시 공고(산업혁신기반구축ㆍ2차년도)",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123203",
-      "apply_raw": "상시 접수",
-      "apply_start": null,
-      "apply_end": null,
-      "agency": "산업통상부",
-      "exec_agency": "한국산업기술시험원",
-      "category": "기술",
-      "posted_at": "2026-06-16",
-      "status": "상시",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-09-30",
-      "key": "bizinfo:PBLN_000000000123203",
-      "track": "A",
-      "score": 7,
-      "region": null,
-      "conditional": null,
-      "reasons": [
-        "핵심 키워드: 실증, AI",
-        "관련 키워드: 데이터"
-      ]
-    },
-    {
       "source": "kstartup",
       "source_id": "178200",
       "title": "[동국대BMC창업보육센터] 바이오ㆍ메디컬 패키지지원 프로그램 참여기업 모집(~9/30(금)까지)",
@@ -1410,7 +1384,7 @@
       "posted_at": "2026-09-17",
       "status": "마감임박",
       "location": "",
-      "founding": "전체",
+      "founding": "",
       "collected_at": "2026-09-30",
       "key": "kstartup:179206",
       "track": "C",
@@ -1444,31 +1418,6 @@
       "conditional": null,
       "reasons": [
         "핵심 키워드: 로봇"
-      ]
-    },
-    {
-      "source": "kstartup",
-      "source_id": "179035",
-      "title": "2026년도 한국도로공사 청년 AI 스타트업 지원 시범사업",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179035",
-      "apply_raw": "2026-08-14 ~ 2026-09-30",
-      "apply_start": "2026-08-14",
-      "apply_end": "2026-09-30",
-      "agency": "한국도로공사",
-      "exec_agency": "한국도로공사",
-      "category": "창업교육",
-      "posted_at": "2026-08-27",
-      "status": "마감임박",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-09-30",
-      "key": "kstartup:179035",
-      "track": "A",
-      "score": 3,
-      "region": null,
-      "conditional": null,
-      "reasons": [
-        "핵심 키워드: AI"
       ]
     },
     {
@@ -2084,13 +2033,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-09-30T11:39:55",
+  "collected_at": "2026-09-30T15:18:11",
   "stats": {
-    "collected": 696,
+    "collected": 693,
     "cards": 38,
     "expired": 1,
-    "candidates": 41,
+    "candidates": 39,
     "excluded": 0,
-    "dropped": 616
+    "dropped": 615
   }
 }

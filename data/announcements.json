@@ -1,9 +1,9 @@
 {
-  "collected_at": "2026-09-30T11:39:55",
+  "collected_at": "2026-09-30T15:18:11",
   "failures": [
     "snip"
   ],
-  "count": 696,
+  "count": 693,
   "items": [
     {
       "source": "bizinfo",
@@ -1037,23 +1037,6 @@
       "exec_agency": "전북지역산업진흥원",
       "category": "기술",
       "posted_at": "2026-06-17",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-09-30"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000123203",
-      "title": "AI기반 Age-Tech 산업 중심의 디지털의료제품 지원 바이오데이터 및 알고리즘 실증 기술서비스 모집 상시 공고(산업혁신기반구축ㆍ2차년도)",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123203",
-      "apply_raw": "상시 접수",
-      "apply_start": null,
-      "apply_end": null,
-      "agency": "산업통상부",
-      "exec_agency": "한국산업기술시험원",
-      "category": "기술",
-      "posted_at": "2026-06-16",
       "status": "",
       "location": "",
       "founding": "",
@@ -9590,7 +9573,7 @@
       "posted_at": "2026-09-17",
       "status": "",
       "location": "",
-      "founding": "전체",
+      "founding": "",
       "collected_at": "2026-09-30"
     },
     {
@@ -9774,23 +9757,6 @@
       "agency": "재단법인 관악중소벤처진흥원",
       "exec_agency": "재단법인 관악중소벤처진흥원",
       "category": "행사ㆍ네트워크",
-      "posted_at": "2026-09-15",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-09-30"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "179225",
-      "title": "[도봉구청년창업센터] 제6차 스케일업 아카데미:  초기 스타트업을 위한 AI 재무관리 노하우",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179225",
-      "apply_raw": "2026-09-10 ~ 2026-09-30",
-      "apply_start": "2026-09-10",
-      "apply_end": "2026-09-30",
-      "agency": "[도봉구청년창업센터] 제6차 스케일업 아카데미",
-      "exec_agency": "[도봉구청년창업센터] 제6차 스케일업 아카데미",
-      "category": "창업교육",
       "posted_at": "2026-09-15",
       "status": "",
       "location": "",
@@ -10339,23 +10305,6 @@
       "status": "",
       "location": "",
       "founding": "전체",
-      "collected_at": "2026-09-30"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "179035",
-      "title": "2026년도 한국도로공사 청년 AI 스타트업 지원 시범사업",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179035",
-      "apply_raw": "2026-08-14 ~ 2026-09-30",
-      "apply_start": "2026-08-14",
-      "apply_end": "2026-09-30",
-      "agency": "한국도로공사",
-      "exec_agency": "한국도로공사",
-      "category": "창업교육",
-      "posted_at": "2026-08-27",
-      "status": "",
-      "location": "",
-      "founding": "",
       "collected_at": "2026-09-30"
     },
     {
