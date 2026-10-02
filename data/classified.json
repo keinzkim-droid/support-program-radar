@@ -880,31 +880,6 @@
   "candidates": [
     {
       "source": "kstartup",
-      "source_id": "179215",
-      "title": "2026년 1차 홍릉벤처밸리 창업보육센터 입주기업 모집 공고",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179215",
-      "apply_raw": "2026-09-07 ~ 2026-10-02",
-      "apply_start": "2026-09-07",
-      "apply_end": "2026-10-02",
-      "agency": "창업보육센터 지원",
-      "exec_agency": "창업보육센터 지원",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-09-17",
-      "status": "마감임박",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-10-02",
-      "key": "kstartup:179215",
-      "track": "C",
-      "score": 9,
-      "region": null,
-      "conditional": null,
-      "reasons": [
-        "사무실·공간 키워드: 입주기업, 창업보육, 보육센터"
-      ]
-    },
-    {
-      "source": "kstartup",
       "source_id": "179379",
       "title": "상지대학교 창업보육센터 입주기업 모집 공고",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179379",
@@ -1029,6 +1004,32 @@
       "reasons": [
         "핵심 키워드: 실증",
         "관련 키워드: 시험평가, 인증"
+      ]
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000126963",
+      "title": "의료기기ㆍ바이오 부품ㆍ모듈 인증시험 기술지원 참여기업 모집 수정 공고(AIㆍ빅데이터 기반 의료ㆍ바이오 첨단기기 연구제조센터 구축)",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126963",
+      "apply_raw": "예산 소진시까지",
+      "apply_start": null,
+      "apply_end": null,
+      "agency": "산업통상부",
+      "exec_agency": "범부처통합헬스케어협회",
+      "category": "기술",
+      "posted_at": "2026-10-02",
+      "status": "상시",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-10-02",
+      "key": "bizinfo:PBLN_000000000126963",
+      "track": "A",
+      "score": 5,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: AI",
+        "관련 키워드: 인증, 데이터"
       ]
     },
     {
@@ -1586,6 +1587,31 @@
       ]
     },
     {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000126947",
+      "title": "[전남광주] 2026년 2차 스마트공장(기초단계) 보급ㆍ확산사업 지원 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126947",
+      "apply_raw": "2026-10-01 ~ 2026-10-30",
+      "apply_start": "2026-10-01",
+      "apply_end": "2026-10-30",
+      "agency": "전남광주통합특별시",
+      "exec_agency": "전남테크노파크",
+      "category": "경영",
+      "posted_at": "2026-10-02",
+      "status": "접수중",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-10-02",
+      "key": "bizinfo:PBLN_000000000126947",
+      "track": "B",
+      "score": 3,
+      "region": "전남광주",
+      "conditional": null,
+      "reasons": [
+        "고객사향 키워드: 스마트공장"
+      ]
+    },
+    {
       "source": "kstartup",
       "source_id": "179353",
       "title": "AI 올라운더(기획,개발,마케팅) 창업가육성과정 8기 모집",
@@ -1847,13 +1873,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-10-02T15:20:37",
+  "collected_at": "2026-10-02T19:51:55",
   "stats": {
-    "collected": 669,
+    "collected": 671,
     "cards": 33,
     "expired": 0,
-    "candidates": 38,
+    "candidates": 39,
     "excluded": 0,
-    "dropped": 598
+    "dropped": 599
   }
 }
