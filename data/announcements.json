@@ -1,9 +1,9 @@
 {
-  "collected_at": "2026-10-05T11:25:40",
+  "collected_at": "2026-10-05T15:24:57",
   "failures": [
     "snip"
   ],
-  "count": 655,
+  "count": 654,
   "items": [
     {
       "source": "bizinfo",
@@ -8796,23 +8796,6 @@
     },
     {
       "source": "kstartup",
-      "source_id": "179354",
-      "title": "2026 옥천군 로컬 크리에이터 아카데미",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179354",
-      "apply_raw": "2026-09-21 ~ 2026-10-05",
-      "apply_start": "2026-09-21",
-      "apply_end": "2026-10-05",
-      "agency": "주식회사 렛츠",
-      "exec_agency": "주식회사 렛츠",
-      "category": "창업교육",
-      "posted_at": "2026-09-29",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-10-05"
-    },
-    {
-      "source": "kstartup",
       "source_id": "179349",
       "title": "2026 전북-수도권 기업 『투자 & 비즈니스 라운드』",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179349",
@@ -11108,23 +11091,6 @@
     },
     {
       "source": "kiria",
-      "source_id": "IBUS_000000000001252",
-      "title": "2026년 실외이동로봇 기술지원사업 참여기업 모집 공고",
-      "url": "https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&ibusCode=IBUS_000000000001252",
-      "apply_raw": "2026-05-28 ~ 2026-11-30",
-      "apply_start": "2026-05-28",
-      "apply_end": "2026-11-30",
-      "agency": "한국로봇산업진흥원",
-      "exec_agency": "한국로봇산업진흥원",
-      "category": "로봇",
-      "posted_at": "2026-05-28",
-      "status": "진행중",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-31"
-    },
-    {
-      "source": "kiria",
       "source_id": "IBUS_000000000001251",
       "title": "「2026년 모빌리티 혁신제품 시험평가 지원」지원 대상 기업 상시모집 공고",
       "url": "https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&ibusCode=IBUS_000000000001251",
@@ -11139,6 +11105,23 @@
       "location": "",
       "founding": "",
       "collected_at": "2026-08-11"
+    },
+    {
+      "source": "kiria",
+      "source_id": "IBUS_000000000001252",
+      "title": "2026년 실외이동로봇 기술지원사업 참여기업 모집 공고",
+      "url": "https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&ibusCode=IBUS_000000000001252",
+      "apply_raw": "2026-05-28 ~ 2026-11-30",
+      "apply_start": "2026-05-28",
+      "apply_end": "2026-11-30",
+      "agency": "한국로봇산업진흥원",
+      "exec_agency": "한국로봇산업진흥원",
+      "category": "로봇",
+      "posted_at": "2026-05-28",
+      "status": "진행중",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-31"
     }
   ]
 }
