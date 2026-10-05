@@ -1,9 +1,9 @@
 {
-  "collected_at": "2026-10-05T15:24:57",
+  "collected_at": "2026-10-05T20:27:01",
   "failures": [
     "snip"
   ],
-  "count": 654,
+  "count": 653,
   "items": [
     {
       "source": "bizinfo",
@@ -9297,23 +9297,6 @@
       "apply_end": "2026-10-07",
       "agency": "[창업BuS x Station C] 2026년 강원BRIDGE 배치프로그램 2차 창업기업 모집",
       "exec_agency": "[창업BuS x Station C] 2026년 강원BRIDGE 배치프로그램 2차 창업기업 모집",
-      "category": "멘토링ㆍ컨설팅ㆍ교육",
-      "posted_at": "2026-09-21",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-10-05"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "179304",
-      "title": "2026년 10월 크립톤 IR피칭 & 오피스아워 신청 접수",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179304",
-      "apply_raw": "2026-09-17 ~ 2026-10-05",
-      "apply_start": "2026-09-17",
-      "apply_end": "2026-10-05",
-      "agency": "2026년 10월 크립톤 IR피칭 & 오피스아워",
-      "exec_agency": "2026년 10월 크립톤 IR피칭 & 오피스아워",
       "category": "멘토링ㆍ컨설팅ㆍ교육",
       "posted_at": "2026-09-21",
       "status": "",

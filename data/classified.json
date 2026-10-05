@@ -1111,31 +1111,6 @@
       ]
     },
     {
-      "source": "kstartup",
-      "source_id": "179304",
-      "title": "2026년 10월 크립톤 IR피칭 & 오피스아워 신청 접수",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179304",
-      "apply_raw": "2026-09-17 ~ 2026-10-05",
-      "apply_start": "2026-09-17",
-      "apply_end": "2026-10-05",
-      "agency": "2026년 10월 크립톤 IR피칭 & 오피스아워",
-      "exec_agency": "2026년 10월 크립톤 IR피칭 & 오피스아워",
-      "category": "멘토링ㆍ컨설팅ㆍ교육",
-      "posted_at": "2026-09-21",
-      "status": "마감임박",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-10-05",
-      "key": "kstartup:179304",
-      "track": "C",
-      "score": 3,
-      "region": null,
-      "conditional": null,
-      "reasons": [
-        "사무실·공간 키워드: 오피스"
-      ]
-    },
-    {
       "source": "bizinfo",
       "source_id": "PBLN_000000000126553",
       "title": "[경남] 2026년 스마트공장 컨설팅 지원사업 참여기업 추가모집 공고",
@@ -1747,12 +1722,12 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-10-05T15:24:57",
+  "collected_at": "2026-10-05T20:27:01",
   "stats": {
-    "collected": 654,
+    "collected": 653,
     "cards": 33,
     "expired": 0,
-    "candidates": 34,
+    "candidates": 33,
     "excluded": 0,
     "dropped": 587
   }
