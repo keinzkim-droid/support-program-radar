@@ -927,32 +927,6 @@
     },
     {
       "source": "bizinfo",
-      "source_id": "PBLN_000000000126963",
-      "title": "의료기기ㆍ바이오 부품ㆍ모듈 인증시험 기술지원 참여기업 모집 수정 공고(AIㆍ빅데이터 기반 의료ㆍ바이오 첨단기기 연구제조센터 구축)",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126963",
-      "apply_raw": "예산 소진시까지",
-      "apply_start": null,
-      "apply_end": null,
-      "agency": "산업통상부",
-      "exec_agency": "범부처통합헬스케어협회",
-      "category": "기술",
-      "posted_at": "2026-10-02",
-      "status": "상시",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-10-06",
-      "key": "bizinfo:PBLN_000000000126963",
-      "track": "A",
-      "score": 5,
-      "region": null,
-      "conditional": null,
-      "reasons": [
-        "핵심 키워드: AI",
-        "관련 키워드: 인증, 데이터"
-      ]
-    },
-    {
-      "source": "bizinfo",
       "source_id": "PBLN_000000000126504",
       "title": "2026년 3차 메카노바이오활성소재 혁신의료기기 실증 기반구축 생물학적 시험평가인증 지원사업 공고(산업혁신기반구축사업)",
       "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126504",
@@ -1356,6 +1330,56 @@
     },
     {
       "source": "bizinfo",
+      "source_id": "PBLN_000000000127014",
+      "title": "[경북] 2026년 지역특화형(방산ㆍ모빌리티) 스마트공장 보급확산 사업(기초단계) 참여기업 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127014",
+      "apply_raw": "2026-10-12 ~ 2026-10-27",
+      "apply_start": "2026-10-12",
+      "apply_end": "2026-10-27",
+      "agency": "경상북도",
+      "exec_agency": "경북테크노파크",
+      "category": "경영",
+      "posted_at": "2026-10-06",
+      "status": "접수중",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-10-06",
+      "key": "bizinfo:PBLN_000000000127014",
+      "track": "B",
+      "score": 3,
+      "region": "경북",
+      "conditional": null,
+      "reasons": [
+        "고객사향 키워드: 스마트공장"
+      ]
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000126977",
+      "title": "[전남광주] 2026년 2차 지역특화형 스마트공장(식품ㆍ바이오) 구축지원사업(기초) 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126977",
+      "apply_raw": "2026-10-01 ~ 2026-10-30",
+      "apply_start": "2026-10-01",
+      "apply_end": "2026-10-30",
+      "agency": "전남광주통합특별시",
+      "exec_agency": "전남테크노파크",
+      "category": "경영",
+      "posted_at": "2026-10-06",
+      "status": "접수중",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-10-06",
+      "key": "bizinfo:PBLN_000000000126977",
+      "track": "B",
+      "score": 3,
+      "region": "전남광주",
+      "conditional": null,
+      "reasons": [
+        "고객사향 키워드: 스마트공장"
+      ]
+    },
+    {
+      "source": "bizinfo",
       "source_id": "PBLN_000000000126947",
       "title": "[전남광주] 2026년 2차 스마트공장(기초단계) 보급ㆍ확산사업 지원 공고",
       "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126947",
@@ -1641,13 +1665,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-10-06T12:26:56",
+  "collected_at": "2026-10-06T16:13:11",
   "stats": {
-    "collected": 649,
+    "collected": 652,
     "cards": 30,
     "expired": 0,
-    "candidates": 33,
+    "candidates": 34,
     "excluded": 0,
-    "dropped": 586
+    "dropped": 588
   }
 }
