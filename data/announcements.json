@@ -1,9 +1,9 @@
 {
-  "collected_at": "2026-10-07T12:00:55",
+  "collected_at": "2026-10-07T15:52:43",
   "failures": [
     "snip"
   ],
-  "count": 648,
+  "count": 645,
   "items": [
     {
       "source": "bizinfo",
@@ -8354,23 +8354,6 @@
     },
     {
       "source": "kstartup",
-      "source_id": "179401",
-      "title": "[창업BuS x Station C] 2026년 강원BRIDGE 배치프로그램 2차 창업기업 모집 연장공고",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179401",
-      "apply_raw": "2026-10-01 ~ 2026-10-07",
-      "apply_start": "2026-10-01",
-      "apply_end": "2026-10-07",
-      "agency": "재단법인 강원창조경제혁신센터",
-      "exec_agency": "재단법인 강원창조경제혁신센터",
-      "category": "멘토링ㆍ컨설팅ㆍ교육",
-      "posted_at": "2026-10-02",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-10-07"
-    },
-    {
-      "source": "kstartup",
       "source_id": "179379",
       "title": "상지대학교 창업보육센터 입주기업 모집 공고",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179379",
@@ -8932,23 +8915,6 @@
     },
     {
       "source": "kstartup",
-      "source_id": "179349",
-      "title": "2026 전북-수도권 기업 『투자 & 비즈니스 라운드』",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179349",
-      "apply_raw": "2026-09-23 ~ 2026-10-07",
-      "apply_start": "2026-09-23",
-      "apply_end": "2026-10-07",
-      "agency": "2026 전북-수도권기업 『투자 & 비즈니스 라운드』",
-      "exec_agency": "2026 전북-수도권기업 『투자 & 비즈니스 라운드』",
-      "category": "행사ㆍ네트워크",
-      "posted_at": "2026-09-29",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-10-07"
-    },
-    {
-      "source": "kstartup",
       "source_id": "179353",
       "title": "AI 올라운더(기획,개발,마케팅) 창업가육성과정 8기 모집",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179353",
@@ -9349,23 +9315,6 @@
       "agency": "2026년 판교스타트업 투자교류회(In-Best 판교)",
       "exec_agency": "2026년 판교스타트업 투자교류회(In-Best 판교)",
       "category": "행사ㆍ네트워크",
-      "posted_at": "2026-09-21",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-10-07"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "179305",
-      "title": "[창업BuS x Station C] 2026년  강원BRIDGE 배치프로그램 2차 창업기업 모집",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179305",
-      "apply_raw": "2026-09-17 ~ 2026-10-07",
-      "apply_start": "2026-09-17",
-      "apply_end": "2026-10-07",
-      "agency": "[창업BuS x Station C] 2026년 강원BRIDGE 배치프로그램 2차 창업기업 모집",
-      "exec_agency": "[창업BuS x Station C] 2026년 강원BRIDGE 배치프로그램 2차 창업기업 모집",
-      "category": "멘토링ㆍ컨설팅ㆍ교육",
       "posted_at": "2026-09-21",
       "status": "",
       "location": "",
