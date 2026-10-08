@@ -1228,6 +1228,32 @@
     },
     {
       "source": "bizinfo",
+      "source_id": "PBLN_000000000127058",
+      "title": "[인천] 2026년 IFEZ 스마트시티 시민참여 리빙랩 실증 프로그램 참가기업 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127058",
+      "apply_raw": "2026-10-06 ~ 2026-10-18",
+      "apply_start": "2026-10-06",
+      "apply_end": "2026-10-18",
+      "agency": "인천광역시",
+      "exec_agency": "인천테크노파크",
+      "category": "기술",
+      "posted_at": "2026-10-08",
+      "status": "마감임박",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-10-08",
+      "key": "bizinfo:PBLN_000000000127058",
+      "track": "A",
+      "score": 3,
+      "region": "인천",
+      "conditional": "조건부 지역",
+      "reasons": [
+        "핵심 키워드: 실증",
+        "조건부: 조건부 지역"
+      ]
+    },
+    {
+      "source": "bizinfo",
       "source_id": "PBLN_000000000126773",
       "title": "[경남] 2026년 스마트공장 기초구축 지원사업 추가모집 수정 공고",
       "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126773",
@@ -1299,6 +1325,31 @@
       "conditional": null,
       "reasons": [
         "핵심 키워드: AI"
+      ]
+    },
+    {
+      "source": "nipa",
+      "source_id": "16967",
+      "title": "하노이 IT지원센터‘26년 하반기 추가 입주기업 모집 공고",
+      "url": "https://www.nipa.kr/home/2-2/16967",
+      "apply_raw": "D-14",
+      "apply_start": null,
+      "apply_end": "2026-10-22",
+      "agency": "정보통신산업진흥원",
+      "exec_agency": "정보통신산업진흥원",
+      "category": "ICT",
+      "posted_at": "2026-10-08",
+      "status": "마감임박",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-10-08",
+      "key": "nipa:16967",
+      "track": "C",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업"
       ]
     },
     {
@@ -1663,13 +1714,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-10-08T16:06:00",
+  "collected_at": "2026-10-08T20:26:12",
   "stats": {
-    "collected": 651,
+    "collected": 657,
     "cards": 29,
     "expired": 0,
-    "candidates": 35,
+    "candidates": 37,
     "excluded": 0,
-    "dropped": 587
+    "dropped": 591
   }
 }
