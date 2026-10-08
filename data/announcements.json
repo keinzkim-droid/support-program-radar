@@ -1,9 +1,9 @@
 {
-  "collected_at": "2026-10-08T12:10:48",
+  "collected_at": "2026-10-08T16:06:00",
   "failures": [
     "snip"
   ],
-  "count": 652,
+  "count": 651,
   "items": [
     {
       "source": "bizinfo",
@@ -8184,6 +8184,40 @@
     },
     {
       "source": "kstartup",
+      "source_id": "179442",
+      "title": "2026년 제3차 I-PLEX광주 입주기업 모집공고",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179442",
+      "apply_raw": "2026-10-07 ~ 2026-10-21",
+      "apply_start": "2026-10-07",
+      "apply_end": "2026-10-21",
+      "agency": "I-PLEX광주 입주기업 모집 공고",
+      "exec_agency": "I-PLEX광주 입주기업 모집 공고",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-10-08",
+      "status": "",
+      "location": "",
+      "founding": "1년미만, 2년미만, 3년미만, 5년미만, 7년미만, 10년미만",
+      "collected_at": "2026-10-08"
+    },
+    {
+      "source": "kstartup",
+      "source_id": "179448",
+      "title": "2026년 청년 어촌창업 아이디어 공모전",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179448",
+      "apply_raw": "2026-10-07 ~ 2026-11-08",
+      "apply_start": "2026-10-07",
+      "apply_end": "2026-11-08",
+      "agency": "한국어촌어항공단",
+      "exec_agency": "한국어촌어항공단",
+      "category": "사업화",
+      "posted_at": "2026-10-08",
+      "status": "",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-10-08"
+    },
+    {
+      "source": "kstartup",
       "source_id": "179449",
       "title": "2026년 대전 웰컴 스테이 지원사업 참여기업 모집 연장 공고",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179449",
@@ -9119,23 +9153,6 @@
     },
     {
       "source": "kstartup",
-      "source_id": "179364",
-      "title": "싱가포르 현지 진출 지원 국내 블록체인 기업 모집 재공고",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179364",
-      "apply_raw": "2026-09-28 ~ 2026-10-08",
-      "apply_start": "2026-09-28",
-      "apply_end": "2026-10-08",
-      "agency": "한국인터넷진흥원",
-      "exec_agency": "한국인터넷진흥원",
-      "category": "판로ㆍ해외진출",
-      "posted_at": "2026-10-01",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-10-08"
-    },
-    {
-      "source": "kstartup",
       "source_id": "179365",
       "title": "예비창업가 및 기업 담당자를 위한 기술금융과 기술가치평가 입문과정",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179365",
@@ -9442,23 +9459,6 @@
     },
     {
       "source": "kstartup",
-      "source_id": "179328",
-      "title": "2026 서초AICT 데모데이 참가기업 모집 공고",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179328",
-      "apply_raw": "2026-09-21 ~ 2026-10-08",
-      "apply_start": "2026-09-21",
-      "apply_end": "2026-10-08",
-      "agency": "서초AICT운영센터",
-      "exec_agency": "서초AICT운영센터",
-      "category": "행사ㆍ네트워크",
-      "posted_at": "2026-09-28",
-      "status": "",
-      "location": "",
-      "founding": "전체",
-      "collected_at": "2026-10-08"
-    },
-    {
-      "source": "kstartup",
       "source_id": "179341",
       "title": "2026년 웰컴 투 팁스 4차 참가기업 모집 (강원권)",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179341",
@@ -9625,23 +9625,6 @@
       "status": "",
       "location": "",
       "founding": "1년미만, 2년미만, 3년미만, 5년미만, 7년미만, 10년미만",
-      "collected_at": "2026-10-08"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "179250",
-      "title": "2026 Innopolis×LG Open Innovation Meet-up Day",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179250",
-      "apply_raw": "2026-09-14 ~ 2026-10-08",
-      "apply_start": "2026-09-14",
-      "apply_end": "2026-10-08",
-      "agency": "2026년 대구특구 이노폴리스캠퍼스지원사업",
-      "exec_agency": "2026년 대구특구 이노폴리스캠퍼스지원사업",
-      "category": "행사ㆍ네트워크",
-      "posted_at": "2026-09-17",
-      "status": "",
-      "location": "",
-      "founding": "",
       "collected_at": "2026-10-08"
     },
     {

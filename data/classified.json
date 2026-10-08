@@ -1002,31 +1002,6 @@
       ]
     },
     {
-      "source": "kstartup",
-      "source_id": "179328",
-      "title": "2026 서초AICT 데모데이 참가기업 모집 공고",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179328",
-      "apply_raw": "2026-09-21 ~ 2026-10-08",
-      "apply_start": "2026-09-21",
-      "apply_end": "2026-10-08",
-      "agency": "서초AICT운영센터",
-      "exec_agency": "서초AICT운영센터",
-      "category": "행사ㆍ네트워크",
-      "posted_at": "2026-09-28",
-      "status": "마감임박",
-      "location": "",
-      "founding": "전체",
-      "collected_at": "2026-10-08",
-      "key": "kstartup:179328",
-      "track": "A",
-      "score": 3,
-      "region": null,
-      "conditional": null,
-      "reasons": [
-        "핵심 키워드: AI"
-      ]
-    },
-    {
       "source": "nipa",
       "source_id": "16953",
       "title": "2026년도 한-베트남 AI 디지털 포럼 전시 및 비즈니스 매칭 부스 참가기업 모집",
@@ -1688,12 +1663,12 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-10-08T12:10:48",
+  "collected_at": "2026-10-08T16:06:00",
   "stats": {
-    "collected": 652,
+    "collected": 651,
     "cards": 29,
     "expired": 0,
-    "candidates": 36,
+    "candidates": 35,
     "excluded": 0,
     "dropped": 587
   }
