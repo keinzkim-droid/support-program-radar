@@ -1,9 +1,9 @@
 {
-  "collected_at": "2026-10-09T17:01:51",
+  "collected_at": "2026-10-09T20:48:29",
   "failures": [
     "snip"
   ],
-  "count": 650,
+  "count": 649,
   "items": [
     {
       "source": "bizinfo",
@@ -9625,23 +9625,6 @@
       "status": "",
       "location": "",
       "founding": "전체",
-      "collected_at": "2026-10-09"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "179294",
-      "title": "2026년 실리콘밸리 GTM(Go-To-Market) 프로그램 창업기업 모집공고",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179294",
-      "apply_raw": "2026-09-18 ~ 2026-10-09",
-      "apply_start": "2026-09-18",
-      "apply_end": "2026-10-09",
-      "agency": "창업진흥원",
-      "exec_agency": "창업진흥원",
-      "category": "글로벌",
-      "posted_at": "2026-09-17",
-      "status": "",
-      "location": "",
-      "founding": "",
       "collected_at": "2026-10-09"
     },
     {
