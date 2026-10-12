@@ -1151,6 +1151,31 @@
     },
     {
       "source": "bizinfo",
+      "source_id": "PBLN_000000000127091",
+      "title": "2026년 스마트제조혁신 유공 포상 후보자 모집 추가 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127091",
+      "apply_raw": "2026-10-08 ~ 2026-10-16",
+      "apply_start": "2026-10-08",
+      "apply_end": "2026-10-16",
+      "agency": "중소벤처기업부",
+      "exec_agency": "중소기업기술정보진흥원",
+      "category": "기술",
+      "posted_at": "2026-10-12",
+      "status": "마감임박",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-10-12",
+      "key": "bizinfo:PBLN_000000000127091",
+      "track": "B",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "고객사향 키워드: 제조혁신"
+      ]
+    },
+    {
+      "source": "bizinfo",
       "source_id": "PBLN_000000000126931",
       "title": "2026년 2차 산업혁신기반구축사업(첨단 방위산업용 고성능ㆍ고신뢰성 시스템반도체 부품 실증 기반구축) 기술지원(설계ㆍ성능 검증, 기술지도) 사업 공고",
       "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126931",
@@ -1326,6 +1351,31 @@
       ]
     },
     {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000127096",
+      "title": "2027년 초격차 스타트업 프로젝트 정부 첫 실증ㆍ구매 주관기관 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127096",
+      "apply_raw": "2026-10-08 ~ 2026-10-29",
+      "apply_start": "2026-10-08",
+      "apply_end": "2026-10-29",
+      "agency": "중소벤처기업부",
+      "exec_agency": "창업진흥원",
+      "category": "경영",
+      "posted_at": "2026-10-12",
+      "status": "접수중",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-10-12",
+      "key": "bizinfo:PBLN_000000000127096",
+      "track": "A",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: 실증"
+      ]
+    },
+    {
       "source": "kstartup",
       "source_id": "179428",
       "title": "2027년 초격차 스타트업 프로젝트 정부 첫 실증·구매 주관기관 모집공고",
@@ -1342,6 +1392,31 @@
       "founding": "전체",
       "collected_at": "2026-10-12",
       "key": "kstartup:179428",
+      "track": "A",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: 실증"
+      ]
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000127120",
+      "title": "2026년 3차 동물세포기반 백신 공공 CDMO 전략적 육성 및 바이오텍 생산지원 사업 수혜기업 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127120",
+      "apply_raw": "2026-10-12 ~ 2026-10-30",
+      "apply_start": "2026-10-12",
+      "apply_end": "2026-10-30",
+      "agency": "산업통상부",
+      "exec_agency": "동물세포실증지원센터",
+      "category": "기술",
+      "posted_at": "2026-10-12",
+      "status": "접수중",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-10-12",
+      "key": "bizinfo:PBLN_000000000127120",
       "track": "A",
       "score": 3,
       "region": null,
@@ -1687,13 +1762,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-10-12T15:40:21",
+  "collected_at": "2026-10-12T20:59:18",
   "stats": {
-    "collected": 650,
+    "collected": 662,
     "cards": 28,
     "expired": 0,
-    "candidates": 37,
+    "candidates": 40,
     "excluded": 0,
-    "dropped": 585
+    "dropped": 594
   }
 }
