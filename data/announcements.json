@@ -1,9 +1,9 @@
 {
-  "collected_at": "2026-10-13T17:21:42",
+  "collected_at": "2026-10-13T21:28:31",
   "failures": [
     "snip"
   ],
-  "count": 657,
+  "count": 652,
   "items": [
     {
       "source": "bizinfo",
@@ -8966,23 +8966,6 @@
     },
     {
       "source": "kstartup",
-      "source_id": "179439",
-      "title": "2026년 스타트업 법률지원사업 대전광역시 법률상담회 참여 기업 모집 안내",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179439",
-      "apply_raw": "2026-10-06 ~ 2026-10-13",
-      "apply_start": "2026-10-06",
-      "apply_end": "2026-10-13",
-      "agency": "스타트업법률지원",
-      "exec_agency": "스타트업법률지원",
-      "category": "멘토링ㆍ컨설팅ㆍ교육",
-      "posted_at": "2026-10-06",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-10-13"
-    },
-    {
-      "source": "kstartup",
       "source_id": "179433",
       "title": "2026 광명시 기업박람회(GM TECH EXPO 2026) 참여기업 추가모집 공고",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179433",
@@ -9144,23 +9127,6 @@
       "apply_end": "2026-10-22",
       "agency": "광운대학교산학협력단",
       "exec_agency": "광운대학교산학협력단",
-      "category": "창업교육",
-      "posted_at": "2026-10-02",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-10-13"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "179403",
-      "title": "2026년 10월 동네창업학교 교육생 모집 공고",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179403",
-      "apply_raw": "2026-09-02 ~ 2026-10-13",
-      "apply_start": "2026-09-02",
-      "apply_end": "2026-10-13",
-      "agency": "충남신용보증재단",
-      "exec_agency": "충남신용보증재단",
       "category": "창업교육",
       "posted_at": "2026-10-02",
       "status": "",
@@ -9748,23 +9714,6 @@
     },
     {
       "source": "kstartup",
-      "source_id": "179285",
-      "title": "구로구 청년창업지원센터_입주기업 모집·선발",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179285",
-      "apply_raw": "2026-09-16 ~ 2026-10-13",
-      "apply_start": "2026-09-16",
-      "apply_end": "2026-10-13",
-      "agency": "청년창업지원센터 운영",
-      "exec_agency": "청년창업지원센터 운영",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-09-17",
-      "status": "",
-      "location": "서울특별시 구로구 중앙로9길 16 (DMMC 2층) 독립형 2인실(8~12㎡) : 9실 독립형 2인실(13~14㎡) : 2실 독립형 4인실(18",
-      "founding": "",
-      "collected_at": "2026-10-13"
-    },
-    {
-      "source": "kstartup",
       "source_id": "179280",
       "title": "ETRI 기술활용 신사업 모델 공모전",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179280",
@@ -9884,23 +9833,6 @@
     },
     {
       "source": "kstartup",
-      "source_id": "179218",
-      "title": "「청년창업기업·사회적경제기업·예비창업자(소상공인) 대상」 2025년 제1기 서울콜라보레이션 청년 성공창업스쿨 교육생 모집",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179218",
-      "apply_raw": "2026-09-09 ~ 2026-10-13",
-      "apply_start": "2026-09-09",
-      "apply_end": "2026-10-13",
-      "agency": "서대문구청 청년정책과",
-      "exec_agency": "서대문구청 청년정책과",
-      "category": "멘토링ㆍ컨설팅ㆍ교육",
-      "posted_at": "2026-09-11",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-10-13"
-    },
-    {
-      "source": "kstartup",
       "source_id": "179184",
       "title": "2026년 서대문구 청년창업기업 및 사회연대경제기업 수시 전문상담 경영컨설팅 신청 기업 모집 공고",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179184",
@@ -9982,23 +9914,6 @@
       "status": "",
       "location": "",
       "founding": "1년미만, 2년미만, 3년미만, 5년미만, 7년미만, 10년미만",
-      "collected_at": "2026-10-13"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "179121",
-      "title": "2026년 과학기술분야 R&D 대체인력 활용 지원사업 4차 모집 공고",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179121",
-      "apply_raw": "2026-09-01 ~ 2026-10-13",
-      "apply_start": "2026-09-01",
-      "apply_end": "2026-10-13",
-      "agency": "2026년 과학기술분야 R&D 대체인력 활용 지원사업 4차 모집",
-      "exec_agency": "2026년 과학기술분야 R&D 대체인력 활용 지원사업 4차 모집",
-      "category": "기술개발(R&D)",
-      "posted_at": "2026-09-02",
-      "status": "",
-      "location": "",
-      "founding": "2년미만, 3년미만, 5년미만, 7년미만, 10년미만",
       "collected_at": "2026-10-13"
     },
     {
