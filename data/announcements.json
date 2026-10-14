@@ -1,9 +1,9 @@
 {
-  "collected_at": "2026-10-14T11:22:20",
+  "collected_at": "2026-10-14T15:46:11",
   "failures": [
     "snip"
   ],
-  "count": 653,
+  "count": 652,
   "items": [
     {
       "source": "bizinfo",
@@ -3009,23 +3009,6 @@
       "exec_agency": "기초자치단체",
       "category": "금융",
       "posted_at": "2026-05-26",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-10-14"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000122305",
-      "title": "[경기] 양주시 2026년 음식점 미세먼지ㆍ악취 방지시설 설치 지원사업 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000122305",
-      "apply_raw": "예산 소진시까지",
-      "apply_start": null,
-      "apply_end": null,
-      "agency": "경기도",
-      "exec_agency": "경기환경에너지진흥원",
-      "category": "경영",
-      "posted_at": "2026-05-21",
       "status": "",
       "location": "",
       "founding": "",

@@ -1662,13 +1662,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-10-14T11:22:20",
+  "collected_at": "2026-10-14T15:46:11",
   "stats": {
-    "collected": 653,
+    "collected": 652,
     "cards": 28,
     "expired": 0,
     "candidates": 36,
     "excluded": 0,
-    "dropped": 589
+    "dropped": 588
   }
 }
