@@ -1355,6 +1355,31 @@
       ]
     },
     {
+      "source": "nipa",
+      "source_id": "16969",
+      "title": "2026년 한-두바이 AI 사이버보안 포럼 운영 용역 모집",
+      "url": "https://www.nipa.kr/home/2-2/16969",
+      "apply_raw": "D-20",
+      "apply_start": null,
+      "apply_end": "2026-11-04",
+      "agency": "정보통신산업진흥원",
+      "exec_agency": "정보통신산업진흥원",
+      "category": "ICT",
+      "posted_at": "2026-10-15",
+      "status": "접수중",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-10-15",
+      "key": "nipa:16969",
+      "track": "A",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: AI"
+      ]
+    },
+    {
       "source": "kstartup",
       "source_id": "179458",
       "title": "[숭실대학교 캠퍼스타운] 생성형 AI 활용 기초 및 업무 자동화 과정 참여자 모집",
@@ -1691,13 +1716,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-10-15T11:12:21",
+  "collected_at": "2026-10-15T15:35:43",
   "stats": {
-    "collected": 644,
+    "collected": 654,
     "cards": 29,
     "expired": 0,
-    "candidates": 36,
+    "candidates": 37,
     "excluded": 0,
-    "dropped": 579
+    "dropped": 588
   }
 }
