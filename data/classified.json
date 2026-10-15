@@ -220,6 +220,33 @@
       "auto": true
     },
     {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000127244",
+      "title": "2026년 대구국제기계산업대전 참가지원 추가모집 공고(생활지원을 위한 서비스로봇 부품 기술지원 기반구축 사업)",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127244",
+      "apply_raw": "2026-10-15 ~ 2026-10-21",
+      "apply_start": "2026-10-15",
+      "apply_end": "2026-10-21",
+      "agency": "경기도",
+      "exec_agency": "부천산업진흥원",
+      "category": "내수",
+      "posted_at": "2026-10-15",
+      "status": "마감임박",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-10-15",
+      "key": "bizinfo:PBLN_000000000127244",
+      "track": "A",
+      "score": 6,
+      "region": "경기",
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: 로봇, 서비스로봇",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
       "source": "kiria",
       "source_id": "IBUS_000000000001252",
       "title": "2026년 실외이동로봇 기술지원사업 참여기업 모집 공고",
@@ -1716,13 +1743,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-10-15T15:35:43",
+  "collected_at": "2026-10-15T21:33:41",
   "stats": {
-    "collected": 654,
-    "cards": 29,
+    "collected": 663,
+    "cards": 30,
     "expired": 0,
     "candidates": 37,
     "excluded": 0,
-    "dropped": 588
+    "dropped": 596
   }
 }
