@@ -1,9 +1,9 @@
 {
-  "collected_at": "2026-10-16T10:46:48",
+  "collected_at": "2026-10-16T15:34:45",
   "failures": [
     "snip"
   ],
-  "count": 655,
+  "count": 654,
   "items": [
     {
       "source": "bizinfo",
@@ -8286,6 +8286,23 @@
     },
     {
       "source": "kstartup",
+      "source_id": "179535",
+      "title": "2026년 웰컴 투 팁스 7차 참가기업 모집 (제주권)",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179535",
+      "apply_raw": "2026-10-15 ~ 2026-10-28",
+      "apply_start": "2026-10-15",
+      "apply_end": "2026-10-28",
+      "agency": "(주)로우파트너스",
+      "exec_agency": "(주)로우파트너스",
+      "category": "사업화",
+      "posted_at": "2026-10-16",
+      "status": "",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-10-16"
+    },
+    {
+      "source": "kstartup",
       "source_id": "179523",
       "title": "[소담스퀘어 당산] 온라인 판매를 위한, 디지털 전환 이해 및 판매 채널 분석",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179523",
@@ -9442,23 +9459,6 @@
     },
     {
       "source": "kstartup",
-      "source_id": "179414",
-      "title": "[창업] 창업가를 위한 IR 피칭 기초 부스팅",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179414",
-      "apply_raw": "2026-10-02 ~ 2026-10-16",
-      "apply_start": "2026-10-02",
-      "apply_end": "2026-10-16",
-      "agency": "마포청년창업취업지원센터 나루 2026",
-      "exec_agency": "마포청년창업취업지원센터 나루 2026",
-      "category": "창업교육",
-      "posted_at": "2026-10-02",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-10-16"
-    },
-    {
-      "source": "kstartup",
       "source_id": "179281",
       "title": "2026 경기스포츠산업 공모전",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179281",
@@ -9740,23 +9740,6 @@
       "agency": "대구창조경제혁신센터",
       "exec_agency": "대구창조경제혁신센터",
       "category": "행사ㆍ네트워크",
-      "posted_at": "2026-09-29",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-10-16"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "179325",
-      "title": "2026 경기도 ESG 인식확산 교육 (5~7회차) 참여자 모집 안내",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179325",
-      "apply_raw": "2026-09-22 ~ 2026-10-16",
-      "apply_start": "2026-09-22",
-      "apply_end": "2026-10-16",
-      "agency": "(재)경기도경제과학진흥원",
-      "exec_agency": "(재)경기도경제과학진흥원",
-      "category": "멘토링ㆍ컨설팅ㆍ교육",
       "posted_at": "2026-09-29",
       "status": "",
       "location": "",
@@ -10167,7 +10150,7 @@
       "category": "시설ㆍ공간ㆍ보육",
       "posted_at": "2026-07-16",
       "status": "",
-      "location": "경기도 안양시 만안구 안양로 311 프로젝트500타워 15층(롯데시네마 안양일번가 건물) ￭ 모집 규모 : 1개실 - 1510호 (50.4㎡/1",
+      "location": "경기도 안양시 만안구 안양로 311 프로젝트500타워 15층(롯데시네마 안양일번가 건물) ￭ 모집 규모 : 1개실 - 1506호 (40.3㎡/1",
       "founding": "",
       "collected_at": "2026-10-16"
     },

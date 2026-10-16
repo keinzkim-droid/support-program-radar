@@ -97,7 +97,7 @@
       "category": "시설ㆍ공간ㆍ보육",
       "posted_at": "2026-07-16",
       "status": "접수중",
-      "location": "경기도 안양시 만안구 안양로 311 프로젝트500타워 15층(롯데시네마 안양일번가 건물) ￭ 모집 규모 : 1개실 - 1510호 (50.4㎡/1",
+      "location": "경기도 안양시 만안구 안양로 311 프로젝트500타워 15층(롯데시네마 안양일번가 건물) ￭ 모집 규모 : 1개실 - 1506호 (40.3㎡/1",
       "founding": "",
       "collected_at": "2026-10-16",
       "key": "kstartup:178527",
@@ -1718,13 +1718,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-10-16T10:46:48",
+  "collected_at": "2026-10-16T15:34:45",
   "stats": {
-    "collected": 655,
+    "collected": 654,
     "cards": 30,
     "expired": 0,
     "candidates": 36,
     "excluded": 0,
-    "dropped": 589
+    "dropped": 588
   }
 }
