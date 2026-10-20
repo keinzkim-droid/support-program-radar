@@ -1,9 +1,9 @@
 {
-  "collected_at": "2026-10-20T11:44:57",
+  "collected_at": "2026-10-20T16:07:54",
   "failures": [
     "snip"
   ],
-  "count": 638,
+  "count": 637,
   "items": [
     {
       "source": "bizinfo",
@@ -9638,23 +9638,6 @@
       "agency": "2026 대덕특구 딥테크 혁신성장 플랫폼(전략기술 발굴 및 매칭)",
       "exec_agency": "2026 대덕특구 딥테크 혁신성장 플랫폼(전략기술 발굴 및 매칭)",
       "category": "사업화",
-      "posted_at": "2026-09-15",
-      "status": "",
-      "location": "",
-      "founding": "전체",
-      "collected_at": "2026-10-20"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "179236",
-      "title": "제3회 AI 및 기술기반 창업 트렌드 세미나 참가자 모집 (AI 비즈니스 실전 전략 : 멀티모달·에이전트 AX·AI 거버넌스)",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179236",
-      "apply_raw": "2026-09-11 ~ 2026-10-20",
-      "apply_start": "2026-09-11",
-      "apply_end": "2026-10-20",
-      "agency": "제3회 AI 및 기술기반 창업 트렌드 세미나",
-      "exec_agency": "제3회 AI 및 기술기반 창업 트렌드 세미나",
-      "category": "행사ㆍ네트워크",
       "posted_at": "2026-09-15",
       "status": "",
       "location": "",

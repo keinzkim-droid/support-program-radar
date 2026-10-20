@@ -892,31 +892,6 @@
       ]
     },
     {
-      "source": "kstartup",
-      "source_id": "179236",
-      "title": "제3회 AI 및 기술기반 창업 트렌드 세미나 참가자 모집 (AI 비즈니스 실전 전략 : 멀티모달·에이전트 AX·AI 거버넌스)",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179236",
-      "apply_raw": "2026-09-11 ~ 2026-10-20",
-      "apply_start": "2026-09-11",
-      "apply_end": "2026-10-20",
-      "agency": "제3회 AI 및 기술기반 창업 트렌드 세미나",
-      "exec_agency": "제3회 AI 및 기술기반 창업 트렌드 세미나",
-      "category": "행사ㆍ네트워크",
-      "posted_at": "2026-09-15",
-      "status": "마감임박",
-      "location": "",
-      "founding": "전체",
-      "collected_at": "2026-10-20",
-      "key": "kstartup:179236",
-      "track": "A",
-      "score": 3,
-      "region": null,
-      "conditional": null,
-      "reasons": [
-        "핵심 키워드: AI"
-      ]
-    },
-    {
       "source": "nipa",
       "source_id": "16967",
       "title": "하노이 IT지원센터‘26년 하반기 추가 입주기업 모집 공고",
@@ -1453,12 +1428,12 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-10-20T11:44:57",
+  "collected_at": "2026-10-20T16:07:54",
   "stats": {
-    "collected": 638,
+    "collected": 637,
     "cards": 24,
     "expired": 0,
-    "candidates": 32,
+    "candidates": 31,
     "excluded": 0,
     "dropped": 582
   }
