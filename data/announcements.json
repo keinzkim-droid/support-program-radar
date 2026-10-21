@@ -1,9 +1,9 @@
 {
-  "collected_at": "2026-10-21T11:30:52",
+  "collected_at": "2026-10-21T16:08:50",
   "failures": [
     "snip"
   ],
-  "count": 646,
+  "count": 645,
   "items": [
     {
       "source": "bizinfo",
@@ -9400,23 +9400,6 @@
       "agency": "광운대학교산학협력단",
       "exec_agency": "광운대학교산학협력단",
       "category": "창업교육",
-      "posted_at": "2026-10-02",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-10-21"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "179393",
-      "title": "2026년 위치정보 보호조치 교육 (6차)",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179393",
-      "apply_raw": "2026-09-30 ~ 2026-10-21",
-      "apply_start": "2026-09-30",
-      "apply_end": "2026-10-21",
-      "agency": "(주)아이전스",
-      "exec_agency": "(주)아이전스",
-      "category": "멘토링ㆍ컨설팅ㆍ교육",
       "posted_at": "2026-10-02",
       "status": "",
       "location": "",
