@@ -972,31 +972,6 @@
       ]
     },
     {
-      "source": "kstartup",
-      "source_id": "179505",
-      "title": "[광운대x동국대x시립대 캠퍼스타운] AI+X Connect Forum",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179505",
-      "apply_raw": "2026-10-13 ~ 2026-10-23",
-      "apply_start": "2026-10-13",
-      "apply_end": "2026-10-23",
-      "agency": "광운대학교산학협력단",
-      "exec_agency": "광운대학교산학협력단",
-      "category": "행사ㆍ네트워크",
-      "posted_at": "2026-10-15",
-      "status": "마감임박",
-      "location": "",
-      "founding": "전체",
-      "collected_at": "2026-10-23",
-      "key": "kstartup:179505",
-      "track": "A",
-      "score": 3,
-      "region": null,
-      "conditional": null,
-      "reasons": [
-        "핵심 키워드: AI"
-      ]
-    },
-    {
       "source": "bizinfo",
       "source_id": "PBLN_000000000127014",
       "title": "[경북] 2026년 지역특화형(방산ㆍ모빌리티) 스마트공장 보급확산 사업(기초단계) 참여기업 모집 공고",
@@ -1583,13 +1558,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-10-23T11:28:43",
+  "collected_at": "2026-10-23T16:07:03",
   "stats": {
     "collected": 649,
     "cards": 27,
     "expired": 0,
-    "candidates": 34,
+    "candidates": 33,
     "excluded": 0,
-    "dropped": 588
+    "dropped": 589
   }
 }
