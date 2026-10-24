@@ -1,9 +1,9 @@
 {
-  "collected_at": "2026-10-24T11:32:16",
+  "collected_at": "2026-10-24T16:00:41",
   "failures": [
     "snip"
   ],
-  "count": 631,
+  "count": 630,
   "items": [
     {
       "source": "bizinfo",
@@ -8890,23 +8890,6 @@
       "agency": "서울경제진흥원",
       "exec_agency": "서울경제진흥원",
       "category": "글로벌",
-      "posted_at": "2026-10-14",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-10-24"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "179480",
-      "title": "2026 시흥시 청년창업가 네트워킹 행사 참가자  모집",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179480",
-      "apply_raw": "2026-10-12 ~ 2026-10-24",
-      "apply_start": "2026-10-12",
-      "apply_end": "2026-10-24",
-      "agency": "2026 시흥시 청년창업가 네트워킹 행사 참가자 모집",
-      "exec_agency": "2026 시흥시 청년창업가 네트워킹 행사 참가자 모집",
-      "category": "행사ㆍ네트워크",
       "posted_at": "2026-10-14",
       "status": "",
       "location": "",
