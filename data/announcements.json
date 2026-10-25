@@ -1,9 +1,9 @@
 {
-  "collected_at": "2026-10-25T16:18:43",
+  "collected_at": "2026-10-25T21:58:28",
   "failures": [
     "snip"
   ],
-  "count": 630,
+  "count": 629,
   "items": [
     {
       "source": "bizinfo",
@@ -9536,23 +9536,6 @@
       "agency": "서대문구청 청년정책과",
       "exec_agency": "서대문구청 청년정책과",
       "category": "멘토링ㆍ컨설팅ㆍ교육",
-      "posted_at": "2026-09-11",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-10-25"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "179211",
-      "title": "2026년 대전 스타트업 원스톱 지원센터 아카데미 3회차",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179211",
-      "apply_raw": "2026-09-03 ~ 2026-10-25",
-      "apply_start": "2026-09-03",
-      "apply_end": "2026-10-25",
-      "agency": "주식회사 렛츠",
-      "exec_agency": "주식회사 렛츠",
-      "category": "창업교육",
       "posted_at": "2026-09-11",
       "status": "",
       "location": "",
