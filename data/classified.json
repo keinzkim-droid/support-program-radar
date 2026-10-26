@@ -823,6 +823,31 @@
     },
     {
       "source": "kstartup",
+      "source_id": "179612",
+      "title": "상지대학교 창업보육센터 입주기업 모집 공고",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179612",
+      "apply_raw": "2026-10-23 ~ 2026-11-10",
+      "apply_start": "2026-10-23",
+      "apply_end": "2026-11-10",
+      "agency": "창업보육센터 지원",
+      "exec_agency": "창업보육센터 지원",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-10-26",
+      "status": "접수중",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-10-26",
+      "key": "kstartup:179612",
+      "track": "C",
+      "score": 9,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업, 창업보육, 보육센터"
+      ]
+    },
+    {
+      "source": "kstartup",
       "source_id": "178453",
       "title": "[영산대학교 창업보육센터] 2026년 신규입주기업 모집 공고",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178453",
@@ -1640,13 +1665,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-10-26T16:27:44",
+  "collected_at": "2026-10-26T23:30:26",
   "stats": {
-    "collected": 641,
+    "collected": 640,
     "cards": 30,
     "expired": 0,
-    "candidates": 33,
+    "candidates": 34,
     "excluded": 0,
-    "dropped": 578
+    "dropped": 576
   }
 }
