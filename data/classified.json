@@ -139,6 +139,33 @@
     },
     {
       "source": "bizinfo",
+      "source_id": "PBLN_000000000127469",
+      "title": "2026년 철강ㆍ금속 인공지능전환AX 실증센터 구축 기업지원 사업 기초단계 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127469",
+      "apply_raw": "2026-10-22 ~ 2026-10-30",
+      "apply_start": "2026-10-22",
+      "apply_end": "2026-10-30",
+      "agency": "산업통상부",
+      "exec_agency": "한국산업기술시험원",
+      "category": "기술",
+      "posted_at": "2026-10-26",
+      "status": "마감임박",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-10-26",
+      "key": "bizinfo:PBLN_000000000127469",
+      "track": "A",
+      "score": 6,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: 실증, 인공지능",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
+      "source": "bizinfo",
       "source_id": "PBLN_000000000127332",
       "title": "2026년ㆍ2027년 Physical AI 기반 의료로봇 기술통합센터 구축 참여기업 모집 공고",
       "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127332",
@@ -160,6 +187,33 @@
       "conditional": null,
       "reasons": [
         "핵심 키워드: 로봇, AI",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
+      "source": "kstartup",
+      "source_id": "179606",
+      "title": "2026년 안산정보산업진흥센터(경기TP안산창업보육센터) 제4차 신규 입주자 모집 공고",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179606",
+      "apply_raw": "2026-10-26 ~ 2026-11-09",
+      "apply_start": "2026-10-26",
+      "apply_end": "2026-11-09",
+      "agency": "창업보육센터 지원",
+      "exec_agency": "창업보육센터 지원",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-10-26",
+      "status": "마감임박",
+      "location": "경기 안산시 단원구 연수원로 104-14 ○ 공간구성 : 17.6평(58.18㎡) 2개소 ○ 입주기간 : 최초 3년 입주 후 평가를 통하여 2년",
+      "founding": "",
+      "collected_at": "2026-10-26",
+      "key": "kstartup:179606",
+      "track": "C",
+      "score": 6,
+      "region": "경기",
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 창업보육, 보육센터",
         "자동 분류"
       ],
       "auto": true
@@ -1586,13 +1640,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-10-26T11:07:40",
+  "collected_at": "2026-10-26T16:27:44",
   "stats": {
-    "collected": 633,
-    "cards": 28,
+    "collected": 641,
+    "cards": 30,
     "expired": 0,
     "candidates": 33,
     "excluded": 0,
-    "dropped": 572
+    "dropped": 578
   }
 }
