@@ -1,9 +1,9 @@
 {
-  "collected_at": "2026-10-27T16:26:55",
+  "collected_at": "2026-10-27T22:38:58",
   "failures": [
     "snip"
   ],
-  "count": 640,
+  "count": 636,
   "items": [
     {
       "source": "bizinfo",
@@ -8626,23 +8626,6 @@
     },
     {
       "source": "kstartup",
-      "source_id": "179506",
-      "title": "2026 문화예술 창업교육의 모든 것.zip 2기 참여자 모집",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179506",
-      "apply_raw": "2026-10-13 ~ 2026-10-27",
-      "apply_start": "2026-10-13",
-      "apply_end": "2026-10-27",
-      "agency": "(주)오케이어스",
-      "exec_agency": "(주)오케이어스",
-      "category": "멘토링ㆍ컨설팅ㆍ교육",
-      "posted_at": "2026-10-21",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-10-27"
-    },
-    {
-      "source": "kstartup",
       "source_id": "179581",
       "title": "2026 초격차 클리마 데이 (Clima Day) 행사 개최 안내",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179581",
@@ -9221,23 +9204,6 @@
     },
     {
       "source": "kstartup",
-      "source_id": "179459",
-      "title": "Applications Now Open: 2026 OASIS-6 Global Startup Challenge 「2026 외국인 창업대전(OASIS-6)」 참가자 모집",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179459",
-      "apply_raw": "2026-10-08 ~ 2026-10-27",
-      "apply_start": "2026-10-08",
-      "apply_end": "2026-10-27",
-      "agency": "2026 외국인 창업대전(OASIS-6)",
-      "exec_agency": "2026 외국인 창업대전(OASIS-6)",
-      "category": "글로벌",
-      "posted_at": "2026-10-13",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-10-27"
-    },
-    {
-      "source": "kstartup",
       "source_id": "179478",
       "title": "충북대학교 『글로벌(G)테크벤처센터(BI) 』 입주기업 모집",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179478",
@@ -9489,23 +9455,6 @@
       "status": "",
       "location": "서울시 동작구 노량진로10, 서울창업센터 동작 (대방역 2번 출구) 2. 모집공간: 3인실(18㎡) 1개, 5인실(24㎡) 7개, 12인실 (4",
       "founding": "전체",
-      "collected_at": "2026-10-27"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "179420",
-      "title": "[동대문구 창업지원센터] 10월 메이커스페이스(레이저커터, 3D프린팅) 교육 일정",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179420",
-      "apply_raw": "2026-10-02 ~ 2026-10-27",
-      "apply_start": "2026-10-02",
-      "apply_end": "2026-10-27",
-      "agency": "메이커 스페이스",
-      "exec_agency": "메이커 스페이스",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-10-06",
-      "status": "",
-      "location": "",
-      "founding": "",
       "collected_at": "2026-10-27"
     },
     {
@@ -9860,23 +9809,6 @@
       "exec_agency": "제주창조경제혁신센터",
       "category": "사업화",
       "posted_at": "2026-07-28",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-10-27"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "178597",
-      "title": "2026 의왕시 ESG 인식확산 교육",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178597",
-      "apply_raw": "2026-07-20 ~ 2026-10-27",
-      "apply_start": "2026-07-20",
-      "apply_end": "2026-10-27",
-      "agency": "(재)경기도경제과학진흥원",
-      "exec_agency": "(재)경기도경제과학진흥원",
-      "category": "멘토링ㆍ컨설팅ㆍ교육",
-      "posted_at": "2026-07-21",
       "status": "",
       "location": "",
       "founding": "",
