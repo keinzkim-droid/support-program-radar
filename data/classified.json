@@ -138,33 +138,6 @@
       "auto": true
     },
     {
-      "source": "kstartup",
-      "source_id": "177357",
-      "title": "남서울대학교 창업보육센터 입주기업 모집(천안소재)",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177357",
-      "apply_raw": "2026-04-27 ~ 2026-12-31",
-      "apply_start": "2026-04-27",
-      "apply_end": "2026-12-31",
-      "agency": "창업보육센터및 기업 지원",
-      "exec_agency": "창업보육센터및 기업 지원",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-04-24",
-      "status": "접수중",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-10-28",
-      "key": "kstartup:177357",
-      "track": "C",
-      "score": 9,
-      "region": "서울",
-      "conditional": null,
-      "reasons": [
-        "사무실·공간 키워드: 입주기업, 창업보육, 보육센터",
-        "자동 분류"
-      ],
-      "auto": true
-    },
-    {
       "source": "bizinfo",
       "source_id": "PBLN_000000000127332",
       "title": "2026년ㆍ2027년 Physical AI 기반 의료로봇 기술통합센터 구축 참여기업 모집 공고",
@@ -455,33 +428,6 @@
         "핵심 키워드: 자율주행",
         "관련 키워드: 자율"
       ]
-    },
-    {
-      "source": "kstartup",
-      "source_id": "179421",
-      "title": "2026년 서울창업센터 동작 입주기업 모집",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179421",
-      "apply_raw": "2026-10-02 ~ 2026-10-28",
-      "apply_start": "2026-10-02",
-      "apply_end": "2026-10-28",
-      "agency": "서울창업센터 동작",
-      "exec_agency": "서울창업센터 동작",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-10-06",
-      "status": "마감임박",
-      "location": "서울시 동작구 노량진로10, 서울창업센터 동작 (대방역 2번 출구) 2. 모집공간: 3인실(18㎡) 1개, 5인실(24㎡) 7개, 12인실 (4",
-      "founding": "전체",
-      "collected_at": "2026-10-28",
-      "key": "kstartup:179421",
-      "track": "C",
-      "score": 3,
-      "region": "서울",
-      "conditional": null,
-      "reasons": [
-        "사무실·공간 키워드: 입주기업",
-        "자동 분류"
-      ],
-      "auto": true
     },
     {
       "source": "kstartup",
@@ -1717,13 +1663,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-10-28T12:09:42",
+  "collected_at": "2026-10-28T16:57:30",
   "stats": {
-    "collected": 636,
-    "cards": 31,
+    "collected": 641,
+    "cards": 29,
     "expired": 0,
     "candidates": 35,
     "excluded": 0,
-    "dropped": 570
+    "dropped": 577
   }
 }
