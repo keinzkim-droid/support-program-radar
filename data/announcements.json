@@ -1,9 +1,9 @@
 {
-  "collected_at": "2026-10-28T16:57:30",
+  "collected_at": "2026-10-28T23:29:17",
   "failures": [
     "snip"
   ],
-  "count": 641,
+  "count": 639,
   "items": [
     {
       "source": "bizinfo",
@@ -1574,9 +1574,9 @@
       "source_id": "PBLN_000000000124107",
       "title": "[서울] 2026년 소상공인 온라인 유통 MD 상담 참여 소상공인 모집 공고",
       "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124107",
-      "apply_raw": "상시 접수",
-      "apply_start": null,
-      "apply_end": null,
+      "apply_raw": "2026-07-07 ~ 2026-11-13",
+      "apply_start": "2026-07-07",
+      "apply_end": "2026-11-13",
       "agency": "서울특별시",
       "exec_agency": "직접수행",
       "category": "경영",
@@ -9119,23 +9119,6 @@
     },
     {
       "source": "kstartup",
-      "source_id": "179535",
-      "title": "2026년 웰컴 투 팁스 7차 참가기업 모집 (제주권)",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179535",
-      "apply_raw": "2026-10-15 ~ 2026-10-28",
-      "apply_start": "2026-10-15",
-      "apply_end": "2026-10-28",
-      "agency": "(주)로우파트너스",
-      "exec_agency": "(주)로우파트너스",
-      "category": "사업화",
-      "posted_at": "2026-10-16",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-10-28"
-    },
-    {
-      "source": "kstartup",
       "source_id": "179525",
       "title": "2026년 워터라운드(wateRound) 제5기 협약파트너사 모집 공고",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179525",
@@ -9544,23 +9527,6 @@
     },
     {
       "source": "kstartup",
-      "source_id": "179431",
-      "title": "[한국도로공사] 2026년 상생형 창업, 벤처기업 지원사업",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179431",
-      "apply_raw": "2026-10-06 ~ 2026-10-28",
-      "apply_start": "2026-10-06",
-      "apply_end": "2026-10-28",
-      "agency": "재단법인밴드",
-      "exec_agency": "재단법인밴드",
-      "category": "사업화",
-      "posted_at": "2026-10-06",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-10-28"
-    },
-    {
-      "source": "kstartup",
       "source_id": "179281",
       "title": "2026 경기스포츠산업 공모전",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179281",
@@ -9629,23 +9595,6 @@
     },
     {
       "source": "kstartup",
-      "source_id": "179373",
-      "title": "2026 ICT 혁신성과 교류회 : ICT INNOVATION BRIDGE",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179373",
-      "apply_raw": "2026-09-14 ~ 2026-10-28",
-      "apply_start": "2026-09-14",
-      "apply_end": "2026-10-28",
-      "agency": "차세대융합기술연구원",
-      "exec_agency": "차세대융합기술연구원",
-      "category": "행사ㆍ네트워크",
-      "posted_at": "2026-10-01",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-10-28"
-    },
-    {
-      "source": "kstartup",
       "source_id": "179365",
       "title": "예비창업가 및 기업 담당자를 위한 기술금융과 기술가치평가 입문과정",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179365",
@@ -9674,7 +9623,7 @@
       "category": "시설ㆍ공간ㆍ보육",
       "posted_at": "2026-09-29",
       "status": "",
-      "location": "경기도 고양시 일산동구 동국로 32, 동국대학교 산학협력관 모집 호실 25평 2개실 / 26평 1개실 / 27평1개실 / 38평형 1개실 입주기",
+      "location": "",
       "founding": "",
       "collected_at": "2026-10-28"
     },
@@ -10217,6 +10166,23 @@
       "exec_agency": "ICT혁신센터 입주기업 모집공고",
       "category": "시설ㆍ공간ㆍ보육",
       "posted_at": "2026-05-04",
+      "status": "",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-10-28"
+    },
+    {
+      "source": "kstartup",
+      "source_id": "177357",
+      "title": "남서울대학교 창업보육센터 입주기업 모집(천안소재)",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177357",
+      "apply_raw": "2026-04-27 ~ 2026-12-31",
+      "apply_start": "2026-04-27",
+      "apply_end": "2026-12-31",
+      "agency": "창업보육센터및 기업 지원",
+      "exec_agency": "창업보육센터및 기업 지원",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-04-24",
       "status": "",
       "location": "",
       "founding": "",
@@ -10870,23 +10836,6 @@
     },
     {
       "source": "kiria",
-      "source_id": "IBUS_000000000001251",
-      "title": "「2026년 모빌리티 혁신제품 시험평가 지원」지원 대상 기업 상시모집 공고",
-      "url": "https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&ibusCode=IBUS_000000000001251",
-      "apply_raw": "2026-05-28 ~ 2026-11-15",
-      "apply_start": "2026-05-28",
-      "apply_end": "2026-11-15",
-      "agency": "한국로봇산업진흥원",
-      "exec_agency": "한국로봇산업진흥원",
-      "category": "로봇",
-      "posted_at": "2026-05-28",
-      "status": "진행중",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-11"
-    },
-    {
-      "source": "kiria",
       "source_id": "IBUS_000000000001252",
       "title": "2026년 실외이동로봇 기술지원사업 참여기업 모집 공고",
       "url": "https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&ibusCode=IBUS_000000000001252",
@@ -10901,6 +10850,23 @@
       "location": "",
       "founding": "",
       "collected_at": "2026-08-31"
+    },
+    {
+      "source": "kiria",
+      "source_id": "IBUS_000000000001251",
+      "title": "「2026년 모빌리티 혁신제품 시험평가 지원」지원 대상 기업 상시모집 공고",
+      "url": "https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&ibusCode=IBUS_000000000001251",
+      "apply_raw": "2026-05-28 ~ 2026-11-15",
+      "apply_start": "2026-05-28",
+      "apply_end": "2026-11-15",
+      "agency": "한국로봇산업진흥원",
+      "exec_agency": "한국로봇산업진흥원",
+      "category": "로봇",
+      "posted_at": "2026-05-28",
+      "status": "진행중",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-11"
     }
   ]
 }

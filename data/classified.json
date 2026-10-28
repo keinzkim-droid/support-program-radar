@@ -31,33 +31,6 @@
     },
     {
       "source": "kstartup",
-      "source_id": "179360",
-      "title": "동국대학교 BMC창업보육센터(고양)신규 입주기업 모집공고(2026년 6차)",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179360",
-      "apply_raw": "2026-09-28 ~ 2026-10-28",
-      "apply_start": "2026-09-28",
-      "apply_end": "2026-10-28",
-      "agency": "동국대 창업보육센터 운영지원",
-      "exec_agency": "동국대 창업보육센터 운영지원",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-09-29",
-      "status": "마감임박",
-      "location": "경기도 고양시 일산동구 동국로 32, 동국대학교 산학협력관 모집 호실 25평 2개실 / 26평 1개실 / 27평1개실 / 38평형 1개실 입주기",
-      "founding": "",
-      "collected_at": "2026-10-28",
-      "key": "kstartup:179360",
-      "track": "C",
-      "score": 9,
-      "region": "경기",
-      "conditional": null,
-      "reasons": [
-        "사무실·공간 키워드: 입주기업, 창업보육, 보육센터",
-        "자동 분류"
-      ],
-      "auto": true
-    },
-    {
-      "source": "kstartup",
       "source_id": "179598",
       "title": "동국대학교 창업보육센터(서울) 신규 입주기업 모집 공고",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179598",
@@ -130,6 +103,33 @@
       "track": "C",
       "score": 9,
       "region": "경기",
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업, 창업보육, 보육센터",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
+      "source": "kstartup",
+      "source_id": "177357",
+      "title": "남서울대학교 창업보육센터 입주기업 모집(천안소재)",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177357",
+      "apply_raw": "2026-04-27 ~ 2026-12-31",
+      "apply_start": "2026-04-27",
+      "apply_end": "2026-12-31",
+      "agency": "창업보육센터및 기업 지원",
+      "exec_agency": "창업보육센터및 기업 지원",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-04-24",
+      "status": "접수중",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-10-28",
+      "key": "kstartup:177357",
+      "track": "C",
+      "score": 9,
+      "region": "서울",
       "conditional": null,
       "reasons": [
         "사무실·공간 키워드: 입주기업, 창업보육, 보육센터",
@@ -769,6 +769,31 @@
   ],
   "expired": [],
   "candidates": [
+    {
+      "source": "kstartup",
+      "source_id": "179360",
+      "title": "동국대학교 BMC창업보육센터(고양)신규 입주기업 모집공고(2026년 6차)",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179360",
+      "apply_raw": "2026-09-28 ~ 2026-10-28",
+      "apply_start": "2026-09-28",
+      "apply_end": "2026-10-28",
+      "agency": "동국대 창업보육센터 운영지원",
+      "exec_agency": "동국대 창업보육센터 운영지원",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-09-29",
+      "status": "마감임박",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-10-28",
+      "key": "kstartup:179360",
+      "track": "C",
+      "score": 9,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업, 창업보육, 보육센터"
+      ]
+    },
     {
       "source": "kstartup",
       "source_id": "179463",
@@ -1663,13 +1688,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-10-28T16:57:30",
+  "collected_at": "2026-10-28T23:29:17",
   "stats": {
-    "collected": 641,
+    "collected": 639,
     "cards": 29,
     "expired": 0,
-    "candidates": 35,
+    "candidates": 36,
     "excluded": 0,
-    "dropped": 577
+    "dropped": 574
   }
 }
