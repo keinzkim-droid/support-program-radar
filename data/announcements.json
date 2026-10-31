@@ -1,9 +1,9 @@
 {
-  "collected_at": "2026-10-31T17:05:49",
+  "collected_at": "2026-10-31T23:01:13",
   "failures": [
     "snip"
   ],
-  "count": 624,
+  "count": 619,
   "items": [
     {
       "source": "bizinfo",
@@ -9255,23 +9255,6 @@
     },
     {
       "source": "kstartup",
-      "source_id": "179478",
-      "title": "충북대학교 『글로벌(G)테크벤처센터(BI) 』 입주기업 모집",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179478",
-      "apply_raw": "2026-10-08 ~ 2026-10-31",
-      "apply_start": "2026-10-08",
-      "apply_end": "2026-10-31",
-      "agency": "충북대학교",
-      "exec_agency": "충북대학교",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-10-12",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-10-31"
-    },
-    {
-      "source": "kstartup",
       "source_id": "179472",
       "title": "[구리시 청년내일센터] 2026 창업아이디어 경진대회 참가자 모집",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179472",
@@ -9319,23 +9302,6 @@
       "status": "",
       "location": "",
       "founding": "전체",
-      "collected_at": "2026-10-31"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "179450",
-      "title": "2026 강원권 LIPS 민간운영사 연합 INVESTOR DAY 11월",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179450",
-      "apply_raw": "2026-10-12 ~ 2026-10-31",
-      "apply_start": "2026-10-12",
-      "apply_end": "2026-10-31",
-      "agency": "재단법인 강원창조경제혁신센터",
-      "exec_agency": "재단법인 강원창조경제혁신센터",
-      "category": "행사ㆍ네트워크",
-      "posted_at": "2026-10-12",
-      "status": "",
-      "location": "",
-      "founding": "",
       "collected_at": "2026-10-31"
     },
     {
@@ -9421,23 +9387,6 @@
       "status": "",
       "location": "",
       "founding": "1년미만, 2년미만, 3년미만, 5년미만, 7년미만, 10년미만",
-      "collected_at": "2026-10-31"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "179387",
-      "title": "출연연, 대학 연구소기업 Business Development 프로그램 참여 예비창업자 모집 (10월)",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179387",
-      "apply_raw": "2026-10-01 ~ 2026-10-31",
-      "apply_start": "2026-10-01",
-      "apply_end": "2026-10-31",
-      "agency": "출연연, 대학 연구소기업 Business Development 프로그램 참여 예비창업자 모집",
-      "exec_agency": "출연연, 대학 연구소기업 Business Development 프로그램 참여 예비창업자 모집",
-      "category": "사업화",
-      "posted_at": "2026-10-01",
-      "status": "",
-      "location": "",
-      "founding": "",
       "collected_at": "2026-10-31"
     },
     {
@@ -9554,23 +9503,6 @@
       "exec_agency": "정보통신산업진흥원",
       "category": "사업화",
       "posted_at": "2026-09-17",
-      "status": "",
-      "location": "",
-      "founding": "전체",
-      "collected_at": "2026-10-31"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "179057",
-      "title": "2026 대덕특구 딥테크 혁신성장 플랫폼(전략기술 발굴 및 매칭) (9/1 ~ 10/31)",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179057",
-      "apply_raw": "2026-09-01 ~ 2026-10-31",
-      "apply_start": "2026-09-01",
-      "apply_end": "2026-10-31",
-      "agency": "2026 대덕특구 딥테크 혁신성장 플랫폼(전략기술 발굴 및 매칭)",
-      "exec_agency": "2026 대덕특구 딥테크 혁신성장 플랫폼(전략기술 발굴 및 매칭)",
-      "category": "사업화",
-      "posted_at": "2026-09-15",
       "status": "",
       "location": "",
       "founding": "전체",
@@ -10421,23 +10353,6 @@
       "exec_agency": "신개념 세대융합청년창업 지원",
       "category": "멘토링ㆍ컨설팅ㆍ교육",
       "posted_at": "2026-02-10",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-10-31"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "176190",
-      "title": "[성남산업진흥원] 2026년 창업기업 상시 멘토링 참여자(멘티)  모집",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=176190",
-      "apply_raw": "2026-02-04 ~ 2026-10-31",
-      "apply_start": "2026-02-04",
-      "apply_end": "2026-10-31",
-      "agency": "[성남산업진흥원]2026년 창업기업 상시 멘토링 참여자(멘티) 모집",
-      "exec_agency": "[성남산업진흥원]2026년 창업기업 상시 멘토링 참여자(멘티) 모집",
-      "category": "멘토링ㆍ컨설팅ㆍ교육",
-      "posted_at": "2026-02-04",
       "status": "",
       "location": "",
       "founding": "",
