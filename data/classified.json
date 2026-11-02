@@ -220,6 +220,33 @@
     },
     {
       "source": "kiria",
+      "source_id": "IBUS_000000000001273",
+      "title": "「2027년 공공분야 로봇 도입 및 실증지원 사업」 수요조사 공고",
+      "url": "https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&ibusCode=IBUS_000000000001273",
+      "apply_raw": "2026-11-02 ~ 2026-11-30",
+      "apply_start": "2026-11-02",
+      "apply_end": "2026-11-30",
+      "agency": "한국로봇산업진흥원",
+      "exec_agency": "한국로봇산업진흥원",
+      "category": "로봇",
+      "posted_at": "2026-11-02",
+      "status": "접수중",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-11-02",
+      "key": "kiria:IBUS_000000000001273",
+      "track": "A",
+      "score": 6,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: 로봇, 실증",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
+      "source": "kiria",
       "source_id": "IBUS_000000000001252",
       "title": "2026년 실외이동로봇 기술지원사업 참여기업 모집 공고",
       "url": "https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&ibusCode=IBUS_000000000001252",
@@ -972,7 +999,7 @@
     {
       "source": "nipa",
       "source_id": "16969",
-      "title": "2026년 한-두바이 AI 사이버보안 포럼 운영 용역 모집",
+      "title": "2026년 한-두바이 AI 사이버보안 포럼 운영 용역 모집- 잠정 중단 안내",
       "url": "https://www.nipa.kr/home/2-2/16969",
       "apply_raw": "D-2",
       "apply_start": null,
@@ -1147,6 +1174,31 @@
     },
     {
       "source": "kstartup",
+      "source_id": "179649",
+      "title": "'AI가 바꾸는 창업의 미래' NCI 민/관/학 창업포럼 참관객 모집",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179649",
+      "apply_raw": "2026-10-29 ~ 2026-11-13",
+      "apply_start": "2026-10-29",
+      "apply_end": "2026-11-13",
+      "agency": "광운대학교산학협력단",
+      "exec_agency": "광운대학교산학협력단",
+      "category": "행사ㆍ네트워크",
+      "posted_at": "2026-10-29",
+      "status": "마감임박",
+      "location": "",
+      "founding": "전체",
+      "collected_at": "2026-11-02",
+      "key": "kstartup:179649",
+      "track": "A",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: AI"
+      ]
+    },
+    {
+      "source": "kstartup",
       "source_id": "179497",
       "title": "[무료 AI 역량강화 교육] 글로벌 공공조달 AX 전략 전문가 과정 (선착순 모집)",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179497",
@@ -1187,6 +1239,31 @@
       "founding": "",
       "collected_at": "2026-11-02",
       "key": "kstartup:179353",
+      "track": "A",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: AI"
+      ]
+    },
+    {
+      "source": "kstartup",
+      "source_id": "179680",
+      "title": "<2026년 AI 활용 온라인 플랫폼 제작 교육> 참여자 모집",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179680",
+      "apply_raw": "2026-10-30 ~ 2026-11-18",
+      "apply_start": "2026-10-30",
+      "apply_end": "2026-11-18",
+      "agency": "충북대학교 충북Pro메이커센터",
+      "exec_agency": "충북대학교 충북Pro메이커센터",
+      "category": "창업교육",
+      "posted_at": "2026-11-02",
+      "status": "접수중",
+      "location": "",
+      "founding": "전체",
+      "collected_at": "2026-11-02",
+      "key": "kstartup:179680",
       "track": "A",
       "score": 3,
       "region": null,
@@ -1373,31 +1450,6 @@
     },
     {
       "source": "bizinfo",
-      "source_id": "PBLN_000000000127589",
-      "title": "2027년 스마트 제조혁신 지원사업 통합 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127589",
-      "apply_raw": "세부사업별 상이",
-      "apply_start": null,
-      "apply_end": null,
-      "agency": "중소벤처기업부",
-      "exec_agency": "중소기업기술정보진흥원",
-      "category": "기술",
-      "posted_at": "2026-10-30",
-      "status": "상시",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-11-02",
-      "key": "bizinfo:PBLN_000000000127589",
-      "track": "B",
-      "score": 3,
-      "region": null,
-      "conditional": null,
-      "reasons": [
-        "고객사향 키워드: 제조혁신"
-      ]
-    },
-    {
-      "source": "bizinfo",
       "source_id": "PBLN_000000000127380",
       "title": "[전북] 김제시 2026년 5차 지역특화형(농ㆍ식품기업) 스마트공장 구축지원 사업 공고",
       "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127380",
@@ -1469,6 +1521,31 @@
       "conditional": null,
       "reasons": [
         "고객사향 키워드: 스마트공장"
+      ]
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000127589",
+      "title": "2027년 스마트 제조혁신 지원사업 통합 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127589",
+      "apply_raw": "세부사업별 상이",
+      "apply_start": null,
+      "apply_end": null,
+      "agency": "중소벤처기업부",
+      "exec_agency": "중소기업기술정보진흥원",
+      "category": "기술",
+      "posted_at": "2026-10-30",
+      "status": "상시",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-11-02",
+      "key": "bizinfo:PBLN_000000000127589",
+      "track": "B",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "고객사향 키워드: 제조혁신"
       ]
     },
     {
@@ -1556,13 +1633,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-11-02T12:24:14",
+  "collected_at": "2026-11-02T17:47:33",
   "stats": {
-    "collected": 602,
-    "cards": 27,
+    "collected": 617,
+    "cards": 28,
     "expired": 0,
-    "candidates": 33,
+    "candidates": 35,
     "excluded": 0,
-    "dropped": 542
+    "dropped": 554
   }
 }
