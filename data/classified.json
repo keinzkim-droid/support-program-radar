@@ -768,6 +768,31 @@
     },
     {
       "source": "kstartup",
+      "source_id": "179691",
+      "title": "2026년 5차 국립공주대학교 창업보육센터 입주기업 모집 연장공고",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179691",
+      "apply_raw": "2026-11-02 ~ 2026-11-13",
+      "apply_start": "2026-11-02",
+      "apply_end": "2026-11-13",
+      "agency": "창업보육센터및 기업 지원",
+      "exec_agency": "창업보육센터및 기업 지원",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-11-02",
+      "status": "마감임박",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-11-02",
+      "key": "kstartup:179691",
+      "track": "C",
+      "score": 9,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업, 창업보육, 보육센터"
+      ]
+    },
+    {
+      "source": "kstartup",
       "source_id": "178453",
       "title": "[영산대학교 창업보육센터] 2026년 신규입주기업 모집 공고",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178453",
@@ -1633,13 +1658,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-11-02T17:47:33",
+  "collected_at": "2026-11-02T22:16:57",
   "stats": {
     "collected": 617,
     "cards": 28,
     "expired": 0,
-    "candidates": 35,
+    "candidates": 36,
     "excluded": 0,
-    "dropped": 554
+    "dropped": 553
   }
 }
