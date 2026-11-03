@@ -972,6 +972,32 @@
     },
     {
       "source": "bizinfo",
+      "source_id": "PBLN_000000000127647",
+      "title": "2026년 AX실증밸리조성(R&D) 사업 신규지원 대상과제 재공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127647",
+      "apply_raw": "2026-11-03 ~ 2026-11-16",
+      "apply_start": "2026-11-03",
+      "apply_end": "2026-11-16",
+      "agency": "산업통상부",
+      "exec_agency": "정보통신산업진흥원",
+      "category": "기술",
+      "posted_at": "2026-11-03",
+      "status": "마감임박",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-11-03",
+      "key": "bizinfo:PBLN_000000000127647",
+      "track": "A",
+      "score": 4,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: 실증",
+        "관련 키워드: R&D"
+      ]
+    },
+    {
+      "source": "bizinfo",
       "source_id": "PBLN_000000000124792",
       "title": "2026년 인증획득제품 해외 실증 지원사업(추경 포함) 추가 모집 공고",
       "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124792",
@@ -1633,13 +1659,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-11-03T13:55:20",
+  "collected_at": "2026-11-03T18:00:08",
   "stats": {
-    "collected": 609,
+    "collected": 608,
     "cards": 28,
     "expired": 0,
-    "candidates": 35,
+    "candidates": 36,
     "excluded": 0,
-    "dropped": 546
+    "dropped": 544
   }
 }
