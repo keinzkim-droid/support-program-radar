@@ -246,6 +246,33 @@
       "auto": true
     },
     {
+      "source": "kstartup",
+      "source_id": "179703",
+      "title": "(하반기) 2026년 서울창업허브M+ 입주기업 모집",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179703",
+      "apply_raw": "2026-11-02 ~ 2026-11-13",
+      "apply_start": "2026-11-02",
+      "apply_end": "2026-11-13",
+      "agency": "서울창업허브 M+ 운영",
+      "exec_agency": "서울창업허브 M+ 운영",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-11-04",
+      "status": "마감임박",
+      "location": "한 대·중소기업과의 협업, 투자 연계, 글로벌 진출 등 기업성장에 필요한 종합 지원을 제공하고 있사오니 2026년 서울창업허브M+ 하반기 신규",
+      "founding": "전체",
+      "collected_at": "2026-11-04",
+      "key": "kstartup:179703",
+      "track": "C",
+      "score": 6,
+      "region": "서울",
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업, 창업허브",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
       "source": "kiria",
       "source_id": "IBUS_000000000001273",
       "title": "「2027년 공공분야 로봇 도입 및 실증지원 사업」 수요조사 공고",
@@ -536,6 +563,33 @@
     },
     {
       "source": "kstartup",
+      "source_id": "179700",
+      "title": "2026 제4차 노원사회적경제지원센터 입주기업 신규 공모",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179700",
+      "apply_raw": "2026-11-02 ~ 2026-11-20",
+      "apply_start": "2026-11-02",
+      "apply_end": "2026-11-20",
+      "agency": "2026년 제4차 노원사회적경제지원센터 입주 기업 신규 공모",
+      "exec_agency": "2026년 제4차 노원사회적경제지원센터 입주 기업 신규 공모",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-11-04",
+      "status": "접수중",
+      "location": "1관 : 서울시 노원구 동일로127길 27 - 3관 : 서울시 노원구 수락산로 212-12 3. 공간 구성 - 1관 1) 기업사무실 : 302호",
+      "founding": "전체",
+      "collected_at": "2026-11-04",
+      "key": "kstartup:179700",
+      "track": "C",
+      "score": 3,
+      "region": "서울",
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
+      "source": "kstartup",
       "source_id": "179653",
       "title": "2026년도 키친인큐베이터 개별·공유주방 25기 및 제조주방 13기 모집",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179653",
@@ -557,6 +611,33 @@
       "conditional": null,
       "reasons": [
         "사무실·공간 키워드: 창업허브",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
+      "source": "kstartup",
+      "source_id": "179701",
+      "title": "2026년 경기창업혁신공간 북동부권(구리)  신규 입주기업 모집",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179701",
+      "apply_raw": "2026-11-02 ~ 2026-11-27",
+      "apply_start": "2026-11-02",
+      "apply_end": "2026-11-27",
+      "agency": "경기창업혁신공간 운영",
+      "exec_agency": "경기창업혁신공간 운영",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-11-04",
+      "status": "접수중",
+      "location": "경기도 구리시 갈매중앙로 190 D존 4층 3. 공간구성 : 지정석, 입주실, 코워킹스페이스, 회의실, 멘토링실, 휴게실 등 - 지정석(틔움)",
+      "founding": "",
+      "collected_at": "2026-11-04",
+      "key": "kstartup:179701",
+      "track": "C",
+      "score": 3,
+      "region": "경기",
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업",
         "자동 분류"
       ],
       "auto": true
@@ -1686,13 +1767,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-11-04T12:59:40",
+  "collected_at": "2026-11-04T17:35:45",
   "stats": {
-    "collected": 606,
-    "cards": 29,
+    "collected": 625,
+    "cards": 32,
     "expired": 0,
     "candidates": 36,
     "excluded": 0,
-    "dropped": 541
+    "dropped": 557
   }
 }
