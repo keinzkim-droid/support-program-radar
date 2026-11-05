@@ -85,6 +85,33 @@
     },
     {
       "source": "kstartup",
+      "source_id": "178799",
+      "title": "2026년 삼육대학교 창업보육센터 입주기업 모집 공고",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178799",
+      "apply_raw": "2026-11-04 ~ 2026-11-15",
+      "apply_start": "2026-11-04",
+      "apply_end": "2026-11-15",
+      "agency": "창업보육센터 지원",
+      "exec_agency": "창업보육센터 지원",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-11-05",
+      "status": "마감임박",
+      "location": "하려는 기업 - 일반 소상공업종 - 서울시 등 창업지원 시설에서 문제가 있어 퇴거 조치 된 기업 - 기타 규정상 규제 사항의 위배 등으로 적정하",
+      "founding": "",
+      "collected_at": "2026-11-05",
+      "key": "kstartup:178799",
+      "track": "C",
+      "score": 9,
+      "region": "서울",
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업, 창업보육, 보육센터",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
+      "source": "kstartup",
       "source_id": "179623",
       "title": "경기과학기술대학교 창업보육센터 입주기업 모집 9차",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179623",
@@ -1230,6 +1257,56 @@
       ]
     },
     {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000127725",
+      "title": "[경기] 2026년 AI콘텐츠 제작 및 마케팅 활용 교육 참여업체 모집 공고(중소기업 마케팅 지원사업)",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127725",
+      "apply_raw": "2026-11-04 ~ 2026-11-13",
+      "apply_start": "2026-11-04",
+      "apply_end": "2026-11-13",
+      "agency": "경기도",
+      "exec_agency": "경기도주식회사",
+      "category": "경영",
+      "posted_at": "2026-11-05",
+      "status": "마감임박",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-11-05",
+      "key": "bizinfo:PBLN_000000000127725",
+      "track": "A",
+      "score": 3,
+      "region": "경기",
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: AI"
+      ]
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000127697",
+      "title": "[전남광주] 2026년 탄소중립 제조혁신 고도화 2단계 사업 참여기업 추가모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127697",
+      "apply_raw": "2026-11-03 ~ 2026-11-13",
+      "apply_start": "2026-11-03",
+      "apply_end": "2026-11-13",
+      "agency": "전남광주통합특별시",
+      "exec_agency": "전남테크노파크",
+      "category": "경영",
+      "posted_at": "2026-11-05",
+      "status": "마감임박",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-11-05",
+      "key": "bizinfo:PBLN_000000000127697",
+      "track": "B",
+      "score": 3,
+      "region": "전남광주",
+      "conditional": null,
+      "reasons": [
+        "고객사향 키워드: 제조혁신"
+      ]
+    },
+    {
       "source": "kstartup",
       "source_id": "179649",
       "title": "'AI가 바꾸는 창업의 미래' NCI 민/관/학 창업포럼 참관객 모집",
@@ -1302,6 +1379,31 @@
       "conditional": null,
       "reasons": [
         "핵심 키워드: AI"
+      ]
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000127709",
+      "title": "2027년 독일 하노버 산업전시회 (Hannover Messe) 한국관(로봇분야) 참가기업 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127709",
+      "apply_raw": "2026-11-04 ~ 2026-11-17",
+      "apply_start": "2026-11-04",
+      "apply_end": "2026-11-17",
+      "agency": "산업통상부",
+      "exec_agency": "대한무역투자진흥공사",
+      "category": "수출",
+      "posted_at": "2026-11-05",
+      "status": "마감임박",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-11-05",
+      "key": "bizinfo:PBLN_000000000127709",
+      "track": "A",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: 로봇"
       ]
     },
     {
@@ -1715,13 +1817,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-11-05T13:28:33",
+  "collected_at": "2026-11-05T17:59:20",
   "stats": {
-    "collected": 623,
-    "cards": 31,
+    "collected": 633,
+    "cards": 32,
     "expired": 0,
-    "candidates": 35,
+    "candidates": 38,
     "excluded": 0,
-    "dropped": 557
+    "dropped": 563
   }
 }
