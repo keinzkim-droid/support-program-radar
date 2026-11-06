@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06",
+  "generated_at": "2026-11-07",
   "cards": [
     {
       "source": "bizinfo",
@@ -1820,13 +1820,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-11-06T18:02:02",
+  "collected_at": "2026-11-07T00:34:31",
   "stats": {
-    "collected": 640,
+    "collected": 635,
     "cards": 34,
     "expired": 0,
     "candidates": 36,
     "excluded": 0,
-    "dropped": 570
+    "dropped": 565
   }
 }
