@@ -563,14 +563,41 @@
     },
     {
       "source": "kstartup",
+      "source_id": "179733",
+      "title": "NEST G밸리 4기 입주기업 모집",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179733",
+      "apply_raw": "2026-11-06 ~ 2026-11-20",
+      "apply_start": "2026-11-06",
+      "apply_end": "2026-11-20",
+      "agency": "신용보증기금",
+      "exec_agency": "신용보증기금",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-11-06",
+      "status": "마감임박",
+      "location": "서울특별시 구로구 디지털로26길 123, 3층 - 공간구성 : 독립형 공간(6~8평) - 사무실 인프라 : 책상, 캐비닛, 공용 라운지 및 회의",
+      "founding": "",
+      "collected_at": "2026-11-06",
+      "key": "kstartup:179733",
+      "track": "C",
+      "score": 3,
+      "region": "서울",
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
+      "source": "kstartup",
       "source_id": "179700",
-      "title": "2026 제4차 노원사회적경제지원센터 입주기업 신규 공모",
+      "title": "2026 제5차 노원사회적경제지원센터 입주기업 신규 공모",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179700",
       "apply_raw": "2026-11-02 ~ 2026-11-20",
       "apply_start": "2026-11-02",
       "apply_end": "2026-11-20",
-      "agency": "2026년 제4차 노원사회적경제지원센터 입주 기업 신규 공모",
-      "exec_agency": "2026년 제4차 노원사회적경제지원센터 입주 기업 신규 공모",
+      "agency": "2026년 제5차 노원사회적경제지원센터 입주 기업 신규 공모",
+      "exec_agency": "2026년 제5차 노원사회적경제지원센터 입주 기업 신규 공모",
       "category": "시설ㆍ공간ㆍ보육",
       "posted_at": "2026-11-04",
       "status": "마감임박",
@@ -611,6 +638,33 @@
       "conditional": null,
       "reasons": [
         "사무실·공간 키워드: 창업허브",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000127728",
+      "title": "[경기] 파주시 2026년 스마트공장 구축지원사업 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127728",
+      "apply_raw": "2026-11-05 ~ 2026-11-27",
+      "apply_start": "2026-11-05",
+      "apply_end": "2026-11-27",
+      "agency": "경기도",
+      "exec_agency": "경기대진테크노파크",
+      "category": "기술",
+      "posted_at": "2026-11-06",
+      "status": "접수중",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-11-06",
+      "key": "bizinfo:PBLN_000000000127728",
+      "track": "B",
+      "score": 3,
+      "region": "경기",
+      "conditional": null,
+      "reasons": [
+        "고객사향 키워드: 스마트공장",
         "자동 분류"
       ],
       "auto": true
@@ -1106,57 +1160,6 @@
       ]
     },
     {
-      "source": "kstartup",
-      "source_id": "179613",
-      "title": "인천중장년기술창업센터 4차 입주기업 모집",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179613",
-      "apply_raw": "2026-10-26 ~ 2026-11-06",
-      "apply_start": "2026-10-26",
-      "apply_end": "2026-11-06",
-      "agency": "지역창업특화지원",
-      "exec_agency": "지역창업특화지원",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-10-26",
-      "status": "마감임박",
-      "location": "인천 3. 사무공간, 지원실, 강의실, 회의실 등 4. 입주기간 : 최대 2년 5. 입주비용 : 무료 - 분야 : 제조업 및 지식서비스업 - 입",
-      "founding": "3년미만",
-      "collected_at": "2026-11-06",
-      "key": "kstartup:179613",
-      "track": "C",
-      "score": 3,
-      "region": "인천",
-      "conditional": "조건부 지역",
-      "reasons": [
-        "사무실·공간 키워드: 입주기업",
-        "조건부: 조건부 지역"
-      ]
-    },
-    {
-      "source": "kstartup",
-      "source_id": "179593",
-      "title": "<2026년 AI 활용 제조창업 올인원 실전 교육> 프로그램 참여자 모집",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179593",
-      "apply_raw": "2026-10-21 ~ 2026-11-06",
-      "apply_start": "2026-10-21",
-      "apply_end": "2026-11-06",
-      "agency": "충북대학교 충북Pro메이커센터",
-      "exec_agency": "충북대학교 충북Pro메이커센터",
-      "category": "창업교육",
-      "posted_at": "2026-10-22",
-      "status": "마감임박",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-11-06",
-      "key": "kstartup:179593",
-      "track": "A",
-      "score": 3,
-      "region": null,
-      "conditional": null,
-      "reasons": [
-        "핵심 키워드: AI"
-      ]
-    },
-    {
       "source": "bizinfo",
       "source_id": "PBLN_000000000127536",
       "title": "[경북] 2026년 지역특화형(방산ㆍ모빌리티) 스마트공장 보급확산 사업(기초단계) 참여기업 모집 연장 공고",
@@ -1233,31 +1236,6 @@
     },
     {
       "source": "bizinfo",
-      "source_id": "PBLN_000000000127725",
-      "title": "[경기] 2026년 AI콘텐츠 제작 및 마케팅 활용 교육 참여업체 모집 공고(중소기업 마케팅 지원사업)",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127725",
-      "apply_raw": "2026-11-04 ~ 2026-11-13",
-      "apply_start": "2026-11-04",
-      "apply_end": "2026-11-13",
-      "agency": "경기도",
-      "exec_agency": "경기도주식회사",
-      "category": "경영",
-      "posted_at": "2026-11-05",
-      "status": "마감임박",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-11-06",
-      "key": "bizinfo:PBLN_000000000127725",
-      "track": "A",
-      "score": 3,
-      "region": "경기",
-      "conditional": null,
-      "reasons": [
-        "핵심 키워드: AI"
-      ]
-    },
-    {
-      "source": "bizinfo",
       "source_id": "PBLN_000000000127697",
       "title": "[전남광주] 2026년 탄소중립 제조혁신 고도화 2단계 사업 참여기업 추가모집 공고",
       "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127697",
@@ -1279,6 +1257,31 @@
       "conditional": null,
       "reasons": [
         "고객사향 키워드: 제조혁신"
+      ]
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000127725",
+      "title": "[경기] 2026년 AI콘텐츠 제작 및 마케팅 활용 교육 참여업체 모집 공고(중소기업 마케팅 지원사업)",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127725",
+      "apply_raw": "2026-11-04 ~ 2026-11-13",
+      "apply_start": "2026-11-04",
+      "apply_end": "2026-11-13",
+      "agency": "경기도",
+      "exec_agency": "경기도주식회사",
+      "category": "경영",
+      "posted_at": "2026-11-05",
+      "status": "마감임박",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-11-06",
+      "key": "bizinfo:PBLN_000000000127725",
+      "track": "A",
+      "score": 3,
+      "region": "경기",
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: AI"
       ]
     },
     {
@@ -1448,6 +1451,31 @@
       "founding": "전체",
       "collected_at": "2026-11-06",
       "key": "kstartup:179710",
+      "track": "C",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업"
+      ]
+    },
+    {
+      "source": "kstartup",
+      "source_id": "179740",
+      "title": "용인시산업진흥원 2026년 제5차 창업지원센터 입주기업 모집공고(~11. 25. 수 16:00까지)",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179740",
+      "apply_raw": "2026-11-05 ~ 2026-11-25",
+      "apply_start": "2026-11-05",
+      "apply_end": "2026-11-25",
+      "agency": "창업지원센터 통합운영",
+      "exec_agency": "창업지원센터 통합운영",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-11-06",
+      "status": "접수중",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-11-06",
+      "key": "kstartup:179740",
       "track": "C",
       "score": 3,
       "region": null,
@@ -1792,13 +1820,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-11-06T13:24:32",
+  "collected_at": "2026-11-06T18:02:02",
   "stats": {
-    "collected": 631,
-    "cards": 32,
+    "collected": 640,
+    "cards": 34,
     "expired": 0,
-    "candidates": 37,
+    "candidates": 36,
     "excluded": 0,
-    "dropped": 562
+    "dropped": 570
   }
 }
