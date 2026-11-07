@@ -1,9 +1,9 @@
 {
-  "collected_at": "2026-11-07T12:44:43",
+  "collected_at": "2026-11-07T17:21:59",
   "failures": [
     "snip"
   ],
-  "count": 634,
+  "count": 633,
   "items": [
     {
       "source": "bizinfo",
@@ -10540,23 +10540,6 @@
       "exec_agency": "한국엔젤투자협회",
       "category": "멘토링ㆍ컨설팅ㆍ교육",
       "posted_at": "2026-02-25",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-11-07"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "176378",
-      "title": "2026 대경권 엔젤투자 포럼 참여기업 모집 상시 공고",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=176378",
-      "apply_raw": "2026-02-23 ~ 2026-11-07",
-      "apply_start": "2026-02-23",
-      "apply_end": "2026-11-07",
-      "agency": "한국엔젤투자협회",
-      "exec_agency": "한국엔젤투자협회",
-      "category": "멘토링ㆍ컨설팅ㆍ교육",
-      "posted_at": "2026-02-23",
       "status": "",
       "location": "",
       "founding": "",

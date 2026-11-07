@@ -1820,13 +1820,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-11-07T12:44:43",
+  "collected_at": "2026-11-07T17:21:59",
   "stats": {
-    "collected": 634,
+    "collected": 633,
     "cards": 34,
     "expired": 0,
     "candidates": 36,
     "excluded": 0,
-    "dropped": 564
+    "dropped": 563
   }
 }
