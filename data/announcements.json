@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-08T17:32:15",
+  "collected_at": "2026-11-08T23:51:16",
   "failures": [
     "snip"
   ],
@@ -10734,23 +10734,6 @@
     },
     {
       "source": "kiria",
-      "source_id": "IBUS_000000000001251",
-      "title": "「2026년 모빌리티 혁신제품 시험평가 지원」지원 대상 기업 상시모집 공고",
-      "url": "https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&ibusCode=IBUS_000000000001251",
-      "apply_raw": "2026-05-28 ~ 2026-11-15",
-      "apply_start": "2026-05-28",
-      "apply_end": "2026-11-15",
-      "agency": "한국로봇산업진흥원",
-      "exec_agency": "한국로봇산업진흥원",
-      "category": "로봇",
-      "posted_at": "2026-05-28",
-      "status": "진행중",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-11"
-    },
-    {
-      "source": "kiria",
       "source_id": "IBUS_000000000001252",
       "title": "2026년 실외이동로봇 기술지원사업 참여기업 모집 공고",
       "url": "https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&ibusCode=IBUS_000000000001252",
@@ -10765,6 +10748,23 @@
       "location": "",
       "founding": "",
       "collected_at": "2026-08-31"
+    },
+    {
+      "source": "kiria",
+      "source_id": "IBUS_000000000001251",
+      "title": "「2026년 모빌리티 혁신제품 시험평가 지원」지원 대상 기업 상시모집 공고",
+      "url": "https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&ibusCode=IBUS_000000000001251",
+      "apply_raw": "2026-05-28 ~ 2026-11-15",
+      "apply_start": "2026-05-28",
+      "apply_end": "2026-11-15",
+      "agency": "한국로봇산업진흥원",
+      "exec_agency": "한국로봇산업진흥원",
+      "category": "로봇",
+      "posted_at": "2026-05-28",
+      "status": "진행중",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-11"
     }
   ]
 }
