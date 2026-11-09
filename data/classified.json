@@ -644,6 +644,33 @@
     },
     {
       "source": "kstartup",
+      "source_id": "179758",
+      "title": "경기창업혁신공간(동부권역_하남) 2026년  11월 신규 입주기업 모집",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179758",
+      "apply_raw": "2026-11-09 ~ 2026-12-06",
+      "apply_start": "2026-11-09",
+      "apply_end": "2026-12-06",
+      "agency": "경기창업혁신공간 운영",
+      "exec_agency": "경기창업혁신공간 운영",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-11-09",
+      "status": "접수중",
+      "location": ") 경기도 하남시 검단산로 239, B1층 / (공간구성) 개방형 좌석 제공 / (입주기간) 연장없이 최초 1년 입주 / (비용) 무료 키움 :",
+      "founding": "",
+      "collected_at": "2026-11-09",
+      "key": "kstartup:179758",
+      "track": "C",
+      "score": 3,
+      "region": "경기",
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
+      "source": "kstartup",
       "source_id": "178113",
       "title": "서울창업허브 스타트업플러스 플랫폼 온라인 투자밋업 참가안내",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178113",
@@ -1841,13 +1868,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-11-09T16:49:14",
+  "collected_at": "2026-11-09T22:01:12",
   "stats": {
-    "collected": 640,
-    "cards": 32,
+    "collected": 642,
+    "cards": 33,
     "expired": 0,
     "candidates": 39,
     "excluded": 0,
-    "dropped": 569
+    "dropped": 570
   }
 }
