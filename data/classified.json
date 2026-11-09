@@ -220,33 +220,6 @@
     },
     {
       "source": "kstartup",
-      "source_id": "179606",
-      "title": "2026년 안산정보산업진흥센터(경기TP안산창업보육센터) 제4차 신규 입주자 모집 공고",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179606",
-      "apply_raw": "2026-10-26 ~ 2026-11-09",
-      "apply_start": "2026-10-26",
-      "apply_end": "2026-11-09",
-      "agency": "창업보육센터 지원",
-      "exec_agency": "창업보육센터 지원",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-10-26",
-      "status": "마감임박",
-      "location": "경기 안산시 단원구 연수원로 104-14 ○ 공간구성 : 17.6평(58.18㎡) 2개소 ○ 입주기간 : 최초 3년 입주 후 평가를 통하여 2년",
-      "founding": "",
-      "collected_at": "2026-11-09",
-      "key": "kstartup:179606",
-      "track": "C",
-      "score": 6,
-      "region": "경기",
-      "conditional": null,
-      "reasons": [
-        "사무실·공간 키워드: 창업보육, 보육센터",
-        "자동 분류"
-      ],
-      "auto": true
-    },
-    {
-      "source": "kstartup",
       "source_id": "179703",
       "title": "(하반기) 2026년 서울창업허브M+ 입주기업 모집",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179703",
@@ -1483,6 +1456,31 @@
       ]
     },
     {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000127790",
+      "title": "2026년 4차 동물세포기반 백신 공공 CDMO 전략적 육성 및 바이오텍 생산지원 사업 수혜기업 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127790",
+      "apply_raw": "2026-11-09 ~ 2026-11-27",
+      "apply_start": "2026-11-09",
+      "apply_end": "2026-11-27",
+      "agency": "산업통상부",
+      "exec_agency": "동물세포실증지원센터",
+      "category": "기술",
+      "posted_at": "2026-11-09",
+      "status": "접수중",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-11-09",
+      "key": "bizinfo:PBLN_000000000127790",
+      "track": "A",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: 실증"
+      ]
+    },
+    {
       "source": "kiria",
       "source_id": "IBUS_000000000001271",
       "title": "2027년 제22회 국제로봇콘테스트(IRC) 개최지 모집 공고",
@@ -1843,13 +1841,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-11-09T12:37:41",
+  "collected_at": "2026-11-09T16:49:14",
   "stats": {
-    "collected": 634,
-    "cards": 33,
+    "collected": 640,
+    "cards": 32,
     "expired": 0,
-    "candidates": 38,
+    "candidates": 39,
     "excluded": 0,
-    "dropped": 563
+    "dropped": 569
   }
 }
