@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10",
+  "generated_at": "2026-11-11",
   "cards": [
     {
       "source": "bizinfo",
@@ -905,31 +905,6 @@
   "candidates": [
     {
       "source": "kstartup",
-      "source_id": "179612",
-      "title": "상지대학교 창업보육센터 입주기업 모집 공고",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179612",
-      "apply_raw": "2026-10-23 ~ 2026-11-10",
-      "apply_start": "2026-10-23",
-      "apply_end": "2026-11-10",
-      "agency": "창업보육센터 지원",
-      "exec_agency": "창업보육센터 지원",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-10-26",
-      "status": "마감임박",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-11-10",
-      "key": "kstartup:179612",
-      "track": "C",
-      "score": 9,
-      "region": null,
-      "conditional": null,
-      "reasons": [
-        "사무실·공간 키워드: 입주기업, 창업보육, 보육센터"
-      ]
-    },
-    {
-      "source": "kstartup",
       "source_id": "179691",
       "title": "2026년 5차 국립공주대학교 창업보육센터 입주기업 모집 연장공고",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179691",
@@ -1471,7 +1446,7 @@
       "exec_agency": "창업지원센터 통합운영",
       "category": "시설ㆍ공간ㆍ보육",
       "posted_at": "2026-11-06",
-      "status": "접수중",
+      "status": "마감임박",
       "location": "",
       "founding": "",
       "collected_at": "2026-11-10",
@@ -1850,8 +1825,8 @@
     "collected": 639,
     "cards": 34,
     "expired": 0,
-    "candidates": 37,
+    "candidates": 36,
     "excluded": 0,
-    "dropped": 568
+    "dropped": 569
   }
 }
