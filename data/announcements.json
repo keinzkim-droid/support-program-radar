@@ -1,9 +1,9 @@
 {
-  "collected_at": "2026-11-10T02:49:49",
+  "collected_at": "2026-11-10T14:36:12",
   "failures": [
     "snip"
   ],
-  "count": 633,
+  "count": 632,
   "items": [
     {
       "source": "bizinfo",
@@ -9727,23 +9727,6 @@
       "status": "",
       "location": "",
       "founding": "",
-      "collected_at": "2026-11-10"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "179251",
-      "title": "[무료 AI 역량강화 교육]생성형 AI 기반 무역 컴플라이언스 및 관세·ESG 리스크 최적화(부산)",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179251",
-      "apply_raw": "2026-09-14 ~ 2026-11-10",
-      "apply_start": "2026-09-14",
-      "apply_end": "2026-11-10",
-      "agency": "2026 산업전문인력 AI역량강화 지원사업",
-      "exec_agency": "2026 산업전문인력 AI역량강화 지원사업",
-      "category": "멘토링ㆍ컨설팅ㆍ교육",
-      "posted_at": "2026-09-17",
-      "status": "",
-      "location": "",
-      "founding": "1년미만, 2년미만, 3년미만, 5년미만, 7년미만, 10년미만",
       "collected_at": "2026-11-10"
     },
     {
