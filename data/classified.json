@@ -457,6 +457,33 @@
     },
     {
       "source": "kstartup",
+      "source_id": "179765",
+      "title": "STARTUP STARRY NIGHT in Seoul 1:1 밋업(투자, O.I.) 참여기업 모집(11월 허브아워)",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179765",
+      "apply_raw": "2026-11-11 ~ 2026-11-17",
+      "apply_start": "2026-11-11",
+      "apply_end": "2026-11-17",
+      "agency": "서울창업허브 공덕 (우수기업 발굴·육성)",
+      "exec_agency": "서울창업허브 공덕 (우수기업 발굴·육성)",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-11-10",
+      "status": "마감임박",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-11-11",
+      "key": "kstartup:179765",
+      "track": "C",
+      "score": 3,
+      "region": "서울",
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 창업허브",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
+      "source": "kstartup",
       "source_id": "179555",
       "title": "2026 글로벌 진출 - 글로벌 진출과 협력 네트워크 확장 전략",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179555",
@@ -1820,13 +1847,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-11-11T12:45:49",
+  "collected_at": "2026-11-11T17:51:34",
   "stats": {
     "collected": 628,
-    "cards": 34,
+    "cards": 35,
     "expired": 0,
     "candidates": 36,
     "excluded": 0,
-    "dropped": 558
+    "dropped": 557
   }
 }
