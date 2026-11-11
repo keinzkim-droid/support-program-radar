@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11",
+  "generated_at": "2026-11-12",
   "cards": [
     {
       "source": "bizinfo",
@@ -149,7 +149,7 @@
       "exec_agency": "한국공항공사",
       "category": "시설ㆍ공간ㆍ보육",
       "posted_at": "2026-11-06",
-      "status": "접수중",
+      "status": "마감임박",
       "location": "서울특별시 강서구 하늘길 70 항공지원센터 2층 3. 공간구성 : 사무실(약 30㎡), 회의실, 라운지, 탕비실 4. 입주기간 : 1년(연장평가",
       "founding": "",
       "collected_at": "2026-11-11",
@@ -627,7 +627,7 @@
       "exec_agency": "서울창업허브 공덕 (우수기업 발굴·육성)",
       "category": "시설ㆍ공간ㆍ보육",
       "posted_at": "2026-10-29",
-      "status": "접수중",
+      "status": "마감임박",
       "location": "",
       "founding": "",
       "collected_at": "2026-11-11",
@@ -1847,13 +1847,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-11-11T17:51:34",
+  "collected_at": "2026-11-12T00:41:46",
   "stats": {
-    "collected": 628,
+    "collected": 629,
     "cards": 35,
     "expired": 0,
     "candidates": 36,
     "excluded": 0,
-    "dropped": 557
+    "dropped": 558
   }
 }
