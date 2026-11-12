@@ -1,9 +1,9 @@
 {
-  "collected_at": "2026-11-12T18:29:53",
+  "collected_at": "2026-11-12T22:35:19",
   "failures": [
     "snip"
   ],
-  "count": 639,
+  "count": 638,
   "items": [
     {
       "source": "bizinfo",
@@ -9710,23 +9710,6 @@
       "status": "",
       "location": "",
       "founding": "1년미만, 2년미만, 3년미만, 5년미만, 7년미만, 10년미만",
-      "collected_at": "2026-11-12"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "179486",
-      "title": "2026년 남구다운 청년 창업 지원사업 통합공고(수정)",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179486",
-      "apply_raw": "2026-10-02 ~ 2026-11-12",
-      "apply_start": "2026-10-02",
-      "apply_end": "2026-11-12",
-      "agency": "대구경북고용복지연구원",
-      "exec_agency": "대구경북고용복지연구원",
-      "category": "사업화",
-      "posted_at": "2026-10-13",
-      "status": "",
-      "location": "",
-      "founding": "",
       "collected_at": "2026-11-12"
     },
     {
