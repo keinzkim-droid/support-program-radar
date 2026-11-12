@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12",
+  "generated_at": "2026-11-13",
   "cards": [
     {
       "source": "bizinfo",
@@ -681,7 +681,7 @@
       "exec_agency": "경기대진테크노파크",
       "category": "기술",
       "posted_at": "2026-11-06",
-      "status": "접수중",
+      "status": "마감임박",
       "location": "",
       "founding": "",
       "collected_at": "2026-11-12",
@@ -708,7 +708,7 @@
       "exec_agency": "경기창업혁신공간 운영",
       "category": "시설ㆍ공간ㆍ보육",
       "posted_at": "2026-11-04",
-      "status": "접수중",
+      "status": "마감임박",
       "location": "경기도 구리시 갈매중앙로 190 D존 4층 3. 공간구성 : 지정석, 입주실, 코워킹스페이스, 회의실, 멘토링실, 휴게실 등 - 지정석(틔움)",
       "founding": "",
       "collected_at": "2026-11-12",
@@ -1214,31 +1214,6 @@
       ]
     },
     {
-      "source": "kstartup",
-      "source_id": "179458",
-      "title": "[숭실대학교 캠퍼스타운] 생성형 AI 활용 기초 및 업무 자동화 과정 참여자 모집",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179458",
-      "apply_raw": "2026-10-08 ~ 2026-11-12",
-      "apply_start": "2026-10-08",
-      "apply_end": "2026-11-12",
-      "agency": "숭실대학교산학협력단",
-      "exec_agency": "숭실대학교산학협력단",
-      "category": "창업교육",
-      "posted_at": "2026-10-12",
-      "status": "마감임박",
-      "location": "",
-      "founding": "전체",
-      "collected_at": "2026-11-12",
-      "key": "kstartup:179458",
-      "track": "A",
-      "score": 3,
-      "region": null,
-      "conditional": null,
-      "reasons": [
-        "핵심 키워드: AI"
-      ]
-    },
-    {
       "source": "bizinfo",
       "source_id": "PBLN_000000000127697",
       "title": "[전남광주] 2026년 탄소중립 제조혁신 고도화 2단계 사업 참여기업 추가모집 공고",
@@ -1525,7 +1500,7 @@
       "exec_agency": "한국로봇산업진흥원",
       "category": "로봇",
       "posted_at": "2026-10-29",
-      "status": "접수중",
+      "status": "마감임박",
       "location": "",
       "founding": "",
       "collected_at": "2026-11-12",
@@ -1550,7 +1525,7 @@
       "exec_agency": "2026 산업전문인력 AI역량강화 지원사업",
       "category": "멘토링ㆍ컨설팅ㆍ교육",
       "posted_at": "2026-10-28",
-      "status": "접수중",
+      "status": "마감임박",
       "location": "",
       "founding": "1년미만, 2년미만, 3년미만, 5년미만, 7년미만, 10년미만",
       "collected_at": "2026-11-12",
@@ -1879,8 +1854,8 @@
     "collected": 638,
     "cards": 36,
     "expired": 0,
-    "candidates": 36,
+    "candidates": 35,
     "excluded": 0,
-    "dropped": 566
+    "dropped": 567
   }
 }
