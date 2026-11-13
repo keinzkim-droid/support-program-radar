@@ -1291,31 +1291,6 @@
     },
     {
       "source": "kstartup",
-      "source_id": "179649",
-      "title": "'AI가 바꾸는 창업의 미래' NCI 민/관/학 창업포럼 참관객 모집",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179649",
-      "apply_raw": "2026-10-29 ~ 2026-11-13",
-      "apply_start": "2026-10-29",
-      "apply_end": "2026-11-13",
-      "agency": "광운대학교산학협력단",
-      "exec_agency": "광운대학교산학협력단",
-      "category": "행사ㆍ네트워크",
-      "posted_at": "2026-10-29",
-      "status": "마감임박",
-      "location": "",
-      "founding": "전체",
-      "collected_at": "2026-11-13",
-      "key": "kstartup:179649",
-      "track": "A",
-      "score": 3,
-      "region": null,
-      "conditional": null,
-      "reasons": [
-        "핵심 키워드: AI"
-      ]
-    },
-    {
-      "source": "kstartup",
       "source_id": "179353",
       "title": "AI 올라운더(기획,개발,마케팅) 창업가육성과정 8기 모집",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179353",
@@ -1850,13 +1825,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-11-13T13:24:48",
+  "collected_at": "2026-11-13T18:12:32",
   "stats": {
-    "collected": 631,
+    "collected": 633,
     "cards": 36,
     "expired": 0,
-    "candidates": 35,
+    "candidates": 34,
     "excluded": 0,
-    "dropped": 560
+    "dropped": 563
   }
 }
