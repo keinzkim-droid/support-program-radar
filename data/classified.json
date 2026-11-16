@@ -1288,6 +1288,31 @@
     },
     {
       "source": "kstartup",
+      "source_id": "179807",
+      "title": "제 2회 판다밋업 :  AI 반도체 글로벌 파트너십  Innovation Bridge",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179807",
+      "apply_raw": "2026-11-13 ~ 2026-11-25",
+      "apply_start": "2026-11-13",
+      "apply_end": "2026-11-25",
+      "agency": "제4회 판다밋업 : 기후테크 Policy to Business",
+      "exec_agency": "제4회 판다밋업 : 기후테크 Policy to Business",
+      "category": "행사ㆍ네트워크",
+      "posted_at": "2026-11-16",
+      "status": "마감임박",
+      "location": "",
+      "founding": "전체",
+      "collected_at": "2026-11-16",
+      "key": "kstartup:179807",
+      "track": "A",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: AI"
+      ]
+    },
+    {
+      "source": "kstartup",
       "source_id": "179740",
       "title": "용인시산업진흥원 2026년 제5차 창업지원센터 입주기업 모집공고(~11. 25. 수 16:00까지)",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179740",
@@ -1697,13 +1722,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-11-16T12:42:22",
+  "collected_at": "2026-11-16T16:49:34",
   "stats": {
-    "collected": 616,
+    "collected": 618,
     "cards": 33,
     "expired": 1,
-    "candidates": 31,
+    "candidates": 32,
     "excluded": 0,
-    "dropped": 551
+    "dropped": 552
   }
 }
