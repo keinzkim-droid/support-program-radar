@@ -1058,31 +1058,6 @@
     },
     {
       "source": "kstartup",
-      "source_id": "179680",
-      "title": "<2026년 AI 활용 온라인 플랫폼 제작 교육> 참여자 모집",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179680",
-      "apply_raw": "2026-10-30 ~ 2026-11-18",
-      "apply_start": "2026-10-30",
-      "apply_end": "2026-11-18",
-      "agency": "충북대학교 충북Pro메이커센터",
-      "exec_agency": "충북대학교 충북Pro메이커센터",
-      "category": "창업교육",
-      "posted_at": "2026-11-02",
-      "status": "마감임박",
-      "location": "",
-      "founding": "전체",
-      "collected_at": "2026-11-18",
-      "key": "kstartup:179680",
-      "track": "A",
-      "score": 3,
-      "region": null,
-      "conditional": null,
-      "reasons": [
-        "핵심 키워드: AI"
-      ]
-    },
-    {
-      "source": "kstartup",
       "source_id": "179559",
       "title": "국민대학교 청년도약 인재양성 부트캠프 참가자 모집(AI 실무교육)",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179559",
@@ -1617,12 +1592,12 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-11-18T02:29:12",
+  "collected_at": "2026-11-18T14:13:26",
   "stats": {
-    "collected": 609,
+    "collected": 608,
     "cards": 31,
     "expired": 1,
-    "candidates": 30,
+    "candidates": 29,
     "excluded": 0,
     "dropped": 547
   }
