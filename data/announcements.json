@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-18T18:41:17",
+  "collected_at": "2026-11-18T22:59:06",
   "failures": [
     "snip"
   ],
@@ -8048,6 +8048,23 @@
     },
     {
       "source": "kstartup",
+      "source_id": "179839",
+      "title": "2027년 상반기 경기도여성창업보육센터 입주기업 모집 공고",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179839",
+      "apply_raw": "2026-11-18 ~ 2026-12-04",
+      "apply_start": "2026-11-18",
+      "apply_end": "2026-12-04",
+      "agency": "창업보육센터 지원",
+      "exec_agency": "창업보육센터 지원",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-11-18",
+      "status": "",
+      "location": "를 둔 여성 예비창업자 ○입주모집 공고일 현재 경기도 내에 주된 사무소를 둔 창업 후 3년 이내의 여성기업 ※ 센터 입주 후에는 반드시 주 사업",
+      "founding": "3년미만",
+      "collected_at": "2026-11-18"
+    },
+    {
+      "source": "kstartup",
       "source_id": "179832",
       "title": "「Next OI 기술 커넥트(Pre-meetup)」 참여 스타트업 모집",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179832",
@@ -9557,23 +9574,6 @@
       "status": "",
       "location": "",
       "founding": "1년미만, 2년미만, 3년미만, 5년미만, 7년미만, 10년미만",
-      "collected_at": "2026-11-18"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "179623",
-      "title": "경기과학기술대학교 창업보육센터 입주기업 모집 9차",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179623",
-      "apply_raw": "2026-10-27 ~ 2026-11-18",
-      "apply_start": "2026-10-27",
-      "apply_end": "2026-11-18",
-      "agency": "창업보육센터 운영지원",
-      "exec_agency": "창업보육센터 운영지원",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-10-27",
-      "status": "",
-      "location": "",
-      "founding": "",
       "collected_at": "2026-11-18"
     },
     {
