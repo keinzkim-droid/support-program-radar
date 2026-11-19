@@ -165,6 +165,34 @@
       "auto": true
     },
     {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000128022",
+      "title": "2027년 AI데이터센터 서비스 이용자 정기모집(1트랙) 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128022",
+      "apply_raw": "2026-11-13 ~ 2026-12-04",
+      "apply_start": "2026-11-13",
+      "apply_end": "2026-12-04",
+      "agency": "과학기술정보통신부",
+      "exec_agency": "인공지능산업융합사업단",
+      "category": "기술",
+      "posted_at": "2026-11-19",
+      "status": "접수중",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-11-19",
+      "key": "bizinfo:PBLN_000000000128022",
+      "track": "A",
+      "score": 7,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: AI, 인공지능",
+        "관련 키워드: 데이터",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
       "source": "kstartup",
       "source_id": "179690",
       "title": "2026년 경희대학교 캠퍼스타운 제6회 데모데이: 刮目相對괄목상대",
@@ -952,6 +980,31 @@
       ]
     },
     {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000128016",
+      "title": "AI융합 의료기기 신뢰성 강화 및 성능 평가ㆍ실증 통합지원 사업 재공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128016",
+      "apply_raw": "상시 접수",
+      "apply_start": null,
+      "apply_end": null,
+      "agency": "산업통상부",
+      "exec_agency": "충북테크노파크",
+      "category": "기술",
+      "posted_at": "2026-11-19",
+      "status": "상시",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-11-19",
+      "key": "bizinfo:PBLN_000000000128016",
+      "track": "A",
+      "score": 6,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: 실증, AI"
+      ]
+    },
+    {
       "source": "kiria",
       "source_id": "IBUS_000000000001274",
       "title": "「2026년 모빌리티 혁신제품 시험평가 지원」 지원대상 기업 모집 연장 공고",
@@ -1667,13 +1720,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-11-19T14:07:57",
+  "collected_at": "2026-11-19T18:55:43",
   "stats": {
-    "collected": 626,
-    "cards": 31,
+    "collected": 634,
+    "cards": 32,
     "expired": 1,
-    "candidates": 32,
+    "candidates": 33,
     "excluded": 0,
-    "dropped": 562
+    "dropped": 568
   }
 }
