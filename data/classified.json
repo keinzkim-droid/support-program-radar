@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20",
+  "generated_at": "2026-11-21",
   "cards": [
     {
       "source": "bizinfo",
@@ -349,31 +349,6 @@
       ]
     },
     {
-      "source": "snip",
-      "source_id": "2026-0092-4131",
-      "title": "KAIST 김재철AI대학원 성남연구센터 AI 기술자문 지원안내",
-      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0092&pjtCd=4131&stateChk=N",
-      "apply_raw": "~ 2026.11.20",
-      "apply_start": null,
-      "apply_end": "2026-11-20",
-      "agency": "성남시",
-      "exec_agency": "성남산업진흥원",
-      "category": "지역",
-      "posted_at": "2026-04-03",
-      "status": "마감임박",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-09-19",
-      "key": "snip:2026-0092-4131",
-      "track": "A",
-      "score": 3,
-      "region": "성남",
-      "conditional": null,
-      "reasons": [
-        "핵심 키워드: AI"
-      ]
-    },
-    {
       "source": "kstartup",
       "source_id": "179653",
       "title": "2026년도 키친인큐베이터 개별·공유주방 25기 및 제조주방 13기 모집",
@@ -715,6 +690,31 @@
   ],
   "expired": [
     {
+      "source": "snip",
+      "source_id": "2026-0092-4131",
+      "title": "KAIST 김재철AI대학원 성남연구센터 AI 기술자문 지원안내",
+      "url": "https://portal.snip.or.kr:8443/user/snip/busin/businDetail.face?pjtAnncSn=2026-0092&pjtCd=4131&stateChk=N",
+      "apply_raw": "~ 2026.11.20",
+      "apply_start": null,
+      "apply_end": "2026-11-20",
+      "agency": "성남시",
+      "exec_agency": "성남산업진흥원",
+      "category": "지역",
+      "posted_at": "2026-04-03",
+      "status": "마감",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-09-19",
+      "key": "snip:2026-0092-4131",
+      "track": "A",
+      "score": 3,
+      "region": "성남",
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: AI"
+      ]
+    },
+    {
       "source": "kiria",
       "source_id": "IBUS_000000000001251",
       "title": "「2026년 모빌리티 혁신제품 시험평가 지원」지원 대상 기업 상시모집 공고",
@@ -996,31 +996,6 @@
       "reasons": [
         "핵심 키워드: 실증",
         "관련 키워드: 인증"
-      ]
-    },
-    {
-      "source": "kstartup",
-      "source_id": "179812",
-      "title": "BoomUP AI 넥스트 웨이브",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179812",
-      "apply_raw": "2026-11-16 ~ 2026-11-20",
-      "apply_start": "2026-11-16",
-      "apply_end": "2026-11-20",
-      "agency": "주식회사 더이노베이터스",
-      "exec_agency": "주식회사 더이노베이터스",
-      "category": "행사ㆍ네트워크",
-      "posted_at": "2026-11-18",
-      "status": "마감임박",
-      "location": "",
-      "founding": "전체",
-      "collected_at": "2026-11-20",
-      "key": "kstartup:179812",
-      "track": "A",
-      "score": 3,
-      "region": null,
-      "conditional": null,
-      "reasons": [
-        "핵심 키워드: AI"
       ]
     },
     {
@@ -1537,10 +1512,10 @@
   "collected_at": "2026-11-20T22:48:11",
   "stats": {
     "collected": 614,
-    "cards": 27,
-    "expired": 1,
-    "candidates": 31,
+    "cards": 26,
+    "expired": 2,
+    "candidates": 30,
     "excluded": 0,
-    "dropped": 555
+    "dropped": 556
   }
 }
