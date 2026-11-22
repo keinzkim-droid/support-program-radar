@@ -1,9 +1,9 @@
 {
-  "collected_at": "2026-11-22T18:13:24",
+  "collected_at": "2026-11-22T22:31:09",
   "failures": [
     "snip"
   ],
-  "count": 597,
+  "count": 596,
   "items": [
     {
       "source": "bizinfo",
@@ -8380,23 +8380,6 @@
       "agency": "청년창업지원센터 운영",
       "exec_agency": "청년창업지원센터 운영",
       "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-11-12",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-11-22"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "179791",
-      "title": "경기창업혁신공간 서부권 「스담스담」(오픈 네트워킹) 4회차",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179791",
-      "apply_raw": "2026-11-12 ~ 2026-11-22",
-      "apply_start": "2026-11-12",
-      "apply_end": "2026-11-22",
-      "agency": "(재)경기도경제과학진흥원",
-      "exec_agency": "(재)경기도경제과학진흥원",
-      "category": "행사ㆍ네트워크",
       "posted_at": "2026-11-12",
       "status": "",
       "location": "",
