@@ -1,9 +1,9 @@
 {
-  "collected_at": "2026-11-22T13:03:40",
+  "collected_at": "2026-11-22T18:13:24",
   "failures": [
     "snip"
   ],
-  "count": 598,
+  "count": 597,
   "items": [
     {
       "source": "bizinfo",
@@ -8898,23 +8898,6 @@
     },
     {
       "source": "kstartup",
-      "source_id": "179695",
-      "title": "2026년 대전 스타트업 원스톱 지원센터 아카데미 4회차",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179695",
-      "apply_raw": "2026-11-02 ~ 2026-11-22",
-      "apply_start": "2026-11-02",
-      "apply_end": "2026-11-22",
-      "agency": "대전 스타트업 원스톱 지원센터 아카데미 프로그램",
-      "exec_agency": "대전 스타트업 원스톱 지원센터 아카데미 프로그램",
-      "category": "창업교육",
-      "posted_at": "2026-11-04",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-11-22"
-    },
-    {
-      "source": "kstartup",
       "source_id": "179704",
       "title": "2026년 청주미래누리터(공공지식산업센터) 입주기업 모집공고",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179704",
@@ -10139,23 +10122,6 @@
     },
     {
       "source": "kiria",
-      "source_id": "IBUS_000000000001251",
-      "title": "「2026년 모빌리티 혁신제품 시험평가 지원」지원 대상 기업 상시모집 공고",
-      "url": "https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&ibusCode=IBUS_000000000001251",
-      "apply_raw": "2026-05-28 ~ 2026-11-15",
-      "apply_start": "2026-05-28",
-      "apply_end": "2026-11-15",
-      "agency": "한국로봇산업진흥원",
-      "exec_agency": "한국로봇산업진흥원",
-      "category": "로봇",
-      "posted_at": "2026-05-28",
-      "status": "진행중",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-11"
-    },
-    {
-      "source": "kiria",
       "source_id": "IBUS_000000000001252",
       "title": "2026년 실외이동로봇 기술지원사업 참여기업 모집 공고",
       "url": "https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&ibusCode=IBUS_000000000001252",
@@ -10170,6 +10136,23 @@
       "location": "",
       "founding": "",
       "collected_at": "2026-08-31"
+    },
+    {
+      "source": "kiria",
+      "source_id": "IBUS_000000000001251",
+      "title": "「2026년 모빌리티 혁신제품 시험평가 지원」지원 대상 기업 상시모집 공고",
+      "url": "https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&ibusCode=IBUS_000000000001251",
+      "apply_raw": "2026-05-28 ~ 2026-11-15",
+      "apply_start": "2026-05-28",
+      "apply_end": "2026-11-15",
+      "agency": "한국로봇산업진흥원",
+      "exec_agency": "한국로봇산업진흥원",
+      "category": "로봇",
+      "posted_at": "2026-05-28",
+      "status": "진행중",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-11"
     }
   ]
 }
