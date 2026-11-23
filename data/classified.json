@@ -998,31 +998,6 @@
     },
     {
       "source": "kstartup",
-      "source_id": "179710",
-      "title": "2026년 인공지능산업융합사업단「AI 창업동」 입주기업 모집 공고",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179710",
-      "apply_raw": "2026-11-03 ~ 2026-11-23",
-      "apply_start": "2026-11-03",
-      "apply_end": "2026-11-23",
-      "agency": "인공지능산업융합사업단",
-      "exec_agency": "인공지능산업융합사업단",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-11-05",
-      "status": "마감임박",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-11-23",
-      "key": "kstartup:179710",
-      "track": "C",
-      "score": 3,
-      "region": null,
-      "conditional": null,
-      "reasons": [
-        "사무실·공간 키워드: 입주기업"
-      ]
-    },
-    {
-      "source": "kstartup",
       "source_id": "179740",
       "title": "용인시산업진흥원 2026년 제5차 창업지원센터 입주기업 모집공고(~11. 25. 수 16:00까지)",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179740",
@@ -1532,13 +1507,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-11-23T17:52:24",
+  "collected_at": "2026-11-23T23:31:28",
   "stats": {
-    "collected": 590,
+    "collected": 585,
     "cards": 25,
     "expired": 2,
-    "candidates": 32,
+    "candidates": 31,
     "excluded": 0,
-    "dropped": 531
+    "dropped": 527
   }
 }

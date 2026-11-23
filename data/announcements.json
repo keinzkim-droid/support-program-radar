@@ -1,9 +1,9 @@
 {
-  "collected_at": "2026-11-23T17:52:24",
+  "collected_at": "2026-11-23T23:31:28",
   "failures": [
     "snip"
   ],
-  "count": 590,
+  "count": 585,
   "items": [
     {
       "source": "bizinfo",
@@ -8252,23 +8252,6 @@
     },
     {
       "source": "kstartup",
-      "source_id": "179785",
-      "title": "2026 펨테크 산업 육성사업 DEMO DAY",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179785",
-      "apply_raw": "2026-11-12 ~ 2026-11-23",
-      "apply_start": "2026-11-12",
-      "apply_end": "2026-11-23",
-      "agency": "2026 펨테크 산업 육성사업",
-      "exec_agency": "2026 펨테크 산업 육성사업",
-      "category": "행사ㆍ네트워크",
-      "posted_at": "2026-11-16",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-11-23"
-    },
-    {
-      "source": "kstartup",
       "source_id": "179798",
       "title": "성남시 여성플러스센터 창업지원실 입주기업 모집공고",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179798",
@@ -8354,23 +8337,6 @@
     },
     {
       "source": "kstartup",
-      "source_id": "179784",
-      "title": "2026년 서울지식재산센터 IP창업클럽: 스타트업 IP:ON (~11/23까지, 선착순)",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179784",
-      "apply_raw": "2026-11-12 ~ 2026-11-23",
-      "apply_start": "2026-11-12",
-      "apply_end": "2026-11-23",
-      "agency": "2026 서울지식재산센터 IP창업클럽: 스타트업 IP:ON",
-      "exec_agency": "2026 서울지식재산센터 IP창업클럽: 스타트업 IP:ON",
-      "category": "행사ㆍ네트워크",
-      "posted_at": "2026-11-12",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-11-23"
-    },
-    {
-      "source": "kstartup",
       "source_id": "179786",
       "title": "충북대학교 『글로벌(G)테크벤처센터(BI) 』 입주기업 모집",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179786",
@@ -8422,23 +8388,6 @@
     },
     {
       "source": "kstartup",
-      "source_id": "179778",
-      "title": "2026년 기업공개(IPO) 상장지원 인사이트데이 참가자 모집(~11.23)",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179778",
-      "apply_raw": "2026-11-10 ~ 2026-11-23",
-      "apply_start": "2026-11-10",
-      "apply_end": "2026-11-23",
-      "agency": "부산기술창업투자원",
-      "exec_agency": "부산기술창업투자원",
-      "category": "멘토링ㆍ컨설팅ㆍ교육",
-      "posted_at": "2026-11-12",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-11-23"
-    },
-    {
-      "source": "kstartup",
       "source_id": "179775",
       "title": "2026 여성벤처활성화사업 「여성벤처&스타트업 혁신성장 포럼」참여자 모집",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179775",
@@ -8469,23 +8418,6 @@
       "status": "",
       "location": "",
       "founding": "7년미만",
-      "collected_at": "2026-11-23"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "179626",
-      "title": "세종창업키움센터 운영 민간위탁 수탁기관 모집 재공고",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179626",
-      "apply_raw": "2026-11-09 ~ 2026-11-23",
-      "apply_start": "2026-11-09",
-      "apply_end": "2026-11-23",
-      "agency": "세종 창업키움센터 운영",
-      "exec_agency": "세종 창업키움센터 운영",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-11-10",
-      "status": "",
-      "location": "",
-      "founding": "",
       "collected_at": "2026-11-23"
     },
     {
@@ -8669,23 +8601,6 @@
       "agency": "한국저작권보호원",
       "exec_agency": "한국저작권보호원",
       "category": "정책자금",
-      "posted_at": "2026-11-05",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-11-23"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "179710",
-      "title": "2026년 인공지능산업융합사업단「AI 창업동」 입주기업 모집 공고",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179710",
-      "apply_raw": "2026-11-03 ~ 2026-11-23",
-      "apply_start": "2026-11-03",
-      "apply_end": "2026-11-23",
-      "agency": "인공지능산업융합사업단",
-      "exec_agency": "인공지능산업융합사업단",
-      "category": "시설ㆍ공간ㆍ보육",
       "posted_at": "2026-11-05",
       "status": "",
       "location": "",
