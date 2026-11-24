@@ -1,9 +1,10 @@
 {
-  "collected_at": "2026-11-24T16:56:15",
+  "collected_at": "2026-11-24T21:11:41",
   "failures": [
+    "bizinfo",
     "snip"
   ],
-  "count": 598,
+  "count": 594,
   "items": [
     {
       "source": "bizinfo",
@@ -8184,23 +8185,6 @@
     },
     {
       "source": "kstartup",
-      "source_id": "179836",
-      "title": "대전 팁스타운 26년 제3차 팁스아카데미 : 스타트업의 새로운 기회, 오픈이노베이션",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179836",
-      "apply_raw": "2026-11-19 ~ 2026-11-24",
-      "apply_start": "2026-11-19",
-      "apply_end": "2026-11-24",
-      "agency": "창업진흥원",
-      "exec_agency": "창업진흥원",
-      "category": "멘토링ㆍ컨설팅ㆍ교육",
-      "posted_at": "2026-11-18",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-11-24"
-    },
-    {
-      "source": "kstartup",
       "source_id": "179783",
       "title": "[LH한국토지주택공사] 판교제2테크노밸리 기업성장센터(F2블록) 산업시설(임대) 입점기업 모집공고",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179783",
@@ -8932,23 +8916,6 @@
     },
     {
       "source": "kstartup",
-      "source_id": "179707",
-      "title": "[동대문구 창업지원센터] 11월 메이커스페이스(레이저커터, 3D프린팅) 교육 일정",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179707",
-      "apply_raw": "2026-11-03 ~ 2026-11-24",
-      "apply_start": "2026-11-03",
-      "apply_end": "2026-11-24",
-      "agency": "메이커 스페이스",
-      "exec_agency": "메이커 스페이스",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-11-04",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-11-24"
-    },
-    {
-      "source": "kstartup",
       "source_id": "179704",
       "title": "2026년 청주미래누리터(공공지식산업센터) 입주기업 모집공고",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179704",
@@ -8962,23 +8929,6 @@
       "status": "",
       "location": "",
       "founding": "전체",
-      "collected_at": "2026-11-24"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "179699",
-      "title": "2026년 탄소배출권 실무교육 안내",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179699",
-      "apply_raw": "2026-11-02 ~ 2026-11-24",
-      "apply_start": "2026-11-02",
-      "apply_end": "2026-11-24",
-      "agency": "2026년 서울시 기후테크 탄소배출권 실무교육",
-      "exec_agency": "2026년 서울시 기후테크 탄소배출권 실무교육",
-      "category": "멘토링ㆍ컨설팅ㆍ교육",
-      "posted_at": "2026-11-04",
-      "status": "",
-      "location": "",
-      "founding": "",
       "collected_at": "2026-11-24"
     },
     {
@@ -9183,23 +9133,6 @@
       "status": "",
       "location": "",
       "founding": "전체",
-      "collected_at": "2026-11-24"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "179348",
-      "title": "「2026년 대구스타트업 리더스포럼」제65차 IR피칭 참여기업 모집",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179348",
-      "apply_raw": "2026-09-23 ~ 2026-11-24",
-      "apply_start": "2026-09-23",
-      "apply_end": "2026-11-24",
-      "agency": "대구창조경제혁신센터",
-      "exec_agency": "대구창조경제혁신센터",
-      "category": "행사ㆍ네트워크",
-      "posted_at": "2026-09-29",
-      "status": "",
-      "location": "",
-      "founding": "",
       "collected_at": "2026-11-24"
     },
     {
@@ -10139,23 +10072,6 @@
     },
     {
       "source": "kiria",
-      "source_id": "IBUS_000000000001251",
-      "title": "「2026년 모빌리티 혁신제품 시험평가 지원」지원 대상 기업 상시모집 공고",
-      "url": "https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&ibusCode=IBUS_000000000001251",
-      "apply_raw": "2026-05-28 ~ 2026-11-15",
-      "apply_start": "2026-05-28",
-      "apply_end": "2026-11-15",
-      "agency": "한국로봇산업진흥원",
-      "exec_agency": "한국로봇산업진흥원",
-      "category": "로봇",
-      "posted_at": "2026-05-28",
-      "status": "진행중",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-11"
-    },
-    {
-      "source": "kiria",
       "source_id": "IBUS_000000000001252",
       "title": "2026년 실외이동로봇 기술지원사업 참여기업 모집 공고",
       "url": "https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&ibusCode=IBUS_000000000001252",
@@ -10170,6 +10086,23 @@
       "location": "",
       "founding": "",
       "collected_at": "2026-08-31"
+    },
+    {
+      "source": "kiria",
+      "source_id": "IBUS_000000000001251",
+      "title": "「2026년 모빌리티 혁신제품 시험평가 지원」지원 대상 기업 상시모집 공고",
+      "url": "https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&ibusCode=IBUS_000000000001251",
+      "apply_raw": "2026-05-28 ~ 2026-11-15",
+      "apply_start": "2026-05-28",
+      "apply_end": "2026-11-15",
+      "agency": "한국로봇산업진흥원",
+      "exec_agency": "한국로봇산업진흥원",
+      "category": "로봇",
+      "posted_at": "2026-05-28",
+      "status": "진행중",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-11"
     }
   ]
 }
