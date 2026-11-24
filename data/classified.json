@@ -85,6 +85,60 @@
     },
     {
       "source": "kstartup",
+      "source_id": "179863",
+      "title": "경기과학기술대학교 창업보육센터 입주기업 모집 10차",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179863",
+      "apply_raw": "2026-11-23 ~ 2026-12-11",
+      "apply_start": "2026-11-23",
+      "apply_end": "2026-12-11",
+      "agency": "창업보육센터 운영지원",
+      "exec_agency": "창업보육센터 운영지원",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-11-24",
+      "status": "접수중",
+      "location": "경기과학기술대학교 창업보육센터(경기도 시흥시 경기과기대로270(정왕동) 제2중소기업관) 다. 입주기간 - 기본 1년, 최대 8년 (단, 1년마다",
+      "founding": "",
+      "collected_at": "2026-11-24",
+      "key": "kstartup:179863",
+      "track": "C",
+      "score": 9,
+      "region": "경기",
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업, 창업보육, 보육센터",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
+      "source": "kstartup",
+      "source_id": "179866",
+      "title": "[안양대학교 창업보육센터] 2026년 하반기 신규 입주기업 모집",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179866",
+      "apply_raw": "2026-11-23 ~ 2026-12-31",
+      "apply_start": "2026-11-23",
+      "apply_end": "2026-12-31",
+      "agency": "창업보육센터 지원",
+      "exec_agency": "창업보육센터 지원",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-11-24",
+      "status": "접수중",
+      "location": "경기도 안양시 만안구 안양로 311 프로젝트500타워 15층(롯데시네마 안양일번가 건물) ￭ 모집 규모 : 2개실 - 1506호 (40.3㎡/1",
+      "founding": "",
+      "collected_at": "2026-11-24",
+      "key": "kstartup:179866",
+      "track": "C",
+      "score": 9,
+      "region": "경기",
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업, 창업보육, 보육센터",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
+      "source": "kstartup",
       "source_id": "178527",
       "title": "[안양대학교 창업보육센터] 2026년 하반기 신규 입주기업 모집",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178527",
@@ -422,6 +476,60 @@
       "track": "C",
       "score": 3,
       "region": "경기",
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
+      "source": "kstartup",
+      "source_id": "179852",
+      "title": "2026년 12월 KICXUP 서울 입주기업 모집공고",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179852",
+      "apply_raw": "2026-11-20 ~ 2026-12-06",
+      "apply_start": "2026-11-20",
+      "apply_end": "2026-12-06",
+      "agency": "씨엔티테크(주)",
+      "exec_agency": "씨엔티테크(주)",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-11-24",
+      "status": "마감임박",
+      "location": "현대아울렛 가산점 5층, 7층 (서울 금천구 디지털로10길 9) ㅇ 공간구성 : 5층 6인실 4.83평 (15.96m²) , 7층 4인실 3평(",
+      "founding": "1년미만, 2년미만, 3년미만, 5년미만, 7년미만",
+      "collected_at": "2026-11-24",
+      "key": "kstartup:179852",
+      "track": "C",
+      "score": 3,
+      "region": "서울",
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
+      "source": "kstartup",
+      "source_id": "179851",
+      "title": "[강동구 청년해냄센터] 입주기업 모집",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179851",
+      "apply_raw": "2026-11-20 ~ 2026-12-06",
+      "apply_start": "2026-11-20",
+      "apply_end": "2026-12-06",
+      "agency": "강동구 청년해냄센터",
+      "exec_agency": "강동구 청년해냄센터",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-11-24",
+      "status": "마감임박",
+      "location": "서울특별시 강동구 올림픽로 610 천호역효성해링턴타워 B동 2층 (성내동) 입주기간 - 코워킹 오피스 : 2027. 01. 01. ~ 06. 3",
+      "founding": "",
+      "collected_at": "2026-11-24",
+      "key": "kstartup:179851",
+      "track": "C",
+      "score": 3,
+      "region": "서울",
       "conditional": null,
       "reasons": [
         "사무실·공간 키워드: 입주기업",
@@ -946,6 +1054,32 @@
       ]
     },
     {
+      "source": "kstartup",
+      "source_id": "179803",
+      "title": "「2026 벤처브릿지 오픈이노베이션」 1회차(AI, 미래 모빌리티) 참가 기업 모집의 건_모집 기한 연장",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179803",
+      "apply_raw": "2026-11-23 ~ 2026-11-30",
+      "apply_start": "2026-11-23",
+      "apply_end": "2026-11-30",
+      "agency": "2026년 벤처브릿지 오픈이노베이션 1회차",
+      "exec_agency": "2026년 벤처브릿지 오픈이노베이션 1회차",
+      "category": "멘토링ㆍ컨설팅ㆍ교육",
+      "posted_at": "2026-11-24",
+      "status": "마감임박",
+      "location": "",
+      "founding": "전체",
+      "collected_at": "2026-11-24",
+      "key": "kstartup:179803",
+      "track": "A",
+      "score": 4,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: AI",
+        "관련 키워드: 모빌리티"
+      ]
+    },
+    {
       "source": "bizinfo",
       "source_id": "PBLN_000000000124792",
       "title": "2026년 인증획득제품 해외 실증 지원사업(추경 포함) 추가 모집 공고",
@@ -1072,28 +1206,28 @@
       ]
     },
     {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000128083",
-      "title": "한국철도공사 중소기업 산업안전 AI 전환 지원과제 AI-RAIL 부스터 중소기업 모집 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128083",
-      "apply_raw": "2026-11-23 ~ 2026-11-30",
-      "apply_start": "2026-11-23",
-      "apply_end": "2026-11-30",
-      "agency": "중소벤처기업부",
-      "exec_agency": "대중소기업농어업협력재단",
-      "category": "기술",
-      "posted_at": "2026-11-23",
+      "source": "kstartup",
+      "source_id": "179856",
+      "title": "서부 경기문화창조허브 공간입주 18기 입주기업 모집",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179856",
+      "apply_raw": "2026-11-04 ~ 2026-12-01",
+      "apply_start": "2026-11-04",
+      "apply_end": "2026-12-01",
+      "agency": "경기콘텐츠진흥원",
+      "exec_agency": "경기콘텐츠진흥원",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-11-24",
       "status": "마감임박",
-      "location": "",
+      "location": "경기 부천시 원미구 춘의동 4. 입주기간 : 2027. 1. 1. ~ 2027. 12. 31.(12개월) 5. 입주비용 : 1석 당 314,00",
       "founding": "",
       "collected_at": "2026-11-24",
-      "key": "bizinfo:PBLN_000000000128083",
-      "track": "A",
+      "key": "kstartup:179856",
+      "track": "C",
       "score": 3,
-      "region": null,
+      "region": "경기",
       "conditional": null,
       "reasons": [
-        "핵심 키워드: AI"
+        "사무실·공간 키워드: 입주기업"
       ]
     },
     {
@@ -1270,6 +1404,31 @@
       "reasons": [
         "사무실·공간 키워드: 입주기업",
         "조건부: 조건부 지역"
+      ]
+    },
+    {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000128085",
+      "title": "2027년 스마트공장 구축지원사업 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128085",
+      "apply_raw": "2026-12-07 ~ 2027-01-06",
+      "apply_start": "2026-12-07",
+      "apply_end": "2027-01-06",
+      "agency": "중소벤처기업부",
+      "exec_agency": "중소기업기술정보진흥원",
+      "category": "기술",
+      "posted_at": "2026-11-24",
+      "status": "접수중",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-11-24",
+      "key": "bizinfo:PBLN_000000000128085",
+      "track": "B",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "고객사향 키워드: 스마트공장"
       ]
     },
     {
@@ -1482,13 +1641,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-11-24T04:42:36",
+  "collected_at": "2026-11-24T16:56:15",
   "stats": {
-    "collected": 578,
-    "cards": 25,
+    "collected": 598,
+    "cards": 29,
     "expired": 2,
-    "candidates": 30,
+    "candidates": 32,
     "excluded": 0,
-    "dropped": 521
+    "dropped": 535
   }
 }
