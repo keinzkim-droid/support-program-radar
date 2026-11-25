@@ -1,9 +1,9 @@
 {
-  "collected_at": "2026-11-25T04:15:23",
+  "collected_at": "2026-11-25T15:25:28",
   "failures": [
     "snip"
   ],
-  "count": 592,
+  "count": 591,
   "items": [
     {
       "source": "bizinfo",
@@ -1173,23 +1173,6 @@
       "exec_agency": "서울테크노파크",
       "category": "기술",
       "posted_at": "2026-09-03",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-11-25"
-    },
-    {
-      "source": "bizinfo",
-      "source_id": "PBLN_000000000125682",
-      "title": "[서울] 2026년 중동상황 대응 수출위기 극복 물류지원금 지원사업 모집 공고",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125682",
-      "apply_raw": "예산 소진시까지",
-      "apply_start": null,
-      "apply_end": null,
-      "agency": "서울특별시",
-      "exec_agency": "서울경제진흥원",
-      "category": "수출",
-      "posted_at": "2026-08-21",
       "status": "",
       "location": "",
       "founding": "",
@@ -4614,6 +4597,23 @@
     },
     {
       "source": "kiria",
+      "source_id": "IBUS_000000000001275",
+      "title": "2026년도 「베트남 글로벌 로봇센터(GRC) 구축사업 1차」 지원과제 모집 공고",
+      "url": "https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&ibusCode=IBUS_000000000001275",
+      "apply_raw": "2026-12-15 ~ 2026-12-24",
+      "apply_start": "2026-12-15",
+      "apply_end": "2026-12-24",
+      "agency": "한국로봇산업진흥원",
+      "exec_agency": "한국로봇산업진흥원",
+      "category": "로봇",
+      "posted_at": "2026-11-24",
+      "status": "대기중",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-11-25"
+    },
+    {
+      "source": "kiria",
       "source_id": "IBUS_000000000001274",
       "title": "「2026년 모빌리티 혁신제품 시험평가 지원」 지원대상 기업 모집 연장 공고",
       "url": "https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&ibusCode=IBUS_000000000001274",
@@ -4760,23 +4760,6 @@
       "exec_agency": "한국로봇산업진흥원",
       "category": "로봇",
       "posted_at": "2026-08-11",
-      "status": "완료",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-11-25"
-    },
-    {
-      "source": "kiria",
-      "source_id": "IBUS_000000000001261",
-      "title": "2026년도 「한-체코 첨단로봇산업 협력센터 구축사업」 지원과제 모집 공고",
-      "url": "https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&ibusCode=IBUS_000000000001261",
-      "apply_raw": "2026-08-10 ~ 2026-08-19",
-      "apply_start": "2026-08-10",
-      "apply_end": "2026-08-19",
-      "agency": "한국로봇산업진흥원",
-      "exec_agency": "한국로봇산업진흥원",
-      "category": "로봇",
-      "posted_at": "2026-07-20",
       "status": "완료",
       "location": "",
       "founding": "",
@@ -10037,23 +10020,6 @@
     },
     {
       "source": "kiria",
-      "source_id": "IBUS_000000000001251",
-      "title": "「2026년 모빌리티 혁신제품 시험평가 지원」지원 대상 기업 상시모집 공고",
-      "url": "https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&ibusCode=IBUS_000000000001251",
-      "apply_raw": "2026-05-28 ~ 2026-11-15",
-      "apply_start": "2026-05-28",
-      "apply_end": "2026-11-15",
-      "agency": "한국로봇산업진흥원",
-      "exec_agency": "한국로봇산업진흥원",
-      "category": "로봇",
-      "posted_at": "2026-05-28",
-      "status": "진행중",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-08-11"
-    },
-    {
-      "source": "kiria",
       "source_id": "IBUS_000000000001252",
       "title": "2026년 실외이동로봇 기술지원사업 참여기업 모집 공고",
       "url": "https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&ibusCode=IBUS_000000000001252",
@@ -10068,6 +10034,23 @@
       "location": "",
       "founding": "",
       "collected_at": "2026-08-31"
+    },
+    {
+      "source": "kiria",
+      "source_id": "IBUS_000000000001251",
+      "title": "「2026년 모빌리티 혁신제품 시험평가 지원」지원 대상 기업 상시모집 공고",
+      "url": "https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&ibusCode=IBUS_000000000001251",
+      "apply_raw": "2026-05-28 ~ 2026-11-15",
+      "apply_start": "2026-05-28",
+      "apply_end": "2026-11-15",
+      "agency": "한국로봇산업진흥원",
+      "exec_agency": "한국로봇산업진흥원",
+      "category": "로봇",
+      "posted_at": "2026-05-28",
+      "status": "진행중",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-08-11"
     }
   ]
 }

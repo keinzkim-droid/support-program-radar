@@ -1332,6 +1332,31 @@
     },
     {
       "source": "kiria",
+      "source_id": "IBUS_000000000001275",
+      "title": "2026년도 「베트남 글로벌 로봇센터(GRC) 구축사업 1차」 지원과제 모집 공고",
+      "url": "https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&ibusCode=IBUS_000000000001275",
+      "apply_raw": "2026-12-15 ~ 2026-12-24",
+      "apply_start": "2026-12-15",
+      "apply_end": "2026-12-24",
+      "agency": "한국로봇산업진흥원",
+      "exec_agency": "한국로봇산업진흥원",
+      "category": "로봇",
+      "posted_at": "2026-11-24",
+      "status": "접수중",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-11-25",
+      "key": "kiria:IBUS_000000000001275",
+      "track": "A",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: 로봇"
+      ]
+    },
+    {
+      "source": "kiria",
       "source_id": "IBUS_000000000001272",
       "title": "2026년 한국로봇산업진흥원 연구장비 임대 운영 기업 모집 공고",
       "url": "https://www.kiria.org/portal/info/portalInfoBusinessWrite.do?mode=update&ibusCode=IBUS_000000000001272",
@@ -1641,13 +1666,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-11-25T04:15:23",
+  "collected_at": "2026-11-25T15:25:28",
   "stats": {
-    "collected": 592,
+    "collected": 591,
     "cards": 29,
     "expired": 2,
-    "candidates": 32,
+    "candidates": 33,
     "excluded": 0,
-    "dropped": 529
+    "dropped": 527
   }
 }
