@@ -1,9 +1,9 @@
 {
-  "collected_at": "2026-11-26T02:54:03",
+  "collected_at": "2026-11-26T14:18:02",
   "failures": [
     "snip"
   ],
-  "count": 594,
+  "count": 593,
   "items": [
     {
       "source": "bizinfo",
@@ -7980,6 +7980,23 @@
     },
     {
       "source": "kstartup",
+      "source_id": "179878",
+      "title": "2026년 서울창업센터 관악 하반기 입주기업 모집",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179878",
+      "apply_raw": "2026-11-26 ~ 2026-12-11",
+      "apply_start": "2026-11-26",
+      "apply_end": "2026-12-11",
+      "agency": "서울창업센터 관악",
+      "exec_agency": "서울창업센터 관악",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-11-25",
+      "status": "",
+      "location": "서울창업센터 관악(관악구 봉천로 545) 3. 입주기간: 호실별 입주시작일 상이함으로, 공고문 참고(최초 입주기간은 2년이며, 연장평가 통과 시",
+      "founding": "1년미만, 2년미만, 3년미만, 5년미만, 7년미만, 10년미만",
+      "collected_at": "2026-11-26"
+    },
+    {
+      "source": "kstartup",
       "source_id": "179841",
       "title": "2026년 초기창업패키지 로켓십 IR 경진대회 참가기업 모집 (4회차: 자율 분야)",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179841",
@@ -8626,23 +8643,6 @@
     },
     {
       "source": "kstartup",
-      "source_id": "179802",
-      "title": "[창업행사] KOBIA와 함께하는 마포 청년 창업 재도전(모두의 창업 Re:Boot)",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179802",
-      "apply_raw": "2026-11-12 ~ 2026-11-26",
-      "apply_start": "2026-11-12",
-      "apply_end": "2026-11-26",
-      "agency": "마포청년창업취업지원센터 나루 2026",
-      "exec_agency": "마포청년창업취업지원센터 나루 2026",
-      "category": "행사ㆍ네트워크",
-      "posted_at": "2026-11-16",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-11-26"
-    },
-    {
-      "source": "kstartup",
       "source_id": "179797",
       "title": "모두의 창업 등 정부지원사업 완벽 대비! 「1:1 창업 멘토링」 참가자 모집",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179797",
@@ -9008,23 +9008,6 @@
       "apply_end": "2027-02-28",
       "agency": "[대전창조경제혁신센터] 2026년 대전 웰컴 스테이 지원사업 참여기업 모집 재공고",
       "exec_agency": "[대전창조경제혁신센터] 2026년 대전 웰컴 스테이 지원사업 참여기업 모집 재공고",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-10-29",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-11-26"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "179653",
-      "title": "2026년도 키친인큐베이터 개별·공유주방 25기 및 제조주방 13기 모집",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179653",
-      "apply_raw": "2026-11-02 ~ 2026-11-26",
-      "apply_start": "2026-11-02",
-      "apply_end": "2026-11-26",
-      "agency": "서울창업허브 공덕 (우수기업 발굴·육성)",
-      "exec_agency": "서울창업허브 공덕 (우수기업 발굴·육성)",
       "category": "시설ㆍ공간ㆍ보육",
       "posted_at": "2026-10-29",
       "status": "",

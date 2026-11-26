@@ -403,33 +403,6 @@
       ]
     },
     {
-      "source": "kstartup",
-      "source_id": "179653",
-      "title": "2026년도 키친인큐베이터 개별·공유주방 25기 및 제조주방 13기 모집",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179653",
-      "apply_raw": "2026-11-02 ~ 2026-11-26",
-      "apply_start": "2026-11-02",
-      "apply_end": "2026-11-26",
-      "agency": "서울창업허브 공덕 (우수기업 발굴·육성)",
-      "exec_agency": "서울창업허브 공덕 (우수기업 발굴·육성)",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-10-29",
-      "status": "마감임박",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-11-26",
-      "key": "kstartup:179653",
-      "track": "C",
-      "score": 3,
-      "region": "서울",
-      "conditional": null,
-      "reasons": [
-        "사무실·공간 키워드: 창업허브",
-        "자동 분류"
-      ],
-      "auto": true
-    },
-    {
       "source": "bizinfo",
       "source_id": "PBLN_000000000127728",
       "title": "[경기] 파주시 2026년 스마트공장 구축지원사업 모집 공고",
@@ -662,6 +635,33 @@
       "founding": "전체",
       "collected_at": "2026-11-26",
       "key": "kstartup:179875",
+      "track": "C",
+      "score": 3,
+      "region": "서울",
+      "conditional": null,
+      "reasons": [
+        "사무실·공간 키워드: 입주기업",
+        "자동 분류"
+      ],
+      "auto": true
+    },
+    {
+      "source": "kstartup",
+      "source_id": "179878",
+      "title": "2026년 서울창업센터 관악 하반기 입주기업 모집",
+      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179878",
+      "apply_raw": "2026-11-26 ~ 2026-12-11",
+      "apply_start": "2026-11-26",
+      "apply_end": "2026-12-11",
+      "agency": "서울창업센터 관악",
+      "exec_agency": "서울창업센터 관악",
+      "category": "시설ㆍ공간ㆍ보육",
+      "posted_at": "2026-11-25",
+      "status": "접수중",
+      "location": "서울창업센터 관악(관악구 봉천로 545) 3. 입주기간: 호실별 입주시작일 상이함으로, 공고문 참고(최초 입주기간은 2년이며, 연장평가 통과 시",
+      "founding": "1년미만, 2년미만, 3년미만, 5년미만, 7년미만, 10년미만",
+      "collected_at": "2026-11-26",
+      "key": "kstartup:179878",
       "track": "C",
       "score": 3,
       "region": "서울",
@@ -1749,13 +1749,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-11-26T02:54:03",
+  "collected_at": "2026-11-26T14:18:02",
   "stats": {
-    "collected": 594,
+    "collected": 593,
     "cards": 33,
     "expired": 2,
     "candidates": 32,
     "excluded": 0,
-    "dropped": 527
+    "dropped": 526
   }
 }
