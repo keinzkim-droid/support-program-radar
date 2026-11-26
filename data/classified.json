@@ -1414,6 +1414,31 @@
       ]
     },
     {
+      "source": "bizinfo",
+      "source_id": "PBLN_000000000128140",
+      "title": "2026년 1차 베트남 글로벌 로봇센터(GRC) 구축사업 지원과제 모집 공고",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128140",
+      "apply_raw": "2026-12-15 ~ 2026-12-24",
+      "apply_start": "2026-12-15",
+      "apply_end": "2026-12-24",
+      "agency": "산업통상부",
+      "exec_agency": "한국로봇산업진흥원",
+      "category": "수출",
+      "posted_at": "2026-11-26",
+      "status": "접수중",
+      "location": "",
+      "founding": "",
+      "collected_at": "2026-11-26",
+      "key": "bizinfo:PBLN_000000000128140",
+      "track": "A",
+      "score": 3,
+      "region": null,
+      "conditional": null,
+      "reasons": [
+        "핵심 키워드: 로봇"
+      ]
+    },
+    {
       "source": "kiria",
       "source_id": "IBUS_000000000001275",
       "title": "2026년도 「베트남 글로벌 로봇센터(GRC) 구축사업 1차」 지원과제 모집 공고",
@@ -1749,13 +1774,13 @@
     "nipa",
     "snip"
   ],
-  "collected_at": "2026-11-26T14:18:02",
+  "collected_at": "2026-11-26T17:55:21",
   "stats": {
-    "collected": 593,
+    "collected": 597,
     "cards": 33,
     "expired": 2,
-    "candidates": 32,
+    "candidates": 33,
     "excluded": 0,
-    "dropped": 526
+    "dropped": 529
   }
 }
