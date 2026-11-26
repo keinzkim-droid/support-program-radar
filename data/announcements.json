@@ -1,9 +1,9 @@
 {
-  "collected_at": "2026-11-26T17:55:21",
+  "collected_at": "2026-11-26T22:22:45",
   "failures": [
     "snip"
   ],
-  "count": 597,
+  "count": 595,
   "items": [
     {
       "source": "bizinfo",
@@ -8473,23 +8473,6 @@
     },
     {
       "source": "kstartup",
-      "source_id": "179822",
-      "title": "2026 강원권 LIPS 민간운영사 연합 INVESTOR DAY 12월",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179822",
-      "apply_raw": "2026-11-16 ~ 2026-11-26",
-      "apply_start": "2026-11-16",
-      "apply_end": "2026-11-26",
-      "agency": "재단법인 강원창조경제혁신센터",
-      "exec_agency": "재단법인 강원창조경제혁신센터",
-      "category": "행사ㆍ네트워크",
-      "posted_at": "2026-11-18",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-11-26"
-    },
-    {
-      "source": "kstartup",
       "source_id": "179824",
       "title": "2027년 「송파ICT청년창업지원센터」 입주 모집 공고",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179824",
@@ -8840,23 +8823,6 @@
       "exec_agency": "2026년 8회차 지식재산 무료 초청교육 수요조사",
       "category": "창업교육",
       "posted_at": "2026-11-09",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-11-26"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "179730",
-      "title": "2026 재도전˙혁신캠퍼스 성과공유회",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179730",
-      "apply_raw": "2026-11-05 ~ 2026-11-26",
-      "apply_start": "2026-11-05",
-      "apply_end": "2026-11-26",
-      "agency": "재도전·혁신캠퍼스 운영",
-      "exec_agency": "재도전·혁신캠퍼스 운영",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-11-06",
       "status": "",
       "location": "",
       "founding": "",
