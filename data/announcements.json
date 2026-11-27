@@ -1,9 +1,9 @@
 {
-  "collected_at": "2026-11-27T18:06:54",
+  "collected_at": "2026-11-27T22:20:32",
   "failures": [
     "snip"
   ],
-  "count": 596,
+  "count": 593,
   "items": [
     {
       "source": "bizinfo",
@@ -8966,40 +8966,6 @@
     },
     {
       "source": "kstartup",
-      "source_id": "179701",
-      "title": "2026년 경기창업혁신공간 북동부권(구리)  신규 입주기업 모집",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179701",
-      "apply_raw": "2026-11-02 ~ 2026-11-27",
-      "apply_start": "2026-11-02",
-      "apply_end": "2026-11-27",
-      "agency": "경기창업혁신공간 운영",
-      "exec_agency": "경기창업혁신공간 운영",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-11-04",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-11-27"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "179714",
-      "title": "김해시중장년기술창업센터 2026년 하반기  신규 입주(자)기업 모집",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179714",
-      "apply_raw": "2026-11-02 ~ 2026-11-27",
-      "apply_start": "2026-11-02",
-      "apply_end": "2026-11-27",
-      "agency": "중장년기술창업센터 운영사업",
-      "exec_agency": "중장년기술창업센터 운영사업",
-      "category": "시설ㆍ공간ㆍ보육",
-      "posted_at": "2026-11-04",
-      "status": "",
-      "location": "",
-      "founding": "",
-      "collected_at": "2026-11-27"
-    },
-    {
-      "source": "kstartup",
       "source_id": "179696",
       "title": "[부산대학교병원]「의료·헬스케어 스타트업 인큐베이터 사업」입주기업 모집공고",
       "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179696",
@@ -9064,23 +9030,6 @@
       "status": "",
       "location": "",
       "founding": "전체",
-      "collected_at": "2026-11-27"
-    },
-    {
-      "source": "kstartup",
-      "source_id": "179662",
-      "title": "한국기술교육대학교 오픈이노베이션 프로그램 참여기업 모집 통합 공고",
-      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179662",
-      "apply_raw": "2026-10-29 ~ 2026-11-27",
-      "apply_start": "2026-10-29",
-      "apply_end": "2026-11-27",
-      "agency": "한국기술교육대학교 산학협력단",
-      "exec_agency": "한국기술교육대학교 산학협력단",
-      "category": "사업화",
-      "posted_at": "2026-10-30",
-      "status": "",
-      "location": "",
-      "founding": "1년미만, 2년미만, 3년미만, 5년미만, 7년미만",
       "collected_at": "2026-11-27"
     },
     {
